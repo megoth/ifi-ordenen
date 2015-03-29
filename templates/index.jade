@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title= locals.title
+    link(rel='stylesheet', href=locals.url+'/style.css')
+  body
+    h1= page.title
+    != page.html
+    ul.classes
+      each _class in locals.structure
+        li
+          h3= _class.name
+          if _class.members.length > 0
+            ul
+              each username in _class.members
+                - var person = contents.person[username]['index.md'].metadata
+                li
+                  a(href='person/' + username)= person.name
+          else
+            p Ingen medlemmer enda
