@@ -3,6 +3,7 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title= locals.title
+    link(rel='stylesheet', href=locals.url+'/style.css')
   body
     h1= page.name
     != page.html
