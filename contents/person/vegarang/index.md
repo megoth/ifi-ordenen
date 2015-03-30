@@ -1,5 +1,5 @@
 ---
-name: Vegard Angell
+title: Vegard Angell
 template: person.jade
 ---
 

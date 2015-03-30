@@ -1,5 +1,5 @@
 ---
-name: Henrik Hellerøy
+title: Henrik Hellerøy
 template: person.jade
 ---
 

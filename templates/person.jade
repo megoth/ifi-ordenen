@@ -1,8 +1,8 @@
 extends layout
 
-block title
-  title Ifi-ordenen - #{page.name}
+block prepend title
+  | #{page.title} -
 
 block content
-  h1= page.name
+  h1= page.title
   != page.html

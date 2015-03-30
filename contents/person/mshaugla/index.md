@@ -1,5 +1,5 @@
 ---
-name: Martin Haugland
+title: Martin Haugland
 template: person.jade
 ---
 

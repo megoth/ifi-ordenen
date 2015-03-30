@@ -1,5 +1,5 @@
 ---
-name: Geir Arild Byberg
+title: Geir Arild Byberg
 template: person.jade
 ---
 

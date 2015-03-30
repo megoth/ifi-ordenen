@@ -1,5 +1,5 @@
 ---
-name: Magnus Johansen
+title: Magnus Johansen
 template: person.jade
 ---
 

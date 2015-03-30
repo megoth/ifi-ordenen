@@ -1,11 +1,12 @@
 extends layout
 
-block title
-  title Ifi-ordenen
+block prepend title
+  | Forside -
 
 block content
   h1= page.title
   != page.html
+  h2 Medlemmer
   ul.classes
     each _class in locals.structure
       li
@@ -16,6 +17,6 @@ block content
               - var person = contents.person[username]['index.md'].metadata
               li
                 a(href='person/' + username)
-                  img(src='person/' + username + '/' + username + '.jpg', title=)
+                  img(src='person/' + username + '/' + username + '.jpg', title=person.title)
         else
           p Ingen medlemmer enda

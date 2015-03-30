@@ -1,5 +1,5 @@
 ---
-name: Marius Næss Olsen
+title: Marius Næss Olsen
 template: person.jade
 ---
 

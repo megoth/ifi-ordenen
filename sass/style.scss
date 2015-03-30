@@ -1,1 +1,86 @@
-@import "compass/reset"
+@import "compass/reset";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-sizing";
+@import "compass/css3/filter";
+@import "compass/css3/transition";
+@import "compass/typography/lists/horizontal-list";
+
+$pad-width: 40em;
+$desktop-width: 60em;
+
+body {
+	font-family: Arial;
+	margin: 1em;
+	@media screen and (min-width: $pad-width) {
+		margin: 1em auto;
+		max-width: 450px;
+		width: 90%;
+	}
+}
+
+[role="main"] {
+	a {
+		color: black;
+	}
+	blockquote {
+		@include border-radius(0.5em);
+		background-color: cornsilk;
+		margin: 1em;
+		padding: 1em;
+	}
+	h1, h2, h3, h4, h5, h5 {
+		font-family: Verdana;
+		line-height: 1.25em;
+		margin: 1em 0 0.25em;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+	h3 {
+		font-size: 1.25em;
+	}
+	p {
+		line-height: 1.5em;
+		padding: 0.5em 0;
+	}
+}
+
+.classes {
+	ul {
+		@include horizontal-list-container;
+		li {
+			@include horizontal-list-item;
+			a {
+				display: block;
+			}
+		}
+	}
+	a {
+		img {
+			@include border-radius(50%);
+			@include box-sizing;
+			@include filter(grayscale(100%));
+			@include transition(-webkit-filter 500ms linear);
+			border: solid 1px black;
+		}
+		&:hover img {
+			@include filter(grayscale(0));
+		}
+	}
+}
+
+footer {
+	margin: 1em 0;
+	ul {
+		@include horizontal-list-container;
+		li {
+			@include horizontal-list-item;
+		}
+	}	
+	a {
+		color: black;
+	}
+}

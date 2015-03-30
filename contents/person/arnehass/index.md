@@ -1,5 +1,5 @@
 ---
-name: Arne Hassel
+title: Arne Hassel
 template: person.jade
 ---
 

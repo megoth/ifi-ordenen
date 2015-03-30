@@ -1,5 +1,5 @@
 ---
-name: Øyvind Bakkeli
+title: Øyvind Bakkeli
 template: person.jade
 ---
 
