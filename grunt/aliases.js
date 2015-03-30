@@ -1,4 +1,4 @@
 module.exports = {
 	'default': ['build', 'watch'],
-	'build': ['wintersmith', 'sass']
+	'build': ['wintersmith', 'sass', 'copy:images']
 };
