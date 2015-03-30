@@ -1,5 +1,6 @@
 ---
 title: Arne Hassel
+rank: Kommandør
 template: person.jade
 ---
 

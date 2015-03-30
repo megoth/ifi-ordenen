@@ -72,6 +72,30 @@ body {
 	}
 }
 
+.persons {
+	ul {
+		@include horizontal-list-container;
+		li {
+			@include horizontal-list-item;
+			padding:0;
+			width: 100%;
+			a {
+				display: block;
+				text-decoration: none;
+				img {
+					@include border-radius(50%);
+					@include box-sizing;
+					float: left;
+					margin-right: 1em;
+				}
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
 footer {
 	margin: 1em 0;
 	ul {

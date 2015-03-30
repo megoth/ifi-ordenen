@@ -1,0 +1,21 @@
+extends layout
+
+block prepend title
+  | Medlemmer -
+
+block content
+  h1= page.title
+  p I alfabetisk rekkefølge
+  - var usernames = contents['structure.json'].metadata.structure.reduce(function (memo, _class) {
+  -   return memo.concat(_class.members);
+  - }, []).sort();
+  nav.persons
+    ul
+      each username in usernames
+        - var person = contents.person[username]['index.md'].metadata
+        li
+          a(href=locals.url+'/person/' + username)
+            img(src=locals.url+'/person/' + username + '/' + username + '.jpg', title=person.title)
+            .info
+              h3= person.title
+              p= person.rank

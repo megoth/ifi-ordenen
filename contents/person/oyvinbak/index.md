@@ -1,5 +1,6 @@
 ---
 title: Øyvind Bakkeli
+rank: Kommandør
 template: person.jade
 ---
 

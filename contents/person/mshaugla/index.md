@@ -1,5 +1,6 @@
 ---
 title: Martin Haugland
+rank: Kommandør
 template: person.jade
 ---
 

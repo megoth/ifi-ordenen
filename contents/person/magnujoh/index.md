@@ -1,5 +1,6 @@
 ---
 title: Magnus Johansen
+rank: Kommandør
 template: person.jade
 ---
 

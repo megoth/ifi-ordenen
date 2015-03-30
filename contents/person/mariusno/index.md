@@ -1,5 +1,6 @@
 ---
 title: Marius Næss Olsen
+rank: Ridder
 template: person.jade
 ---
 
