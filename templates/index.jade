@@ -8,7 +8,7 @@ block content
   != page.html
   h2 Medlemmer
   ul.classes
-    each _class in locals.structure
+    each _class in contents['structure.json'].metadata.structure
       li
         h3= _class.name
         if _class.members.length > 0
@@ -16,7 +16,7 @@ block content
             each username in _class.members
               - var person = contents.person[username]['index.md'].metadata
               li
-                a(href='person/' + username)
-                  img(src='person/' + username + '/' + username + '.jpg', title=person.title)
+                a(href=locals.url+'/person/' + username)
+                  img(src=locals.url+'/person/' + username + '/' + username + '.jpg', title=person.title)
         else
           p Ingen medlemmer enda

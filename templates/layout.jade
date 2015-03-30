@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		title
+			block title
+				| #{locals.title}
+		link(rel='stylesheet', href=locals.url+'/style.css')
+	body
+		div(role="main")
+			block content
+		footer
+			nav
+				ul
+					li
+						a(href=locals.url) Forside
+					li
+						a(href=locals.url+'/about') Om ordenen
+					li
+						a(href=locals.url+'/page') Om siden
+

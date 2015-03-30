@@ -1,28 +1,6 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "title": "Ifi-ordenen",
-    "structure": [
-      {
-        "name": "Stormester",
-        "members": ["geiraby"]
-      },
-      {
-        "name": "Kommandør med stjerne",
-        "members": []
-      },
-      {
-        "name": "Kommandør",
-        "members": ["oyvinbak", "mshaugla", "magnujoh", "arnehass"]
-      },
-      {
-        "name": "Ridder av første klasse",
-        "members": []
-      },
-      {
-        "name": "Ridder",
-        "members": ["mariusno", "henrihel", "vegarang"]
-      }
-    ]
+    "title": "Ifi-ordenen"
   }
 }

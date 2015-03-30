@@ -1,3 +1,8 @@
 module.exports = {
-  config: './config.json'
+	local: {},
+	github: {
+		options: {
+			config: './config-gh-pages.json'
+		}
+	}
 };

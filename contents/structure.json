@@ -1,0 +1,24 @@
+{
+	"structure": [
+    {
+      "name": "Stormester",
+      "members": ["geiraby"]
+    },
+    {
+      "name": "Kommandør med stjerne",
+      "members": []
+    },
+    {
+      "name": "Kommandør",
+      "members": ["oyvinbak", "mshaugla", "magnujoh", "arnehass"]
+    },
+    {
+      "name": "Ridder av første klasse",
+      "members": []
+    },
+    {
+      "name": "Ridder",
+      "members": ["mariusno", "henrihel", "vegarang"]
+    }
+  ]
+}
