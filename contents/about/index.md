@@ -13,9 +13,9 @@ Ifi-ordenen ledes til daglig av stormester og kommandørene. Stormester er gjern
 
 ## Historie
 
-Ordenen ble først tildelt [Geir Arild Byberg](../person/geiraby) høsten 2011. Det skjedde i forbindelse med at [Cybernetisk Selskab](http://cyb.no) arrangerte instituttets første Ifi-galla for å feire sitt 42. år som forening. Det skal da også nevnes at gallaen ble arrangert lørdagen i uke 42.
+Ordenen ble først tildelt Geir Arild Byberg høsten 2011. Det skjedde i forbindelse med at [Cybernetisk Selskab](http://cyb.no) arrangerte instituttets første Ifi-galla for å feire sitt 42. år som forening. Det skal da også nevnes at gallaen ble arrangert lørdagen i uke 42.
 
-Sammen med [Øyvind Bakkeli](../person/oyvinbak), som ble ordenens første kommandør, fikk de i oppgave å drive ordenen videre. Siden da har det blitt utnevnt ytterligere [medlemmer](../person) og ordenen er i ferd med å etablere seg som et positivt bidrag til Ifi.
+Sammen med Øyvind Bakkeli, som ble ordenens første kommandør, fikk de i oppgave å drive ordenen videre. Siden da har det blitt utnevnt ytterligere medlemmer og ordenen er i ferd med å etablere seg som et positivt bidrag til Ifi.
 
 ## Kontakt oss
 
