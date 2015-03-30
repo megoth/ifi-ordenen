@@ -6,6 +6,8 @@ block prepend title
 block content
   h1= page.title
   != page.html
+  p
+    a(href=locals.url+'/about') Mer om ordenens virke
   h2 Medlemmer
   ul.classes
     each _class in contents['structure.json'].metadata.structure
