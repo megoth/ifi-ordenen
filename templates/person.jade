@@ -3,6 +3,11 @@ extends layout
 block prepend title
   | #{page.title} -
 
+block vars
+  - mainclass = 'person';
+
 block content
-  h1= page.title
+  h1= page.title 
+  img.profile(src='thumb.jpg')
+  p Tittel: #{page.metadata.rank} (utnevnt #{page.metadata.appointed})
   != page.html

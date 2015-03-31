@@ -1,3 +1,5 @@
+block vars
+	- var mainclass = null;
 doctype html
 html(lang='en')
 	head
@@ -8,7 +10,7 @@ html(lang='en')
 				| #{locals.title}
 		link(rel='stylesheet', href=locals.url+'/style.css')
 	body
-		div(role="main")
+		div(class=mainclass, role="main")
 			block content
 		footer
 			nav

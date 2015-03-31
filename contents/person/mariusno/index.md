@@ -1,7 +1,12 @@
 ---
 title: Marius Næss Olsen
-rank: Ridder
 template: person.jade
+rank: Ridder
+appointed: 2013
 ---
 
-Info om Marius Næss Olsen
+Marius Næss Olsen engasjerte seg i Cybernetisk Selskab og dagen@ifi i løpet av sin studenttid. I førstnevnte var han først nestleder, og så steg han inn i rollen som leder, og var hele tiden sentral i å bygge opp Cybernetisk Selskab som organisasjon.
+
+Med sitt gode humør og stå-på-vilje fantes det ingen problemer som ikke kunne løses, og disse egenskapene ble godt benyttet, spesielt tilknyttet oppstarten av Escape, studentkjelleren på Institutt for informatikk. Hennes Majestet Keiserpingvinen den Fornemme anerkjenner dette arbeidet, og mener det har kommet til stor glede for studentmiljøet på Ifi.
+
+**For hans stødige arbeid og gode lederegenskaper som leder og nestleder i hovedstyret til Cybernetisk Selskab utnevnes Marius Næss Olsen til ridder.**

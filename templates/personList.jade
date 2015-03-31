@@ -15,7 +15,7 @@ block content
         - var person = contents.person[username]['index.md'].metadata
         li
           a(href=locals.url+'/person/' + username)
-            img(src=locals.url+'/person/' + username + '/' + username + '.jpg', title=person.title)
+            img.profile(src=locals.url+'/person/' + username + '/' + username + '.jpg', title=person.title)
             .info
               h3= person.title
               p= person.rank

@@ -1,7 +1,14 @@
 ---
 title: Arne Hassel
-rank: Kommandør
 template: person.jade
+rank: Kommandør
+appointed: 2014
 ---
 
-Info om Arne Hassel
+Arne Hassel startet sitt engasjement på Institutt for informatikk ved å bli med i fadderstyret. Derfra ble han fort engasjert i Cybernetisk Selskab, hvor han raskt ble valgt inn i stillingen som kasserer. Økonomistyringen ble hans virke i to år, hvor han så i etterkant faset ut sitt økonomiske engasjement ved å hjelpe til som økonomi-funksjonær.
+
+Gjennom sitt engasjement ble han også involvert i 200-års bursdagsfeiringen til Universitetet i Oslo, og endte opp med å lede arrangementet som festgeneral. Arrangementet huset opp mot 5000 besøkende i løpet av kvelden, og ble for mange deres første møte med det nye bygget Ole-Johan Dahls hus.
+
+Hennes Majestet Keiserpingvinen den Fornemme er av den oppfatning av Arne sitt engasjement har bidratt stort til studiemiljøet ved Institutt for informatikk.
+
+**For hans trofaste og tålmodige arbeid ved Cybernetisk Selskab utnevnes Arne Hassel til kommandør.** 
