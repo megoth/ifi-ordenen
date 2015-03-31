@@ -1,5 +1,5 @@
 ---
-title: Ifi-ordenen
+title: Hennes Majestet Keiserpingvinen den Fornemme
 template: index.jade
 ---
 
