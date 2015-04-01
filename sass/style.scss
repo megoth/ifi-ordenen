@@ -5,11 +5,13 @@
 @import "compass/css3/text-shadow";
 @import "compass/css3/transition";
 @import "compass/typography/lists/horizontal-list";
+@import "compass/utilities/general/clearfix";
 
 $pad-width: 40em;
 $desktop-width: 60em;
 
 $background-color: #fff;
+$divider-color: #000;
 $link-color: #000;
 $text-color: #000;
 $title-color: #000;
@@ -26,96 +28,101 @@ body {
 	}
 }
 
-header {
+header,
+footer {
+	ul {
+		@include horizontal-list-container;
+		margin-bottom: 0.5em;
+		li {
+			@include horizontal-list-item;
+		}
+	}	
+}
+
+a {
+	color: $link-color;
+}
+blockquote {
+	@include border-radius(0.5em);
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 1em;
+	padding: 1em;
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+em {
+	font-style: italic;
+}
+h1, h2, h3, h4, h5, h5 {
+	color: $title-color;
+	font-family: Verdana;
+	line-height: 1.25em;
+	margin: 1em 0 0.25em;
+}
+h1 {
+	@include text-shadow(0 0 1px $background-color);
+	font-size: 2em;
+	margin-top: 0.5em;
 	text-align: center;
 }
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.25em;
+}
+p {
+	line-height: 1.5em;
+	margin-bottom: 0.75em;
+}
+strong {
+	font-weight: bold;
+}
 
-[role="main"] {
+[role="main"].index blockquote {
+	@include clearfix;
 	a {
-		color: $link-color;
+		clear: left;
+		float: right;
 	}
-	blockquote {
-		@include border-radius(0.5em);
-		background-color: rgba(0, 0, 0, 0.2);
-		margin: 1em;
-		padding: 1em;
+}
+[role="main"].person {
+	img.profile {
+		float: right;
+		margin-left: 1em;
 	}
-	em {
-		font-style: italic;
-	}
-	h1, h2, h3, h4, h5, h5 {
-		color: $title-color;
-		font-family: Verdana;
-		line-height: 1.25em;
-		margin: 1em 0 0.25em;
-	}
-	h1 {
-		@include text-shadow(0 0 1px $background-color);
-		font-size: 2em;
-		margin-top: 0.5em;
-		text-align: center;
-	}
-	h2 {
-		font-size: 1.5em;
-	}
-	h3 {
-		font-size: 1.25em;
-	}
-	p {
-		line-height: 1.5em;
-		padding: 0 0 0.75em;
-	}
-	strong {
-		font-weight: bold;
-	}
-	&.person {
-		img.profile {
-			float: right;
-			margin-left: 1em;
+}
+
+nav a {
+	display: block;
+}
+
+nav.persons {
+	ul li {
+		@include clearfix;
+		padding:0;
+		width: 100%;
+		a {
+			text-decoration: none;
+			img {
+				float: left;
+				margin-right: 1em;
+			}
+			.info {
+				margin-left: calc(102px + 1em);
+			}
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 }
 
-.classes {
-	ul {
-		@include horizontal-list-container;
-		li {
-			@include horizontal-list-item;
-			a {
-				display: block;
-			}
-		}
-	}
-	a {
-		img {
-			@include filter(grayscale(100%));
-			@include transition(-webkit-filter 500ms linear);
-		}
-		&:hover img {
-			@include filter(grayscale(0));
-		}
-	}
-}
-
-.persons {
-	ul {
-		@include horizontal-list-container;
-		li {
-			@include horizontal-list-item;
-			padding:0;
-			width: 100%;
-			a {
-				display: block;
-				text-decoration: none;
-				img {
-					float: left;
-					margin-right: 1em;
-				}
-				&:hover {
-					text-decoration: underline;
-				}
-			}
-		}
+ul.overview {
+	@include horizontal-list-container;
+	li {
+		@include horizontal-list-item;
 	}
 }
 
@@ -126,14 +133,7 @@ img.profile {
 }
 
 footer {
-	margin: 1em 0;
-	ul {
-		@include horizontal-list-container;
-		li {
-			@include horizontal-list-item;
-		}
-	}	
-	a {
-		color: $link-color;
-	}
+	border-top: solid 1px $divider-color;
+	margin-top: 1em;
+	padding: 0.5em 0;
 }

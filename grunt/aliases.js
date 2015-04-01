@@ -1,5 +1,6 @@
 module.exports = {
 	'default': ['build', 'watch'],
-	'build': ['clean:build', 'wintersmith:local', 'sass', 'copy:images'],
+	'build': ['wintersmith:local', 'sass', 'copy:images'],
+  'local': ['clean:build', 'build'],
 	'github': ['clean:build', 'wintersmith:github', 'sass', 'copy:images']
 };

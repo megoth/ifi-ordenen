@@ -7,7 +7,9 @@ block vars
   - mainclass = 'person';
 
 block content
-  h1= page.title 
   img.profile(src='thumb.jpg')
-  p Tittel: #{page.metadata.rank} (utnevnt #{page.metadata.appointed})
+  p 
+    strong Tittel: #{page.metadata.rank} (utnevnt #{page.metadata.appointed})
   != page.html
+  p
+    strong= page.metadata.reason

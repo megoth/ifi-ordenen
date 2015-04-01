@@ -1,6 +1,4 @@
 ---
-title: Hennes Majestet Keiserpingvinen den Fornemme
+title: Hennes Majestet Keiserpingvinen den Fornemmes orden
 template: index.jade
 ---
-
-> Ordenen tildeles som belønning for utmerkede fortjenester for studentmiljøet ved Ifi.

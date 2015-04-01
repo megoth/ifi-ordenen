@@ -1,11 +1,9 @@
 extends layout
 
 block prepend title
-  | Medlemmer -
+  | #{page.title} -
 
 block content
-  h1= page.title
-  p I alfabetisk rekkefølge
   - var usernames = contents['structure.json'].metadata.structure.reduce(function (memo, _class) {
   -   return memo.concat(_class.members);
   - }, []).sort();
@@ -15,7 +13,8 @@ block content
         - var person = contents.person[username]['index.md'].metadata
         li
           a(href=locals.url+'/person/' + username)
-            img.profile(src=locals.url+'/person/' + username + '/' + username + '.jpg', title=person.title)
+            img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
             .info
               h3= person.title
               p= person.rank
+              p= person.reason
