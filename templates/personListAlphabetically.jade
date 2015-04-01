@@ -16,5 +16,5 @@ block content
             img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
             .info
               h3= person.title
-              p= person.rank
+              p #{person.rank} (#{person.appointed})
               p= person.reason
