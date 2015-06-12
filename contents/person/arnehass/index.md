@@ -3,7 +3,7 @@ title: Arne Hassel
 template: person.jade
 rank: Kommandør
 appointed: 2014
-reason: For hans trofaste og tålmodige arbeid ved Cybernetisk Selskab tildeles Arne Hassel graden kommandør av Ifi-ordenen.
+reason: For hans trofaste og tålmodige arbeid ved Cybernetisk Selskab tildeles Arne Hassel graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 ---
 
 Arne Hassel startet sitt engasjement på Institutt for informatikk ved å bli med i fadderstyret. Derfra ble han fort engasjert i Cybernetisk Selskab, hvor han ble valgt inn i stillingen som kasserer. Økonomistyringen ble hans virke i to år, hvor han så i etterkant faset ut sitt økonomiske engasjement ved å hjelpe til som økonomi-funksjonær.

@@ -3,7 +3,7 @@ title: Martin Haugland
 template: person.jade
 rank: Kommandør
 appointed: 2012
-reason: For sitt brede og iherdige engasjement på Institutt for informatikk tildeles Martin Haugland graden kommandør av Ifi-ordenen.
+reason: For sitt brede og iherdige engasjement på Institutt for informatikk tildeles Martin Haugland graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 ---
 
 Martin Haugland har vært engasjert i flere foreninger på Institutt for informatikk: Cybernetisk Selskab, dagen@ifi, Ifi fadderordning, og ProsIT. Han var også sentral i arbeidet med å videreføre tradisjonen med Ifi skitur til Hemsedal da ProsIT ble lagt ned.
