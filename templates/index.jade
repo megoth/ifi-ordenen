@@ -10,17 +10,7 @@ block content
   blockquote 
     p Ordenen tildeles som belønning for utmerkede fortjenester for studentmiljøet ved Ifi.
     a(href=locals.url+'/about') Mer om ordenen
-  h2 Tildelinger
-  ul.classes
-    each _class in contents['structure.json'].metadata.structure
-      li
-        h3= _class.name
-        if _class.members.length > 0
-          ul.overview
-            each username in _class.members
-              - var person = contents.person[username]['index.md'].metadata
-              li
-                a(href=locals.url+'/person/' + username)
-                  img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
-        else
-          p Ingen tildelte enda
+  h2 Personer som er tildelt ordenen
+  - var structureFile = contents.person['structure.json'].metadata
+  - var individualPath = contents.person
+  include ./structure.jade

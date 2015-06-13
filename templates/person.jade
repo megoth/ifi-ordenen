@@ -11,5 +11,6 @@ block content
   p 
     strong Grad: #{page.metadata.rank} (tildelt #{page.metadata.appointed})
   != page.html
-  p
-    strong= page.metadata.reason
+  if page.metadata.reason
+    p
+      strong= page.metadata.reason

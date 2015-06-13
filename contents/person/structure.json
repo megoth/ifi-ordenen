@@ -20,5 +20,7 @@
       "name": "Ridder",
       "members": ["mariusno", "henrihel", "vegarang", "johannhh", "mathiajj"]
     }
-  ]
+  ],
+  "path": "/person/",
+  "noMembersExplanation": "Ingen tildelte enda"
 }

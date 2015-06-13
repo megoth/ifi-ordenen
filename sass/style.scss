@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
 @import "compass/css3/box-sizing";
 @import "compass/css3/filter";
 @import "compass/css3/text-shadow";
@@ -44,7 +45,9 @@ a {
 }
 blockquote {
 	@include border-radius(0.5em);
+	@include single-box-shadow;
 	background-color: rgba(0, 0, 0, 0.2);
+	border: solid 1px $divider-color;
 	margin: 1em;
 	padding: 1em;
 	p:last-child {
@@ -80,6 +83,9 @@ strong {
 	font-weight: bold;
 }
 
+[role="main"] {
+	@include clearfix;
+}
 [role="main"].index blockquote {
 	@include clearfix;
 	a {
@@ -129,7 +135,9 @@ ul.overview {
 img.profile {
 	@include border-radius(50%);
 	@include box-sizing;
+	@include single-box-shadow;
 	border: solid 1px black;
+	margin-bottom: 0.5em;
 }
 
 footer {

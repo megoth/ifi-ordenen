@@ -5,7 +5,7 @@ block prepend title
 
 block content
   - var years = {};
-  - contents['structure.json'].metadata.structure.forEach(function (_class) {
+  - contents.person['structure.json'].metadata.structure.forEach(function (_class) {
   -   _class.members.forEach(function (username) {
   -     var person = contents.person[username]['index.md'].metadata;
   -     years[person.appointed] = years[person.appointed] || [];

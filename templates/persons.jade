@@ -1,0 +1,12 @@
+extends layout
+
+block prepend title
+  | Personer som er tildelt ordenen -
+
+block vars
+  - var mainclass = 'persons';
+
+block content
+  - var structureFile = contents.person['structure.json'].metadata
+  - var individualPath = contents.person
+  include ./structure.jade

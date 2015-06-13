@@ -1,0 +1,34 @@
+{
+  "structure": [
+    {
+      "name": "Oberst",
+      "members": ["apt"]
+    },
+    {
+      "name": "Major",
+      "members": ["stefanov", "svetlana"]
+    },
+    {
+      "name": "Kaptein",
+      "members": []
+    },
+    {
+      "name": "Sersjant",
+      "members": []
+    },
+    {
+      "name": "Korporal",
+      "members": []
+    },
+    {
+      "name": "Menig",
+      "members": []
+    },
+    {
+      "name": "Æresmedlemmer",
+      "members": ["tux"]
+    }
+  ],
+  "path": "/penguin/",
+  "noMembersExplanation": "Ingen utnevnte enda"
+}
