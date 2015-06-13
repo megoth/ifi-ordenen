@@ -2,7 +2,6 @@
 title: Tux
 template: person.jade
 rank: Æresmedlem
-appointed: 2015
 ---
 
-Tekst
+Tux er den [offisielle maskoten til Linux-kjernen](https://en.wikipedia.org/wiki/Tux), og er et naturlig æresmedlem av Pingvingarden.

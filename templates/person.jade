@@ -9,7 +9,9 @@ block vars
 block content
   img.profile(src='thumb.jpg')
   p 
-    strong Grad: #{page.metadata.rank} (tildelt #{page.metadata.appointed})
+    strong Grad: #{page.metadata.rank} 
+    if page.metadata.appointed
+      strong (tildelt #{page.metadata.appointed})
   != page.html
   if page.metadata.reason
     p
