@@ -4,16 +4,17 @@ block prepend title
   | #{page.title} -
 
 block vars
-  - mainclass = 'person';
+  - mainclass = 'penguin';
 
 block content
   header
     img.profile(src='thumb.jpg')
     p 
-      strong #{page.metadata.rank} av Hennes Majestet Keiserpingvinen den Fornemmes orden
+      strong #{page.metadata.rank} i 
+        a(href=locals.url+'/penguin/') Pingvingarden
     if page.metadata.appointed
       p
-        a(href=locals.url+'/person/year/')  Tildelt #{page.metadata.appointed}
+        strong (tildelt #{page.metadata.appointed})
   != page.html
   if page.metadata.reason
     p

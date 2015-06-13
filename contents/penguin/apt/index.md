@@ -1,6 +1,6 @@
 ---
 title: Apt
-template: person.jade
+template: penguin.jade
 rank: Oberst
 ---
 

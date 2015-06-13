@@ -1,6 +1,6 @@
 ---
 title: Svetlana Escapealov
-template: person.jade
+template: penguin.jade
 rank: Major
 ---
 
