@@ -39,6 +39,7 @@ footer {
 		margin-bottom: 0.5em;
 		li {
 			@include horizontal-list-item;
+			padding: 0 0.5em 0 0;
 		}
 	}	
 }
@@ -142,6 +143,7 @@ ul.overview {
 	@include horizontal-list-container;
 	li {
 		@include horizontal-list-item;
+		padding: 0 0.5em 0 0;
 	}
 }
 
