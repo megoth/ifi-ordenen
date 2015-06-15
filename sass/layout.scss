@@ -1,0 +1,17 @@
+
+#MainNavigation .bar,
+#MainNavigation nav .inner,
+[role="main"],
+body > footer {
+  @media screen and (max-width: $pad-width) {
+    padding: 0 1em;
+  }
+  @media screen and (min-width: $pad-width) {
+    margin: 0 auto;
+    max-width: 24em;
+    width: 90%;
+  }
+  @media screen and (min-width: $desktop-width) {
+    max-width: 42em;
+  }
+}

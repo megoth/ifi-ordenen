@@ -3,7 +3,9 @@
 @import "compass/css3/box-shadow";
 @import "compass/css3/box-sizing";
 @import "compass/css3/filter";
+@import "compass/css3/opacity";
 @import "compass/css3/text-shadow";
+@import "compass/css3/transform";
 @import "compass/css3/transition";
 @import "compass/typography/lists/horizontal-list";
 @import "compass/utilities/general/clearfix";
@@ -14,32 +16,31 @@ $desktop-width: 60em;
 $background-color: #fff;
 $divider-color: #000;
 $link-color: #000;
+$navigation-background-color: #FFB619;
 $text-color: #000;
 $title-color: #000;
 
 body {
-	background-color: $background-color;
-	color: $text-color;
-	font-family: Arial;
-	margin: 1em;
-	@media screen and (min-width: $pad-width) {
-		margin: 1em auto;
-		max-width: 24em;
-		width: 90%;
-	}
-	@media screen and (min-width: $desktop-width) {
-		max-width: 42em;
-	}
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Arial;
+  #MainNavigation {
+  	padding-top: 1em;
+  }
+  > footer {
+  	padding-bottom: 1em;
+  }
 }
 
-header,
+@import "layout";
+
 footer {
 	ul {
 		@include horizontal-list-container;
 		margin-bottom: 0.5em;
 		li {
 			@include horizontal-list-item;
-			margin: 0 0.25em 0 0;
+			margin: 0.25em 0.25em 0 0;
 			padding: 0;
 		}
 	}	
@@ -153,7 +154,7 @@ img.profile {
 	@include border-radius(50%);
 	@include box-sizing;
 	@include single-box-shadow;
-	border: solid 1px black;
+	border: solid 1px $divider-color;
 	margin-bottom: 0.5em;
 }
 
@@ -162,3 +163,5 @@ footer {
 	margin-top: 1em;
 	padding: 0.5em 0;
 }
+
+@import "navigation";
