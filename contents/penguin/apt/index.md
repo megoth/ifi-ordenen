@@ -1,7 +1,7 @@
 ---
 title: Apt
 template: penguin.jade
-rank: Oberst
+rank: Gardesjef
 ---
 
 Apt er Keiserinnens høyre hånd, og fungerer som hennes stedfortreder når hun skal representeres. Keiserinnen har enda ikke vist seg i en fysisk manifestasjon, så for alle praktiske formål er Apt å regne som det nærmeste man har sett av Keiserinnen.

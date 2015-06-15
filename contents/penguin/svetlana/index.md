@@ -1,7 +1,7 @@
 ---
 title: Svetlana Escapealov
 template: penguin.jade
-rank: Major
+rank: Æresmedlem
 ---
 
 Svetlana er [Stefanov](/penguin/stefanov/) sin søster, og trives best på Escape. Etter at Stefanov ble berget av Uglebo på [43-gallaen](/dictionary/#galla-nummerering) steppet Svetlana inn som Escape sin beskytter, og gjorde en heroisk innsats. Helt til hun selv ble berget av Realistforeningen en uke før 44-gallaen...

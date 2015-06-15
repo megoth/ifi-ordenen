@@ -1,7 +1,7 @@
 ---
 title: Stefanov Escapealov
 template: penguin.jade
-rank: Major
+rank: Æresmedlem
 ---
 
 Stefanov er broren til [Svetlana](/penguin/svetlana/), og er til daglig Escape sin beskytter. Han tar gjerne en dram (eller ti) med de interne og andre studenter.

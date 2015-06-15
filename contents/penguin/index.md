@@ -5,8 +5,6 @@ template: penguins.jade
 
 Pingvingarden er Keiserinnens voktere og består av pingviner tilknyttet Institutt for informatikk.
 
-I bresjen står [Apt](/penguin/apt/), Keiserinnens høyre hånd og stedfortreder på arrangement hun ikke deltar i selv. Hen har tittelen oberst, gardens øverste tittel. Ellers har man gradene major, kaptein, sersjant, korporal, og menig.
+I bresjen står [Apt](/penguin/apt/), Keiserinnens høyre hånd og stedfortreder på arrangement hun ikke deltar i selv.
 
-De andre pingvinene er pingviner med ymse tilknytninger til Ifi. Det er ingen strenge bestemmelser for hvem som kan være med. Det er for eksempel åpent for studentforeninger og linjeforeninger ved Ifi å adoptere pingvin(dukk)er og melde de inn i garden.
-
-Det er også æresmedlemmer, som er pingviner som ikke direkte tilknyttet Ifi, men som har en særstilling.
+Andre medlemmer av garden er æresmedlemmer, som kan være pingviner tilknyttet Ifi, eller som har en særstilling for informatikk-studentene ellers.

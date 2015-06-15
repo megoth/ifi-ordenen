@@ -31,8 +31,8 @@ $holderSize: $width * 1.5;
     pointer-events: all;
     .holder {
       @include border-radius(50%);
-      @include single-box-shadow;
       background-color: $navigation-background-color;
+      border: solid 1px $divider-color;
       float: right;
       height: $holderSize;
       margin-bottom: 0.5em;
