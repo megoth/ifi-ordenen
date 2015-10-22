@@ -18,3 +18,12 @@ block content
   if page.metadata.reason
     p
       strong= page.metadata.reason
+  if page.metadata.previous
+    each classname in page.metadata.previous
+      - classpage = contents.person[page.metadata.username][classname + '.md']
+      h2 Tidligere tildeling: #{classpage.metadata.rank}
+      p
+        a(href=locals.url+'/person/year/')  Tildelt #{classpage.metadata.appointed}
+      != classpage.html
+      p
+        strong= classpage.metadata.reason

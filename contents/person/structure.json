@@ -2,15 +2,15 @@
 	"structure": [
     {
       "name": "Stormester",
-      "members": ["geiraby"]
+      "members": ["arnehass"]
     },
     {
       "name": "Kommandør med stjerne",
-      "members": []
+      "members": ["geiraby"]
     },
     {
       "name": "Kommandør",
-      "members": ["oyvinbak", "mshaugla", "magnujoh", "arnehass", "joshi"]
+      "members": ["oyvinbak", "mshaugla", "magnujoh", "joshi"]
     },
     {
       "name": "Ridder av første klasse",
