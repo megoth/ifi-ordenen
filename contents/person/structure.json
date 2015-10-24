@@ -2,11 +2,11 @@
 	"structure": [
     {
       "name": "Stormester",
-      "members": ["arnehass"]
+      "members": ["geiraby", "arnehass"]
     },
     {
       "name": "Kommandør med stjerne",
-      "members": ["geiraby"]
+      "members": []
     },
     {
       "name": "Kommandør",
