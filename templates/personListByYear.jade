@@ -11,6 +11,11 @@ block content
   -     years[person.appointed] = years[person.appointed] || [];
   -     person.username = username;
   -     years[person.appointed].push(person);
+  -     (person.previous || []).forEach(function (className) {
+  -       var previousClass = contents.person[username][className+'.md'].metadata;
+  -       years[previousClass.appointed] = years[previousClass.appointed] || [];
+  -       years[previousClass.appointed].push(person);
+  -     })
   -   })
   - });
   nav
