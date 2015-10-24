@@ -1,0 +1,13 @@
+extends layout
+
+block prepend title
+  | #{page.title} -
+
+block vars
+  - mainclass = 'class';
+
+block before_title
+  img.class(src='thumb.jpg')
+
+block content
+  != page.html

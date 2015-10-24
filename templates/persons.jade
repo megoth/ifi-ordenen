@@ -7,6 +7,5 @@ block vars
   - var mainclass = 'persons';
 
 block content
-  - var structureFile = contents.person['structure.json'].metadata
-  - var individualPath = contents.person
+  - var root = contents['structure.json'].metadata.persons
   include ./structure.jade

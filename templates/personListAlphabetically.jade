@@ -4,7 +4,7 @@ block prepend title
   | #{page.title} -
 
 block content
-  - var usernames = contents.person['structure.json'].metadata.structure.reduce(function (memo, _class) {
+  - var usernames = contents['structure.json'].metadata.persons.structure.reduce(function (memo, _class) {
   -   return memo.concat(_class.members);
   - }, []).sort();
   nav.persons

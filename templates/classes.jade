@@ -1,0 +1,15 @@
+extends layout
+
+block prepend title
+  | Grader -
+
+block vars
+  - var mainclass = 'classes';
+
+block content
+  != page.html
+  ul.classes
+    each _class in contents['structure.json'].metadata.classes.hierarchy
+      li
+        h3= _class
+

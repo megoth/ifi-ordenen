@@ -11,6 +11,5 @@ block content
     p Ordenen tildeles som belønning for utmerkede fortjenester for studentmiljøet ved Ifi.
     a(href=locals.url+'/about') Mer om ordenen
   h2 Personer som er tildelt ordenen
-  - var structureFile = contents.person['structure.json'].metadata
-  - var individualPath = contents.person
+  - var root = contents['structure.json'].metadata.persons
   include ./structure.jade

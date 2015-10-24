@@ -9,6 +9,5 @@ block vars
 block content
   != page.html
   h2 Voktere
-  - var structureFile = contents.penguin['structure.json'].metadata
-  - var individualPath = contents.penguin
+  - var root = contents['structure.json'].metadata.penguins
   include ./structure.jade

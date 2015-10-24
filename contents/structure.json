@@ -1,0 +1,63 @@
+{
+  "classes": {
+    "className": "classes",
+    "individual": "class",
+    "path": "/class/",
+    "hierarchy": [
+      "grand_cross", 
+      "commander_with_star", 
+      "commander",
+      "knight_first_class",
+      "knight"
+    ]
+  },
+	"persons": {
+    "className": "persons",
+    "individual": "person",
+    "path": "/person/",
+    "noMembersExplanation": "Ingen tildelte enda",
+    "structure": [
+      {
+        "name": "Storkors",
+        "class": "grand_cross",
+        "members": ["geiraby", "arnehass"]
+      },
+      {
+        "name": "Kommandør med stjerne",
+        "class": "commander_with_star",
+        "members": []
+      },
+      {
+        "name": "Kommandør",
+        "class": "commander",
+        "members": ["oyvinbak", "mshaugla", "magnujoh", "joshi"]
+      },
+      {
+        "name": "Ridder av første klasse",
+        "class": "knight_first_class",
+        "members": ["torgeirl"]
+      },
+      {
+        "name": "Ridder",
+        "class": "knight",
+        "members": ["mariusno", "henrihel", "vegarang", "johannhh", "mathiajj", "veronahe", "sjurher", "chrismi", "marthfro"]
+      }
+    ]
+  },
+  "penguins": {
+    "className": "penguins",
+    "individual": "penguin",
+    "path": "/penguin/",
+    "noMembersExplanation": "Ingen tildelte enda",
+    "structure": [
+      {
+        "name": "Gardesjef",
+        "members": ["apt"]
+      },
+      {
+        "name": "Æresmedlemmer",
+        "members": ["tux", "stefanov", "svetlana"]
+      }
+    ]
+  }
+}
