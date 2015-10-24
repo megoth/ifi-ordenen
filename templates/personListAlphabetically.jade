@@ -15,6 +15,10 @@ block content
           a(href=locals.url+'/person/' + username)
             img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
             .info
+              - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (className) {
+              -   classPage = contents.person[username][className+'.md'].metadata;
+              -   return classPage.rank+' ('+classPage.appointed+')';
+              - }));
               h3= person.title
-              p #{person.rank} (#{person.appointed})
+              p= appointments.join(', ')
               p= person.reason
