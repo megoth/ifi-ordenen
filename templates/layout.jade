@@ -17,6 +17,12 @@ html(lang='en')
 						span Menu
 			nav(aria-hidden="true")
 				.inner
+					h2 Ordenen
+					ul
+						li
+							a(href=locals.url) Forside
+						li
+							a(href=locals.url+'/about') Om ordenen
 					h2 Tildelinger
 					ul
 						li
@@ -25,14 +31,10 @@ html(lang='en')
 							a(href=locals.url+'/person/alphabetically') Alfabetisk
 						li
 							a(href=locals.url+'/person/year') Etter år
-					h2 Ordenen
-					ul
-						li
-							a(href=locals.url+'/about') Om ordenen
-						li
-							a(href=locals.url+'/dictionary') Ordbok
 					h2 Annet
 					ul
+						li
+							a(href=locals.url+'/dictionary') Ordbok
 						li
 							a(href=locals.url+'/penguin') Pingvingarden
 						li
@@ -45,9 +47,9 @@ html(lang='en')
 				li
 					a(href=locals.url) Hovedside
 				li
-					a(href=locals.url+'/person') Tildelinger
-				li
 					a(href=locals.url+'/about') Om ordenen
+				li
+					a(href=locals.url+'/person') Tildelinger
 	script(type='text/javascript',src=locals.url+'/all.min.js')
 	script(type='text/javascript').
 		(function () {
