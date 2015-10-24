@@ -6,9 +6,11 @@ block prepend title
 block vars
   - mainclass = 'person';
 
+block before_title
+  img.profile(src='thumb.jpg')
+
 block content
   header
-    img.profile(src='thumb.jpg')
     p 
       strong #{page.metadata.rank} av Hennes Majestet Keiserpingvinen den Fornemmes orden
     if page.metadata.appointed

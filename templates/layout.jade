@@ -40,7 +40,9 @@ html(lang='en')
 						li
 							a(href=locals.url+'/page') Om siden
 		.mainclass(role="main")
-			h1= page.title
+			header
+				block before_title
+				h1= page.title
 			block content
 		footer
 			ul

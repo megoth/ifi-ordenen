@@ -19,17 +19,17 @@ Keiserinnen har også en egen [pingvingarde](/penguin/) som består av pingviner
 
 ## Organisering
 
-Ifi-ordenen deles ut av [Keiserinnens kanselli](/dictionary/#kanselli). Stormester er gjerne den som administrerer virket, mens kommandørene innehar bestemte ansvarsområder, som økonomi, innkjøp av medaljer og andre klenodier, og drift av nettside. Men dette bestemmes innad i ordenen, alt etter hva som er mest praktisk.
+Ifi-ordenen deles ut av [Keiserinnens kanselli](/dictionary/#kanselli), som ledes i dag av [Stormester Arne Hassel](/person/arnehass). Stormester leder organiseringen av arbeidet, mens kommandørene innehar bestemte ansvarsområder, som økonomi, innkjøp av medaljer og andre klenodier, og drift av nettside.
 
 Seremoniene hvor de utvalgte blir tildelt ordenen har tradisjonelt skjedd på Ifi-galla, som arrangeres hver høst, og på foreningsfesten på Ifi, som blir arrangert hver vår.
 
-Gjennom året møter kanselliet samt inviterte for å diskutere aktuelle kandidater. På disse møtene blir Keiserinnens vilje manifestert gjennom valg blant kanselliet.
+Gjennom året møter kanselliet samt inviterte for å diskutere aktuelle kandidater. På disse møtene blir Keiserinnens vilje manifestert gjennom valg.
 
 ## Historie
 
-Ordenen ble først tildelt Geir Arild Byberg høsten 2011. Det skjedde i forbindelse med at [Cybernetisk Selskab](http://cyb.no) arrangerte instituttets første Ifi-galla for å feire sitt 42. år som forening. Det skal da også nevnes at gallaen ble arrangert lørdagen i uke 42.
+Ordenen ble først tildelt [Stormester Geir Arild Byberg](/person/geiraby) høsten 2011. Det skjedde i forbindelse med at [Cybernetisk Selskab](http://cyb.no) arrangerte instituttets første Ifi-galla for å feire sitt 42. år som forening. Det skal da også nevnes at gallaen ble arrangert lørdagen i uke 42.
 
-Sammen med Øyvind Bakkeli, som ble ordenens første kommandør, fikk de i oppgave å drive ordenen videre. Siden da har det blitt utnevnt ytterligere medlemmer og ordenen er i ferd med å etablere seg som et positivt bidrag til Ifi.
+Sammen med [Kommandør Øyvind Bakkeli](/person/oyvinbak) fikk de i oppgave å drive ordenen videre. Siden da har det blitt utnevnt ytterligere medlemmer og ordenen er i ferd med å etablere seg som et positivt bidrag til Ifi.
 
 ## Kontakt oss
 

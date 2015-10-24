@@ -73,7 +73,6 @@ h1 {
 	@include text-shadow(0 0 1px $background-color);
 	font-size: 2em;
 	margin-top: 0.5em;
-	text-align: center;
 }
 h2 {
 	font-size: 1.5em;
@@ -91,6 +90,9 @@ strong {
 
 [role="main"] {
 	@include clearfix;
+	header {
+		text-align: center;
+	}
 }
 [role="main"].index blockquote {
 	@include clearfix;
