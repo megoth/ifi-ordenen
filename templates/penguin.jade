@@ -6,6 +6,16 @@ block prepend title
 block vars
   - mainclass = 'penguin';
 
+block breadcrumbs
+  nav.breadcrumbs
+    ul
+      li
+        a(href=locals.url) Forside
+      li
+        a(href=locals.url+'/penguin') Pingvingarden
+      li
+        span= page.title
+
 block content
   header
     img.profile(src='thumb.jpg')

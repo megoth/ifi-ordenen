@@ -1,0 +1,71 @@
+@function breadcrumb-color($alpha) {
+  @return rgba($navigation-background-color-r, $navigation-background-color-g, $navigation-background-color-b, $alpha);
+}
+
+@mixin breadcrumb-background-color($alpha) {
+  background: breadcrumb-color($alpha);
+  &:after {
+    border-left-color: breadcrumb-color($alpha);
+  }
+}
+
+nav.breadcrumbs ul {
+  @include horizontal-list-container;
+  margin: 1em 0;
+  > li {
+    @include horizontal-list-item;
+    a,
+    span {
+      display: block;
+      padding: 10px 0 10px 35px;
+      position: relative; 
+    }
+    a {
+      text-decoration: none;
+      &:after {
+        content: " "; 
+        display: block; 
+        width: 0; 
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid transparent;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px; 
+        left: 100%;
+        z-index: 2; 
+      }
+      &:before {
+        content: " "; 
+        display: block; 
+        width: 0; 
+        height: 0;
+        border-top: 50px solid transparent;       
+        border-bottom: 50px solid transparent;
+        border-left: 30px solid $background-color;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px; 
+        margin-left: 1px;
+        left: 100%;
+        z-index: 1; 
+      }
+      @include breadcrumb-background-color(0.5);
+    }
+    &:last-child {
+      @media screen and (max-width: $small-width) {
+        display: none;
+      }
+    }
+    &:first-child a {
+      padding-left: 10px;
+    }
+    &:nth-child(2) a {
+      @include breadcrumb-background-color(0.25);
+    }
+    a:hover  {
+      @include breadcrumb-background-color(1);
+    }
+  }
+}

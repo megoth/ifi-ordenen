@@ -10,6 +10,7 @@
 @import "compass/typography/lists/horizontal-list";
 @import "compass/utilities/general/clearfix";
 
+$small-width: 30em;
 $pad-width: 40em;
 $desktop-width: 60em;
 
@@ -17,6 +18,9 @@ $background-color: #fff;
 $divider-color: #000;
 $link-color: #000;
 $navigation-background-color: #FFB619;
+$navigation-background-color-r: 255;
+$navigation-background-color-g: 182;
+$navigation-background-color-b: 25;
 $text-color: #000;
 $title-color: #000;
 
@@ -194,4 +198,5 @@ footer {
 	padding: 0.5em 0;
 }
 
+@import "breadcrumbs";
 @import "navigation";

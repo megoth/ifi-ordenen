@@ -16,7 +16,17 @@ block after_title
     strong Tildelt #{_class.title} av Hennes Majestet Keiserpingvinen den Fornemmes orden
   if page.metadata.appointed
     p
-      a(href=locals.url+'/person/year/')  Tildelt #{page.metadata.appointed}
+      a(href=locals.url+'/person/year')  Tildelt #{page.metadata.appointed}
+
+block breadcrumbs
+  nav.breadcrumbs
+    ul
+      li
+        a(href=locals.url) Forside
+      li
+        a(href=locals.url+'/person') Personer
+      li
+        span= page.metadata.title
 
 block content
   != page.html
@@ -29,7 +39,7 @@ block content
       header
         h2 Tidligere tildelt: #{classpage.metadata.rank}
         p
-          a(href=locals.url+'/person/year/')  Tildelt #{classpage.metadata.appointed}
+          a(href=locals.url+'/person/year')  Tildelt #{classpage.metadata.appointed}
       != classpage.html
       p
         strong= classpage.metadata.reason

@@ -87,6 +87,7 @@ body.navigation-open {
   #MainNavigation,
   #MainNavigation nav {
     background-color: rgba(255, 182, 25, 0.95);
+    z-index: 100;
   }
   #MainNavigation {
     pointer-events: all;

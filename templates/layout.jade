@@ -42,6 +42,13 @@ html(lang='en')
 						li
 							a(href=locals.url+'/page') Om siden
 		.mainclass(role="main")
+			block breadcrumbs
+				nav.breadcrumbs
+					ul
+						li
+							a(href=locals.url) Forside
+						li
+							span= page.title
 			header
 				block before_title
 				h1= page.title
