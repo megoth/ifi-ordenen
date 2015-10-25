@@ -7,9 +7,7 @@ block vars
   - var mainclass = 'index';
 
 block content
-  blockquote 
-    p Ordenen tildeles som belønning for utmerkede fortjenester for studentmiljøet ved Ifi.
-    a(href=locals.url+'/about') Mer om ordenen
+  != page.html
   h2 Personer som er tildelt ordenen
   - var root = contents['structure.json'].metadata.persons
   include ./structure.jade

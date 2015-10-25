@@ -1,6 +1,7 @@
 ---
 title: Christian Mikalsen
 template: person.jade
+class: knight
 rank: Ridder
 appointed: 2015
 reason: For sitt brede engasjement for studentene på Institutt for informatikk tildeles Christian Mikalsen graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

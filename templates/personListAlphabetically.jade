@@ -14,11 +14,12 @@ block content
         li
           a(href=locals.url+'/person/' + username)
             img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
-            .info
-              - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (className) {
-              -   classPage = contents.person[username][className+'.md'].metadata;
-              -   return classPage.rank+' ('+classPage.appointed+')';
-              - }));
-              h3= person.title
-              p= appointments.join(', ')
-              p= person.reason
+          .info
+            - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (className) {
+            -   classPage = contents.person[username][className+'.md'].metadata;
+            -   return classPage.rank+' ('+classPage.appointed+')';
+            - }));
+            h3
+              a(href=locals.url+'/person/' + username)= person.title
+            p= appointments.join(', ')
+            p= person.reason

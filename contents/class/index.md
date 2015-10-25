@@ -1,5 +1,5 @@
 ---
-title: Grader
+title: Ordenstegn
 template: classes.jade
 ---
 

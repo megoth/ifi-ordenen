@@ -1,6 +1,7 @@
 ---
 title: Øyvind Bakkeli
 template: person.jade
+class: commander
 rank: Kommandør
 appointed: 2011
 reason: For sitt diplomatiske og målrettede arbeid på Institutt for informatikk tildeles Øyvind Bakkeli graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.

@@ -1,6 +1,7 @@
 ---
 title: Magnus Johansen
 template: person.jade
+class: commander
 rank: Kommandør
 appointed: 2012
 reason: For hans sentrale og aktive arbeid i både oppstarten av Escape, men også oppfølging de påfølgende årene med vise råd og god teft, tildeles Magnus Johansen graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.

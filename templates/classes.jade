@@ -9,7 +9,11 @@ block vars
 block content
   != page.html
   ul.classes
-    each _class in contents['structure.json'].metadata.classes.hierarchy
+    each className in contents['structure.json'].metadata.classes.hierarchy
       li
-        h3= _class
+        - var _class = contents.class[className]['index.md']
+        img.class(src=locals.url+'/class/' + className + '/thumb.jpg', title=_class.title)
+        .info
+          h3= _class.metadata.title
+          != _class.html
 

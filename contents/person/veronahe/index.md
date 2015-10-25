@@ -1,6 +1,7 @@
 ---
 title: Veronika Heimsbakk
 template: person.jade
+class: knight
 rank: Ridder
 appointed: 2015
 reason: For sitt engasjement i studentmiljøet på Ifi gjennom Cybernetisk Selskab og Åpen sone tildeles Veronika Heimsbakk graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

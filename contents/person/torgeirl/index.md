@@ -1,6 +1,7 @@
 ---
 title: Torgeir Lebesbye
 template: person.jade
+class: knight_first_class
 rank: Ridder av første klasse
 appointed: 2015
 reason: For sitt grundige og utrettelige engasjement gjennom mange år tildeles Torgeir Lebesby graden Ridder av første klasse av Hennes Majestet Keiserpingvinen den Fornemmes orden.

@@ -1,6 +1,7 @@
 ---
 title: Suhas Govind Joshi
 template: person.jade
+class: commander
 rank: Kommandør
 appointed: 2015
 reason: For sitt arbeid som initiativtaker og koordinator av foreningsfesten på Institutt for informatikk tildeles Suhas Govind Joshi graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.

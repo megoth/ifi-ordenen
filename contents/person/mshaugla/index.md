@@ -1,6 +1,7 @@
 ---
 title: Martin Haugland
 template: person.jade
+class: commander
 rank: Kommandør
 appointed: 2012
 reason: For sitt brede og iherdige engasjement på Institutt for informatikk tildeles Martin Haugland graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.

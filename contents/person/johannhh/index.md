@@ -1,6 +1,7 @@
 ---
 title: Johanne Håøy Horn
 template: person.jade
+class: knight
 rank: Ridder
 appointed: 2015
 reason: For sitt engasjement og arbeid som solid støttespiller i Dagen og Navet tildeles Johanne Håøy Horn graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

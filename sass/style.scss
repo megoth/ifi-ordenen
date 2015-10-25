@@ -92,6 +92,9 @@ strong {
 	@include clearfix;
 	header {
 		text-align: center;
+		& ~ header {
+			margin-top: 5em;
+		}
 	}
 	ul {
 		list-style-type: disc;
@@ -133,24 +136,22 @@ ul.persons {
 	list-style-type: none;
 }
 
-nav.penguins,
-nav.persons {
-	ul li {
+nav.penguins ul,
+nav.persons ul,
+ul.classes {
+	li {
 		@include clearfix;
 		padding:0;
 		width: 100%;
-		a {
-			text-decoration: none;
-			img {
-				float: left;
-				margin-right: 1em;
-			}
-			.info {
-				margin-left: calc(102px + 1em);
-			}
-			&:hover {
-				text-decoration: underline;
-			}
+		h3 {
+			margin-top: 0;
+		}
+		img {
+			float: left;
+			margin-right: 1em;
+		}
+		.info {
+			margin-left: calc(102px + 1em);
 		}
 	}
 }
@@ -176,6 +177,15 @@ img.profile {
 	@include single-box-shadow;
 	border: solid 1px $divider-color;
 	margin-bottom: 0.5em;
+}
+img.profile + img.class {
+	$width: 40;
+	$offset: 10;
+	@include single-box-shadow(0, 0, 0);
+	bottom: $offset * -1px;
+	left: ($width - $offset) * -1px;
+	position: relative;
+	width: $width * 1px;
 }
 
 footer {
