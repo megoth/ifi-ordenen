@@ -6,15 +6,5 @@ block prepend title
 block vars
   - mainclass = 'association';
 
-block breadcrumbs
-  nav.breadcrumbs
-    ul
-      li
-        a(href=locals.url) Forside
-      li
-        a(href=locals.url+'/association') Foreninger
-      li
-        span= page.metadata.title
-
 block content
   != page.html

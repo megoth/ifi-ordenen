@@ -1,5 +1,6 @@
 ---
 title: Cybernetisk Selskab
+short: CYB
 template: association.jade
 ---
 

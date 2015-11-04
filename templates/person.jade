@@ -14,16 +14,6 @@ block after_title
   - var _class = contents.class[page.metadata.class]['index.md'].metadata;
   p Tildelt #{_class.title} av Hennes Majestet Keiserpingvinen den Fornemmes orden
 
-block breadcrumbs
-  nav.breadcrumbs
-    ul
-      li
-        a(href=locals.url) Forside
-      li
-        a(href=locals.url+'/person') Personer
-      li
-        span= page.metadata.title
-
 block content
   != page.html
   if page.metadata.reason

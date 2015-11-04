@@ -1,5 +1,6 @@
 ---
 title: Foreninger på Ifi
+short: Foreninger
 template: associations.jade
 ---
 

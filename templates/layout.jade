@@ -48,10 +48,16 @@ html(lang='en')
 			block breadcrumbs
 				nav.breadcrumbs
 					ul
+						if page.parent && page.parent.parent.parent
+							- var crumb = page.parent.parent.parent.index
+							li
+								a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
+						if page.parent && page.parent.parent
+							- var crumb = page.parent.parent.index
+							li
+								a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
 						li
-							a(href=locals.url) Forside
-						li
-							span= page.title
+							span= page.metadata.short || page.title
 			block content
 		footer
 			ul

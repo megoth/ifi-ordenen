@@ -1,5 +1,6 @@
 ---
 title: Fagutvalget ved Institutt for informatikk
+short: FUI
 template: association.jade
 ---
 

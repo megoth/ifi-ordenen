@@ -13,15 +13,5 @@ block after_title
     p 
       strong #{page.metadata.rank} i Pingvingarden
 
-block breadcrumbs
-  nav.breadcrumbs
-    ul
-      li
-        a(href=locals.url) Forside
-      li
-        a(href=locals.url+'/penguin') Pingvingarden
-      li
-        span= page.title
-
 block content
   != page.html

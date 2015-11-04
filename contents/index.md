@@ -1,5 +1,6 @@
 ---
 title: Hennes Majestet Keiserpingvinen den Fornemmes orden
+short: Forside
 template: index.jade
 ---
 
