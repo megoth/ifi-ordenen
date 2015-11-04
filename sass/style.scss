@@ -62,7 +62,8 @@ body {
 	  	}
 	  	img {
 				@include single-box-shadow(0, 0, 0);
-				border-color: $elegant-color;
+				border-color: rgba(255, 255, 255, 0.25);
+				border-width: 0.5em;
 				margin: 0;
 	  	}
   	}
