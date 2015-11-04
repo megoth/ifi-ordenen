@@ -8,11 +8,11 @@ body > footer {
   }
   @media screen and (min-width: $pad-width) {
     margin: 0 auto;
-    max-width: 30em;
+    max-width: $small-width;
     width: 90%;
   }
   @media screen and (min-width: $desktop-width) {
-    max-width: 42em;
+    max-width: $pad-width;
   }
 }
 

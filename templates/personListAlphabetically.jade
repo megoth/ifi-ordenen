@@ -10,7 +10,7 @@ block content
   nav.persons
     ul
       each username in usernames
-        - var person = contents.person[username]['index.md'].metadata
+        - var person = contents.person[username].index.metadata
         li
           a(href=locals.url+'/person/' + username)
             img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)

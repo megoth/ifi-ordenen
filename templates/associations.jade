@@ -1,0 +1,13 @@
+extends layout
+
+block prepend title
+  | #{page.title} -
+
+block content
+  != page.html
+  - var associations = contents.association._.directories.map(function (item) { return item.index; }).sort(function (docA, docB) { return docA.url < docB.url ? -1 : 1; });
+  nav.associations
+    ul
+      each association in associations
+        li
+          a(href=locals.url+association.url)= association.metadata.title
