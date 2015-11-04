@@ -1,6 +1,7 @@
 module.exports = {
 	'images': {
 		files: [
+      {expand: true, cwd: 'public', src: ['*'], dest: 'build'},
 			{expand: true, cwd: 'contents', src: ['**/*.jpg'], dest: 'build'}
 		]
 	},

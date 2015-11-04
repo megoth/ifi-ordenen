@@ -2,6 +2,7 @@
 #MainNavigation .bar,
 #MainNavigation nav .inner,
 [role="main"],
+body > header > .inner,
 body > footer {
   @media screen and (max-width: $pad-width) {
     padding: 0 1em;

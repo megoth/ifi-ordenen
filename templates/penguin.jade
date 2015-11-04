@@ -6,6 +6,13 @@ block prepend title
 block vars
   - mainclass = 'penguin';
 
+block before_title
+  img.profile(src='thumb.jpg')
+
+block after_title
+    p 
+      strong #{page.metadata.rank} i Pingvingarden
+
 block breadcrumbs
   nav.breadcrumbs
     ul
@@ -17,15 +24,4 @@ block breadcrumbs
         span= page.title
 
 block content
-  header
-    img.profile(src='thumb.jpg')
-    p 
-      strong #{page.metadata.rank} i 
-        a(href=locals.url+'/penguin/') Pingvingarden
-    if page.metadata.appointed
-      p
-        strong (tildelt #{page.metadata.appointed})
   != page.html
-  if page.metadata.reason
-    p
-      strong= page.metadata.reason

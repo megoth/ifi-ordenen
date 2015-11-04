@@ -33,9 +33,9 @@ $holderSize: $width * 1.5;
       @include border-radius(50%);
       background-color: $navigation-background-color;
       border: solid 1px $divider-color;
+      font-family: Arial;
       float: right;
       height: $holderSize;
-      margin-bottom: 0.5em;
       width: $holderSize;
     }
     .trigger {

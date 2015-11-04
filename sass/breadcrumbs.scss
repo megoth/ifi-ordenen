@@ -11,7 +11,7 @@
 
 nav.breadcrumbs ul {
   @include horizontal-list-container;
-  margin: 1em 0;
+  margin: 0.5em 0;
   > li {
     @include horizontal-list-item;
     a,

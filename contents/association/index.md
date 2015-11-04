@@ -1,5 +1,5 @@
 ---
-title: Foreninger
+title: Foreninger på Ifi
 template: associations.jade
 ---
 

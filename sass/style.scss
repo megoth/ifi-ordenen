@@ -10,6 +10,8 @@
 @import "compass/typography/lists/horizontal-list";
 @import "compass/utilities/general/clearfix";
 
+@import "./fonts";
+
 $small-width: 34em;
 $pad-width: 42em;
 $desktop-width: 60em;
@@ -24,15 +26,46 @@ $navigation-background-color-b: 25;
 $text-color: #000;
 $title-color: #000;
 
+$elegant-background-image: url('./elegant.jpg');
+$elegant-background-color: #000;
+$elegant-color: #fff;
+$elegant-font-family: $font-elegant;
+
 body {
   background-color: $background-color;
   color: $text-color;
-  font-family: Arial;
+  font-family: $font-content;
   #MainNavigation {
   	padding-top: 1em;
   }
+	> header {
+		text-align: center;
+	}
   > footer {
   	padding-bottom: 1em;
+  }
+  &.association > header,
+  &.penguin > header,
+  &.person > header {
+  	background: $elegant-background-color $elegant-background-image center center;
+  	> .inner {
+			@include clearfix;
+	  	a,
+	  	h1,
+	  	p {
+				@include text-shadow(0 0 1px $elegant-background-color);
+		  	color: $elegant-color;
+	  	}
+	  	h1 {
+		  	font-family: $elegant-font-family;
+		  	font-size: 3em;
+	  	}
+	  	img {
+				@include single-box-shadow(0, 0, 0);
+				border-color: $elegant-color;
+				margin: 0;
+	  	}
+  	}
   }
 }
 
@@ -69,14 +102,14 @@ em {
 }
 h1, h2, h3, h4, h5, h5 {
 	color: $title-color;
-	font-family: Verdana;
+	font-family: $font-title;
 	line-height: 1.25em;
-	margin: 1em 0 0.25em;
+	margin: 1rem 0 0.25rem;
 }
 h1 {
 	@include text-shadow(0 0 1px $background-color);
 	font-size: 2em;
-	margin-top: 0.5em;
+	margin-top: 0.5rem;
 }
 h2 {
 	font-size: 1.5em;
@@ -85,8 +118,8 @@ h3 {
 	font-size: 1.25em;
 }
 p {
-	line-height: 1.5em;
-	margin-bottom: 0.75em;
+	line-height: 1.25em;
+	margin-bottom: 0.5em;
 }
 strong {
 	font-weight: bold;
@@ -94,37 +127,9 @@ strong {
 
 [role="main"] {
 	@include clearfix;
-	header {
-		text-align: center;
-		& ~ header {
-			margin-top: 5em;
-		}
-	}
 	ul {
 		list-style-type: disc;
 		margin: 0.75em 0 0.75em 1.25em;
-	}
-}
-[role="main"].index blockquote {
-	@include clearfix;
-	a {
-		clear: left;
-		float: right;
-	}
-}
-[role="main"].penguin,
-[role="main"].person {
-	@media screen and (max-width: $pad-width) {
-		header {
-			text-align: center;
-		}
-	}
-	@media screen and (min-width: $pad-width) {
-		img.profile {
-			float: right;
-			margin-left: 1em;
-			text-align: initial;
-		}
 	}
 }
 

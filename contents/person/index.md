@@ -1,4 +1,4 @@
 ---
-title: Personer som er tildelt ordenen
+title: Matrikkel
 template: persons.jade
 ---
