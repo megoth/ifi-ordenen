@@ -62,12 +62,22 @@ body {
 	  	}
 	  	img {
 				@include single-box-shadow(0, 0, 0);
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: rgba(255, 255, 255, 0.5);
 				border-width: 0.5em;
 				margin: 0;
 	  	}
   	}
   }
+	&:not(.navigation-open) #MainNavigation .bar {
+  	.holder {
+  		background-color: rgba(0, 0, 0, 0.25);
+  	}
+  	.trigger span,
+  	.trigger span:after,
+  	.trigger span:before {
+  		background-color: #fff;
+  	}
+	}
 }
 
 @import "layout";
