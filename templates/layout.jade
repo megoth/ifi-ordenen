@@ -1,5 +1,6 @@
 - var filename = page.filepath.relative.split('/').pop();
 - var language = filename === 'index.md' ? 'no' : filename.split('.').shift();
+- var t = contents[language+'.json'].metadata;
 block vars
 	- var mainclass = null;
 doctype html
@@ -17,31 +18,31 @@ html(lang=language)
 				.bar
 					.holder
 						button.trigger
-							span Menu
+							span= t.nav.menu
 				nav(aria-hidden="true")
 					.inner
-						h2 Ordenen
+						h2= t.nav.order
 						ul
 							li
-								a(href=locals.url) Forside
+								a(href=locals.url)= t.nav.index
 							li
-								a(href=locals.url+'/about') Om ordenen
-						h2 Tildelinger
+								a(href=locals.url+'/about')= t.nav.about
+						h2= t.nav.insignia
 						ul
 							li
-								a(href=locals.url+'/person') Hierarkisk
+								a(href=locals.url+'/person')= t.nav.hierarchical
 							li
-								a(href=locals.url+'/person/alphabetically') Alfabetisk
+								a(href=locals.url+'/person/alphabetically')= t.nav.alphabetical
 							li
-								a(href=locals.url+'/person/year') Etter år
-						h2 Annet
+								a(href=locals.url+'/person/year')= t.nav.year
+						h2= t.nav.other
 						ul
 							li
-								a(href=locals.url+'/dictionary') Ordbok
+								a(href=locals.url+'/dictionary')= t.nav.dictionary
 							li
-								a(href=locals.url+'/penguin') Pingvingarden
+								a(href=locals.url+'/penguin')= t.nav.penguinorder
 							li
-								a(href=locals.url+'/page') Om siden
+								a(href=locals.url+'/page')= t.nav.page
 			.inner
 				block before_title
 				h1= page.title
@@ -64,11 +65,11 @@ html(lang=language)
 		footer
 			ul
 				li
-					a(href=locals.url) Hovedside
+					a(href=locals.url)= t.nav.index
 				li
-					a(href=locals.url+'/about') Om ordenen
+					a(href=locals.url+'/about')= t.nav.about
 				li
-					a(href=locals.url+'/person') Tildelinger
+					a(href=locals.url+'/person')= t.nav.insignia
 	script(type='text/javascript',src=locals.url+'/all.min.js')
 	script(type='text/javascript').
 		(function () {

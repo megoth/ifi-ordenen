@@ -21,7 +21,7 @@ block content
       strong= page.metadata.reason
   if page.metadata.previous
     each classname in page.metadata.previous
-      - classpage = contents.person[page.metadata.username][classname + '.md']
+      - classpage = contents.person[page.metadata.username][classname].index
       header
         h2 Tidligere tildelt: #{classpage.metadata.rank}
         p
