@@ -1,7 +1,9 @@
+- var filename = page.filepath.relative.split('/').pop();
+- var language = filename === 'index.md' ? 'no' : filename.split('.').shift();
 block vars
 	- var mainclass = null;
 doctype html
-html(lang='en')
+html(lang=language)
 	head
 		meta(charset='utf-8')
 		meta(name='viewport', content="width=device-width")
