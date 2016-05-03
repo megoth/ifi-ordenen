@@ -4,7 +4,6 @@ module.exports = {
 	'buildGithub': ['clean:build', 'wintersmith:github', 'sass', 'copy'],
   'buildOrdenen': ['clean:build', 'wintersmith:ordenen', 'sass', 'copy'],
   'deployGithub': [
-    'gitcheckout:github', 
     'buildGithub', 
     'gitadd:all', 
     'gitcommit:github',
