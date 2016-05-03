@@ -1,7 +1,7 @@
 ---
 title: Arne Hassel
 template: person.jade
-class: commander
+current: commander
 rank: Kommandør
 appointed: 2014
 reason: For hans trofaste og tålmodige arbeid ved Cybernetisk Selskab tildeles Arne Hassel graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.

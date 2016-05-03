@@ -1,4 +1,4 @@
 ---
-title: Matrikkel
+title: Personer
 template: persons.jade
 ---

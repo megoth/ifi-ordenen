@@ -1,7 +1,7 @@
 ---
 title: Marius Næss Olsen
 template: person.jade
-class: knight
+current: knight
 rank: Ridder
 appointed: 2013
 reason: For hans stødige arbeid og gode lederegenskaper som leder og nestleder i hovedstyret til Cybernetisk Selskab tildeles Marius Næss Olsen graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

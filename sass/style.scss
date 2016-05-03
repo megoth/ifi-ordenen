@@ -158,7 +158,7 @@ ul.persons {
 
 nav.penguins ul,
 nav.persons ul,
-ul.classes {
+ul.titles {
 	li {
 		@include clearfix;
 		padding:0;
@@ -176,9 +176,12 @@ ul.classes {
 	}
 }
 
-ul.classes {
+ul.titles {
 	margin: 0;
 	list-style-type: none;
+	li {
+		margin-bottom: 1em;
+	}
 }
 
 ul.overview {
@@ -190,7 +193,7 @@ ul.overview {
 	}
 }
 
-img.class,
+img.title,
 img.profile {
 	@include border-radius(50%);
 	@include box-sizing;
@@ -198,7 +201,7 @@ img.profile {
 	border: solid 1px $divider-color;
 	margin-bottom: 0.5em;
 }
-img.profile + img.class {
+img.profile + img.title {
 	$width: 40;
 	$offset: 10;
 	@include single-box-shadow(0, 0, 0);

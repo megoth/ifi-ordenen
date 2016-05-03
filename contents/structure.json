@@ -1,8 +1,8 @@
 {
-  "classes": {
-    "className": "classes",
-    "individual": "class",
-    "path": "/class/",
+  "titles": {
+    "className": "titles",
+    "individual": "title",
+    "path": "/title/",
     "hierarchy": [
       "grand_cross", 
       "commander_with_star", 
@@ -19,7 +19,7 @@
     "structure": [
       {
         "name": "Storkors",
-        "class": "grand_cross",
+        "title": "grand_cross",
         "members": [
           "geiraby", 
           "arnehass"
@@ -27,14 +27,14 @@
       },
       {
         "name": "Kommandør med stjerne",
-        "class": "commander_with_star",
+        "title": "commander_with_star",
         "members": [
           
         ]
       },
       {
         "name": "Kommandør",
-        "class": "commander",
+        "title": "commander",
         "members": [
           "oyvinbak", 
           "mshaugla", 
@@ -44,14 +44,14 @@
       },
       {
         "name": "Ridder av første klasse",
-        "class": "knight_first_class",
+        "title": "knight_first_class",
         "members": [
           "torgeirl"
         ]
       },
       {
         "name": "Ridder",
-        "class": "knight",
+        "title": "knight",
         "members": [
           "mariusno", 
           "henrihel", 
@@ -77,11 +77,17 @@
     "structure": [
       {
         "name": "Gardesjef",
-        "members": ["apt"]
+        "members": [
+          "apt"
+        ]
       },
       {
         "name": "Æresmedlemmer",
-        "members": ["tux", "stefanov", "svetlana"]
+        "members": [
+          "tux", 
+          "stefanov", 
+          "svetlana"
+        ]
       }
     ]
   }

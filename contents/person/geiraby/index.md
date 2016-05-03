@@ -1,7 +1,7 @@
 ---
 title: Geir Arild Byberg
 template: person.jade
-class: grand_cross
+current: grand_cross
 rank: Stormester
 appointed: 2011
 reason: For sitt uvurderlige arbeid i studentforeningene Cybernetisk Selskab og Mikro tildeles Geir Arild Byberg graden Stormester av Hennes Majestet Keiserpingvinen den Fornemmes orden.

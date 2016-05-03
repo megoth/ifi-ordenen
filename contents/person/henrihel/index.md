@@ -1,7 +1,7 @@
 ---
 title: Henrik Hellerøy
 template: person.jade
-class: knight
+current: knight
 rank: Ridder
 appointed: 2013
 reason: For hans brede engasjement i flere studentforeninger, hvis frukter studentmassen har nytt godt av, tildeles Henrik Hellerøy graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

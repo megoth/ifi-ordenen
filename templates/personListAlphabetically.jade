@@ -4,8 +4,8 @@ block prepend title
   | #{page.title} -
 
 block content
-  - var usernames = contents['structure.json'].metadata.persons.structure.reduce(function (memo, _class) {
-  -   return memo.concat(_class.members);
+  - var usernames = contents['structure.json'].metadata.persons.structure.reduce(function (memo, _title) {
+  -   return memo.concat(_title.members);
   - }, []).sort();
   nav.persons
     ul
@@ -15,9 +15,9 @@ block content
           a(href=locals.url+'/person/' + username)
             img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
           .info
-            - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (className) {
-            -   classPage = contents.person[username][className].index.metadata;
-            -   return classPage.rank+' ('+classPage.appointed+')';
+            - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (titleName) {
+            -   _title = contents.person[username][titleName].index.metadata;
+            -   return _title.rank+' ('+_title.appointed+')';
             - }));
             h3
               a(href=locals.url+'/person/' + username)= person.title

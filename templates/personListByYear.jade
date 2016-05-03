@@ -5,16 +5,16 @@ block prepend title
 
 block content
   - var years = {};
-  - contents['structure.json'].metadata.persons.structure.forEach(function (_class) {
-  -   _class.members.forEach(function (username) {
+  - contents['structure.json'].metadata.persons.structure.forEach(function (_title) {
+  -   _title.members.forEach(function (username) {
   -     var person = contents.person[username]['index.md'].metadata;
   -     years[person.appointed] = years[person.appointed] || [];
   -     person.username = username;
   -     years[person.appointed].push(person);
-  -     (person.previous || []).forEach(function (className) {
-  -       var previousClass = contents.person[username][className].index.metadata;
-  -       years[previousClass.appointed] = years[previousClass.appointed] || [];
-  -       years[previousClass.appointed].push(person);
+  -     (person.previous || []).forEach(function (titleName) {
+  -       var previousTitle = contents.person[username][titleName].index.metadata;
+  -       years[previousTitle.appointed] = years[previousTitle.appointed] || [];
+  -       years[previousTitle.appointed].push(person);
   -     })
   -   })
   - });

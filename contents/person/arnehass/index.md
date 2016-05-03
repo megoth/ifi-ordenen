@@ -1,7 +1,7 @@
 ---
 title: Arne Hassel
 template: person.jade
-class: grand_cross
+current: grand_cross
 rank: Stormester
 appointed: 2015
 reason: Hennes Majestet Keiserpingvinen den Fornemme anser det som opportunt at Arne Hassel skal lede Hennes Majestet Keiserpingvinen den Fornemmes orden med Storkorset og sverd-stokken i hende.

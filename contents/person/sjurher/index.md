@@ -1,7 +1,7 @@
 ---
 title: Sjur Hernes
 template: person.jade
-class: knight
+current: knight
 rank: Ridder
 appointed: 2015
 reason: Bidragene til Sjur Hernes er så mange at det er vanskelig å ramse opp alle. Men det er klart at hans stå på-vilje og innsats for en bedre studenttilværelse på Ifi har vært enormt viktig, og står som et eksempel for andre å følge. Det er en glede å tildele Sjur Hernes graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

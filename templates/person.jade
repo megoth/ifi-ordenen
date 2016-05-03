@@ -11,8 +11,8 @@ block before_title
   img.profile(src='thumb.jpg')
 
 block after_title
-  - var _class = contents.class[page.metadata.class]['index.md'].metadata;
-  p Tildelt #{_class.title} av Hennes Majestet Keiserpingvinen den Fornemmes orden
+  - var _title = contents.title[page.metadata.current]['index.md'].metadata;
+  p Tildelt #{_title.title} av Hennes Majestet Keiserpingvinen den Fornemmes orden
 
 block content
   != page.html
@@ -20,12 +20,12 @@ block content
     p
       strong= page.metadata.reason
   if page.metadata.previous
-    each classname in page.metadata.previous
-      - classpage = contents.person[page.metadata.username][classname].index
+    each titleName in page.metadata.previous
+      - _title = contents.person[page.metadata.username][titleName].index
       header
-        h2 Tidligere tildelt: #{classpage.metadata.rank}
+        h2 Tidligere tildelt: #{_title.metadata.rank}
         p
-          a(href=locals.url+'/person/year')  Tildelt #{classpage.metadata.appointed}
-      != classpage.html
+          a(href=locals.url+'/person/year')  Tildelt #{_title.metadata.appointed}
+      != _title.html
       p
-        strong= classpage.metadata.reason
+        strong= _title.metadata.reason

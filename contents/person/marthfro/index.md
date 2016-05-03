@@ -1,7 +1,7 @@
 ---
 title: Marte Hesvik Frøyen
 template: person.jade
-class: knight
+current: knight
 rank: Ridder
 appointed: 2015
 reason: For sitt uvurderlige arbeid i dagen@ifi og engasjement i Navet og Cybernetisk selskab, i tillegg til ekstra innsats for å bedre studentmiljøet ellers, tildeles Marte Hesvik Frøyen graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

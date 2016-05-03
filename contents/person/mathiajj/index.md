@@ -1,7 +1,7 @@
 ---
 title: Mathias Johan Johansen
 template: person.jade
-class: knight
+current: knight
 rank: Ridder
 appointed: 2015
 reason: For sitt engasjement i opprettelsen av linjeforeningen ProgNett tildeles Mathias Johan Johansen graden Ridder av Hennes Majest Keiserpingvinen den Fornemmes orden.

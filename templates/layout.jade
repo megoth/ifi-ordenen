@@ -18,6 +18,7 @@ html(lang=language)
 				block before_title
 				h1= page.title
 				block after_title
+			include ./navigation.jade
 		div(role="main")
 			block breadcrumbs
 				nav.breadcrumbs
@@ -40,13 +41,13 @@ html(lang=language)
 				li
 					a(href=locals.url+'/about')= t.nav.about
 				li
-					a(href=locals.url+'/person')= t.nav.insignia
+					a(href=locals.url+'/person')= t.nav.members
 	script(type='text/javascript').
 		(function () {
-			var mainNavigation = document.getElementById('#MainNavigation');
+			var mainNavigation = document.getElementById('MainNavigation');
 			var menuTrigger = document.getElementById('MenuTrigger');
 			var navIsHidden = true;
-			menuTrigger.onClick = function () {
+			menuTrigger.onclick = function () {
 				navIsHidden = !navIsHidden;
 				mainNavigation.style = 'display: ' + (navIsHidden ? 'none' : 'block');
 				mainNavigation.setAttribute('aria-hidden', navIsHidden); 

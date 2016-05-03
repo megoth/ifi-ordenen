@@ -1,10 +1,10 @@
-ul(class=root.className)
-  each _class in root.structure
+ul(title=root.className)
+  each _title in root.structure
     li
-      h3= _class.name
-      if _class.members.length > 0
+      h3= _title.name
+      if _title.members.length > 0
         ul.overview
-          each username in _class.members
+          each username in _title.members
             - var individual = contents[root.individual][username]['index.md'].metadata
             li
               a(href=locals.url + root.path + username)

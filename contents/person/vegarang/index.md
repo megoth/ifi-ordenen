@@ -1,7 +1,7 @@
 ---
 title: Vegard Angell
 template: person.jade
-class: knight
+current: knight
 rank: Ridder
 appointed: 2014
 reason: For hans arbeidsvilje og altoppslukende engasjement tildeles Vegard Angell graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.

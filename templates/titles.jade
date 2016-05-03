@@ -1,0 +1,19 @@
+extends layout
+
+block prepend title
+  | Titler -
+
+block vars
+  - var mainclass = 'titles';
+
+block content
+  != page.html
+  ul.titles
+    each titleName in contents['structure.json'].metadata.titles.hierarchy
+      li
+        - var _title = contents.title[titleName]['index.md']
+        img.class(src=locals.url+'/title/' + titleName + '/thumb.jpg', title=_title.title)
+        .info
+          h3= _title.metadata.title
+          != _title.html
+
