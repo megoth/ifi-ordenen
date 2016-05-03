@@ -13,8 +13,8 @@
 @import "./fonts";
 @import "./mixins";
 
-$small-width: 34em;
-$pad-width: 42em;
+$small-width: 36em;
+$pad-width: 45em;
 $desktop-width: 60em;
 
 $background-color: #fff;
@@ -63,12 +63,8 @@ a {
 	color: $link-color;
 }
 blockquote {
-	@include border-radius(0.5em);
-	@include single-box-shadow;
-	background-color: rgba(0, 0, 0, 0.2);
-	border: solid 1px $divider-color;
-	margin: 1em;
-	padding: 1em;
+	margin: 0.5em;
+	padding: 0.5em;
 	p:last-child {
 		margin-bottom: 0;
 	}
@@ -121,10 +117,8 @@ strong {
 			font-size: 1.5em;
 		}
 		img {
-			@include single-box-shadow(0, 0, 0);
-			border-color: rgba(255, 255, 255, 0.5);
-			border-width: 0.5em;
-			margin: 0;
+			// @include single-box-shadow(0, 0, 0);
+			background: rgba(255, 255, 255, 0.5);
 		}
 	}
 	ul {
@@ -135,6 +129,7 @@ strong {
 
 nav a {
 	display: block;
+	outline: 0;
 }
 
 nav.persons ul,
@@ -143,6 +138,9 @@ ul.penguins,
 ul.persons {
 	margin: 0;
 	list-style-type: none;
+	a {
+		outline: 0;
+	}
 }
 
 nav.penguins ul,
@@ -185,20 +183,29 @@ ul.overview {
 img.title,
 img.profile {
 	@include border-radius(50%);
-	@include box-sizing;
-	@include single-box-shadow;
-	border: solid 1px $divider-color;
+	// @include box-sizing;
+	// @include single-box-shadow;
+	// border: solid 0.5em $divider-color;
+	background: $elegant-background-color $elegant-background-image center center;
+	padding: 0.5em;
 	margin-bottom: 0.5em;
 }
-img.profile + img.title {
-	$width: 40;
-	$offset: 10;
-	@include single-box-shadow(0, 0, 0);
-	bottom: $offset * -1px;
-	left: ($width - $offset) * -1px;
-	position: relative;
-	width: $width * 1px;
+a:focus,
+a:hover {
+	img.title,
+	img.profile {
+		background: radial-gradient(navigation-color(0.1), navigation-color(1));
+	}
 }
+// img.profile + img.title {
+// 	$width: 40;
+// 	$offset: 10;
+// 	@include single-box-shadow(0, 0, 0);
+// 	bottom: $offset * -1px;
+// 	left: ($width - $offset) * -1px;
+// 	position: relative;
+// 	width: $width * 1px;
+// }
 
 footer {
 	border-top: solid 1px $divider-color;

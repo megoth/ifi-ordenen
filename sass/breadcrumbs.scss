@@ -53,6 +53,7 @@ nav.breadcrumbs ul {
     &:nth-child(2) a {
       @include breadcrumb-background-color(0.25);
     }
+    a:focus,
     a:hover  {
       @include breadcrumb-background-color(1);
     }

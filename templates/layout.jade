@@ -40,13 +40,9 @@ html(lang=language)
 				block content
 			block aside
 		footer
-			ul
-				li
-					a(href=locals.url)= t.nav.index
-				li
-					a(href=locals.url+'/person')= t.nav.person
-				li
-					a(href=locals.url+'/about')= t.nav.about
+			p &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
+				a(href=locals.url+'/page') mer om siden
+				| )
 	script(type='text/javascript').
 		(function () {
 			var mainNavigation = document.getElementById('MainNavigation');

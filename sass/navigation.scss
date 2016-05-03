@@ -15,19 +15,28 @@
   #MenuTrigger {
     background: transparent;
     border: 0;
+    cursor: pointer;
+    display: block;
     font-family: $font-content;
+    outline: 0;
+    padding: 0.5em;
     text-transform: uppercase;
-    &:before {
+    width: 100%;
+    span:before {
       content: '\f0c9';
       padding-right: 0.25em;
       font: normal normal normal 14px/1 FontAwesome;
+    }
+    &:focus,
+    &:hover {
+      background: navigation-color(0.5);
     }
   }
   &.open {
     #MainMenu {
       display: block;
     }
-    #MenuTrigger:before {
+    #MenuTrigger span:before {
       content: '\f00d';
     }
   }
