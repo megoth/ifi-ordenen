@@ -11,6 +11,7 @@
 @import "compass/utilities/general/clearfix";
 
 @import "./fonts";
+@import "./mixins";
 
 $small-width: 34em;
 $pad-width: 42em;
@@ -35,49 +36,13 @@ body {
   background-color: $background-color;
   color: $text-color;
   font-family: $font-content;
-  #MainNavigation {
-  	padding-top: 1em;
-  }
-	> header {
+	header {
+		@include clearfix;
 		text-align: center;
 	}
   > footer {
   	padding-bottom: 1em;
   }
-  &.association > header,
-  &.penguin > header,
-  &.person > header {
-  	background: $elegant-background-color $elegant-background-image center center;
-  	> .inner {
-			@include clearfix;
-	  	a,
-	  	h1,
-	  	p {
-				@include text-shadow(0 0 1px $elegant-background-color);
-		  	color: $elegant-color;
-	  	}
-	  	h1 {
-		  	font-family: $elegant-font-family;
-		  	font-size: 3em;
-	  	}
-	  	img {
-				@include single-box-shadow(0, 0, 0);
-				border-color: rgba(255, 255, 255, 0.5);
-				border-width: 0.5em;
-				margin: 0;
-	  	}
-  	}
-  }
-	&:not(.navigation-open) #MainNavigation .bar {
-  	.holder {
-  		background-color: rgba(0, 0, 0, 0.25);
-  	}
-  	.trigger span,
-  	.trigger span:after,
-  	.trigger span:before {
-  		background-color: #fff;
-  	}
-	}
 }
 
 @import "layout";
@@ -137,7 +102,31 @@ strong {
 }
 
 [role="main"] {
-	@include clearfix;
+	header:first-child {
+  	background: $elegant-background-color $elegant-background-image center center;
+		margin: 0.5em 0 1em;
+		padding: 1em 0;
+		a,
+		h2,
+		h3,
+		p {
+			@include text-shadow(0 0 1px $elegant-background-color);
+			color: $elegant-color;
+		}
+		h2 {
+			font-family: $elegant-font-family;
+			font-size: 3em;
+		}
+		h3 {
+			font-size: 1.5em;
+		}
+		img {
+			@include single-box-shadow(0, 0, 0);
+			border-color: rgba(255, 255, 255, 0.5);
+			border-width: 0.5em;
+			margin: 0;
+		}
+	}
 	ul {
 		list-style-type: disc;
 		margin: 0.75em 0 0.75em 1.25em;

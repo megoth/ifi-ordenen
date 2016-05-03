@@ -1,8 +1,5 @@
-
-#MainNavigation .bar,
-#MainNavigation nav .inner,
-[role="main"],
-body > header > .inner,
+[role="main"] .inner,
+body > header,
 body > footer {
   @media screen and (max-width: $pad-width) {
     padding: 0 1em;
@@ -17,6 +14,19 @@ body > footer {
   }
 }
 
-#MainNavigation nav .inner {
-  max-width: 24em;
+#MainNavigation {
+  @media screen and (max-width: $pad-width) {
+    #MainMenu {
+      display: none;
+    }
+  }
+  @media screen and (min-width: $pad-width) {
+    #MainMenu li {
+      display: inline-block;
+      width: 33.33%;
+    }
+    #MenuTrigger {
+      display: none;
+    }
+  }
 }

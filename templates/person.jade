@@ -12,20 +12,24 @@ block before_title
 
 block after_title
   - var _title = contents.title[page.metadata.current]['index.md'].metadata;
-  p Tildelt #{_title.title} av Hennes Majestet Keiserpingvinen den Fornemmes orden
+  p #{_title.title} i Hennes Majestet Keiserpingvinen den Fornemmes orden
 
 block content
   != page.html
   if page.metadata.reason
     p
       strong= page.metadata.reason
+        
+block aside
   if page.metadata.previous
     each titleName in page.metadata.previous
       - _title = contents.person[page.metadata.username][titleName].index
       header
-        h2 Tidligere tildelt: #{_title.metadata.rank}
+        .inner
+          h3 Tidligere tildelt: #{_title.metadata.rank}
+          p
+            a(href=locals.url+'/person/year')  Tildelt #{_title.metadata.appointed}
+      .inner
+        != _title.html
         p
-          a(href=locals.url+'/person/year')  Tildelt #{_title.metadata.appointed}
-      != _title.html
-      p
-        strong= _title.metadata.reason
+          strong= _title.metadata.reason

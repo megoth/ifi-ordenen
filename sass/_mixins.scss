@@ -1,0 +1,10 @@
+@function navigation-color($alpha) {
+  @return rgba($navigation-background-color-r, $navigation-background-color-g, $navigation-background-color-b, $alpha);
+}
+
+@mixin breadcrumb-background-color($alpha) {
+  background: navigation-color($alpha);
+  &:after {
+    border-left-color: navigation-color($alpha);
+  }
+}

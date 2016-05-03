@@ -1,116 +1,34 @@
-$width: 2em;
-$height: $width / 3 * 2;
-$lineHeight: 3px;
-$holderSize: $width * 1.5;
-
-#MainNavigation {
-  height: 100%;
-  left: 0;
-  pointer-events: none;
-  top: 0;
-  z-index: 100;
-  nav {
-    display: none;
-    height: calc(100% - #{$holderSize});
-    position: absolute;
+#MainMenu {
+  a {
+    display: block;
+    padding: 0.5em;
     text-transform: uppercase;
-    h2 {
-      border-bottom: solid 1px $divider-color;
-    }
-    a {
-      padding: 0.5em;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-  .bar {
-    @include clearfix;
-    cursor: pointer;
-    pointer-events: all;
-    .holder {
-      @include border-radius(50%);
-      background-color: $navigation-background-color;
-      border: solid 1px $divider-color;
-      font-family: Arial;
-      float: right;
-      height: $holderSize;
-      width: $holderSize;
-    }
-    .trigger {
-      @include single-transition(transform, 0.4s);
-      @include transform-style(preserve-3d);
-      background: transparent;
-      border-color: transparent;
-      cursor: pointer;
-      display: block;
-      height: $height;
-      left: 11px;
-      position: relative;
-      text-indent: -9999em;
-      top: 14px;
-      width: $width;
-    }
-    .trigger span,
-    .trigger span:before,
-    .trigger span:after {
-      @include single-transition(all, 0.2s);
-      background-color: $divider-color;
-      display: block;
-      position: absolute;
-      width: $width;
-      height: $lineHeight;
-      left: 0;
-    }
-    .trigger span:before,
-    .trigger span:after {
-      content: ""
-    }
-    .trigger span {
-      @include backface-visibility(hidden);
-      top: $lineHeight * 2;
-    }
-    .trigger span:before {
-      @include transform-origin(33%, 100%);
-      top: $lineHeight * -2;
-      z-index: 10;
-    }
-    .trigger span:after {
-      @include transform-origin(33%, 0);
-      top: $lineHeight * 2;
+    &:focus,
+    &:hover {
+      background-color: navigation-color(0.5);
     }
   }
 }
-body.navigation-open {
-  overflow: hidden;
-  #MainNavigation,
-  #MainNavigation nav {
-    background-color: rgba(255, 182, 25, 0.95);
-    z-index: 100;
-  }
-  #MainNavigation {
-    pointer-events: all;
-    nav {
-      display: block;
-      width: 100%;
+
+
+#MainNavigation {
+  #MenuTrigger {
+    background: transparent;
+    border: 0;
+    font-family: $font-content;
+    text-transform: uppercase;
+    &:before {
+      content: '\f0c9';
+      padding-right: 0.25em;
+      font: normal normal normal 14px/1 FontAwesome;
     }
-    .trigger {
-      @include transform(rotateY(180deg));
-      span,
-      span:before,
-      span:after {
-        background-color: transparent;
-        left: -1px;
-      }
-      span:before {
-        @include transform(translateY($lineHeight) rotate(45deg));
-        background-color: $divider-color;
-      }
-      span:after {
-        @include transform(translateY($lineHeight * -1) rotate(-45deg));
-        background-color: $divider-color;
-      }
+  }
+  &.open {
+    #MainMenu {
+      display: block;
+    }
+    #MenuTrigger:before {
+      content: '\f00d';
     }
   }
 }

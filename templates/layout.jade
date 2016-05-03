@@ -11,45 +11,51 @@ html(lang=language)
 		title
 			block title
 				| #{locals.title}
+		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
 		link(rel='stylesheet', href=locals.url+'/style.css')
 	body(class=mainclass)
 		header
-			.inner
-				block before_title
-				h1= page.title
-				block after_title
+			h1= locals.title
 			include ./navigation.jade
 		div(role="main")
-			block breadcrumbs
-				nav.breadcrumbs
-					ul
-						if page.parent && page.parent.parent.parent
-							- var crumb = page.parent.parent.parent.index
+			header
+				.inner
+					block before_title
+					h2= page.title
+					block after_title
+			.inner
+				block breadcrumbs
+					nav.breadcrumbs
+						ul
+							if page.parent && page.parent.parent.parent
+								- var crumb = page.parent.parent.parent.index
+								li
+									a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
+							if page.parent && page.parent.parent
+								- var crumb = page.parent.parent.index
+								li
+									a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
 							li
-								a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
-						if page.parent && page.parent.parent
-							- var crumb = page.parent.parent.index
-							li
-								a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
-						li
-							span= page.metadata.short || page.title
-			block content
+								span= page.metadata.short || page.title
+				block content
+			block aside
 		footer
 			ul
 				li
 					a(href=locals.url)= t.nav.index
 				li
-					a(href=locals.url+'/about')= t.nav.about
+					a(href=locals.url+'/person')= t.nav.person
 				li
-					a(href=locals.url+'/person')= t.nav.members
+					a(href=locals.url+'/about')= t.nav.about
 	script(type='text/javascript').
 		(function () {
 			var mainNavigation = document.getElementById('MainNavigation');
+			var mainMenu = document.getElementById('MainMenu');
 			var menuTrigger = document.getElementById('MenuTrigger');
 			var navIsHidden = true;
 			menuTrigger.onclick = function () {
 				navIsHidden = !navIsHidden;
-				mainNavigation.style = 'display: ' + (navIsHidden ? 'none' : 'block');
-				mainNavigation.setAttribute('aria-hidden', navIsHidden); 
+				mainNavigation.className = navIsHidden ? '' : 'open';
+				mainMenu.setAttribute('aria-hidden', navIsHidden); 
 			};
 		}());

@@ -1,28 +1,10 @@
-.bar
-  .holder
-    button#MenuTrigger.trigger
-      span= t.nav.menu
-nav#MainNavigation(aria-hidden="true")
-  .inner
-    h2= t.nav.order
+#MainNavigation
+  button#MenuTrigger= t.nav.menu
+  nav#MainMenu(aria-hidden="true")
     ul
       li
         a(href=locals.url)= t.nav.index
       li
+        a(href=locals.url+'/person')= t.nav.person
+      li
         a(href=locals.url+'/about')= t.nav.about
-    h2= t.nav.insignia
-    ul
-      li
-        a(href=locals.url+'/person')= t.nav.hierarchical
-      li
-        a(href=locals.url+'/person/alphabetically')= t.nav.alphabetical
-      li
-        a(href=locals.url+'/person/year')= t.nav.year
-    h2= t.nav.other
-    ul
-      li
-        a(href=locals.url+'/dictionary')= t.nav.dictionary
-      li
-        a(href=locals.url+'/penguin')= t.nav.penguinorder
-      li
-        a(href=locals.url+'/page')= t.nav.page

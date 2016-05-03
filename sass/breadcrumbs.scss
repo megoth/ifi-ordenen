@@ -1,14 +1,3 @@
-@function breadcrumb-color($alpha) {
-  @return rgba($navigation-background-color-r, $navigation-background-color-g, $navigation-background-color-b, $alpha);
-}
-
-@mixin breadcrumb-background-color($alpha) {
-  background: breadcrumb-color($alpha);
-  &:after {
-    border-left-color: breadcrumb-color($alpha);
-  }
-}
-
 nav.breadcrumbs ul {
   @include horizontal-list-container;
   margin: 0.5em 0;
