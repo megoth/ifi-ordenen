@@ -14,35 +14,6 @@ html(lang=language)
 		link(rel='stylesheet', href=locals.url+'/style.css')
 	body(class=mainclass)
 		header
-			#MainNavigation
-				.bar
-					.holder
-						button.trigger
-							span= t.nav.menu
-				nav(aria-hidden="true")
-					.inner
-						h2= t.nav.order
-						ul
-							li
-								a(href=locals.url)= t.nav.index
-							li
-								a(href=locals.url+'/about')= t.nav.about
-						h2= t.nav.insignia
-						ul
-							li
-								a(href=locals.url+'/person')= t.nav.hierarchical
-							li
-								a(href=locals.url+'/person/alphabetically')= t.nav.alphabetical
-							li
-								a(href=locals.url+'/person/year')= t.nav.year
-						h2= t.nav.other
-						ul
-							li
-								a(href=locals.url+'/dictionary')= t.nav.dictionary
-							li
-								a(href=locals.url+'/penguin')= t.nav.penguinorder
-							li
-								a(href=locals.url+'/page')= t.nav.page
 			.inner
 				block before_title
 				h1= page.title
@@ -70,16 +41,14 @@ html(lang=language)
 					a(href=locals.url+'/about')= t.nav.about
 				li
 					a(href=locals.url+'/person')= t.nav.insignia
-	script(type='text/javascript',src=locals.url+'/all.min.js')
 	script(type='text/javascript').
 		(function () {
-			var body = $('body');
-			var mainNavigation = $('#MainNavigation');
-			var nav = mainNavigation.children('nav');
+			var mainNavigation = document.getElementById('#MainNavigation');
+			var menuTrigger = document.getElementById('MenuTrigger');
 			var navIsHidden = true;
-			var trigger = mainNavigation.find('.bar').on('click', function () {
-				body.toggleClass('navigation-open');
+			menuTrigger.onClick = function () {
 				navIsHidden = !navIsHidden;
-				nav.attr('aria-hidden', navIsHidden);
-			});
+				mainNavigation.style = 'display: ' + (navIsHidden ? 'none' : 'block');
+				mainNavigation.setAttribute('aria-hidden', navIsHidden); 
+			};
 		}());

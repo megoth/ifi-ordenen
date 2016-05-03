@@ -20,27 +20,52 @@
       {
         "name": "Storkors",
         "class": "grand_cross",
-        "members": ["geiraby", "arnehass"]
+        "members": [
+          "geiraby", 
+          "arnehass"
+        ]
       },
       {
         "name": "Kommandør med stjerne",
         "class": "commander_with_star",
-        "members": []
+        "members": [
+          
+        ]
       },
       {
         "name": "Kommandør",
         "class": "commander",
-        "members": ["oyvinbak", "mshaugla", "magnujoh", "joshi"]
+        "members": [
+          "oyvinbak", 
+          "mshaugla", 
+          "magnujoh", 
+          "joshi"
+        ]
       },
       {
         "name": "Ridder av første klasse",
         "class": "knight_first_class",
-        "members": ["torgeirl"]
+        "members": [
+          "torgeirl"
+        ]
       },
       {
         "name": "Ridder",
         "class": "knight",
-        "members": ["mariusno", "henrihel", "vegarang", "johannhh", "mathiajj", "veronahe", "sjurher", "chrismi", "marthfro"]
+        "members": [
+          "mariusno", 
+          "henrihel", 
+          "vegarang", 
+          "johannhh", 
+          "mathiajj", 
+          "veronahe", 
+          "sjurher", 
+          "chrismi", 
+          "marthfro", 
+          "olekros",
+          "emiliha",
+          "kribrae"
+        ]
       }
     ]
   },
