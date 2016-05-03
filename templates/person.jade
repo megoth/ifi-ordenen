@@ -16,9 +16,10 @@ block after_title
 
 block content
   != page.html
-  if page.metadata.reason
-    p
-      strong= page.metadata.reason
+  p
+    strong= page.metadata.reason
+  p.info
+    a(href=locals.url+'/person/year#'+page.metadata.appointed) Tildelt #{page.metadata.appointed}
         
 block aside
   if page.metadata.previous
@@ -27,9 +28,9 @@ block aside
       header
         .inner
           h3 Tidligere tildelt: #{_title.metadata.rank}
-          p
-            a(href=locals.url+'/person/year')  Tildelt #{_title.metadata.appointed}
       .inner
         != _title.html
         p
           strong= _title.metadata.reason
+        p.info
+          a(href=locals.url+'/person/year#'+_title.metadata.appointed)  Tildelt #{_title.metadata.appointed}

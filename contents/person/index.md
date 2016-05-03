@@ -1,4 +1,4 @@
 ---
-title: Personer
+title: Medlemmer
 template: persons.jade
 ---

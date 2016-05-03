@@ -22,7 +22,7 @@ block content
     ul
       each year in Object.keys(years)
         li
-          h2= year
+          h2(id=year)= year
           ul.overview
             each person in years[year]
               li
