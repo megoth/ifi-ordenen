@@ -2,5 +2,9 @@
   "locals": {
     "url": "http://ordenen.ifi.uio.no",
     "title": "Ifi-ordenen"
+  },
+  "require": {
+    "marked": "marked",
+    "moment": "moment"
   }
 }

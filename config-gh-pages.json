@@ -2,5 +2,9 @@
   "locals": {
     "url": "http://megoth.github.io/ordenen-preview",
     "title": "Ifi-ordenen [Preview]"
+  },
+  "require": {
+    "marked": "marked",
+    "moment": "moment"
   }
 }
