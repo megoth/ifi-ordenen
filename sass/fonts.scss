@@ -1,8 +1,8 @@
-@font-face {
-  font-family: Ruthie-Regular-OTF;
-  src: url("./Ruthie-Regular-OTF.otf") format("opentype");
-}
+// @font-face {
+//   font-family: Ruthie-Regular-OTF;
+//   src: url("./Ruthie-Regular-OTF.otf") format("opentype");
+// }
 
-$font-content: monospace;
-$font-elegant: Ruthie-Regular-OTF;
-$font-title: monospace;
+$font-content: Arial, Tahoma, Verdama;
+$font-elegant: 'Open Sans', sans-serif;
+$font-title: Arial, Tahoma, Verdama;
