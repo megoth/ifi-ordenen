@@ -1,6 +1,7 @@
 - var filename = page.filepath.relative.split('/').pop();
 - var language = filename === 'index.md' ? 'no' : filename.split('.').shift();
 - var t = contents[language+'.json'].metadata;
+- moment.locale('nb');
 block vars
 	- var mainclass = null;
 doctype html

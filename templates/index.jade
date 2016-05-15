@@ -10,6 +10,8 @@ block breadcrumbs
 
 block content
   != page.html
+  h2 Nyheter
+  include ./articleList.jade
   h2 Medlemmer
   - var root = contents['structure.json'].metadata.persons
   include ./structure.jade

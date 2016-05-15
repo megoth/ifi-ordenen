@@ -8,6 +8,6 @@ ul(class=root.className)
             - var individual = contents[root.individual][username]['index.md'].metadata
             li
               a(href=locals.url + root.path + username)
-                img.profile(src=locals.url + root.path + username + '/thumb.jpg', title=individual.title)
+                img.profile(src=locals.url + root.path + username + '/thumb.jpg', alt=individual.title)
       else
         p= root.noMembersExplanation

@@ -2,5 +2,9 @@
   "locals": {
     "url": "http://localhost:8080",
     "title": "Ifi-ordenen"
+  },
+  "require": {
+    "marked": "marked",
+    "moment": "moment"
   }
 }

@@ -68,6 +68,9 @@ blockquote {
 		margin-bottom: 0;
 	}
 }
+img {
+	max-width: 100%;
+}
 em {
 	font-style: italic;
 }
@@ -107,11 +110,11 @@ strong {
 		p {
 			@include text-shadow(0 0 1px $elegant-background-color);
 			color: $elegant-color;
-			-webkit-text-stroke: 1px $elegant-background-color;
 		}
 		h2 {
 			font-family: $elegant-font-family;
 			font-size: 3em;
+			-webkit-text-stroke: 1px $elegant-background-color;
 		}
 		h3 {
 			font-size: 1.5em;
@@ -125,11 +128,15 @@ strong {
 		list-style-type: disc;
 		margin: 0.75em 0 0.75em 1.25em;
 	}
-}
+} 
 
 nav a {
 	display: block;
 	outline: 0;
+}
+
+nav.articles ul {
+	list-style-type: none;
 }
 
 nav.persons ul,
