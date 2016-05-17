@@ -1,6 +1,6 @@
 ---
-title: "Artikkel-samling"
-short: "artikler"
+title: "Nyheter"
+short: "Nyheter"
 template: articles.jade
 ---
 

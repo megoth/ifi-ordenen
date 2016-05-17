@@ -23,7 +23,8 @@ html(lang=language)
 			header
 				.inner
 					block before_title
-					h2= page.title
+					h2
+						!= page.title
 					block after_title
 			.inner
 				block breadcrumbs

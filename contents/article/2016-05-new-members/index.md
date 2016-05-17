@@ -1,5 +1,5 @@
 ---
-title: "Nye ordensmedlemmer våren 2016"
+title: "Nye ordens&shy;medlemmer våren 2016"
 author: arnehass
 date: 2016-05-15
 template: article.jade

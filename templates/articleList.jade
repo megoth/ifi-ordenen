@@ -6,7 +6,8 @@ nav.articles
         a(href=locals.url+article.url)
           img(src=locals.url+article.url+"/image.jpg", alt=article.metadata.image.desc+" (Foto: "+article.metadata.image.takenby+")")
         h3
-          a(href=locals.url+article.url)= article.metadata.title
+          a(href=locals.url+article.url)
+            != article.metadata.title
         p Publisert #{moment(page.metadata.date).format('LL')}
         != marked(article.metadata.ingress)
         p
