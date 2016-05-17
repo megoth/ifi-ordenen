@@ -1,10 +1,21 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "title": "Ifi-ordenen"
+    "title": "Ifi-ordenen",
+    "owner": "Stormester i Hennes Majestet Keiserpingvinen den Fornemmes orden",
+    "description": "Hennes Majestet Keiserpingvinen den Fornemmes orden på nett"
   },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
   "require": {
+    "_": "underscore",
     "marked": "marked",
-    "moment": "moment"
+    "moment": "moment",
+    "typogr": "typogr"
+  },
+  "paginator": {
+    "articles": "article",
+    "perPage": 5
   }
 }

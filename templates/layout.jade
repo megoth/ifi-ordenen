@@ -1,7 +1,8 @@
-- var filename = page.filepath.relative.split('/').pop();
-- var language = filename === 'index.md' ? 'no' : filename.split('.').shift();
+//- - var filename = page.filepath.relative.split('/').pop();
+//- - var language = filename === 'index.md' ? 'nb' : filename.split('.').shift();
+- var language = 'nb';
 - var t = contents[language+'.json'].metadata;
-- moment.locale('nb');
+- moment.locale(language);
 block vars
 	- var mainclass = null;
 doctype html
@@ -12,6 +13,7 @@ html(lang=language)
 		title
 			block title
 				| #{locals.title}
+		link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
 		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
 		link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
 		link(rel='stylesheet', href=locals.url+'/style.css')
@@ -24,7 +26,7 @@ html(lang=language)
 				.inner
 					block before_title
 					h2
-						!= page.title
+						!= page ? page.title : locals.title
 					block after_title
 			.inner
 				block breadcrumbs
