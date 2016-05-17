@@ -1,10 +1,21 @@
 {
   "locals": {
     "url": "http://megoth.github.io/ordenen-preview",
-    "title": "Ifi-ordenen [Preview]"
+    "title": "Ifi-ordenen [Preview]",
+    "owner": "Stormester i Hennes Majestet Keiserpingvinen den Fornemmes orden",
+    "description": "Hennes Majestet Keiserpingvinen den Fornemmes orden på nett"
   },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
   "require": {
+    "_": "underscore",
     "marked": "marked",
-    "moment": "moment"
+    "moment": "moment",
+    "typogr": "typogr"
+  },
+  "paginator": {
+    "articles": "article",
+    "perPage": 5
   }
 }
