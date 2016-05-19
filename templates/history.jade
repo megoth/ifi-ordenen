@@ -1,0 +1,25 @@
+extends layout
+
+block prepend title
+  | #{page.title} -
+
+block content
+  != page.html
+  - var pagesByYear = contents.history._.directories.map(function (item) { return item.index; }).sort(function (docA, docB) { return docA.metadata.year < docB.metadata.year ? -1 : 1; });
+  - var firstYear = pagesByYear[0].metadata.year;
+  - var lastYear = (new Date()).getFullYear();
+  - var years = {};
+  - for (var i = firstYear; i <= lastYear; i++) {
+  -   years[i] = _(pagesByYear).filter(function (page) { return page.metadata.year === i; });
+  - }
+  ul
+    each pages, year in years
+      li #{year}
+        if pages.length > 0
+          ul
+            each page in pages
+              li
+                if page.getView() !== 'none'
+                  a(href=page.url)= page.title
+                else
+                  != page.title
