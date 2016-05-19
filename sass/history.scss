@@ -1,0 +1,7 @@
+ul.history {
+  list-style-type: none;
+  margin: 0;
+  > li {
+    min-height: 3em;
+  }
+}

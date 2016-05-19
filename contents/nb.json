@@ -1,9 +1,11 @@
 {
+  "view": "none",
   "nav": {
     "about": "Om ordenen",
     "alphabetical": "Alfabetisk",
     "dictionary": "Ordbok",
     "hierarchical": "Hierarkisk",
+    "history": "Historie",
     "index": "Forside",
     "insignia": "Tildelinger",
     "members": "Medlemmer",
