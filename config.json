@@ -6,6 +6,7 @@
     "description": "Hennes Majestet Keiserpingvinen den Fornemmes orden på nett"
   },
   "plugins": [
+    "./plugins/ordenen.coffee",
     "./plugins/paginator.coffee"
   ],
   "require": {

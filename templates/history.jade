@@ -4,23 +4,24 @@ block prepend title
   | #{page.title} -
 
 block content
-  != page.html
-  - var pagesByYear = contents.history._.directories.map(function (item) { return item.index; }).sort(function (docA, docB) { return docA.metadata.year < docB.metadata.year ? -1 : 1; });
-  - var firstYear = pagesByYear[0].metadata.year;
-  - var lastYear = (new Date()).getFullYear();
-  - var years = {};
-  - for (var i = firstYear; i <= lastYear; i++) {
-  -   years[i] = _(pagesByYear).filter(function (page) { return page.metadata.year === i; });
-  - }
+  //- p= env.helpers.getYears(contents)
+  - var years = env.helpers.getYears(contents);
   ul.history
-    each pages, year in years
+    each year in _(years).reverse()
       li 
-        h3= year
-        if pages.length > 0
-          ul
-            each page in pages
-              li
-                if page.getView() !== 'none'
-                  a(href=page.url)= page.title
-                else
-                  != page.title
+        h3= year.year
+        ul
+          each event in year.events
+            li
+              if event.getView() !== 'none'
+                a(href=event.url)= event.title
+              else
+                != event.title
+          each appointment in year.appointments
+            if appointment.persons.length > 0
+              li Tildelt #{appointment.title}: 
+                each person, index in appointment.persons
+                  if index !== 0
+                    span , 
+                  a(href=person.url)= person.title
+  != page.html

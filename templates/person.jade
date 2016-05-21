@@ -27,7 +27,7 @@ block aside
       - _title = contents.person[page.metadata.username][titleName].index
       header
         .inner
-          h3 Tidligere tildelt: #{_title.metadata.rank}
+          h3(id=_title.metadata.current) Tidligere tildelt: #{_title.metadata.rank}
       .inner
         != _title.html
         p
