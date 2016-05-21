@@ -1,0 +1,15 @@
+extends layout
+
+block prepend title
+  | #{page.title} -
+
+block content
+  p År: #{page.metadata.year}
+  != page.html
+  if page.metadata.sources
+    h3 Kilder
+    ul
+      each source, index in env.helpers.getSources(page.metadata.sources)
+        li
+          != source
+  

@@ -1,9 +1,8 @@
 ---
-title: Institutt for informatikk opprettet
+title: Kirsten Nygaards hus åpnet
 tags: ifi
-year: 1977
+year: 1989
 sources:
-  - https://no.wikipedia.org/wiki/Institutt_for_informatikk_(UiO) Wikipedia
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hoydepunkter.html Cybernetisk Selskab 25 års-jubileumshefte
 view: none
 ---

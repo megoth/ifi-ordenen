@@ -1,11 +1,8 @@
 ---
-title: |
-  Cybernetisk Selskab opprettet
-tags: cyb
+title: Kybernetikk får sin første dosent (Lars Walløe)
+tags: ifi
 year: 1969
-date: 1969-02-17
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hefte.bakgr.og.hist.html Cybernetisk Selskab 25 års-jubileumshefte
-  - https://no.wikipedia.org/wiki/Institutt_for_informatikk_(UiO) Wikipedia
 view: none
 ---

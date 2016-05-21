@@ -4,24 +4,35 @@ block prepend title
   | #{page.title} -
 
 block content
-  //- p= env.helpers.getYears(contents)
-  - var years = env.helpers.getYears(contents);
+  != page.html
   ul.history
-    each year in _(years).reverse()
+    each year in env.helpers.getYears(contents)
       li 
         h3= year.year
         ul
           each event in year.events
-            li
+            li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '')
+              if event.metadata.date
+                span.date #{moment(event.date).format('LL')}:  
               if event.getView() !== 'none'
                 a(href=event.url)= event.title
               else
                 != event.title
-          each appointment in year.appointments
-            if appointment.persons.length > 0
-              li Tildelt #{appointment.title}: 
-                each person, index in appointment.persons
+              if event.metadata.sources
+                |  [
+                each source, index in env.helpers.getSources(event.metadata.sources)
                   if index !== 0
                     span , 
-                  a(href=person.url)= person.title
-  != page.html
+                  != source
+                | ]
+          if _(year.appointments.map(function (appointment) { return appointment.persons; })).flatten().length > 0
+            li.ifi-ordenen Tildelinger av Ifi-ordenen
+              ul
+                each appointment in year.appointments
+                  if appointment.persons.length > 0
+                    li Tildelt #{appointment.title}: 
+                      each person, index in appointment.persons
+                        if index !== 0
+                          span , 
+                        a(href=person.url)= person.title
+  p (Merk at tildelingene av Ifi-ordenen ikke nødvendigvis er listet i riktig rekkefølge her. Se <a href="../person/year">personer etter år</a> for mer nøyaktig fremstilling.)

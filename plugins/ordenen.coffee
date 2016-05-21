@@ -22,12 +22,13 @@ module.exports = (env, callback) ->
     years = []
     for i in [firstYear...lastYear+1]
       years.push(getYear(i, events, persons, titleHierarchy))
-    years
+    _(years).filter (year) -> year.events.length > 0 or _(year.appointments.map (appointment) -> appointment.persons).flatten().length > 0
   
   getYear = (year, events, persons, hierarchy) ->
     { 
       year: year, 
-      events: (_(events).filter (event) -> event.metadata.year is year),
+      events: ((_(events).filter (event) -> event.metadata.year is year).sort (docA, docB) -> 
+        if docA.date.getTime() and docB.date.getTime() then (if docA.date > docB.date then 1 else -1) else (if docA.date.getTime() and !docB.date.getTime() then -10 else (if docA.title < docB.title then -1 else 1))),
       appointments: (hierarchy.map (title) -> getAppointments year, title, persons)
     }
   
@@ -43,7 +44,19 @@ module.exports = (env, callback) ->
       name: (_(personHierarchy.structure).find (insignia) -> insignia.title is title).name
     }
   
+  getSources = (sources) ->
+    sources.map (source) ->
+      if source.match(/http/)
+        sourceParts = source.split ' '
+        sourceUrl = sourceParts[0]
+        sourceParts.shift()
+        sourceName = sourceParts.join ' '
+        "<a href=\"#{sourceUrl}\">#{sourceName}</a>"
+      else
+        source
+  
   # add helpers to the environment so we can use it later
+  env.helpers.getSources = getSources
   env.helpers.getYear = getYear
   env.helpers.getYears = getYears
 

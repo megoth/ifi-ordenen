@@ -1,0 +1,12 @@
+---
+title: CYB besøker Servomøtet for første gang
+tags: cyb
+year: 1969
+sources:
+  - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hoydepunkter.html Cybernetisk Selskab 25 års-jubileumshefte
+template: event.jade
+---
+
+Servomøtet arrangeres i dag av [Norsk Forening for Automatisering](http://www.nfaplassen.no/), og er den største møteplassen for automatiserings- og kybernetikkmiljøene i Norge.
+
+Cybernetisk Selskab hadde tradisjon ved å dra på dette annenhvert år, når UKA i Trondheim ble arrangert. Denne tradisjonen har dødd ut.  
