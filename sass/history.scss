@@ -1,7 +1,18 @@
+ol.references {
+  .selected {
+    background-color: navigation-color(0.5);
+  }  
+}
 ul.history {
   list-style-type: none;
   margin: 0;
   > li {
     min-height: 3em;
+  }
+  ul {
+    margin-top: 0.25em;
+  }
+  .event {
+    padding: 0.1em 0;
   }
 }

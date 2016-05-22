@@ -12,7 +12,7 @@ block content
         h3= year.year
         ul
           each event in year.events
-            li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '')
+            li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
               if event.metadata.date
                 span.date #{moment(event.date).format('LL')}:  
               if event.getView() !== 'none'
@@ -29,11 +29,11 @@ block content
                     != source
                   | ]
           if _(year.appointments.map(function (appointment) { return appointment.persons; })).flatten().length > 0
-            li.ifi-ordenen Tildelinger av Ifi-ordenen
+            li.event.ifi-ordenen Tildelinger av Ifi-ordenen
               ul
                 each appointment in year.appointments
                   if appointment.persons.length > 0
-                    li Tildelt #{appointment.title}: 
+                    li #{appointment.title}: 
                       each person, index in appointment.persons
                         if index !== 0
                           span , 
@@ -42,5 +42,51 @@ block content
   h3 Referanser
   ol.references
     each reference in references
-      li(id=reference.index)  
+      li(id=reference.index).reference  
         != reference.html
+        
+block script
+  script(type='text/javascript').
+    (function(window) {
+      // exit if the browser implements that event
+      if ( "onhashchange" in window.document.body ) { return; }
+
+      var location = window.location,
+        oldURL = location.href,
+        oldHash = location.hash;
+
+      // check the location hash on a 100ms interval
+      setInterval(function() {
+        var newURL = location.href,
+          newHash = location.hash;
+
+        // if the hash has changed and a handler has been bound...
+        if ( newHash != oldHash && typeof window.onhashchange === "function" ) {
+          // execute the handler
+          window.onhashchange({
+            type: "hashchange",
+            oldURL: oldURL,
+            newURL: newURL
+          });
+
+          oldURL = newURL;
+          oldHash = newHash;
+        }
+      }, 100);
+
+    })(window);
+    (function (window, document) {
+      markReference();
+      window.onhashchange = markReference;
+      
+      function markReference() {
+        var references = document.getElementsByClassName('reference');
+        for (var i = 0; i < references.length; i++) {
+          references[i].className = 'reference';
+        }
+        if (!window.location.hash) { return; }
+        var id = window.location.hash.substr(1);
+        var reference = document.getElementById(id);
+        reference.className += ' selected';
+      }
+    }(window, document));
