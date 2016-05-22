@@ -5,10 +5,15 @@ block prepend title
 
 block content
   != page.html
-  - var references = env.helpers.getReferences(contents) 
+  - var references = env.helpers.getReferences(contents)
+  #FilterHead
+    h3#FilterTitle Filter: 
+    p
+      a(href='?') Fjern filter
+    
   ul.history
     each year in env.helpers.getYears(contents)
-      li 
+      li.year(class=env.helpers.getClassesForYear(year))
         h3= year.year
         ul
           each event in year.events
@@ -39,6 +44,9 @@ block content
                           span , 
                         a(href=person.url)= person.title
   p (Merk at tildelingene av Ifi-ordenen ikke nødvendigvis er listet i riktig rekkefølge her. Se <a href="../person/year">personer etter år</a> for mer nøyaktig fremstilling.)
+  #Filters
+    h3 Tilgjengelige filter
+    ul.filters 
   h3 Referanser
   ol.references
     each reference in references
@@ -47,7 +55,7 @@ block content
         
 block script
   script(type='text/javascript').
-    (function(window) {
+    (function shimOnHashChange(window) {
       // exit if the browser implements that event
       if ( "onhashchange" in window.document.body ) { return; }
 
@@ -75,7 +83,7 @@ block script
       }, 100);
 
     })(window);
-    (function (window, document) {
+    (function highlightReferences(window, document) {
       markReference();
       window.onhashchange = markReference;
       
@@ -87,6 +95,85 @@ block script
         if (!window.location.hash) { return; }
         var id = window.location.hash.substr(1);
         var reference = document.getElementById(id);
+        if (!reference) { return; }
         reference.className += ' selected';
+      }
+    }(window, document));
+    (function getParameterByName (window) {
+      window._getParameterByName = getParameterByName;
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+    }(window));
+    (function setupFilters(window, document) {
+      var filters = {
+        'applitude': 'Applitude',
+        'cyb': 'Cybernetisk Selskab',
+        'dagen@ifi': 'dagen@ifi',
+        'defi': 'Defi',
+        'fifi': 'FIFI',
+        'ifi': 'Institutt for informatikk',
+        'ifi-avis': 'IFI-Avis',
+        'ifi-makers': 'IFI Makers',
+        'ifi-ordenen': 'Ifi-ordenen',
+        'ifi-rotor': 'IFI Rotor',
+        'ifi-sjakk': 'IFI sjakk',
+        'index': 'Index',
+        'mikro': 'Mikro',
+        'navet': 'Navet',
+        'prognett': 'ProgNett',
+        'svett': 'Svett',
+        'teknat': 'TekNat',
+        'uniplay': 'UniPlay',
+        'verdande': 'Verdande'
+      };
+      var filterSection = document.getElementById('Filters');
+      filterSection.style = 'display: block';
+      var list = filterSection.getElementsByClassName('filters')[0];
+      var filterKey = window._getParameterByName('filter');
+      if (filterKey) {
+        var filterHead = document.getElementById('FilterHead');
+        filterHead.style = 'display: block';
+        var filterTitle = document.getElementById('FilterTitle');
+        console.log(filterTitle);
+        filterTitle.innerText += ' ' + filters[filterKey];
+      }
+      Object.keys(filters).forEach(function (filterKey) {
+        var link = document.createElement('a');
+        link.setAttribute('href', '?filter='+filterKey);
+        link.innerText = filters[filterKey];
+        var listItem = document.createElement('li');
+        listItem.appendChild(link);
+        list.appendChild(listItem);
+      });
+    }(window, document));
+    (function filterEvents (window, document) {
+      filterEvent();
+      
+      function filterEvent() {
+        var filterKey = window._getParameterByName('filter');
+        if (!filterKey) { return; }
+        var years = document.getElementsByClassName('year');
+        for (var i = 0; i < years.length; i++) {
+          years[i].style = "display: none";
+        }
+        var filterYears = document.getElementsByClassName('year-'+filterKey);
+        for (var i = 0; i < filterYears.length; i++) {
+          filterYears[i].style = "display: list-item";
+        }
+        var events = document.getElementsByClassName('event');
+        for (var i = 0; i < events.length; i++) {
+          events[i].style = "display: none";
+        }
+        var filterEvents = document.getElementsByClassName(filterKey);
+        for (var i = 0; i < filterEvents.length; i++) {
+          filterEvents[i].style = "display: list-item";
+        }
       }
     }(window, document));

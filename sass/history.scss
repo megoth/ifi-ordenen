@@ -1,4 +1,9 @@
-ol.references {
+#FilterHead,
+#Filters {
+  display: none;  
+}
+ol.references,
+ul.history {
   .selected {
     background-color: navigation-color(0.5);
   }  

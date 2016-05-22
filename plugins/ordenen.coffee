@@ -71,7 +71,13 @@ module.exports = (env, callback) ->
       }
     references
   
+  getClassesForYear = (year) ->
+    eventTags = _(year.events.map (event) -> if event.metadata.tags then event.metadata.tags.split(', ') else []).flatten()
+    appointmentTags = if _(year.appointments.map (appointment) -> appointment.persons).flatten().length > 0 then ['ifi-ordenen'] else []
+    _(eventTags.concat(appointmentTags)).uniq().map (tag) -> "year-#{tag}"
+  
   # add helpers to the environment so we can use it later
+  env.helpers.getClassesForYear = getClassesForYear
   env.helpers.getReferences = getReferences
   env.helpers.getSources = getSources
   env.helpers.getYear = getYear
