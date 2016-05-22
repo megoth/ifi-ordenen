@@ -44,18 +44,35 @@ module.exports = (env, callback) ->
       name: (_(personHierarchy.structure).find (insignia) -> insignia.title is title).name
     }
   
-  getSources = (sources) ->
-    sources.map (source) ->
-      if source.match(/http/)
-        sourceParts = source.split ' '
-        sourceUrl = sourceParts[0]
+  getSources = (sources, references) ->
+    sources.map (source) -> getSource source, references
+  
+  getSource = (source, references) -> 
+    if source.match(/http/)
+      sourceParts = source.split ' '
+      sourceUrl = sourceParts[0]
+      if references and references[sourceUrl]
+        "<a href=\"\##{references[sourceUrl].index}\">#{references[sourceUrl].index}</a>"
+      else
         sourceParts.shift()
         sourceName = sourceParts.join ' '
         "<a href=\"#{sourceUrl}\">#{sourceName}</a>"
-      else
-        source
+    else
+      source
+  
+  getReferences = (contents) ->
+    years = getYears(contents)
+    references = {}
+    (_(years.map (year) -> year.events.map (event) -> event.metadata.sources).chain().flatten().uniq().value().filter (source) -> source).forEach (source, index) ->
+      key = (source.split ' ')[0]
+      references[key] = {
+        html: getSource(source),
+        index: index + 1
+      }
+    references
   
   # add helpers to the environment so we can use it later
+  env.helpers.getReferences = getReferences
   env.helpers.getSources = getSources
   env.helpers.getYear = getYear
   env.helpers.getYears = getYears
