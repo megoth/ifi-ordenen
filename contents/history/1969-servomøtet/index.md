@@ -1,5 +1,5 @@
 ---
-title: CYB besøker Servomøtet for første gang
+title: Cybernetisk Selskab besøker Servomøtet for første gang
 tags: cyb
 year: 1969
 sources:

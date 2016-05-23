@@ -1,5 +1,5 @@
 ---
-title: Tradisjonen med øl og spekemat til generalforsamling innlemmes i CYB
+title: Tradisjonen med øl og spekemat til generalforsamling innlemmes i Cybernetisk Selskab
 short: Øl og spekemat
 tags: cyb
 year: 1971
