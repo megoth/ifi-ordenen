@@ -1,5 +1,5 @@
 ---
-title: Første ekskursjon til USA i regi av CYB
+title: Første ekskursjon til USA i regi av Cybernetisk Selskab
 tags: cyb
 year: 1984
 sources:

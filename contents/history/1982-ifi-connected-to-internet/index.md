@@ -4,6 +4,6 @@ tags: cyb
 year: 1982
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/ifi.historie.html Cybernetisk Selskab 25 års-jubileumshefte
-  - https://no.wikipedia.org/wiki/Internett Wikipedia
+  - https://no.wikipedia.org/wiki/Internett Internett - Wikipedia
 view: none
 ---

@@ -1,4 +1,5 @@
 _ = require 'underscore'
+moment = require 'moment'
 
 module.exports = (env, callback) ->
   # *env* is the current wintersmith environment
@@ -20,17 +21,19 @@ module.exports = (env, callback) ->
     titleHierarchy = contents['structure.json'].metadata.titles.hierarchy.map (title) -> getTitle(title, personHierarchy)
      
     years = []
-    for i in [firstYear...lastYear+1]
+    for i in [lastYear+1...firstYear]
       years.push(getYear(i, events, persons, titleHierarchy))
     _(years).filter (year) -> year.events.length > 0 or _(year.appointments.map (appointment) -> appointment.persons).flatten().length > 0
   
   getYear = (year, events, persons, hierarchy) ->
     { 
       year: year, 
-      events: ((_(events).filter (event) -> event.metadata.year is year).sort (docA, docB) -> 
-        if docA.date.getTime() and docB.date.getTime() then (if docA.date > docB.date then 1 else -1) else (if docA.date.getTime() and !docB.date.getTime() then -10 else (if docA.title < docB.title then -1 else 1))),
+      events: ((_(events).filter (event) -> event.metadata.year is year).sort (docA, docB) -> getSortValue(docA) > getSortValue(docB)),
       appointments: (hierarchy.map (title) -> getAppointments year, title, persons)
     }
+  
+  getSortValue = (doc) -> getTime(doc.date, doc.metadata.year) + doc.title
+  getTime = (date, year) -> if date.getTime() is 0 then moment([year, 11, 31]).toDate().getTime() else date.getTime()
   
   getAppointments = (year, title, persons) -> 
     {
@@ -79,6 +82,7 @@ module.exports = (env, callback) ->
   # add helpers to the environment so we can use it later
   env.helpers.getClassesForYear = getClassesForYear
   env.helpers.getReferences = getReferences
+  env.helpers.getSortValue = getSortValue
   env.helpers.getSources = getSources
   env.helpers.getYear = getYear
   env.helpers.getYears = getYears

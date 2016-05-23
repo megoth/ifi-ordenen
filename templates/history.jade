@@ -19,9 +19,18 @@ block content
           each event in year.events
             li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
               if event.metadata.date
-                span.date #{moment(event.date).format('LL')}:  
+                span.date #{moment(event.date).format('D. MMMM')}: 
               if event.getView() !== 'none'
-                a(href=event.url)= event.title
+                | #{event.title} (
+                a(href=event.url) les mer
+                | )
+              else if event.metadata.url
+                | #{event.title} (
+                each text, index in _(event.metadata.url).keys()
+                  if index !== 0
+                    | , 
+                  a(href=event.metadata.url[text])= text
+                | )
               else
                 != event.title
               if event.metadata.sources
@@ -113,25 +122,25 @@ block script
     }(window));
     (function setupFilters(window, document) {
       var filters = {
-        'applitude': 'Applitude',
-        'cyb': 'Cybernetisk Selskab',
+        'Applitude': 'applitude',
+        'Cybernetisk Selskab': 'cyb',
         'dagen@ifi': 'dagen@ifi',
-        'defi': 'Defi',
-        'fifi': 'FIFI',
-        'ifi': 'Institutt for informatikk',
-        'ifi-avis': 'IFI-Avis',
-        'ifi-makers': 'IFI Makers',
-        'ifi-ordenen': 'Ifi-ordenen',
-        'ifi-rotor': 'IFI Rotor',
-        'ifi-sjakk': 'IFI sjakk',
-        'index': 'Index',
-        'mikro': 'Mikro',
-        'navet': 'Navet',
-        'prognett': 'ProgNett',
-        'svett': 'Svett',
-        'teknat': 'TekNat',
-        'uniplay': 'UniPlay',
-        'verdande': 'Verdande'
+        'Designforeningen ved IFI (Defi)': 'defi',
+        'Fotball ved Institutt for Informatikk (FIFI)': 'fifi',
+        'IFI-Avis': 'ifi-avis',
+        'IFI Makers': 'ifi-makers',
+        'Ifi-ordenen': 'ifi-ordenen',
+        'IFI Rotor': 'ifi-rotor',
+        'IFI sjakk': 'ifi-sjakk',
+        'Index': 'index',
+        'Institutt for informatikk': 'ifi',
+        'Nanoelektronikk, Robotikk og Digital Signalbehandling (Mikro)': 'mikro',
+        'Navet': 'navet',
+        'ProgNett': 'prognett',
+        'Svett': 'svett',
+        'Tekniske og Naturvitenskapelige anvendelser (TekNat)': 'teknat',
+        'UniPlay': 'uniplay',
+        'Verdande': 'verdande'
       };
       var filterSection = document.getElementById('Filters');
       filterSection.style = 'display: block';
@@ -141,13 +150,15 @@ block script
         var filterHead = document.getElementById('FilterHead');
         filterHead.style = 'display: block';
         var filterTitle = document.getElementById('FilterTitle');
-        console.log(filterTitle);
-        filterTitle.innerText += ' ' + filters[filterKey];
+        var filterName = Object.keys(filters).find(function (filterName) {
+          return filters[filterName] === filterKey
+        });
+        filterTitle.innerText += ' ' + filterName;
       }
-      Object.keys(filters).forEach(function (filterKey) {
+      Object.keys(filters).forEach(function (filterText) {
         var link = document.createElement('a');
-        link.setAttribute('href', '?filter='+filterKey);
-        link.innerText = filters[filterKey];
+        link.setAttribute('href', '?filter='+filters[filterText]);
+        link.innerText = filterText;
         var listItem = document.createElement('li');
         listItem.appendChild(link);
         list.appendChild(listItem);
