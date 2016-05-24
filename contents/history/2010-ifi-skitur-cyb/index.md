@@ -1,5 +1,6 @@
 ---
 title: Regi av IFI Skitur overtas av Cybernetisk Selskab
+short: IFI Skitur overtas av CYB
 tags: cyb, prosit
 year: 2010
 sources:
