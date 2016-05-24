@@ -1,5 +1,5 @@
 ---
-title: Studentforeningen Designforeningen ved IFI (Defi) opprettet
+title: Linjeforeningen Designforeningen ved IFI (Defi) opprettet
 tags: defi
 year: 2015
 sources:
