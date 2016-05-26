@@ -1,6 +1,6 @@
 ---
 title: |
-  I kjølvannet av inaktiviteten til Programutvalget for Informatikk: språk og kommunikasjon (PI:SK) tar noen nye ildsjeler over roret i august, og gjenoppretter foreningen
+  I kjølvannet av den uformelle nedleggelsen til Programutvalget for Informatikk: språk og kommunikasjon (PI:SK) tar nye ildsjeler over roret og gjenoppretter foreningen igjen
 tags: pisk
 year: 2014
 view: none
