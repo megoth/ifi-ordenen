@@ -35,13 +35,16 @@ html(lang=language)
 							if page.parent && page.parent.parent.parent
 								- var crumb = page.parent.parent.parent.index
 								li
-									a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
+									a(href=locals.url+crumb.url)
+										!= crumb.metadata.short || crumb.title
 							if page.parent && page.parent.parent
 								- var crumb = page.parent.parent.index
 								li
-									a(href=locals.url+crumb.url)= crumb.metadata.short || crumb.title
+									a(href=locals.url+crumb.url)
+										!= crumb.metadata.short || crumb.title
 							li
-								span= page.metadata.short || page.title
+								span
+									!= page.metadata.short || page.title
 				block content
 			block aside
 		footer
