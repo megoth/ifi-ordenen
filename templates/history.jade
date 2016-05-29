@@ -10,7 +10,6 @@ block content
     h3#FilterTitle Filter: 
     p
       a(href='?') Fjern filter
-    
   ul.history
     each year in env.helpers.getYears(contents)
       li.year(class=env.helpers.getClassesForYear(year))
@@ -18,30 +17,7 @@ block content
         ul
           each event in year.events
             li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
-              if event.metadata.date
-                span.date #{moment(event.date).format('D. MMMM')}: 
-              if event.getView() !== 'none'
-                | #{event.title} (
-                a(href=event.url) les mer
-                | )
-              else if event.metadata.url
-                | #{event.title} (
-                each text, index in _(event.metadata.url).keys()
-                  if index !== 0
-                    | , 
-                  a(href=event.metadata.url[text])= text
-                | )
-              else
-                != event.title
-              if event.metadata.sources
-                |  
-                sup
-                  | [
-                  each source, index in env.helpers.getSources(event.metadata.sources, references)
-                    if index !== 0
-                      span , 
-                    != source
-                  | ]
+              include history-event.jade
           if _(year.appointments.map(function (appointment) { return appointment.persons; })).flatten().length > 0
             li.event.ifi-ordenen Tildelinger av Ifi-ordenen
               ul
@@ -52,6 +28,12 @@ block content
                         if index !== 0
                           span , 
                         a(href=person.url)= person.title
+          if year.minor.length > 0
+            li(class=_(env.helpers.getClassesForEvents(year.minor)).uniq()).event Mindre hendelser
+              ul
+                each event in year.minor
+                  li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
+                    include history-event.jade
   p (Merk at tildelingene av Ifi-ordenen ikke nødvendigvis er listet i riktig rekkefølge her. Se <a href="../person/year">personer etter år</a> for mer nøyaktig fremstilling.)
   #Filters
     h3 Tilgjengelige filter

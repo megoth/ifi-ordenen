@@ -1,0 +1,24 @@
+if event.metadata.date
+  span.date #{moment(event.date).format('D. MMMM')}: 
+if event.getView() !== 'none'
+  | #{event.title} (
+  a(href=event.url) les mer
+  | )
+else if event.metadata.url
+  | #{event.title} (
+  each text, index in _(event.metadata.url).keys()
+    if index !== 0
+      | , 
+    a(href=event.metadata.url[text])= text
+  | )
+else
+  != event.title
+if event.metadata.sources
+  |  
+  sup
+    | [
+    each source, index in env.helpers.getSources(event.metadata.sources, references)
+      if index !== 0
+        span , 
+      != source
+    | ]

@@ -1,7 +1,7 @@
 ---
 title: |
   Debatten "Kan datamaskinen erstatte politikeren?" arrangert, og ble Cybernetisk Selskabs første opptreden i medias søkelys
-tags: cyb
+tags: cyb, minor
 year: 1969
 date: 1969-10-05
 sources:

@@ -1,7 +1,7 @@
 ---
 title: Cybernetisk Selskab besøker Servomøtet for første gang
 short: CYB besøker Servomøtet
-tags: cyb
+tags: cyb, minor
 year: 1969
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hoydepunkter.html Cybernetisk Selskab 25 års-jubileumshefte
