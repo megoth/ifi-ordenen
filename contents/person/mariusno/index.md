@@ -5,6 +5,7 @@ current: knight
 rank: Ridder
 appointed: 2013
 reason: For hans stødige arbeid og gode lederegenskaper som leder og nestleder i hovedstyret til Cybernetisk Selskab tildeles Marius Næss Olsen graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+associations: cyb, dagen
 ---
 
 Marius Næss Olsen engasjerte seg i [Cybernetisk Selskab](http://cyb.no/) og [dagen@ifi](http://www.dagenatifi.no/) i løpet av sin studenttid. I førstnevnte var han først nestleder, og så steg han inn i rollen som leder, og var hele tiden sentral i å bygge opp Cybernetisk Selskab som organisasjon.

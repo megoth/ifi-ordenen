@@ -21,7 +21,7 @@ module.exports = (env, callback) ->
     titleHierarchy = contents['structure.json'].metadata.titles.hierarchy.map (title) -> getTitle(title, personHierarchy)
      
     years = []
-    for i in [lastYear+1...firstYear]
+    for i in [lastYear...firstYear-1]
       years.push(getYear(i, events, persons, titleHierarchy))
     _(years).filter (year) -> (year.events.concat year.minor).length > 0 or _(year.appointments.map (appointment) -> appointment.persons).flatten().length > 0
   
@@ -78,6 +78,16 @@ module.exports = (env, callback) ->
       }
     references
     
+  getReferencesForHistory = (years) ->
+    references = {}
+    (_(years.map (year) -> (year.events.concat year.minor).map (event) -> event.metadata.sources).chain().flatten().uniq().value().filter (source) -> source).forEach (source, index) ->
+      key = (source.split ' ')[0]
+      references[key] = {
+        html: getSource(source),
+        index: index + 1
+      }
+    references
+    
   getClassesForEvents = (events) ->
     _(events.map (event) -> if event.metadata.tags then event.metadata.tags.split(', ') else []).flatten()
   
@@ -87,14 +97,59 @@ module.exports = (env, callback) ->
     minorTags = _(year.minor.map (event) -> if event.metadata.tags then event.metadata.tags.split(', ') else []).flatten()
     _(eventTags.concat(appointmentTags).concat(minorTags)).uniq().map (tag) -> "year-#{tag}"
   
+  getPersonsForTag = (contents, tag) ->
+    ((contents.person._.directories.map (person) -> person.index).filter (person) -> 
+      ((if person.metadata.associations then person.metadata.associations.split(', ').indexOf tag else -1) isnt -1)).sort (docA, docB) ->
+        if getSortValueForPerson(docA) < getSortValueForPerson(docB) then 1 else -1 
+  
+  getSortValueForPerson = (person) ->
+    10000 * getSortValueForInsignia(person.metadata.current) - person.metadata.appointed
+  
+  getSortValueForInsignia = (insignia) ->
+    switch insignia
+      when 'grand_cross' then 10000
+      when 'commander_with_star' then 8000
+      when 'commander' then 6000
+      when 'knight_first_class' then 4000
+      when 'knight' then 2000
+      else 0
+  
+  getYearsForTag = (contents, tag) ->
+    events = (contents.history._.directories.map (event) -> event.index).filter (event) ->
+      ((if event.metadata.tags then event.metadata.tags.split(', ') else []).indexOf tag) isnt -1
+    if events.length > 0
+      firstYear = (events.sort (docA, docB) -> if docA.metadata.year < docB.metadata.year then -1 else 1)[0].metadata.year
+      lastYear = (new Date()).getFullYear()
+      years = []
+      for i in [lastYear...firstYear-1]
+        years.push(getYear(i, events, [], []))
+      _(years).filter (year) -> (year.events.concat year.minor).length > 0 or _(year.appointments.map (appointment) -> appointment.persons).flatten().length > 0
+    else
+      []
+  
+  getTitleName = (contents, title) ->
+    contents.title[title].index.title
+  
+  getAssociation = (contents, associationTag) ->
+    if contents.association[associationTag] then contents.association[associationTag].index else null
+  
+  getAssociations = (contents) ->
+    contents.association._.directories.map (association) -> association.index
+  
   # add helpers to the environment so we can use it later
+  env.helpers.getAssociation = getAssociation
+  env.helpers.getAssociations = getAssociations
   env.helpers.getClassesForEvents = getClassesForEvents
   env.helpers.getClassesForYear = getClassesForYear
+  env.helpers.getPersonsForTag = getPersonsForTag
   env.helpers.getReferences = getReferences
+  env.helpers.getReferencesForHistory = getReferencesForHistory
   env.helpers.getSortValue = getSortValue
   env.helpers.getSources = getSources
+  env.helpers.getTitleName = getTitleName
   env.helpers.getYear = getYear
   env.helpers.getYears = getYears
+  env.helpers.getYearsForTag = getYearsForTag
 
   # tell plugin manager we are done
   callback()

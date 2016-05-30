@@ -8,3 +8,41 @@ block vars
 
 block content
   != page.html
+  if page.metadata.url
+    p
+      strong Nettside: 
+      a(href=page.metadata.url)= page.metadata.url.replace('http://', '').replace('https://', '').replace(/\/$/, '')
+  - var persons = env.helpers.getPersonsForTag(contents, page.metadata.tag)
+  if persons.length > 0
+    h3 Ordensbærere
+    ul
+      each person in persons
+        - var username = person.filepath.relative.split('/')[1]
+        - var individual = person.metadata
+        li 
+          a(href=person.url)= person.title
+          span  (#{env.helpers.getTitleName(contents, individual.current)})
+  - var years = env.helpers.getYearsForTag(contents, page.metadata.tag)
+  - var references = env.helpers.getReferencesForHistory(years)
+  if years.length > 0
+    h3 Historie
+    ul.history
+      each year in years
+        li.year
+          h4= year.year
+          ul
+            each event in year.events
+              li.event
+                include history-event.jade
+            if year.minor.length > 0
+              li.event Mindre hendelser
+                ul
+                  each event in year.minor
+                    li.event
+                      include history-event.jade
+  if Object.keys(references).length > 0
+    h3 Referanser
+    ol.references
+      each reference in references
+        li(id=reference.index).reference  
+          != reference.html

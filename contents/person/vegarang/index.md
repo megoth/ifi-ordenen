@@ -5,6 +5,7 @@ current: knight
 rank: Ridder
 appointed: 2014
 reason: For hans arbeidsvilje og altoppslukende engasjement tildeles Vegard Angell graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+associations: cyb, fui
 ---
 
 Vegard Angell har viet mye av sin studietid til engasjement på [Institutt for informatikk](http://ifi.uio.no/). Han har vært innom [Cybernetisk Selskab](http://cyb.no/), [Fagutvalget ved Institutt for informatikk](http://fui.ifi.uio.no/), og var også med som styremedlem i gjennomføringen av 200-års bursdagsfeiringen av Universitetet i Oslo.

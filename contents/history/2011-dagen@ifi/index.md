@@ -1,6 +1,6 @@
 ---
 title: dagen@ifi arrangert
-tags: dagen@ifi, minor 
+tags: dagen, minor 
 year: 2011
 view: none
 ---

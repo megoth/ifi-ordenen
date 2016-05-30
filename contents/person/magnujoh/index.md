@@ -5,6 +5,7 @@ current: commander
 rank: Kommandør
 appointed: 2012
 reason: For hans sentrale og aktive arbeid i både oppstarten av Escape, men også oppfølging de påfølgende årene med vise råd og god teft, tildeles Magnus Johansen graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+associations: cyb
 ---
 
 Magnus Johansen engasjerte seg tidlig i studiet, og den nye studentkjelleren på Ole-Johan Dahls hus ble hans hjertebarn. Som pubens første kjellermogul bygde han stedet opp, etablerte det første kjellerstyret, og gjorde det til en åpen og sosial møteplass for studentene på Institutt for informatikk.

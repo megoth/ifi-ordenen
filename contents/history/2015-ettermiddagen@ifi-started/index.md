@@ -1,6 +1,6 @@
 ---
 title: ettermiddagen@ifi arrangert for første gang, ment å gi en liten smak av dagen@ifi på vårsemesteret
-tags: dagen@ifi
+tags: dagen
 year: 2015
 date: 2015-05-13
 sources:

@@ -1,6 +1,6 @@
 ---
 title: Studentforeningen dagen@ifi stiftet
-tags: dagen@ifi
+tags: dagen
 year: 2003
 sources:
   - http://www.mn.uio.no/ifi/livet-rundt-studiene/organisasjoner/dagen.html dagen@ifi - Institutt for informatikk

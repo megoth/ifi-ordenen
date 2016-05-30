@@ -5,6 +5,7 @@ current: commander
 rank: Kommandør
 appointed: 2012
 reason: For sitt brede og iherdige engasjement på Institutt for informatikk tildeles Martin Haugland graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+associations: cyb, dagen, prosit, mikro
 ---
 
 Martin Haugland har vært engasjert i flere foreninger på Institutt for informatikk: [Cybernetisk Selskab](http://cyb.no/), [dagen@ifi](http://dagen.at.ifi.uio.no/), Ifi fadderordning, ProsIT, og Mikro. Han var også sentral i arbeidet med å videreføre tradisjonen med Ifi skitur til Hemsedal da ProsIT ble lagt ned.

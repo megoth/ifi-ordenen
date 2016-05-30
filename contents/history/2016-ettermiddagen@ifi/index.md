@@ -1,6 +1,6 @@
 ---
 title: ettermiddagen@ifi arrangert
-tags: dagen@ifi, minor
+tags: dagen, minor
 year: 2016
 date: 2016-05-04
 sources:
