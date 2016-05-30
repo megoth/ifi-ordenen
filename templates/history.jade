@@ -8,8 +8,10 @@ block content
   - var references = env.helpers.getReferences(contents)
   #FilterHead
     h3#FilterTitle Filter: 
-    p
-      a(href='?') Fjern filter
+  #Filters
+    form
+      label Filter: 
+      select(name='filter')
   ul.history
     each year in env.helpers.getYears(contents)
       li.year(class=env.helpers.getClassesForYear(year))
@@ -34,10 +36,6 @@ block content
                 each event in year.minor
                   li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
                     include history-event.jade
-  p (Merk at tildelingene av Ifi-ordenen ikke nødvendigvis er listet i riktig rekkefølge her. Se <a href="../person/year">personer etter år</a> for mer nøyaktig fremstilling.)
-  #Filters
-    h3 Tilgjengelige filter
-    ul.filters 
   h3 Referanser
   ol.references
     each reference in references
@@ -117,6 +115,7 @@ block script
         'IFI sjakk': 'ifi-sjakk',
         'Index': 'index',
         'Institutt for informatikk': 'ifi',
+        'Matematikk, algoritmer og programmering for studenter (MAPS)': 'maps',
         'Nanoelektronikk, Robotikk og Digital Signalbehandling (Mikro)': 'mikro',
         'Navet': 'navet',
         'PING': 'ping',
@@ -131,7 +130,6 @@ block script
       };
       var filterSection = document.getElementById('Filters');
       filterSection.style = 'display: block';
-      var list = filterSection.getElementsByClassName('filters')[0];
       var filterKey = window._getParameterByName('filter');
       if (filterKey) {
         var filterHead = document.getElementById('FilterHead');
@@ -142,14 +140,25 @@ block script
         });
         filterTitle.innerText += ' ' + filterName;
       }
+      var form = filterSection.getElementsByTagName('form')[0];
+      var select = filterSection.getElementsByTagName('select')[0];
+      select.appendChild(createOption('', 'Alle'));
       Object.keys(filters).forEach(function (filterText) {
-        var link = document.createElement('a');
-        link.setAttribute('href', '?filter='+filters[filterText]);
-        link.innerText = filterText;
-        var listItem = document.createElement('li');
-        listItem.appendChild(link);
-        list.appendChild(listItem);
+        select.appendChild(createOption(filters[filterText], filterText, filterKey));
       });
+      select.onchange = function () {
+        form.submit();
+      };
+      
+      function createOption(value, text, selectedKey) {
+        var option = document.createElement('option');
+        option.setAttribute('value', value);
+        option.innerText = text;
+        if (selectedKey && value === selectedKey) {
+          option.setAttribute('selected', true);
+        }
+        return option;
+      }
     }(window, document));
     (function filterEvents (window, document) {
       filterEvent();

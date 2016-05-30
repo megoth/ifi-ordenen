@@ -3,6 +3,8 @@ title: Linjeforeningen Profesjonsstudentene ved Institutt for Informatikk (ProsI
 short: ProsIT etablert
 tags: prosit
 year: 2001
+url: 
+  foreningsside: ../association/prosit
 sources:
   - http://prosit.wiki.ifi.uio.no/Historie Historie - ProsIT
 template: event.jade
