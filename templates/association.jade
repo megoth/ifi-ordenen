@@ -20,7 +20,7 @@ block content
         - var username = person.filepath.relative.split('/')[1]
         - var individual = person.metadata
         li 
-          a(href=person.url)= person.title
+          a(href=locals.url+person.url)= person.title
           span  (#{env.helpers.getTitleName(contents, individual.current)})
   - var years = env.helpers.getYearsForTag(contents, page.metadata.tag)
   - var references = env.helpers.getReferencesForHistory(years)

@@ -16,4 +16,4 @@ PI:SK er en videreføring av programutvalgene for programmene IT-SLP og SLI.
 
 **Aktiviteter:** fagkveld og allmøte
 
-**Programstue:** Hundremeterskogen (rom 3467, Fortran )
+**Programstue:** Hundremeterskogen (rom 3467, Fortran)
