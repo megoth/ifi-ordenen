@@ -10,8 +10,8 @@ block content
     h3#FilterTitle Filter: 
   #Filters
     form
-      label Filter: 
-      select(name='filter')
+      label(for="filterSelection") Filter: 
+      select(id="filterSelection", name='filter')
   ul.history
     each year in env.helpers.getYears(contents)
       li.year(class=env.helpers.getClassesForYear(year))

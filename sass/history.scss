@@ -1,6 +1,18 @@
 #FilterHead,
 #Filters {
-  display: none;  
+  display: none;
+  label,
+  select {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }  
+  select {
+    @include border-radius(0);
+    background-color: navigation-color(0.5);
+    border: solid 1px $divider-color;
+    color: $text-color;
+  }
 }
 ol.references,
 ul.history {
