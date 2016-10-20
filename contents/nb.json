@@ -3,6 +3,7 @@
   "nav": {
     "about": "Om ordenen",
     "alphabetical": "Alfabetisk",
+    "associations": "Foreninger",
     "dictionary": "Ordbok",
     "hierarchical": "Hierarkisk",
     "history": "Historie",
@@ -10,6 +11,7 @@
     "insignia": "Tildelinger",
     "members": "Medlemmer",
     "menu": "Meny",
+    "nominate": "Nominér",
     "order": "Ordenen",
     "other": "Annet",
     "page": "Om siden",

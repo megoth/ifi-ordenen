@@ -1,10 +1,10 @@
 # Ifi-ordenen
 
-Dette er en enkel nettside for Ifi-ordenen.
+Dette er kildekoden til nettsiden for Ifi-ordenen.
 
 Den skal ligge på [ordenen.ifi.uio.no](http://ordenen.ifi.uio.no) og bare bestå av kompilerte HTML-, CSS- og JS-filer.
 
-Den har to sider:
+Den har to hovedfunksjonaliteter:
 
 1. Forside: Introduksjon av ordenen, oversikt over medlemmer
 2. Medlemside: Alle medlemmer har en egen side
@@ -15,6 +15,7 @@ For å bygge siden, kjør `grunt build`. Anbefalt oppsett for utvikling er å kj
 
 ## Eksisterende innhold
 
+* Oppdateringer
 * Mottagere av Ifi-ordenen
 * Tildelinger (hierarkisk, alfabetisk, etter år)
 * Om ordenen
@@ -25,7 +26,6 @@ For å bygge siden, kjør `grunt build`. Anbefalt oppsett for utvikling er å kj
 ## Fremtidig innhold
 
 * Ordenstegn
-* Nyheter
 * Engelske oversettelser (til vurdering)
 * Oversikt over foreninger (til diskusjon)
 
@@ -33,7 +33,7 @@ For å bygge siden, kjør `grunt build`. Anbefalt oppsett for utvikling er å kj
 
 * Navigér til bygget: `cd build`
 * Sjekk at du er på riktig branch: `git checkout ordenen`
-* Bygg ny versjon: `grunt ordenen`
+* Bygg ny versjon: `grunt buildOrdenen`
 * Commit endringer: `git add . && git commit -m "<Begrunnelse>"`
 * Push endringer: `git push origin ordenen`
 * Logg inn på en av Ifi sine servere: `ssh <brukernavn>@login.ifi.uio.no`

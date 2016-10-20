@@ -21,9 +21,10 @@ body > footer {
     }
   }
   @media screen and (min-width: $pad-width) {
+    $number_of_menu_items: 4;
     #MainMenu li {
       display: inline-block;
-      width: 33.33%;
+      width: 100% / $number_of_menu_items;
     }
     #MenuTrigger {
       display: none !important;
