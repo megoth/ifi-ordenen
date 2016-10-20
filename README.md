@@ -39,4 +39,5 @@ For å bygge siden, kjør `grunt build`. Anbefalt oppsett for utvikling er å kj
 * Logg inn på en av Ifi sine servere: `ssh <brukernavn>@login.ifi.uio.no`
 * Navigér til nettsidens mappe: `cd /projects/ifi-ordenen/www_docs`
 * Pull endringer: `git pull origin ordenen`
+  * Om den er litt krass med auto-merge, husk at du kan auto-merge og alltid ta versjonen som ligger klar med: `git pull -s recursive -X theirs origin ordenen`
 * Sjekk at rettigheter er som de bør være
