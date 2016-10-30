@@ -4,7 +4,7 @@ moment = require 'moment'
 module.exports = (env, callback) ->
   # *env* is the current wintersmith environment
   # *callback* should be called when the plugin has finished loading
-  
+
   getYears = (contents) ->
     events = contents.history._.directories.map (item) -> item.index
     firstYear = (events.sort (docA, docB) -> if docA.metadata.year < docB.metadata.year then -1 else 1)[0].metadata.year
@@ -135,6 +135,9 @@ module.exports = (env, callback) ->
   
   getAssociations = (contents) ->
     contents.association._.directories.map (association) -> association.index
+
+  sortArticles = (articles) ->
+    articles.sort (artA, artB) -> if artA.date > artB.date then -1 else 1
   
   # add helpers to the environment so we can use it later
   env.helpers.getAssociation = getAssociation
@@ -150,6 +153,7 @@ module.exports = (env, callback) ->
   env.helpers.getYear = getYear
   env.helpers.getYears = getYears
   env.helpers.getYearsForTag = getYearsForTag
+  env.helpers.sortArticles = sortArticles
 
   # tell plugin manager we are done
   callback()

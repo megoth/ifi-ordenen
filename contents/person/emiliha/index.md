@@ -1,10 +1,10 @@
 ---
 title: Emilie Hallgren
 template: person.jade
-current: knight
-rank: Ridder
+current: commander
+rank: Kommandør
 appointed: 2016
-reason: For sitt engasjement i studentmiljøet på Ifi gjennom Navet, FUI, og flere fadderstyrer tildeles Emilie Hallgren tittelen Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+reason: For sitt engasjement i studentmiljøet på Ifi gjennom Navet, FUI, og flere fadderstyrer tildeles Emilie Hallgren tittelen Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 associations: navet, fui
 ---
 

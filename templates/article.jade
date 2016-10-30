@@ -9,7 +9,9 @@ block vars
 block content
   figure
     img(src="image.jpg")
-    figcaption #{page.metadata.image.desc} (Foto: #{page.metadata.image.takenby})
+    figcaption #{page.metadata.image.desc}
+      if page.metadata.image.takenby
+        |  (Foto: #{page.metadata.image.takenby})
   p
     strong
       != marked(page.metadata.ingress)

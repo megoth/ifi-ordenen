@@ -11,7 +11,13 @@ block breadcrumbs
 block content
   != page ? page.html : ''
   h2 Oppdateringer
-  include ./articleList.jade
+  - var article = env.helpers.getArticles(contents)[0];
+  nav.articles
+    ul
+      li
+        include ./articleListItem
+  p
+    a(href="/article") Arkiv
   h2 Medlemmer
   - var root = contents['structure.json'].metadata.persons
   include ./structure.jade

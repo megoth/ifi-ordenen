@@ -1,0 +1,13 @@
+figure
+    a(href=locals.url + article.url)
+        img(src=locals.url + article.url + "/image.jpg")
+    figcaption #{article.metadata.image.desc}
+        if article.metadata.image.takenby
+            |  (Foto: #{article.metadata.image.takenby})
+h3
+    a(href=locals.url + article.url)
+        != article.metadata.title
+p Publisert #{moment(article.metadata.date).format('LL')}
+!= marked(article.metadata.ingress)
+p
+    a(href=locals.url + article.url) Les mer

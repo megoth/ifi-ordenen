@@ -29,7 +29,7 @@
         "name": "Kommandør med stjerne",
         "title": "commander_with_star",
         "members": [
-          
+          "joshi"
         ]
       },
       {
@@ -38,35 +38,37 @@
         "members": [
           "oyvinbak", 
           "mshaugla", 
-          "magnujoh", 
-          "joshi"
+          "magnujoh",
+          "mariusno",
+          "mathiajj",
+          "olekros",
+          "emiliha",
+          "kribrae"
         ]
       },
       {
         "name": "Ridder av første klasse",
         "title": "knight_first_class",
         "members": [
-          "torgeirl"
+          "torgeirl",
+          "henrihel",
+          "mortend",
+          "helgany"
         ]
       },
       {
         "name": "Ridder",
         "title": "knight",
         "members": [
-          "mariusno", 
-          "henrihel", 
           "vegarang", 
-          "johannhh", 
-          "mathiajj", 
+          "johannhh",
           "veronahe", 
           "sjurher", 
           "chrismi", 
-          "marthfro", 
-          "olekros",
-          "emiliha",
-          "kribrae",
+          "marthfro",
           "kirstid",
-          "krishbr"
+          "krishbr",
+          "narvet"
         ]
       }
     ]

@@ -13,6 +13,7 @@
 @import "./fonts";
 @import "./mixins";
 
+$smallest-width: 20em;
 $small-width: 40em;
 $pad-width: 45em;
 $desktop-width: 60em;
@@ -31,6 +32,9 @@ $elegant-background-color: rgba(0, 0, 0, 0.75);
 $elegant-color: #fff;
 $elegant-font-family: $font-elegant;
 
+* {
+	box-sizing: border-box;
+}
 body {
   background-color: $background-color;
   color: $text-color;
@@ -52,8 +56,8 @@ footer {
 		margin-bottom: 0.5em;
 		li {
 			@include horizontal-list-item;
-			margin: 0.25em 0.25em 0 0;
 			padding: 0;
+			text-align: center;
 		}
 	}	
 }
@@ -101,6 +105,10 @@ strong {
 }
 
 [role="main"] {
+	figure figcaption {
+		color: $elegant-background-color;
+		font-size: 0.9em;
+	}
 	header:first-child {
 		background-color: $elegant-background-color;
 		background: radial-gradient($elegant-background-color, rgba(0, 0, 0, 0.85));
@@ -148,8 +156,8 @@ strong {
 		margin: 0.75em 0 0.75em 1.25em;
 	}
 	sup { 
-    vertical-align: super;
-    font-size: x-small;
+		vertical-align: super;
+		font-size: x-small;
 	}
 } 
 

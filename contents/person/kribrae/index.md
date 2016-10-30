@@ -1,10 +1,10 @@
 ---
 title: Kristin Brænden
 template: person.jade
-current: knight
-rank: Ridder
+current: commander
+rank: Kommandør
 appointed: 2016
-reason: For sitt engasjement i studentmiljøet på Ifi gjennom Navet og hennes innsatsvilje for andre foreninger tildeles Kristin Brænden tittelen Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+reason: For sitt engasjement i studentmiljøet på Ifi gjennom Navet og hennes innsatsvilje for andre foreninger tildeles Kristin Brænden tittelen Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 associations: navet, fui
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: Henrik Hellerøy
 template: person.jade
-current: knight
-rank: Ridder
+current: knight_first_class
+rank: Ridder av første klasse
 appointed: 2013
-reason: For hans brede engasjement i flere studentforeninger, hvis frukter studentmassen har nytt godt av, tildeles Henrik Hellerøy graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+reason: For hans brede engasjement i flere studentforeninger, hvis frukter studentmassen har nytt godt av, tildeles Henrik Hellerøy graden Ridder av første klasse av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 associations: cyb, dagen, navet
 ---
 

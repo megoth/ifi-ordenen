@@ -1,10 +1,10 @@
 ---
 title: Marius Næss Olsen
 template: person.jade
-current: knight
-rank: Ridder
+current: commander
+rank: Kommandør med stjerne
 appointed: 2013
-reason: For hans stødige arbeid og gode lederegenskaper som leder og nestleder i hovedstyret til Cybernetisk Selskab tildeles Marius Næss Olsen graden Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+reason: For hans stødige arbeid og gode lederegenskaper som leder og nestleder i hovedstyret til Cybernetisk Selskab tildeles Marius Næss Olsen graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 associations: cyb, dagen
 ---
 

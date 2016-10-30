@@ -13,10 +13,10 @@ html(lang=language)
 		title
 			block title
 				| #{locals.title}
-		link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+		link(rel='alternate', href=locals.url + '/feed.xml', type='application/rss+xml', title=locals.description)
 		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
 		link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
-		link(rel='stylesheet', href=locals.url+'/style.css')
+		link(rel='stylesheet', href=locals.url + '/style.css')
 	body(class=mainclass)
 		header
 			h1= locals.title
@@ -35,12 +35,12 @@ html(lang=language)
 							if page.parent && page.parent.parent.parent
 								- var crumb = page.parent.parent.parent.index
 								li
-									a(href=locals.url+crumb.url)
+									a(href=locals.url + crumb.url)
 										!= crumb.metadata.short || crumb.title
 							if page.parent && page.parent.parent
 								- var crumb = page.parent.parent.index
 								li
-									a(href=locals.url+crumb.url)
+									a(href=locals.url + crumb.url)
 										!= crumb.metadata.short || crumb.title
 							li
 								span
@@ -48,8 +48,18 @@ html(lang=language)
 				block content
 			block aside
 		footer
+			nav#MoreMenu
+				ul
+					li
+						a(href=locals.url+'/association')= t.nav.associations
+					li
+						a(href=locals.url+'/history')= t.nav.history
+					li
+						a(href=locals.url+'/title')= t.nav.titles
+					li
+						a(href=locals.url+'/dictionary')= t.nav.dictionary
 			p &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
-				a(href=locals.url+'/page') mer om siden
+				a(href=locals.url + '/page') mer om siden
 				| )
 	script(type='text/javascript').
 		(function () {
@@ -60,7 +70,7 @@ html(lang=language)
 			menuTrigger.onclick = function () {
 				navIsHidden = !navIsHidden;
 				mainNavigation.className = navIsHidden ? '' : 'open';
-				mainMenu.setAttribute('aria-hidden', navIsHidden); 
+				mainMenu.setAttribute('aria-hidden', navIsHidden);
 			};
 		}());
 	block script

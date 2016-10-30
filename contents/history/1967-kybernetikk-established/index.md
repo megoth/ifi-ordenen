@@ -1,7 +1,7 @@
 ---
 title: Linjen kybernetikk tilbys for første gang ved Fysisk Institutt
 short: Linjen kybernetikk opprettes
-tags: ifi, cyb
+tags: ifi, cyb, minor
 year: 1967
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hefte.bakgr.og.hist.html Cybernetisk Selskab 25 års-jubileumshefte

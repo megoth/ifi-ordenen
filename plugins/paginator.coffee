@@ -8,7 +8,7 @@ module.exports = (env, callback) ->
     articles: 'articles' # directory containing contents to paginate
     first: 'index.html' # filename/url for first page
     filename: 'page/%d/index.html' # filename for rest of pages
-    perPage: 2 # number of articles per page
+    perPage: 10 # number of articles per page
 
   # assign defaults any option not set in the config file
   options = env.config.paginator or {}
@@ -22,7 +22,7 @@ module.exports = (env, callback) ->
     # skip articles that does not have a template associated
     articles = articles.filter (item) -> item.template isnt 'none'
     # sort article by date
-    articles.sort (a, b) -> b.date - a.date
+    articles.sort (a, b) -> if b.date < a.date then -1 else 1
     return articles
 
   class PaginatorPage extends env.plugins.Page

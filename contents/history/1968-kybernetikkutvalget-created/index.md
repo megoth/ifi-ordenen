@@ -1,7 +1,7 @@
 ---
 title: Kybernetikkutvalget opprettet i håp om å ordne vitenskapelige stillinger for kybernetikk-linjen
 short: Kybernetikkutvalget opprettet
-tags: ifi, cyb
+tags: ifi, cyb, minor
 year: 1968
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hefte.bakgr.og.hist.html Cybernetisk Selskab 25 års-jubileumshefte

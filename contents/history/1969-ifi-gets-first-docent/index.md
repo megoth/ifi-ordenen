@@ -1,6 +1,6 @@
 ---
 title: Linjen kybernetikk får sin første dosent
-tags: ifi
+tags: ifi, minor
 year: 1969
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hefte.bakgr.og.hist.html Cybernetisk Selskab 25 års-jubileumshefte

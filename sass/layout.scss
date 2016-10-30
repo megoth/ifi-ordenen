@@ -14,6 +14,26 @@ body > footer {
   }
 }
 
+body > footer {
+  #MoreMenu li {
+    display: inline-block;
+    padding: 0.5em;
+    width: 100%;
+  }
+  @media screen and (min-width: $smallest-width) {
+    $number_of_menu_items: 2;
+    #MoreMenu li {
+      width: 100% / $number_of_menu_items;
+    }
+  }
+  @media screen and (min-width: $small-width) {
+    $number_of_menu_items: 4;
+    #MoreMenu li {
+      width: 100% / $number_of_menu_items;
+    }
+  }
+}
+
 #MainNavigation {
   @media screen and (max-width: $pad-width) {
     #MainMenu {

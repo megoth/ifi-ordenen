@@ -1,10 +1,10 @@
 ---
 title: Ole Kristian Rosvold
 template: person.jade
-current: knight
-rank: Ridder
+current: commander
+rank: Kommandør
 appointed: 2016
-reason: For sitt engasjement i studentmiljøet på Ifi gjennom blant annet dagen@ifi og CYB tildeles Ole Kristian Rosvold tittelen Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+reason: For sitt engasjement i studentmiljøet på Ifi gjennom blant annet dagen@ifi og CYB tildeles Ole Kristian Rosvold tittelen Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 associations: dagen, cyb, navet
 ---
 

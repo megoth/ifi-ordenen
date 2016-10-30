@@ -1,10 +1,10 @@
 ---
 title: Suhas Govind Joshi
 template: person.jade
-current: commander
-rank: Kommandør
+current: commander_with_star
+rank: Kommandør med stjerne
 appointed: 2015
-reason: For sitt arbeid som initiativtaker og koordinator av foreningsfesten på Institutt for informatikk tildeles Suhas Govind Joshi graden Kommandør av Hennes Majestet Keiserpingvinen den Fornemmes orden.
+reason: For sitt arbeid som initiativtaker og koordinator av foreningsfesten på Institutt for informatikk tildeles Suhas Govind Joshi graden Kommandør med stjerne av Hennes Majestet Keiserpingvinen den Fornemmes orden.
 associations: ifi
 ---
 
