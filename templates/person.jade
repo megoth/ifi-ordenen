@@ -34,11 +34,11 @@ block aside
           strong= _title.metadata.reason
         p.info
           a(href=locals.url+'/person/year#'+_title.metadata.appointed)  Tildelt #{_title.metadata.appointed}
-  //- if page.metadata.associations
-  //-   .inner
-  //-     h3 Foreninger/Organisasjoner
-  //-     ul
-  //-       each associationTag in page.metadata.associations.split(', ').sort()
-  //-         - var association = env.helpers.getAssociation(contents, associationTag)
-  //-         li
-  //-           a(href=locals.url+association.url)= association.title
+  if page.metadata.associations
+    .inner
+      h3 Foreninger/Organisasjoner
+      ul
+        each associationTag in page.metadata.associations.split(', ').sort()
+          - var association = env.helpers.getAssociation(contents, associationTag)
+          li
+            a(href=locals.url+association.url)= association.title

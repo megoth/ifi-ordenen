@@ -21,13 +21,7 @@ body > footer {
     width: 100%;
   }
   @media screen and (min-width: $smallest-width) {
-    $number_of_menu_items: 2;
-    #MoreMenu li {
-      width: 100% / $number_of_menu_items;
-    }
-  }
-  @media screen and (min-width: $small-width) {
-    $number_of_menu_items: 4;
+    $number_of_menu_items: 3;
     #MoreMenu li {
       width: 100% / $number_of_menu_items;
     }
