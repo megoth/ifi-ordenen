@@ -3,6 +3,7 @@ title: Regi av IFI Skitur overtas av Cybernetisk Selskab
 short: IFI Skitur overtas av CYB
 tags: cyb, prosit
 year: 2010
+date: 2010-03-19
 sources:
   - https://confluence.cyb.no/display/AKTIV/IFI+Skitur+Hemsedal+2010 Hemsedal 2010 - CYB wiki (krever innlogging)
 template: event.jade

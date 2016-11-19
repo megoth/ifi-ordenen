@@ -1,7 +1,7 @@
 ---
 title: dagen@ifi arrangert
 tags: dagen, minor 
-year: 2010
-date: 2010-10-28
+year: 2016
+date: 2016-10-13
 view: none
 ---
