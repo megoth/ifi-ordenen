@@ -7,5 +7,6 @@ block vars
   - var mainclass = 'persons';
 
 block content
+  != page.html
   - var root = contents['structure.json'].metadata.persons
   include ./structure.jade
