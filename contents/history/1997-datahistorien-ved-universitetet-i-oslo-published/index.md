@@ -1,5 +1,6 @@
 ---
-title: Datahistorien ved Universitetet i Oslo - Institutt for informatik 1977 - 1997
+title: Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997
+short: Datahistorien 1977 - 1997, del 2
 tags: ifi, minor
 year: 1997
 template: event.jade
@@ -9,7 +10,7 @@ template: event.jade
 
 *Kopiering til nettside er gjort av [Arne Hassel](../../person/arnehass), da den ikke lå tilgjengelig på nett i tekst-søkbart format. Noen justeringer er gjort i overføringen til nettside. De tekstlige delene som er endret eller lagt til er merket med klammeparentes. Om du finner feil eller har forslag til forbedringer, [ta gjerne kontakt](../../about/#kontakt-oss).*
 
-# Datahistorien ved Universitetet i Oslo - Institutt for informatik 1977 - 1997
+# Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997
 
 <figure>
   <a href="./forside.jpg"><img src="./forside.jpg" /></a>
@@ -21,7 +22,7 @@ template: event.jade
 
 <figure>
   <a href="./kollasj.jpg"><img src="./kollasj.jpg" /></a>
-  <figcaption>Kollasj fra heftet, med diverse bilder fra Institutt for informatikk sin historie.</figcaption>
+  <figcaption>[Kollasj fra heftet, med diverse bilder fra Institutt for informatikk sin historie.]</figcaption>
 </figure>
 
 ## Forord
@@ -67,9 +68,12 @@ Det Elektroniske Regneanlegg Wegematic 1000 ble åpnet i 1960. Hele den vitenska
 
 Avdeling for Numerisk analyse, Avdeling D, Matematisk institutt ble opprettet i 1964 og var en omorganisering av det tidligere regneanlegget. Avdelingen ble tillagt to oppgaver - undervisning og drift av regneanlegget. Amble ledet avdelingen de to første årene. Per Ofstad tok over denne funksjonen i 1966 og var datasjef til 1970. Dag Belsnes ble tilsatt i amanuensisstillingen i 1967.
 
-<blockquote><p>Ole-Johan Dahl ble universitetets første dataprofessor i 1968. Han ble bedt om å søke og var formelt professor i numerisk analyse og faglig leder av den vitenskapelige delen av arbeidet på avdeling D, Matematisk institutt. I praksis var han allerede da professor i informatikk og av uvurderlig betydning for at utdanningen av hovedfagskandidater nå virkelig fikk vind i seilene.</p><footer>Per Ofstad</footer></blockquote>
+<blockquote>
+  <p>Ole-Johan Dahl ble universitetets første dataprofessor i 1968. Han ble bedt om å søke og var formelt professor i numerisk analyse og faglig leder av den vitenskapelige delen av arbeidet på avdeling D, Matematisk institutt. I praksis var han allerede da professor i informatikk og av uvurderlig betydning for at utdanningen av hovedfagskandidater nå virkelig fikk vind i seilene.</p>
+  <footer>Per Ofstad</footer>
+</blockquote>
 
-Til avdelingen var det også knyttet et lektorat so Throstein Lunde Johnsen hadde frem til 1970. Han ble ettefulgt av Olav Dahl. Arne Jonassen ble samtidig tilsatt i et nytt lektorat. Ole Amble kom tilbake 1971, etter fem år som dosent ved NTH i Trondheim. Avdelingen fikk i tiden videre fire stillinger til undervisning og to stillinger knyttet til regneanlegget. Ansatte på regneanlegget foreleste også i databehandling og ga hovedfags-veiledning gjennom seksi- og syttiårene.
+Til avdelingen var det også knyttet et lektorat som Thorstein Lunde Johnsen hadde frem til 1970. Han ble etterfulgt av Olav Dahl. Arne Jonassen ble samtidig tilsatt i et nytt lektorat. Ole Amble kom tilbake 1971, etter fem år som dosent ved NTH i Trondheim. Avdelingen fikk i tiden videre fire stillinger til undervisning og to stillinger knyttet til regneanlegget. Ansatte på regneanlegget foreleste også i databehandling og ga hovedfagsveiledning gjennom seksi- og syttiårene.
 
 I 1972 skiftet avdeling D navn - til avdeling for Databehandling og Numerisk analyse. Samtidig ble EDB-senteret skilt ut som en egen enhet og lagt direkte under universitetets administrasjon. Det samlede vitenskapelige personalet på avdeling D, Matematisk institutt var i 1973 (data fra "Gjøkungen") - en professor, en professor II, en dosent, en amanuensis, tre lektorer og to vitenskapelige assistenter.
 
@@ -79,7 +83,7 @@ Følgende vitenskapelige personale fulgte med fra avdeling D, Matematisk institu
 
 ### Kybernetikk
 
-Våren 1967 tilbød Fysisk institutt en ny linje, linjen for kybernetikk. Undervisningen i disse fagene var basert på innleide lærekrefter, og kursene utgjorde tilsammen et tilbud på 1. avdeling. Studenter som valgte dette studiet møtte problemer når de ville begynne hovedfag. For at et fag eller en lunje skal kunne tilby hovedfag må det være minst et dosentur innen faget, dette var ikke tilfelle for kybernetikk. Det var heller noe undervisningstilbud på hovedfagsnivå i kybernetikk.
+Våren 1967 tilbød Fysisk institutt en ny linje, linjen for kybernetikk. Undervisningen i disse fagene var basert på innleide lærekrefter, og kursene utgjorde tilsammen et tilbud på 1. avdeling. Studenter som valgte dette studiet møtte problemer når de ville begynne hovedfag. For at et fag eller en linje skal kunne tilby hovedfag må det være minst et dosentur innen faget, dette var ikke tilfelle for kybernetikk. Det var heller ikke noe undervisningstilbud på hovedfagsnivå i kybernetikk.
 
 Tore Olsen, instituttbestyrer ved Fysisk institutt, utarbeidet et budsjettforslag for linjen i kybernetikk høsten 1968. Forslaget innebar å opprette en professor II og et lektorat i kybernetikk. Fysisk institutt søkte også å opprette et dosentur. I sin innstilling til budsjett for 1969 foreslo Universitetet et dosentur til Fysisk institutt, en professor II-stilling og et lektorat tiltenkt linjen for kybernetikk.
 
@@ -137,15 +141,15 @@ Instituttet tilbyr studieretningene:
 Rundt 1979 ble det en voldsom vekst i studenttilstrømmingen til datafag og behovet for databehandling til forskning. Det ble nedsatt to komitéer for å utrede behov og finne den videre organiseringen av faget informatikk som var begynt å ta form. Arne Jonassen var den gang bestyrer på Avdeling D, Numerisk analyse, ved Matematisk institutt og sekretær for begge komitéene. Han ledet også arbeidet med "Gjøkungen".
 
 <blockquote>
-  <p>Den første store oppgaven var en innstilling fra komitéen som var opprettet for å vurdere universitetets EDB-behov i de nærmeste fem år. Innstillingen kom i mai 1971, og komitéen var ledet av Ole-Johan Dahl. Medlemmee var: Herdis Thorén Amundsen, Tor Brattvåg, Jon Kongsrud, Arild Jansen, Rolf Nordhagen og Hans M. Seip.</p>
+  <p>Den første store oppgaven var en innstilling fra komitéen som var opprettet for å vurdere universitetets EDB-behov i de nærmeste fem år. Innstillingen kom i mai 1971, og komitéen var ledet av Ole-Johan Dahl. Medlemmene var: Herdis Thorén Amundsen, Tor Brattvåg, Jon Kongsrud, Arild Jansen, Rolf Nordhagen og Hans M. Seip.</p>
   <p>Tre år senere laget vi utredningen Gjøkungen internt på avdeling D. Dette var en utredning om databehandlingsfagets og avdelingens egen situasjon ved Universitetet i Oslo. Alle avdelingens ansatte deltok i arbeidet sammen med to av studentene. Hvorfor Gjøkungen? Det var mitt forslag til navn og et bilde på den situasjonen vi følte oss i. På den ene siden var etterspørselen etter kurs fra studentene langt i overkant av hva vi hadde kapasitet til å tilby. På den annen side var vi redde for å bli en gjøkunge på Matematisk institutt og spise resten av instituttet ut av redet. Vi ble tatt svært alvorlig på universitetet da utredningen ble lagt frem i mars 1974.</p>
   <p>Like etter at Gjøkungen forelå, oppnevnte fakultetet en ny komité som skulle se på fagets organisering og behov for ressurser. Resultatet ble et helt nytt Institutt for informatikk som ble opprettet 1977. Der slo man sammen avdeling D fra Matematisk institutt og deler av kybernetikk fra Fysisk institutt. Dette var en naturlig sammenslåing, men hadde vel ikke annen faglig begrunnelse enn av de representerte miljøer som det kunne bygges videre på faglig. Kybernetikk hadde et driftig miljø under ledelse av Lars Walløe. Informatikkkomitéen var ledet av Nico Norman. Medlemmene var: Per S. Enger, Oddvar Hesjedal, Arne Kjekshus, Arnfinn Laudal, Rolf Nordhagen, Trygve Reenskaug og Erik Aarnæs. Komitéen la frem en enstemmig innstilling 12. juni 1975.</p>
   <footer>Arne Jonassen</footer>
 </blockquote>
 
 <blockquote>
-  <p>Regneanlegget var også organisert under avdeling D fra 1964 til 1970, og hovedansvaret for dette tillagt bestyreren. Forventningene til en professor var sore den gangen jeg tiltrådte som professor i 1968. Jeg skulle dekke alle administrative funksjoner på avdelingen samtidig som jeg bygget databehandlingsfaget opp fra grunnen av. Det ble lange arbeidsdager. Da Arne Jonassen ble universitetslektor og tok over avdelingsbestyrerjobben i 1970, var det en god og stor avlastning.</p>
-  <p>Situasjonen i begynnelsen av syttiårene ble etter hvert vanskeli. Studentmassen vokste hurtig samtidig som regjeringen la et "lokk" over Oslo-området - ingen nye, statlige stillinger overhodet. Til slutt ble det med god hjelp av dekanus ved Det matematiske naturvitenskapelige fakultet, fysikkprofessor Tore Olsen, laget et opplegg for flere trinn som fikk litt hull på byllen. Ett av trinnene var dannelsen av nytt Institutt for informatikk.</p>
+  <p>Regneanlegget var også organisert under avdeling D fra 1964 til 1970, og hovedansvaret for dette tillagt bestyreren. Forventningene til en professor var store den gangen jeg tiltrådte som professor i 1968. Jeg skulle dekke alle administrative funksjoner på avdelingen samtidig som jeg bygget databehandlingsfaget opp fra grunnen av. Det ble lange arbeidsdager. Da Arne Jonassen ble universitetslektor og tok over avdelingsbestyrerjobben i 1970, var det en god og stor avlastning.</p>
+  <p>Situasjonen i begynnelsen av syttiårene ble etter hvert vanskelig. Studentmassen vokste hurtig samtidig som regjeringen la et "lokk" over Oslo-området - ingen nye, statlige stillinger overhodet. Til slutt ble det med god hjelp av dekanus ved Det matematiske naturvitenskapelige fakultet, fysikkprofessor Tore Olsen, laget et opplegg for flere trinn som fikk litt hull på byllen. Ett av trinnene var dannelsen av nytt Institutt for informatikk.</p>
   <footer>Ole-Johan Dahl</footer>
 </blockquote>
 
@@ -154,7 +158,7 @@ Rundt 1979 ble det en voldsom vekst i studenttilstrømmingen til datafag og beho
 ### Faste stillinger
 
 * Professor: 16
-* Frofessor II: 11
+* Professor II: 11
 * Mellomgruppestillinger: 21
 * Administrasjon: 7
 * Tekniske stillinger: 10
@@ -163,7 +167,7 @@ Rundt 1979 ble det en voldsom vekst i studenttilstrømmingen til datafag og beho
 
 Beth Hurlen er en institusjon. Blid og bestemt har hun holdt orden på det meste i hele IFIs historie.
 
-Berh Hurlen tok hovedfag i kjemi ved UiO i 1955. De siste tyve årene har hun viet administrativt arbeid som leder av administrasjonen ved IFI.
+Beth Hurlen tok hovedfag i kjemi ved UiO i 1955. De siste tyve årene har hun viet administrativt arbeid som leder av administrasjonen ved IFI.
 
 Hun tar også med de siste årene frem til pensjonsalderen. Utrolig blir hun 70 år neste sommer.
 
@@ -183,15 +187,15 @@ Feiringen av 20 års jubileet ville hun ha sin sikre hånd over.
 
 <q>Den første tiden hadde vi kontorer i Matematikk-bygningen,</q> forteller Beth Hurlen. <q>Vi var marmorert inn i Matematisk institutt og hadde kontorer i flere etasjer og fullstendig innimellom matematikerne. Etter fire år i Niels Henrik Abels hus flyttet vi til Fysikkbygningen hvor IFI holdt til i åtte år. I 1988 skiltes vi som venner også fra fysikerne.</q>
 
-<q>I ettertid har jeg tenkt en del på at vi var et flerkulturelt institutt da vi begynte, men det var aldri fremtredende som et problem. Jeg tror at alle ville at vi skulle lykkes og la inn sine bidrag for at det skulle gå bra. Dette var et felles mål, og alle hadde stor respekt for hverandre. VI har måttet kjempe sammen utad, og det skaper også samhold. Internt på instituttet har vi alltid hatt et godt miljø. Jeg kan faktisk ikke huske en eneste alvorlig konflikt, og jeg har hatt noen utrolig spennende og utfordrende år ved IFI.</q>
+<q>I ettertid har jeg tenkt en del på at vi var et flerkulturelt institutt da vi begynte, men det var aldri fremtredende som et problem. Jeg tror at alle ville at vi skulle lykkes og la inn sine bidrag for at det skulle gå bra. Dette var et felles mål, og alle hadde stor respekt for hverandre. Vi har måttet kjempe sammen utad, og det skaper også samhold. Internt på instituttet har vi alltid hatt et godt miljø. Jeg kan faktisk ikke huske en eneste alvorlig konflikt, og jeg har hatt noen utrolig spennende og utfordrende år ved IFI.</q>
 
 ### Vekst
 
-<q>I hele IFIs historie har vi vært i vekst, og hele tiden har vi hatt problemer med å få andre til å forstå at vi trengte mer ressurser,</q> sier Berh Hurlen. <q>Vi har måttet bruke svært mye tid og krefter på å utrede og dokumentere behovet for mer plass og flere stillinger. Spesielt de første årene kjempet vi mye i motvind. De fleste rundt oss trodde at vi ikke ville vokse videre da IFI ble etablert.</q>
+<q>I hele IFIs historie har vi vært i vekst, og hele tiden har vi hatt problemer med å få andre til å forstå at vi trengte mer ressurser,</q> sier Beth Hurlen. <q>Vi har måttet bruke svært mye tid og krefter på å utrede og dokumentere behovet for mer plass og flere stillinger. Spesielt de første årene kjempet vi mye i motvind. De fleste rundt oss trodde at vi ikke ville vokse videre da IFI ble etablert.</q>
 
 <q>Heldigvis har vi alltid fått god støtte og hjelp av fakultetets ledelse. Det ble raskt utarbeidet et <em>Program for styrking av fagområdet informatikk</em>, som gikk i årene 1979 - 82. Først fikk vi midler over statsbudsjettet til å omgjøre tre vit. ass. stillinger til amanuensis. Deretter fikk vi stillinger ved intern omdisponering ved fakultetet. Siden har det dryppet ressurser over statsbudsjettet jevnt og trutt helt frem til i dag.</q>  
 
-<q>Men det er forsatt behov for flere vitenskapelige stillinger. Antall studenter pr. lærer er også i dag uforsvarlig høyt. I inneværende semester er det på lavere grad påmeldt ca. 2500 studenter på forskjellige emner, og vi har 300 hovedfagsstudenter. Det sier seg selv at de ansatte får liten tid til forskning.</q>
+<q>Men det er fortsatt behov for flere vitenskapelige stillinger. Antall studenter pr. lærer er også i dag uforsvarlig høyt. I inneværende semester er det på lavere grad påmeldt ca. 2500 studenter på forskjellige emner, og vi har 300 hovedfagsstudenter. Det sier seg selv at de ansatte får liten tid til forskning.</q>
 
 ### Administrasjon
 
@@ -209,7 +213,7 @@ Det er flere som gjerne vil være foreldre for Informatikk-bygningen i Gaustadal
 
 <q>Det var jeg som tok den ballen videre,</q> sier Lars Walløe. <q>Jeg fikk rektor ved UiO, Bjarne Waaler, og direktøren ved NTNF, Gudmund Harlem, til å sette seg sammen med meg rundt bordet for å skape en samlet løsning. NTNF og UiO bidro med hver sin bit. NTNF hadde pengene og trengte plass til Norsk Regnesentral, men hadde ingen tomt. UiO hadde opsjon på tomten som opprinnelig var tenkt til et nytt universitetsbibliotek.</q>
 
-<q>NTNF finansierte bygget, og universitetet forpliktet seg ved langsiktige leieavtaler. Derved hadde vi en økonomisk pakke som var tilfredstillende for alle parter. Dette var i den tiden hvor det ikke var mulig å få noen som helst midler til universitetsbygg i Oslo. Etter å ha vært fødselshjelper for bygget trakk jeg meg til side. Det var andre som var med i det praktiske gjennomføringsarbeidet, byggekomitéer o.l. Men jeg strevde med å selge idéen intern på IFI. Enkelte av de ansatte ville ikke over på den andre siden av trikkelinjen. Det var for langt unna Matematikkbygningen for noen. Det løste seg da vi fikk broen over til det øvre Blindernområdet med i byggeplanene.</q>
+<q>NTNF finansierte bygget, og universitetet forpliktet seg ved langsiktige leieavtaler. Derved hadde vi en økonomisk pakke som var tilfredsstillende for alle parter. Dette var i den tiden hvor det ikke var mulig å få noen som helst midler til universitetsbygg i Oslo. Etter å ha vært fødselshjelper for bygget trakk jeg meg til side. Det var andre som var med i det praktiske gjennomføringsarbeidet, byggekomitéer o.l. Men jeg strevde med å selge idéen intern på IFI. Enkelte av de ansatte ville ikke over på den andre siden av trikkelinjen. Det var for langt unna Matematikkbygningen for noen. Det løste seg da vi fikk broen over til det øvre Blindernområdet med i byggeplanene.</q>
 
 ### Plassering
 
@@ -221,7 +225,7 @@ Det er flere som gjerne vil være foreldre for Informatikk-bygningen i Gaustadal
 
 ### Tiden etter Huset
 
-<q>I slutten av åttiårene økte studenttallene ytterligere, forteller Knut Liestøl, og vi fikk igjen problemer med for lite plass. Vi har slått sammen kontorer og omdisponert arealer. Men det største problemet var likevel at vi hadde for få ansatte til veiledning av studentene. Heldigvis forstod igjen faktultetets og universitetets ledelse situasjonen, og vi fikk ytterligere flere stillinger.</q>
+<q>I slutten av åttiårene økte studenttallene ytterligere, forteller Knut Liestøl, og vi fikk igjen problemer med for lite plass. Vi har slått sammen kontorer og omdisponert arealer. Men det største problemet var likevel at vi hadde for få ansatte til veiledning av studentene. Heldigvis forstod igjen fakultetets og universitetets ledelse situasjonen, og vi fikk ytterligere flere stillinger.</q>
 
 <q>I nittiårene har vi hatt et stabilt studenttall, og mulighetene for forskning har bedret seg gradvis. Produksjonen av vitenskapelig arbeidet har bedret seg markant de siste årene.</q>
 
@@ -259,15 +263,15 @@ SINTEF ser frem til 20 nye år med et fruktbart samarbeid med IFI.
 
 ### UniK - Universitetsstudiene på Kjeller
 
-Stiftelsen UniK ble opprettet i 1987 ved en samarbeidsavtale mellom Universitetet i Oslo og de tre store Kjellerinstituttene. Bakstiftelsen UniK står i dag Universitetet i Oslo (UiO), Norges teknisk-naturvitenskapelige universitetet (NTNU), Forsvarets forskningsinstitutt (FFI), Telenor Forskning og Utvikling (Telenor FoU) og Institutt for energiteknikk (IFE). Faglig og undervisningsmessig er UniK underlagt universitetene i Oslo og Trondheim. UniK får støtte til sin drift over Kirke-, utdannings- og forskningsdepartementets budsjett.
+Stiftelsen UniK ble opprettet i 1987 ved en samarbeidsavtale mellom Universitetet i Oslo og de tre store Kjellerinstituttene. Bak stiftelsen UniK står i dag Universitetet i Oslo (UiO), Norges teknisk-naturvitenskapelige universitetet (NTNU), Forsvarets forskningsinstitutt (FFI), Telenor Forskning og Utvikling (Telenor FoU) og Institutt for energiteknikk (IFE). Faglig og undervisningsmessig er UniK underlagt universitetene i Oslo og Trondheim. UniK får støtte til sin drift over Kirke-, utdannings- og forskningsdepartementets budsjett.
 
 UniK gir undervisning og veiledning til studenter på hovedfags- og doktogradsnivå (inkl. siste del av siv.ing.-studiet) innen anvendt informasjonsteknologi. Den faglige hovedvekten av UniKs studietilbud er innen områdene telematikk/datateknikk, elektronikk og industriell matematikk (inkludert kybernetikk). UniK har tre professorater og 16 professor IIs-stillinger ved UiO som har arbeidssted UniK. Tilsvarende er det tre professorater og fem professor II-stillinger ved NTNU med arbeidssted UniK. Disse stillingene blir løpende lyst ut etter hvert som fagtilbudet utvikles.
 
-UniK er universitetenes "forlengede arm" inn i det omfattende forskningsmiljøet på Kjeller. Ved å bruke aktive forskere fra Kjeller-miljøet til forelesninger og veiledning, får studentene ved UniK kontakt med forskere som både er faglig oppdaterte og engasjerte. Problemstillingene for prosjekt- og hovedoppgaver er relatert til den arbeidssituasjon sutdentene skal ut i etter endt studium, og dette gir studentene ekstra motivasjon. De tre store Kjeller-instituttene FFI, Telenor FoU og IFE har tilsammen nær 700 forskere. På flere områder har disse instituttene høyt anerkjente faglige miljøer, også når man vurderer fagmiljøene i en internasjonal sammenheng. Norsk institutt for luftforskning (NILU), Justervesenet som i 1997 etablerer seg i nytt hus på Kjeller, og NORSAR er institusjoner som UniK planlegget et økt samarbeid med.
+UniK er universitetenes "forlengede arm" inn i det omfattende forskningsmiljøet på Kjeller. Ved å bruke aktive forskere fra Kjeller-miljøet til forelesninger og veiledning, får studentene ved UniK kontakt med forskere som både er faglig oppdaterte og engasjerte. Problemstillingene for prosjekt- og hovedoppgaver er relatert til den arbeidssituasjon studentene skal ut i etter endt studium, og dette gir studentene ekstra motivasjon. De tre store Kjeller-instituttene FFI, Telenor FoU og IFE har tilsammen nær 700 forskere. På flere områder har disse instituttene høyt anerkjente faglige miljøer, også når man vurderer fagmiljøene i en internasjonal sammenheng. Norsk institutt for luftforskning (NILU), Justervesenet som i 1997 etablerer seg i nytt hus på Kjeller, og NORSAR er institusjoner som UniK planlegger et økt samarbeid med.
 
 UniK har et lite og studentmiljø og en trivelig, effektiv og hjelpsom administrasjon. UNIKUM er studentforeningen ved UniK. Foreninger arbeider blant annet med studentsosiale tiltak som grillfester, pubrunder, båtturer og julebord. Studentene ved UniK disponerer egen kontorplass på 2-4 manns kontorer med arbeidsstasjoner tilknyttet nettet. PCer, printere, scannere og kopimaskiner er også tilgjengelige. Videre er det undervisningslokaler, kollokviearialer, bibliotek og eget studentkjøkken ved UniK.
 
-UniK samarbeider med Ericsson om utdanning på doktogradsnivå innenfor Ericssons fagområder. Det arbeides med å få til linkende samarbeid med andre forskningsorienterte bedrifter i næringslivet.
+UniK samarbeider med Ericsson om utdanning på doktogradsnivå innenfor Ericssons fagområder. Det arbeides med å få til liknende samarbeid med andre forskningsorienterte bedrifter i næringslivet.
 
 <strong>Ivar Jarder Aasen</strong>
 
@@ -284,7 +288,7 @@ De første kompetansegivende kursene i numeriske metoder og numerisk analyse kom
 Tom Lyche ble avdelingens første dosent i 1976, da hadde han vært universitetslektor fra 1972 på midler fra dosenturet.
 
 <blockquote>
-  <p>Throstein Lunde Johnsen var veileder for Olav Dahl, Syvert Nørset og meg. Han hadde gjort en stor innsats med å videreutvikle kurstilbudet i numerisk analyse, MA12 og MA13 og seminarer og kurs til hovedfag, men han var ofte fraværende. Syvert og jeg måtte veilede oss mye selv til hovedfag, og vi tok også over noen av Lunde Johnsens forelesninger når han var borte. Ralph Lorentzen var også lektor i matematikk og foreleste matematisk optimering. Olav Dahl, som ble universitetslektor i 1970, lå et år foran Syvert og meg i utdanningen. Sammen ble vi tre de første foremelle barna av et utdanningstilbud i numerisk analyse ved UiO.</p>
+  <p>Thorstein Lunde Johnsen var veileder for Olav Dahl, Syvert Nørset og meg. Han hadde gjort en stor innsats med å videreutvikle kurstilbudet i numerisk analyse, MA12 og MA13 og seminarer og kurs til hovedfag, men han var ofte fraværende. Syvert og jeg måtte veilede oss mye selv til hovedfag, og vi tok også over noen av Lunde Johnsens forelesninger når han var borte. Ralph Lorentzen var også lektor i matematikk og foreleste matematisk optimering. Olav Dahl, som ble universitetslektor i 1970, lå et år foran Syvert og meg i utdanningen. Sammen ble vi tre de første formelle barna av et utdanningstilbud i numerisk analyse ved UiO.</p>
   <p>DB-kursene til grunnutdanning i numerisk matematikk som ble tilbudt fra 1970 var: DB1 (Numeriske metoder 1), DB20 (Numeriske metoder 2), DB21 (Numerisk løsning av differensiallikninger), DB30 (Matematisk optimering).</p>
   <p>Ole Amble kom tilbake til UiO som førsteamanuensis i 1971 etter fem år ved NTH i Trondheim, og han foreleste også numerisk matematikk gjennom hele syttitallet.</p>
   <footer>Tom Lyche</footer> 
@@ -343,19 +347,19 @@ De tre ferske kandidatene i numerisk analyse, Olav Dahl, Syvert Nørset og Tom L
 
 <q>AIM er et samarbeid mellom IFI og Matematisk institutt. Vi tilbyr felleskurs både på lavere- og høyeregradsstudiet.</q>
 
-<q><em>Hva er numerisk analyse?</em></q> Tom Lyche ler godt av det som sannynligvis er det dummeste spørsmålet han har fått på lenge, men svaret kommer like vennlig som alltid:
+<q><em>Hva er numerisk analyse?</em></q> Tom Lyche ler godt av det som sannsynligvis er det dummeste spørsmålet han har fått på lenge, men svaret kommer like vennlig som alltid:
 
-<q>Numerisk analyse er ganske enkelt analyse av numeriske metoder. Man studerer metoder for å løse tekniske og vitenskapelige beregningsproblemer og utvikler stadig nye og forbedrete metoder. Vi driver ikke så mye med simulering - hvor man løser aktuelle problemer - en med metodestudier for å forbedre gamle metoder og å finne nye metoder til å løse større og stadig mer kompliserte problemer. Selv har jeg bakgrunn i matematisk analyse og har spesialisert meg på et felt som heter splines. Dette er en numerisk metode for å lage glatte kurver og flater.</q>
+<q>Numerisk analyse er ganske enkelt analyse av numeriske metoder. Man studerer metoder for å løse tekniske og vitenskapelige beregningsproblemer og utvikler stadig nye og forbedrede metoder. Vi driver ikke så mye med simulering - hvor man løser aktuelle problemer - en med metodestudier for å forbedre gamle metoder og å finne nye metoder til å løse større og stadig mer kompliserte problemer. Selv har jeg bakgrunn i matematisk analyse og har spesialisert meg på et felt som heter splines. Dette er en numerisk metode for å lage glatte kurver og flater.</q>
 
 <q><em>Splines har alltid vært ditt forskningsfelt?</em></q><br />
-<q>Jeg har holdt på med splines helt siden jeg kom til universitetet i Austin i 1970, og det har ligget til grunn for min veiledning av studenter til hovedfag og doktorgrad i hele IFIs historie. De første studentene mine innenfor dette feltet begynte allerede før IFI ble opprettet, og splines har nok blitt en viktig del av insituttets profil innen numerisk analyse og approksimasjonsteori. Knut Mørken og jeg arbeider som et team på dette feltet sammen med forskningsdirektøren ved SINTEF, Morten Dæhlen, som også er professor II ved IFI.</q>
+<q>Jeg har holdt på med splines helt siden jeg kom til universitetet i Austin i 1970, og det har ligget til grunn for min veiledning av studenter til hovedfag og doktorgrad i hele IFIs historie. De første studentene mine innenfor dette feltet begynte allerede før IFI ble opprettet, og splines har nok blitt en viktig del av instituttets profil innen numerisk analyse og approksimasjonsteori. Knut Mørken og jeg arbeider som et team på dette feltet sammen med forskningsdirektøren ved SINTEF, Morten Dæhlen, som også er professor II ved IFI.</q>
 
 <q>Jeg har alltid lagt stor vekt på publisering, og jeg synes vi har fått dette bra til innenfor min faggruppe. Det er vel et kulturspørsmål hvor viktig man synes dette er. For meg har publisering alltid vært en vesentlig del av all forskningsvirksomhet.</q>
 
 <q><em>Har du mye undervisning?</em></q><br />
-<q>Jeg har alltid likt å undervise,</q> svarer Lyche, <q>også på grunnkursene, og jeg synes det er viktig at en professor underviser på alle nivåer. Men jeg underviser sjelden et kurs mer enn et par/tre ganger. Grunnen til dette er at jeg har glede av å lære noe nytt selv, og jeg synes det er er moro å struturere nytt stoff og dosere om dette til studenter og kolleger. Å få lov til å gjøre det i et auditorium med studenter er et priviligeum for en professor.</q>
+<q>Jeg har alltid likt å undervise,</q> svarer Lyche, <q>også på grunnkursene, og jeg synes det er viktig at en professor underviser på alle nivåer. Men jeg underviser sjelden et kurs mer enn et par/tre ganger. Grunnen til dette er at jeg har glede av å lære noe nytt selv, og jeg synes det er er moro å strukturere nytt stoff og dosere om dette til studenter og kolleger. Å få lov til å gjøre det i et auditorium med studenter er et privilegium for en professor.</q>
 
-<q>Med hovedfags- og doktorgradsveiledningen er jeg mer restriktiv. I tillegg til doktorveildningen har jeg aldri hatt mer enn fire stykker parallelt til hovedfag, og jeg har også tatt den personlige belastningen det er å måtte si til noen at de burde finne på noe annet enn å ta en doktorgrad. Totalt har jeg hatt åtte doktorgradstudenter gjennom tidene. Noen av dem har jeg også vært så heldig å få veilede til hovedfag.</q>
+<q>Med hovedfags- og doktorgradsveiledningen er jeg mer restriktiv. I tillegg til doktorveiledningen har jeg aldri hatt mer enn fire stykker parallelt til hovedfag, og jeg har også tatt den personlige belastningen det er å måtte si til noen at de burde finne på noe annet enn å ta en doktorgrad. Totalt har jeg hatt åtte doktorgradstudenter gjennom tidene. Noen av dem har jeg også vært så heldig å få veilede til hovedfag.</q>
 
 <q>Jeg følger nøye med barna mine,</q> sier Tom Lycke. <q>Jeg må få lov til å kalle dem det. Det betyr mye for meg hvordan det går dem i verden, og jeg har også arbeidet faglig sammen med flere av dem siden. Allerede i 1979 dro noen av mine studenter igang en videreføring og fornying av arbeidet med geometrisk modellering ved Sentralinstituttet for Industriell forskning.</q>
 
@@ -375,7 +379,7 @@ At Tom Lyche er en faglig stjerne, vet alle, men at han også er en stjernekokk,
 
 <q>Min kone meldte meg på et kokekurs hos den franske sjefskokken i restauranten Annen Etage på Continental,</q> forteller Lyche. <q>Siden har jeg holdt på med kokekunster og har stor glede av mine kontakter i Frankrike. Min kone er også fransk, og vi møtte hverandre som utenlandsstudenter i Austin.</q>
 
-<q>Den første kontakten med universitetet i Austin i Texas fikk jeg like før vi dro til Dundee i 1969. Robert Gregory hadde hatt et sabbatsår i Sverige. På veien tilbake til Texas var han innom Oslo og holdt en gjeste-forelesning. Jeg var interessert i et utenlandsopphold og spurte om det var mulig å komme til Texas. Under konferansen i Dundee, hvor jeg holdt foredrag om hovedoppgaven, traff jeg Gregory igjen. Han inviterte meg over til Austin og ordnet en finansiering. Den bestod i at jeg underviste et kurs i numerisk analyse og arbeidet ved siden av ved regneanlegget - hvor jeg hjalp forskere med å programmere. Etter årene i Austin, 1970 og 71, kom jeg tilbake til Norge til et engasjement i et dosentur ved avdeling D. Man hadde ikke fått kvalifiserte søkere.</q>
+<q>Den første kontakten med universitetet i Austin i Texas fikk jeg like før vi dro til Dundee i 1969. Robert Gregory hadde hatt et sabbatsår i Sverige. På veien tilbake til Texas var han innom Oslo og holdt en gjesteforelesning. Jeg var interessert i et utenlandsopphold og spurte om det var mulig å komme til Texas. Under konferansen i Dundee, hvor jeg holdt foredrag om hovedoppgaven, traff jeg Gregory igjen. Han inviterte meg over til Austin og ordnet en finansiering. Den bestod i at jeg underviste et kurs i numerisk analyse og arbeidet ved siden av ved regneanlegget - hvor jeg hjalp forskere med å programmere. Etter årene i Austin, 1970 og 71, kom jeg tilbake til Norge til et engasjement i et dosentur ved avdeling D. Man hadde ikke fått kvalifiserte søkere.</q>
 
 <q>Jeg skiftet forskningsfelt i doktorgradsarbeidet. Starten på dette kom allerede i 1970, og det ble ikke Bob Gregory eller den mer kjente David Young, men uge Larry Schumaker som ble min doktorgradsveileder. Den første tiden i Austin arbeidet jeg videre med det som ble min doktorgradsveileder. Den første tiden i Austin arbeidet jeg videre med feltet som jeg hadde tatt hovedfag i, numerisk løsning av ordinære differentiallikninger. En dag så jeg at Schumaker skulle holde kurs om Splines. Dette var et felt som jeg hadde hørt om fra Norge og som tidligere hadde interessert meg. Allerede da jeg skulle finne hovedoppgave hadde jeg vært hos Even Mehlum på Sentralinstitutt for Industriell forskning og spurt om han hadde en oppgave til meg. På SI hadde man tidlig i sekstiårene begynt utviklingen av et geometrisk modelleringssystem for skipsbygging. Så splines og geometrisk modellering har hatt en lang tradisjon i Norge.</q>
 
@@ -393,7 +397,7 @@ Lars Walløe avla i 1965 to embetseksamener samtidig - en i medisin og en i kjem
 
 I dag er han professor i medisin ved Fysiologisk institutt, et professorat han har hatt de siste ti årene.
 
-Walløe er tilbake ved det instituttet som var hans base ved doktor-gradsarbeidet i 1968, og han har tatt opp igjen fysiologisk forskning.
+Walløe er tilbake ved det instituttet som var hans base ved doktorgradsarbeidet i 1968, og han har tatt opp igjen fysiologisk forskning.
 
 I mellomtiden - fra 1970 til 1988 - brukte han noen av sine mange talenter innenfor kybernetikk og informatikk.
 
@@ -408,11 +412,11 @@ I mellomtiden - fra 1970 til 1988 - brukte han noen av sine mange talenter innen
 
 <q>Jeg hadde to veier inn til informatikken</q>, forteller Lars Walløe. <q>Under hovedfaget i fysikalsk kjemi lærte jeg å bruke datamaskiner. Den første var IBM 1620 som sto i en brakke på Blindern rundt 1963. Miljøet som jeg hørte til, under ledelse av Otto Bastiansen, var blant de første ved Ui0 som brukte datamaskiner som hjelpemiddel til forskning. Det har imidlertid alltid vært biologi som har vært min hovedinteresse. Jeg tok et fullt realfagsstudium ved siden av medisin for å få best mulig grunnlag for min forskning.</q>
 
-<q>Den andre veien inn til informatikken var via simulering. Da jeg var ferdig med studiene, ble jeg nokså direkte amanuensis i fysiologi og møtte der for første gang problemstillinger knyttet til nettverk av nerveceller. Jeg forsto raskt at en del problemer som vi hadde innen nevrobiologi, kunne la seg løse og forklares ved simule-ringsteknikker.</q>
+<q>Den andre veien inn til informatikken var via simulering. Da jeg var ferdig med studiene, ble jeg nokså direkte amanuensis i fysiologi og møtte der for første gang problemstillinger knyttet til nettverk av nerveceller. Jeg forsto raskt at en del problemer som vi hadde innen nevrobiologi, kunne la seg løse og forklares ved simuleringsteknikker.</q>
  
-<q>11966 fikk jeg kontakt med Kristen Nygaard og det norske Simulamiljøet, og jeg gjennomførte et simuleringsarbeid med Simula 1. Dette ble ett av elementene i mitt doktorgrads-arbeid.</q> 
+<q>11966 fikk jeg kontakt med Kristen Nygaard og det norske Simulamiljøet, og jeg gjennomførte et simuleringsarbeid med Simula 1. Dette ble ett av elementene i mitt doktorgradsarbeid.</q> 
 
-<q>Da studentene hadde fått til dosentstillingen i kybernetikk i 1969, ble jeg bedt om å søke av Tore Olsen, som den gang var bestyrer ved Fysisk institutt. Jeg tror egentlig at han ba meg om å søke fordi han ikke ønsket en ingeniørprofil på dette faget ved UiO. Jeg ble selv svært forbauset da jeg ble innstilt som nr. 1 til dosenturet. Kursene til grunnut-danningen i kybernetikk hadde allerede vært undervist et par år av innleide forelesere fra Forsvarets forskningsinstitutt og Sentralinstituttet for Industriell forskning. Kurstilbudet var godt gjennomtenkt, men jeg startet med en gang å legge min egen profil på kursene, først med informasjonsteori som jeg kjente godt.</q>
+<q>Da studentene hadde fått til dosentstillingen i kybernetikk i 1969, ble jeg bedt om å søke av Tore Olsen, som den gang var bestyrer ved Fysisk institutt. Jeg tror egentlig at han ba meg om å søke fordi han ikke ønsket en ingeniørprofil på dette faget ved UiO. Jeg ble selv svært forbauset da jeg ble innstilt som nr. 1 til dosenturet. Kursene til grunnutdanningen i kybernetikk hadde allerede vært undervist et par år av innleide forelesere fra Forsvarets forskningsinstitutt og Sentralinstituttet for Industriell forskning. Kurstilbudet var godt gjennomtenkt, men jeg startet med en gang å legge min egen profil på kursene, først med informasjonsteori som jeg kjente godt.</q>
 
 <q><em>Kjente du deg ensom?</em></q><br />
 <q>Svært ensom,</q> svarer Lars Walløe. <q>Og utviklingen ble ikke som jeg hadde tenkt da jeg gikk inn i stillingen. Universitetet hadde vært i vekst gjennom mange år med stadig nye stillinger. Akkurat da jeg ble tilsatt i 1970, ble det stopp. Det hadde vært en forutsetning at kybernetikk skulle bygges opp som en egen gruppe ved Fysisk institutt. I stedet ble jeg sittende alene. Det eneste jeg hadde av ressurser var et budsjett til hjelpelærere, som kom, foreleste og gikk sin vei igjen.</q>
@@ -423,7 +427,7 @@ I mellomtiden - fra 1970 til 1988 - brukte han noen av sine mange talenter innen
 <q>Jeg har arbeidet mye med diskret tid simulering slik som Simula har vært et godt verktøy til, sier Lars Walløe. <q>Men jeg har også vært åpen for andre typer simuleringer, som simulering av systemer som best beskrives ved differensiallikninger. Det har alltid vært viktig for meg å kunne samarbeide med biologer i vid forstand, herunder også medisinere, slik at simuleringsresultatene kunne testes ut mot målinger. Med biologiske systemer mener jeg alt fra enkeltceller til organer og videre over til økologiske systemer.</q>
 
 <q><em>Kjerneområdene i kybernetikkmiljøet?</em></q>
-<q>Det har vært tre retninger selv om de alle er nær knyttet sammen metodisk. Den ene har tråder inn i numerisk analyse. Sven Øivind Wille kom med fra Fysisk institutt. Han ble senere vitenskapelig assistent og amanuensis ved IFI. Olav Dahl og Wille fant hverandre personlig og faglig med simulering ved hjelp av differensiallikninger. Han er i dag ved Høgskolesentret ved Bislet, og samarbeider fremdeles med Dahl. Da Sven Øivind Wille skulle ha hovedsfagsoppgave, ønsket jeg å finne flere felt enn nevrobiologi som kunne koble biologi og kybernetikk. Jeg hadde lest at man kunne måle hastigheten på røde blodlegmer ved å sende ultralyd inn og få refleks av ultralyd tilbake. Dette ble grunnlaget for flere hovedoppgaver. Fysikken i dette er grei, men signalbehandlingen var en utfordring. Det var problemer knyttet til rask digital signalbehandling i sanntid. Ut fra Willes hovedfagsoppgave ble det også videreutviklet apparatur som ble satt i kommersiell produksjon for medisinsk anvendelse.</q>
+<q>Det har vært tre retninger selv om de alle er nær knyttet sammen metodisk. Den ene har tråder inn i numerisk analyse. Sven Øivind Wille kom med fra Fysisk institutt. Han ble senere vitenskapelig assistent og amanuensis ved IFI. Olav Dahl og Wille fant hverandre personlig og faglig med simulering ved hjelp av differensiallikninger. Han er i dag ved Høgskolesentret ved Bislet, og samarbeider fremdeles med Dahl. Da Sven Øivind Wille skulle ha hovedsfagsoppgave, ønsket jeg å finne flere felt enn nevrobiologi som kunne koble biologi og kybernetikk. Jeg hadde lest at man kunne måle hastigheten på røde blodlegemer ved å sende ultralyd inn og få refleks av ultralyd tilbake. Dette ble grunnlaget for flere hovedoppgaver. Fysikken i dette er grei, men signalbehandlingen var en utfordring. Det var problemer knyttet til rask digital signalbehandling i sanntid. Ut fra Willes hovedfagsoppgave ble det også videreutviklet apparatur som ble satt i kommersiell produksjon for medisinsk anvendelse.</q>
 
 <q>Arbeidet med Birkenesfeltet på Sørlandet hører til Nils Christophersen ved IFI i dag. Nils var hovedfagsstudent i kybernetikk akkurat da problemet med sur nedbør kom på den politiske dagsorden for fullt i 1976. Jeg ble satt på som leder av styringsgruppen for forskningprogrammet, og Hans Martin Seip, som den gang arbeidet på SI, fikk ansvaret for den faglige ledelsen av programmet. Nils Christophersen ble rekruttert av meg til dette arbeidet. Jeg både anbefalte ham til Hans Martin og foreslo for ham at han skulle forsøke å bruke simuleringsmodeller for å se på ioneutveksling i nedbørsfelt. Han tok senere en doktorgrad på sur nedbør under veiledning av Hans Martin.</q>
 
@@ -434,13 +438,13 @@ I mellomtiden - fra 1970 til 1988 - brukte han noen av sine mange talenter innen
 <q><em>Det er et munnhell som sier: at tilsvarende som USA har sendt marinen for å løse internasjonale konflikter, så har Gro Harlem Brundtland sendt Lars Walløe?</em></q><br />
 <q>Det er kanskje noe sant i det,</q> svarer Walløe med et smil. <q>Jeg har i tyve år bidratt for Gro og Norge rår det gjelder internasjonale miljøkonflikter; og faglig har vi vunnet dem alle. Også hvalfangsten har vi vunnet faglig. Vi har påvist at beskatningen av vågehvalen er forsvarlig, og at avlivingsmetodene er like gode som i slakteriene. Men det har vært litt av en opplevelse å reise verden rundt i hvalfangstkommisjonen og møte alle følelsene som virvles opp - og som det spilles på og vris og vrenges på i mediene. Om det er politisk mulig å drive hvalfangst videre, vet jeg ikke, og følelser kan aldri simuleres bort, men faglig har Norge vunnet kampen også om hvalfangsten.</q>
 
-<q>Det første oppdraget fikk jeg like etter at Gro ble miljøvernminister i 1976, da hun fikk hele konflikten med England om sur nedbør på Sørlandet i fanget. Også denne kampen vant vi, selv om det tok mange år: Siste møte om dette var i Royal Society i London i 1991, og alle faglige instanser måtte bite i gresset for de vitenskapelige data som vi fremla om at den sure nedbøren, bl.a. fra England, var årsaken til forsuring og fiskedød på Sørlandet. Det var tre statsministre til stede på møtet: Margareth Thatcher; Ingvar Carlson og Jan P. Syse. Gro fikk dessverre ikke oppleve dette. Nils Christophersen og Hans Martin Seip var også med som sakkyndige. Arbeid med Birkenesfeltet på Sørlandet brukes fremdeles som det første kurset i matematisk modellering ved IFI. Jeg tok også med meg Egil Hesstvedt til Gro da han kom med sine første advarsler omn problemene som ville komme med ozonlaget rundt jorden, og han fikk forskningsmidler: Jeg savner ofte i dag referanse til Egil Hesstvedt i det norske miljøet.</q>
+<q>Det første oppdraget fikk jeg like etter at Gro ble miljøvernminister i 1976, da hun fikk hele konflikten med England om sur nedbør på Sørlandet i fanget. Også denne kampen vant vi, selv om det tok mange år: Siste møte om dette var i Royal Society i London i 1991, og alle faglige instanser måtte bite i gresset for de vitenskapelige data som vi fremla om at den sure nedbøren, bl.a. fra England, var årsaken til forsuring og fiskedød på Sørlandet. Det var tre statsministre til stede på møtet: Margareth Thatcher; Ingvar Carlson og Jan P. Syse. Gro fikk dessverre ikke oppleve dette. Nils Christophersen og Hans Martin Seip var også med som sakkyndige. Arbeid med Birkenesfeltet på Sørlandet brukes fremdeles som det første kurset i matematisk modellering ved IFI. Jeg tok også med meg Egil Hesstvedt til Gro da han kom med sine første advarsler om problemene som ville komme med ozonlaget rundt jorden, og han fikk forskningsmidler: Jeg savner ofte i dag referanse til Egil Hesstvedt i det norske miljøet.</q>
 
 <q>Da Gro ble miljøvernminister; var hun igang med et doktorgradsarbeid i epidemilogi med meg som veileder: Hun måtte legge det til side da hun ble minister; men doktorgraden endte opp internt på kybernetikk. Knut Liestøl fortsatte dette arbeidet og avla doktorgraden i 1981.</q>
 
-<q>At jeg fikk mutlighet til å prøve ut mine idéer med simulering av nettverk av nerveceller i 1966, er Kristen Nygaards fortjeneste. Hans Skoie hadde på denne tiden etablert en gruppe av universitetslærere som hadde jevnlige møter: Blant flere var også Erik Alfsen, Tore Olsen og Kristen Nygaard med i gruppen. Kristen var den gang forskningssjef på Norsk Regnesentral. Da jeg la frem mone tanker om simulering av nettverk av nerveceller ble Kristen så engasjert - som bare han kan bli - at han ville prøve det med Simula, som den gang bare fantes i sin første utgave. Men å slippe til på maskinen på Regnesentralen var ikke lett. Den var hardt belastet og kostbar i bruk. <q>Vi tar 1. juledag,</q> sa Kristen. <q>Den dagen er det ingen som bruker maskinen.</q> Vi satt hele juledagen og skrev et simuleringsprogram og kjørte det på UNIVAC 1107. I ettertid har jeg forstått at dette var den første seriøse vitenskapelige anvendelsen av Simula - hvor man brukte det til noe hvor man ikke kjente fasitsvaret på forhånd. Dette ble senere til en publikasjon som Kristen og jeg utga sammen, og det ble en viktig del av doktoravhandlingen min i 1968. Denne bestod av et simuleringsarbeid, hvor Kristen hjalp meg å lage strukturen i et dataprogram, og en annen del hvor jeg anvendte informasjonsteori som jeg hadde lært av Erik Alfsen.</q>
+<q>At jeg fikk mulighet til å prøve ut mine idéer med simulering av nettverk av nerveceller i 1966, er Kristen Nygaards fortjeneste. Hans Skoie hadde på denne tiden etablert en gruppe av universitetslærere som hadde jevnlige møter: Blant flere var også Erik Alfsen, Tore Olsen og Kristen Nygaard med i gruppen. Kristen var den gang forskningssjef på Norsk Regnesentral. Da jeg la frem mine tanker om simulering av nettverk av nerveceller ble Kristen så engasjert - som bare han kan bli - at han ville prøve det med Simula, som den gang bare fantes i sin første utgave. Men å slippe til på maskinen på Regnesentralen var ikke lett. Den var hardt belastet og kostbar i bruk. <q>Vi tar 1. juledag,</q> sa Kristen. <q>Den dagen er det ingen som bruker maskinen.</q> Vi satt hele juledagen og skrev et simuleringsprogram og kjørte det på UNIVAC 1107. I ettertid har jeg forstått at dette var den første seriøse vitenskapelige anvendelsen av Simula - hvor man brukte det til noe hvor man ikke kjente fasitsvaret på forhånd. Dette ble senere til en publikasjon som Kristen og jeg utga sammen, og det ble en viktig del av doktoravhandlingen min i 1968. Denne bestod av et simuleringsarbeid, hvor Kristen hjalp meg å lage strukturen i et dataprogram, og en annen del hvor jeg anvendte informasjonsteori som jeg hadde lært av Erik Alfsen.</q>
 
-<q>Programmet simulerte elektriske prosesser i en membran til en nervecelle, genererte elektriske signaler som brer seg utover nerveceller; adderte dem etter en algoritme og overførte dem til nerveceller som ligger lenger ned i nettverket. Modellen har siden blitt etterprøvet eksperimentelt, og publikasjonen er en standardreferanse i medisinske lærebøker: Kristen er litt stolt av at han også har en publikasjon innen medisin omn nervesystemets virkemåte. Det fortjener han.</q>
+<q>Programmet simulerte elektriske prosesser i en membran til en nervecelle, genererte elektriske signaler som brer seg utover nerveceller; adderte dem etter en algoritme og overførte dem til nerveceller som ligger lenger ned i nettverket. Modellen har siden blitt etterprøvet eksperimentelt, og publikasjonen er en standardreferanse i medisinske lærebøker: Kristen er litt stolt av at han også har en publikasjon innen medisin om nervesystemets virkemåte. Det fortjener han.</q>
 
 <strong>Lars Walløe</strong> 
 
@@ -466,21 +470,21 @@ Fritz Albregtsen er astrofysiker og ble ansatt som ingeniør ved laboratoriet al
 
 Per Maltby ledet RNF i 1980 — 1981. Han forteller: <q>I 1981 nedsatte rådet et utvalg, som kom med sin innstilling året etter. Utvalget besto, foruten meg selv, av Yngvar Lundh, Per Ofstad og Ketil Bø.</q>
 
-At den nytilsatte dosent, Arne Jonassen, gikk inn som leder på heltid betød mye for at Oslo og IFI vant kampen med Trond-heim om lokaliseringen. 
+At den nytilsatte dosent, Arne Jonassen, gikk inn som leder på heltid betød mye for at Oslo og IFI vant kampen med Trondheim om lokaliseringen. 
 
-<q>Arne var en entusiast som dro i gang en aktivitet som mange har hatt nytte av,</q> sier Fritz Albregtsen. <q>Bildebehandlings-laboratoriet ble opprinnelig opprettet som et nasjonalt ressurs- og kompetansesenter, med Institutt for teoretisk astro-fysikk som en spesiell samar-beidspartner de første årene. Den gang trengte man det til forskning i solfysikk. Målset-ningen da vi startet, var todelt. For det første ønsket man et nasjonalt laboratorium med tungt datautstyr som skulle være en ressurs for hele landet. For det andre ville man styrke det metodiske grunnlaget for bilde-behandling, og det var derfor naturlig at laboratoriet ble lagt til et informatikkmiljø. NAVF bevilget generøst med penger, og det beste utstyret som var å få tak i, ble kjøpt inn. Etter hvert som datamaskinene har blitt billigere og bedre, og alle har tilgang på det de trenger av utstyr i sitt eget miljø, så har den nasjonale målsetningen blitt historie.</q>
+<q>Arne var en entusiast som dro i gang en aktivitet som mange har hatt nytte av,</q> sier Fritz Albregtsen. <q>Bildebehandlings-laboratoriet ble opprinnelig opprettet som et nasjonalt ressurs- og kompetansesenter, med Institutt for teoretisk astrofysikk som en spesiell samarbeidspartner de første årene. Den gang trengte man det til forskning i solfysikk. Målsetningen da vi startet, var todelt. For det første ønsket man et nasjonalt laboratorium med tungt datautstyr som skulle være en ressurs for hele landet. For det andre ville man styrke det metodiske grunnlaget for bildebehandling, og det var derfor naturlig at laboratoriet ble lagt til et informatikkmiljø. NAVF bevilget generøst med penger, og det beste utstyret som var å få tak i, ble kjøpt inn. Etter hvert som datamaskinene har blitt billigere og bedre, og alle har tilgang på det de trenger av utstyr i sitt eget miljø, så har den nasjonale målsetningen blitt historie.</q>
 
 ### Aktivitet
 
-<q>Ved at man koblet laboratoriet til et konkret forskningsfelt, astrofysikk, fikk vi en økt grenseflate utad, og våre stu-denter fikk en viktig kontakt med virkelige problemstillinger. I den første fasen hadde vi et bredt spektrum av aktiviteter. Etter hvert har vi konsentrert oss mer metodisk, selv om an-vendelsesområdene fortsatt er mange. Hovedaktiviteten har dreiet fra astrofysikk til medi-sinsk forskning. Vi har dreid bildefangsten fra å se ut i verdensrommet til å se inn i cellene i menneskekroppen. dag arbeider vi mye med kreft-forskning i samarbeid med Radiumhospitalet og Ullevål sykehus.</q>
+<q>Ved at man koblet laboratoriet til et konkret forskningsfelt, astrofysikk, fikk vi en økt grenseflate utad, og våre studenter fikk en viktig kontakt med virkelige problemstillinger. I den første fasen hadde vi et bredt spektrum av aktiviteter. Etter hvert har vi konsentrert oss mer metodisk, selv om anvendelsesområdene fortsatt er mange. Hovedaktiviteten har dreiet fra astrofysikk til medisinsk forskning. Vi har dreid bildefangsten fra å se ut i verdensrommet til å se inn i cellene i menneskekroppen. dag arbeider vi mye med kreft-forskning i samarbeid med Radiumhospitalet og Ullevål sykehus.</q>
 
-<q>Bildelaboratoriet har blitt en livskraftig liten enhet innenfor IFI, sier Fritz Albregtsen. — Vi skryter litt av at vi har utdannet svært mange kandidater gjen-nom årene på tross av at vi bare utgjør en beskjeden del av de ansatte ved instituttet.</q>
+<q>Bildelaboratoriet har blitt en livskraftig liten enhet innenfor IFI, sier Fritz Albregtsen. — Vi skryter litt av at vi har utdannet svært mange kandidater gjennom årene på tross av at vi bare utgjør en beskjeden del av de ansatte ved instituttet.</q>
 
-<q>Bildebehandling er ingen studieretning. Vi er en gruppe mennesker og en bunke metoder. Vi er nær beslektet med matematisk modellering, men har valgt å ha en løs til-knytning også dit fordi vi henter studenter fra alle studieretning-ene. Vi har lagt vekt på å hente oppgaver fra det virkelige liv, og dette har nok bidratt til at vi har klart å skape et entusiastisk miljø blant studentene. Vi er også litt stolte av alle de kvinnelige stu-dentene som har fullført hos oss.</q>
+<q>Bildebehandling er ingen studieretning. Vi er en gruppe mennesker og en bunke metoder. Vi er nær beslektet med matematisk modellering, men har valgt å ha en løs tilknytning også dit fordi vi henter studenter fra alle studieretningene. Vi har lagt vekt på å hente oppgaver fra det virkelige liv, og dette har nok bidratt til at vi har klart å skape et entusiastisk miljø blant studentene. Vi er også litt stolte av alle de kvinnelige studentene som har fullført hos oss.</q>
 
 ### Et møtepunkt
 
-<q>Bildelaboratoriet er på mange måter et møtepunkt for mange fag. Vi har studenter fra en rekke andre institutter, som biologi og geografi. Allerede for ti år siden arbeidet vi med bildeforbedringsteknikker for å produsere kart for Polarinstitut-tet basert på satellittbilder fra Antarktis. De seneste årene har dette utviklet seg til mer gene-relle adaptive filter-algoritmer. Bilder er ikke bare data som puttes inn i en algoritme. Bildet selv kan samtidig styre en algoritme som behandler bildet. Slik som det der,</q> smiler Fritz Albregtsen og peker på Eschers bilde av en hånd — som tegner en hånd — som tegner en hånd. 
+<q>Bildelaboratoriet er på mange måter et møtepunkt for mange fag. Vi har studenter fra en rekke andre institutter, som biologi og geografi. Allerede for ti år siden arbeidet vi med bildeforbedringsteknikker for å produsere kart for Polarinstituttet basert på satellittbilder fra Antarktis. De seneste årene har dette utviklet seg til mer generelle adaptive filter-algoritmer. Bilder er ikke bare data som puttes inn i en algoritme. Bildet selv kan samtidig styre en algoritme som behandler bildet. Slik som det der,</q> smiler Fritz Albregtsen og peker på Eschers bilde av en hånd — som tegner en hånd — som tegner en hånd. 
 
 ## Databehandling
 
@@ -500,7 +504,7 @@ Studieretningen har vært en egen enhet helt fra IFI ble opprettet.
   * IN115: Algoritmer og datastrukturer 
   * IN147: Program- og maskinvare 
   * IN212: Databaseteori 
-  * IN217: Programspesifikasjon og veri fikasjon 
+  * IN217: Programspesifikasjon og verifikasjon 
   * IN270: Datakommunikasjon 
 * H97 
   * IN102: Programmeringslaboratorium 
@@ -512,15 +516,15 @@ Studieretningen har vært en egen enhet helt fra IFI ble opprettet.
 
 ### Forhistorien
 
-I 1958 hadde FFI fått sin store maskin Frederic, og Harald Keilhau holdt i den anledning et programmeringskurs for interesserte ved Universitetet i Oslo. Før det — i <q>Nussetiden</q> — fikk noen forskere hjelp av Ole Amble til å programmere og selv lære å programmere det de hadde bruk for til sin forskning. Midt på femtitallet holdt Ernst S. Selmer foredrag på Blindern om datamaskiner og programmering og tente den gang interessen hos mange. Han var universitetslektor i matematikk ved UiO og hadde vært i USA og arbeidet med konstruksjon av datamaskiner. Han ble professor i matematikk ved Universitetet i Bergen like etterpå. Tidlig i sekstiårene var regneanlegget ved UiO base for det som kan betegnes som datafag ved uni-versitetet. Til å begynne med var utdanningen brukerkurs i programmering for folk som skulle bruke maskinene til forskning.
+I 1958 hadde FFI fått sin store maskin Frederic, og Harald Keilhau holdt i den anledning et programmeringskurs for interesserte ved Universitetet i Oslo. Før det — i <q>Nussetiden</q> — fikk noen forskere hjelp av Ole Amble til å programmere og selv lære å programmere det de hadde bruk for til sin forskning. Midt på femtitallet holdt Ernst S. Selmer foredrag på Blindern om datamaskiner og programmering og tente den gang interessen hos mange. Han var universitetslektor i matematikk ved UiO og hadde vært i USA og arbeidet med konstruksjon av datamaskiner. Han ble professor i matematikk ved Universitetet i Bergen like etterpå. Tidlig i sekstiårene var regneanlegget ved UiO base for det som kan betegnes som datafag ved universitetet. Til å begynne med var utdanningen brukerkurs i programmering for folk som skulle bruke maskinene til forskning.
 
 John Midtdal, førsteamanuensis i fysikk, var både en sentral person i arbeidet med Nusse, og han blir husket med glede av studentene fra sekstitallet — som strømmet til MA9. Dette var det første kompetansegivende kurset i programmering og besto av undervisning i Algol og litt maskinkoding. Studentene kjørte jobbene på datamaskinen Univac 1107 som kom til Norsk Regnesentral i 1963. I 1967 fikk UiO sin egen stormaskin, CDC 3300. Dette gjorde det mulig å sette igang oppbyggingen av et omfattende utdanningstilbud innen databehandling.
 
-Ole-Johan Dahl var sentral i alle sammenhenger, og han var hovedfagsveileder for de aller fleste hovedfagsoppgavene i databehandling, også i tiden som forskek ved Regnesentralen. Da han begynte som professor, utformet han et utdanningstilbud som han selv ville ha det, både i numerisk analyse og databehandling. 
+Ole-Johan Dahl var sentral i alle sammenhenger, og han var hovedfagsveileder for de aller fleste hovedfagsoppgavene i databehandling, også i tiden som forsker ved Regnesentralen. Da han begynte som professor, utformet han et utdanningstilbud som han selv ville ha det, både i numerisk analyse og databehandling. 
 
 <q>DB-kursene til grunnutdanning i databehandling var: DBO (Grunnkurs i bruk av datamaskiner), DB2 (Maskinspråk og operativsystem), DB3 (Ikke-numeriske metoder), DB4 (Filbehandling), DB10 (Programmeringsspråk), DB11 (Automatateori). Folk fra regneanlegget og Samskipnaden deltok også med å utforme innhold og læremidler og foreleste. Arne Jonassen var den eneste som var ansatt i ren undervisningsstilling i databehandling frem til IFI ble opprettet i 1977. Han fikk jobben å utvikle grunnkurset i programmering, DBO, som etter Ønske fra fakultetet måtte være Fortran-basert.</q>
 
-<q>At Donald Knuth var ved UiO et helt år i 1972/73, har også satt sine faglige spor: Det har også gitt mange muligheten til opphold ved Stanford. Allerede første gang vi møttes, i 1967, bestemte han seg for å komme til Norge i 1972 og skrive bind ni: 7 i sin store bokserie, The art of computer prognmuning, som mange har kalt hans <q>Bibelarbeid</q>. Bind syv skulle handle om programmeringsspråk, og han mente at Oslo var det riktige stedet å skrive om det. Donald kom som planlagt, men hadde bare ferdig de første to bøkene. Han hadde med seg flere skipskister med dokumenter Vi satte igang en seminarserie, og Donald leste sine dokumenter og foreleste. Han hadde en utrolig evne til å lese og fordøye papers. Hele avdelingen var med på å skrive notater som vi samlet til to kompendien Dette skulle bli litt av grunnlaget for de neste bindene i serien. Den tredje boken ble utgitt like etter at han kom tilbake til Stanford i 1973. Det fjerde bindet er annonsert til å komme i år.</q>
+<q>At Donald Knuth var ved UiO et helt år i 1972/73, har også satt sine faglige spor: Det har også gitt mange muligheten til opphold ved Stanford. Allerede første gang vi møttes, i 1967, bestemte han seg for å komme til Norge i 1972 og skrive bind nr. 7 i sin store bokserie, The art of computer prognmuning, som mange har kalt hans <q>Bibelarbeid</q>. Bind syv skulle handle om programmeringsspråk, og han mente at Oslo var det riktige stedet å skrive om det. Donald kom som planlagt, men hadde bare ferdig de første to bøkene. Han hadde med seg flere skipskister med dokumenter Vi satte igang en seminarserie, og Donald leste sine dokumenter og foreleste. Han hadde en utrolig evne til å lese og fordøye papers. Hele avdelingen var med på å skrive notater som vi samlet til to kompendien Dette skulle bli litt av grunnlaget for de neste bindene i serien. Den tredje boken ble utgitt like etter at han kom tilbake til Stanford i 1973. Det fjerde bindet er annonsert til å komme i år.</q>
 
 **Ole-Johan Dahl** 
 
@@ -537,7 +541,7 @@ Ole-Johan Dahl er selve nestoren i oppbyggingen av informatikkfaget ved UiO. Fra
     <img src="./ole-johan_dahl.jpg" />
   </a>
   <figcaption>
-    <p>Skiltene med Profes-sor Dahls gate og Nygaards alle hang plutselig en morgen helt riktig plassert i instituttets lokaler i Fysikk-bygningen. De var ærlig og redelig stjålet fra Oslos gater en natt.</p> <p>Instituttet har tatt godt vare på skiltene, og de fulgte med til Informatikkbygget.</p>
+    <p>Skiltene med Professor Dahls gate og Nygaards alle hang plutselig en morgen helt riktig plassert i instituttets lokaler i Fysikkbygningen. De var ærlig og redelig stjålet fra Oslos gater en natt.</p> <p>Instituttet har tatt godt vare på skiltene, og de fulgte med til Informatikkbygget.</p>
     <p>Det har vært en godt bevart hemmelighet hvem som sto bak. Som bidrag til 20 års jubileet bekjenner Gro Bjerknes: Det var Jens Kaasbøll og meg på sykkeltur.</p>
     <p>Foto: Øystein Christiansen</p> 
   </figcaption>
@@ -557,7 +561,7 @@ Ole-Johan Dahl er selve nestoren i oppbyggingen av informatikkfaget ved UiO. Fra
 
 <q>*Din egen forskning?*</q>
 
-<q>Min hovedinteresse de siste femogtyve årene har vært språk for spesifikasjon og teknikker for programverifika-sjon,</q> forteller Dahl, <q>bevis for korrekthet i forhold til en gitt spesifikasjon. Utviklingen av en programvareindustri, med de mange tilbakeslag man ser, viser hvor enormt vanskelig det er å produsere og videreutvikle kompliserte datasystemer. Jeg tror at bruk av formelle metodikker kan være et hjelpemiddel. Blant annet gir programmering med henblikk på verifikasjon viktig tilbakekopling til kvaliteten av programtekster. Rundt 1970 startet jeg et hovedfags-seminar som het *Formelle metodikker*. Seminaret utviklet seg, bl.a. som et resultat av egen forskning, til et regulært kurs i programspesifikasjon og -verifikasjon, og nedfelte seg etter hvert i form av en bok, *Verifiable Programming*, som i 1992 utkom i Hoare-serien på Prentice Hall. Mye av min forskning har direkte latt seg overføre til undervisning for studenter. Innen instituttet har jeg hatt et spesielt nært samarbeid med Olaf Owe.</q>
+<q>Min hovedinteresse de siste femogtyve årene har vært språk for spesifikasjon og teknikker for programverifikasjon,</q> forteller Dahl, <q>bevis for korrekthet i forhold til en gitt spesifikasjon. Utviklingen av en programvareindustri, med de mange tilbakeslag man ser, viser hvor enormt vanskelig det er å produsere og videreutvikle kompliserte datasystemer. Jeg tror at bruk av formelle metodikker kan være et hjelpemiddel. Blant annet gir programmering med henblikk på verifikasjon viktig tilbakekopling til kvaliteten av programtekster. Rundt 1970 startet jeg et hovedfags-seminar som het *Formelle metodikker*. Seminaret utviklet seg, bl.a. som et resultat av egen forskning, til et regulært kurs i programspesifikasjon og -verifikasjon, og nedfelte seg etter hvert i form av en bok, *Verifiable Programming*, som i 1992 utkom i Hoare-serien på Prentice Hall. Mye av min forskning har direkte latt seg overføre til undervisning for studenter. Innen instituttet har jeg hatt et spesielt nært samarbeid med Olaf Owe.</q>
 
 <q>*Dannelsen av faggrupper innen databehandling?*</q>
 
@@ -571,15 +575,15 @@ Ole-Johan Dahl er selve nestoren i oppbyggingen av informatikkfaget ved UiO. Fra
 
 ### Den første dataprofessor ved UiO
 
-Ole-Johan Dahl er en nordmann som er verdensberømt i utlandet. Han er halvparten av duoen Dahl & Nygaard som på sekstitallet skapte program-meringsspråket Simula. Simula fikk en unik posisjon også i det internasjonale informatikkmiljøet. Dahl kom til Universitetet i Oslo fra datamiljøene på Forsvarets forskningsinstitutt (FFI) og NR (Norsk Regnesentral). Han tok hovedfag i matematikk ved UiO i 1957 med Jan V. Garwick som veileder. Ole-Johan Dahl begynte som soldat på FFI i 1952 og ble der i ti år før han gikk over til Regnesentalen. Han var i full jobb samtidig som han studerte. Sammen med Garwick utviklet han programmene til Frederic.
+Ole-Johan Dahl er en nordmann som er verdensberømt i utlandet. Han er halvparten av duoen Dahl & Nygaard som på sekstitallet skapte programmeringsspråket Simula. Simula fikk en unik posisjon også i det internasjonale informatikkmiljøet. Dahl kom til Universitetet i Oslo fra datamiljøene på Forsvarets forskningsinstitutt (FFI) og NR (Norsk Regnesentral). Han tok hovedfag i matematikk ved UiO i 1957 med Jan V. Garwick som veileder. Ole-Johan Dahl begynte som soldat på FFI i 1952 og ble der i ti år før han gikk over til Regnesentalen. Han var i full jobb samtidig som han studerte. Sammen med Garwick utviklet han programmene til Frederic.
 
 <q>Det var en fantastisk spennende og interessant tid. Vår software  var operativ fra maskinen ankom 11957. Med studiene gikk det verre. Jeg ble nesten evig student. Det er svært vanskelig å skulle lese til hovedfagseksamen etter flere år med kreativt arbeid. Men Garwick presset, på, og med ham som veileder i numerisk matematikk gikk det til slutt. Blant annet fordi han sørget for å få en forskningsrapport om programmering godtatt som min hovedoppgave ved Matematisk institutt på Blindern.</q>
 
-<q>Jeg har aldri vært mye til matematiker og har alltid hatt stor respekt for dem. Jeg var derfor ganske engstelig for å begynne som professor ved Matematisk institutt. Mitt fag var språkutvikling og programmering, og det lille jeg har gjort av numerisk matematikk, er ikke verd å nevne. Det må derfor være riktig å si at datafaget ble smuglet inn på Universitetet i Oslo under dekke av numerisk nzatematikk. Likevel var det noen som forventet seg numerisk nwtematikk av den nye professoren, og da min første forelesningsserie var over emnet Ikke-nmeriske nzetodez; ga det — i følge ryktene — anledning til endel syrlige kommentaren I tidens fylde ble professoratet omdefinert på passende måte.</q>
+<q>Jeg har aldri vært mye til matematiker og har alltid hatt stor respekt for dem. Jeg var derfor ganske engstelig for å begynne som professor ved Matematisk institutt. Mitt fag var språkutvikling og programmering, og det lille jeg har gjort av numerisk matematikk, er ikke verd å nevne. Det må derfor være riktig å si at datafaget ble smuglet inn på Universitetet i Oslo under dekke av numerisk matematikk. Likevel var det noen som forventet seg numerisk matematikk av den nye professoren, og da min første forelesningsserie var over emnet Ikke-numeriske metoder ga det — i følge ryktene — anledning til endel syrlige kommentarer. I tidens fylde ble professoratet omdefinert på passende måte.</q>
 
-<q>Kristen Nygaard og jeg var samtidig ved FFI på femtitallet. 11960 tok han over ledelsen av Norsk Regnesentral. Han hadde arbeidet med militære simuleringsprosjekter og så et behov for programmeringsspråk for simule-ring. Han kontaktet meg om dette, og jeg ble etter hvert involvert i videreutvikling av hans ilker Et samarbeid med Ragnar Frisch om lineær og ikke-lineær optimering måtte vike for Simulaprosjektet.</q>
+<q>Kristen Nygaard og jeg var samtidig ved FFI på femtitallet. 11960 tok han over ledelsen av Norsk Regnesentral. Han hadde arbeidet med militære simuleringsprosjekter og så et behov for programmeringsspråk for simulering. Han kontaktet meg om dette, og jeg ble etter hvert involvert i videreutvikling av hans ilker Et samarbeid med Ragnar Frisch om lineær og ikke-lineær optimering måtte vike for Simulaprosjektet.</q>
 
-<q>Donald Knuth og jeg møtte hverandre første gang over musikk og informatikk. Donald kom til en IFIP-konferanse om sinzuleringsspråk som vi arrangerte på Lysebu ved Oslo i 1967. Det var for øvrig der at Simula 67 ble lagt frem for første gang. Han hadde selv laget et simuleringsspråk, men som den rause og integrerte person han en la han det dødt etter å ha fått presentert hva Kristen og jeg hadde laget. Vårt var bedre, sa han, og om kvelden spilte vi firhendig piano sammen. Siden har han fortalt at det var første gang han hadde det bare moro med musikk — tidligere hadde det vært mye pianolærerinner og prestasjoner. Han kom senere stadig tilbake til Norge. Donald og jeg har ikke arbeidet mye sammen faglig. Han tilhører den private vennekretsen med musikk. Musikk har vært min frisone som jeg har holdt unna alt profesjonelt arbeid.</q>
+<q>Donald Knuth og jeg møtte hverandre første gang over musikk og informatikk. Donald kom til en IFIP-konferanse om simuleringsspråk som vi arrangerte på Lysebu ved Oslo i 1967. Det var for øvrig der at Simula 67 ble lagt frem for første gang. Han hadde selv laget et simuleringsspråk, men som den rause og integrerte person han en la han det dødt etter å ha fått presentert hva Kristen og jeg hadde laget. Vårt var bedre, sa han, og om kvelden spilte vi firhendig piano sammen. Siden har han fortalt at det var første gang han hadde det bare moro med musikk — tidligere hadde det vært mye pianolærerinner og prestasjoner. Han kom senere stadig tilbake til Norge. Donald og jeg har ikke arbeidet mye sammen faglig. Han tilhører den private vennekretsen med musikk. Musikk har vært min frisone som jeg har holdt unna alt profesjonelt arbeid.</q>
 
 <q>Det eneste unntaket jeg har gjort var da Bassen Lande kom med sine idéer til en hovedfagsoppgave i informatikk med anvendelse på musikk. Dette ble siden Musikusprosjektet i samarbeid med Institutt for musikkvitenskap. Dette prosjektet fikk finansiell støtte fra NAVF og det ble av mange betraktet som et vellykket eksempel på tverrfaglig samarbeid.</q>
 
@@ -600,7 +604,7 @@ Han ble tilsatt som amanuensis noen få måneder etter at IFI ble opprettet. Da 
     <img src="./bjorn_kirkerud.jpg" />
   </a>
   <figcaption>
-    <p>Professor Bjørn Kirkerud stortrives når han — i et stapp-fullt auditorium — kan få gi studentene det første grunnkurset i programmering.</p>
+    <p>Professor Bjørn Kirkerud stortrives når han — i et stappfullt auditorium — kan få gi studentene det første grunnkurset i programmering.</p>
     <p>Her sitter han i dyp konsentrasjon i IFIs store auditorium våren 1997.</p> 
     <p>Foto: Øystein Christiansen</p>
   </figcaption>
@@ -620,9 +624,9 @@ Han ble tilsatt som amanuensis noen få måneder etter at IFI ble opprettet. Da 
 
 Bjørn Kirkerud smiler når han forteller om det som er hans hjertebarn: <q>For det første har jeg sett undervisningen i programmering som en pedagogisk utfordring — spesielt begynnerundervisningen. Hva er viktig å lære studentene, og hvordan kan det legges frem slik at det både fenger og gir en god og riktig kunnskap?</q>
  
-<q>Det andre som har opptatt meg, kan vi gjerne kalle teoretisk databehandling. Innenfor dette har jeg spesielt to faglige fascinasjoner — den ene er formell semantikk for programmeringsspråk, som jeg møtte første gang på et kurs i Holland i 1977. Den andre er Knuth/Bendix-algorit-men som jeg kom over i 1980. Denne kaller jeg det intellektuelle høydepunktet innen informatikken. Begge disse områdene har fulgt meg de siste tyve årene.</q>
+<q>Det andre som har opptatt meg, kan vi gjerne kalle teoretisk databehandling. Innenfor dette har jeg spesielt to faglige fascinasjoner — den ene er formell semantikk for programmeringsspråk, som jeg møtte første gang på et kurs i Holland i 1977. Den andre er Knuth/Bendix-algoritmen som jeg kom over i 1980. Denne kaller jeg det intellektuelle høydepunktet innen informatikken. Begge disse områdene har fulgt meg de siste tyve årene.</q>
 
-<q>*Forskning og samarbeids-partnere internt?*</q>
+<q>*Forskning og samarbeidspartnere internt?*</q>
 
 <q>Jeg synes ikke jeg har forsket så mye,</q> sier Kirkerud. <q>Men noe av det jeg har holdt på med innen teoretisk databehandling vil jeg nok definere som forskning, selv om det er et smalt område. Samarbeidspartnere internt? Ole-Johan er alltid inspirerende å diskutere med. Han er noe helt for seg selv og kan ikke sammenliknes med noe eller noen.</q>
 
@@ -642,19 +646,19 @@ Bjørn Kirkerud smiler når han forteller om det som er hans hjertebarn: <q>For 
 
 Bjørn Kirkerud protesterer sterkt mot å bli kalt filosof selv om han både er svært samfunnsengasjert og er magister i matematisk logikk fra UiO i 1968 med filosofi som støttefag.
 
-<q>Det med inagistergraden var bare en tilfeldighet,</q> sier han. <q>Oppgaven kunne like gjerne vært tatt som hovedfagseksamen i matematikk. Jeg hadde Jens Fenstad og Stål Aanderaa som veiledere ved Matematisk institutt.</q>
+<q>Det med magistergraden var bare en tilfeldighet,</q> sier han. <q>Oppgaven kunne like gjerne vært tatt som hovedfagseksamen i matematikk. Jeg hadde Jens Fenstad og Stål Aanderaa som veiledere ved Matematisk institutt.</q>
 
 Men får du ham på gli, forteller han gjerne — og med entusiasme og stolthet —om Pugwash bevegelsen som han er medlem av, og som fikk Nobels fredspris for to år siden. Sitt samfunnsengasjement vedkjenner han seg.
 
 <q>Jeg er sekretær for den norske avdelingen,</q> forteller Kirkerad. <q>Bevegelsen ble startet av Bertrand Russel og Albert Einstein for 40 år siden som en reaksjon mot atombomben. Til sommeren blir det en stor internasjonal konferanse på Lillehammer: Jeg har ansvar for arrangementet som starter 2. august — det er også min 60 årsdag.</q>
 
-<q>Arbeidet i Pugwash er fascinerende og utfordrende. Vi er organisert i arbeidsgrupper på 20-25 personer som møtes til debatt. Gruppene er tverrfaglige, selv om mange er realister; og debatten blir derfor av en helt annen karakter enn man er vant til fra rene fagsammenhengen Jeg ledet også Nei til Atomvåpen en periode midt på åttitallet — et verv jeg tok over etter Erik Alfsen. Vi møtte hverandre politisk rundt norsk sikkerhetspolitikk, og skrev flere artikler samnzen i Dagbladet tidlig på åttitallet. Jeg kom over endel artikler; bl.a. i Scientific America'n om strategisk krigføring, som opprørte meg sterkt, og jeg skrev artikler både i tidsskrifter og bøker ut fra min fagbakgrunn.</q>
+<q>Arbeidet i Pugwash er fascinerende og utfordrende. Vi er organisert i arbeidsgrupper på 20-25 personer som møtes til debatt. Gruppene er tverrfaglige, selv om mange er realister; og debatten blir derfor av en helt annen karakter enn man er vant til fra rene fagsammenhengen Jeg ledet også Nei til Atomvåpen en periode midt på åttitallet — et verv jeg tok over etter Erik Alfsen. Vi møtte hverandre politisk rundt norsk sikkerhetspolitikk, og skrev flere artikler sammen i Dagbladet tidlig på åttitallet. Jeg kom over endel artikler; bl.a. i Scientific American om strategisk krigføring, som opprørte meg sterkt, og jeg skrev artikler både i tidsskrifter og bøker ut fra min fagbakgrunn.</q>
 
-Sine faglige hjertebarn forteller Bjørn Kirkerud også mer om. Arbeidet med formell semantikk har akkurat resultert i en bok som er utgitt på det engelske forlaget International Thomson Computer Press. Boken *Programeting Language Semantics: Imperative and Object-Oriented Languages* er rykende fersk og bygger på tyve års utvikling.
+Sine faglige hjertebarn forteller Bjørn Kirkerud også mer om. Arbeidet med formell semantikk har akkurat resultert i en bok som er utgitt på det engelske forlaget International Thomson Computer Press. Boken *Programming Language Semantics: Imperative and Object-Oriented Languages* er rykende fersk og bygger på tyve års utvikling.
 
-<q>Kurset i Holland i 1977, hvor jeg møtte området for første gang, var et kurs over 8 timer som ble holdt av de Bakket: Det er nesten utrolig at et 8 timers kurs kan tenne en interesse som varer i nesten tyve ål; men det var første gang jeg forsto at det lå et skikkelig faglig fundament under dette fagfeltet. Allerede i 1978 tilbød jeg det første hovedfagkurset i dette emnet og har holdt på med det siden. Det har gradvis utviklet seg — med stadig nye notater til kurset — og til slutt ble det altså en bok.</q>
+<q>Kurset i Holland i 1977, hvor jeg møtte området for første gang, var et kurs over 8 timer som ble holdt av de Bakket: Det er nesten utrolig at et 8 timers kurs kan tenne en interesse som varer i nesten tyve år, men det var første gang jeg forsto at det lå et skikkelig faglig fundament under dette fagfeltet. Allerede i 1978 tilbød jeg det første hovedfagkurset i dette emnet og har holdt på med det siden. Det har gradvis utviklet seg — med stadig nye notater til kurset — og til slutt ble det altså en bok.</q>
 
-<q>Knuth/Bendix-algoritmen kommer jeg også stadig tilbake til. Den kommer fra en artikkel som ble skrevet i 1970, men jeg oppdaget den først da Ole-Johan ba nwg innlede om den på et internt seminar på instituttet, og jeg syntes den var fenomenalt flott. Algoritmen har ingenting med Bibelarbeidet til Donald Knuth å gjøre, men er innenfor et område som kalles omskrivings-systemet: Denne interessen resulterte også i et hovedfagskurs som jeg har holdt en rekke ganget; hvor denne algoritmen er helt sentral. Der har jeg også en tykk bunke med notater som kanskje blir en bok.</q>
+<q>Knuth/Bendix-algoritmen kommer jeg også stadig tilbake til. Den kommer fra en artikkel som ble skrevet i 1970, men jeg oppdaget den først da Ole-Johan ba nwg innlede om den på et internt seminar på instituttet, og jeg syntes den var fenomenalt flott. Algoritmen har ingenting med Bibelarbeidet til Donald Knuth å gjøre, men er innenfor et område som kalles omskrivingssystemet: Denne interessen resulterte også i et hovedfagskurs som jeg har holdt en rekke ganger, hvor denne algoritmen er helt sentral. Der har jeg også en tykk bunke med notater som kanskje blir en bok.</q>
 
 Folkeopplysning har også opptatt Bjørn Kirkerud. I 1984 og 85 hadde han sin egen dataspalte i A-magasinet i Aftenposten, og han har interessert seg for og gitt faglige bidrag til dataundervisningen i skolene. Men hvorfor datainteressen? 
 
@@ -676,13 +680,13 @@ Miljøet ved IFI har også skapt næringsvirksomhet. Oslonett har sine røtter i
 
 ### De første ti-år
 
-De første datatjenestene ved instituttet ble levert av universitetets sentrale EDB-senter. DEC-10 med gode interaktive egenskaper var et godt redskap for studentundervisningen, og tilfredsstilte grunnleggende krav (SIMULA). Men instituttets behov oversteg ganske snart den kapasiteten som var tilgjengelig på EDB-senteret. Den første teminalstuen hadde 10 skjermterminaler som var knyttet til DEC-I0. Ved overflyttingen til Fysikkbybningen i 1982 kjøpte IFI sin egen DEC-20 og opprettet en terminalstue med et tyvetalls Tandbergterminaler (TDV-2230) allerede før de var lansert på markedet. Disse terminalene var utrolig driftsikre, og noen av dem brukes fremdeles som konsoller ved instituttet. 
+De første datatjenestene ved instituttet ble levert av universitetets sentrale EDB-senter. DEC-10 med gode interaktive egenskaper var et godt redskap for studentundervisningen, og tilfredsstilte grunnleggende krav (SIMULA). Men instituttets behov oversteg ganske snart den kapasiteten som var tilgjengelig på EDB-senteret. Den første teminalstuen hadde 10 skjermterminaler som var knyttet til DEC-I0. Ved overflyttingen til Fysikkbygningen i 1982 kjøpte IFI sin egen DEC-20 og opprettet en terminalstue med et tyvetalls Tandbergterminaler (TDV-2230) allerede før de var lansert på markedet. Disse terminalene var utrolig driftsikre, og noen av dem brukes fremdeles som konsoller ved instituttet. 
 
-IFI anskaffet også mer eksperimentelt utstyr, og i 1982 kom VAX-11/780 som etter hvert ble en legendarisk maskin i informatikkmiljøene verden over. Hele instituttet støttet opp om denne satsingen som ikke var uten kontroverser i datamlljøene den gang, hvor det fremdeles var en sterk tro på stormaskiner og sentrale føringer for å kjøpe inn NORD-maskiner. Allerede høsten 1982 satte IFI igang Berkeley UNIX 4.1bsb på VAXen som den første installasjon i Norge. Med dette systemet ble TCP/IP protokollen implementert, og instituttet fikk derved igang den første Internett-forbindelsen i Norge mellom Televerkets Forskningsinstitutt og IFI. Med 1200 baud modem og SLIP ble IFI en del av INTERNET, en tidlig versjon av dagens intemett. 
+IFI anskaffet også mer eksperimentelt utstyr, og i 1982 kom VAX-11/780 som etter hvert ble en legendarisk maskin i informatikkmiljøene verden over. Hele instituttet støttet opp om denne satsingen som ikke var uten kontroverser i datamiljøene den gang, hvor det fremdeles var en sterk tro på stormaskiner og sentrale føringer for å kjøpe inn NORD-maskiner. Allerede høsten 1982 satte IFI igang Berkeley UNIX 4.1bsb på VAXen som den første installasjon i Norge. Med dette systemet ble TCP/IP protokollen implementert, og instituttet fikk derved igang den første Internettforbindelsen i Norge mellom Televerkets Forskningsinstitutt og IFI. Med 1200 baud modem og SLIP ble IFI en del av INTERNET, en tidlig versjon av dagens intemett. 
 
 Allerede i IFIs forhistorie var man opptatt av lokale personlige datamaskiner, og man tok tidlig i bruk mikroprosessorer i undervisningen. Ved innflyttingen i Fysikkbygningen ble det også etablert en mikromaskinstue med et titalls Altos Z80-baserte PCer. Disse ble i mange år også brukt til undervisning i maskinkodeprogrammering. 
 
-Da de første virkelige arbeidsstasjonene (PERQ) kom i 1983, så man mulighetene med rastergrafisk skjerm og lokal disk med Ethernet mellom maskinene. I 1985 forsatte IR utbyggingen etter denne teknologiske strategiplanen og kjøpte inn den første Mikro-VAX med en god UNIX-installasjon i kombinasjon med rastergrafikk. Samtidig tok IR i bruk X-windows versjon 9 fra MIT og dro nytte av Athena-prosjektet med klient-tjener struktur. 
+Da de første virkelige arbeidsstasjonene (PERQ) kom i 1983, så man mulighetene med rastergrafisk skjerm og lokal disk med Ethernet mellom maskinene. I 1985 fortsatte IR utbyggingen etter denne teknologiske strategiplanen og kjøpte inn den første Mikro-VAX med en god UNIX-installasjon i kombinasjon med rastergrafikk. Samtidig tok IR i bruk X-windows versjon 9 fra MIT og dro nytte av Athena-prosjektet med klient-tjener struktur. 
 
 ### Det andre ti-år
 
@@ -690,7 +694,7 @@ Det store datateknologiske spranget ble tatt i 1987 med etablering av et stort d
 
 Ved den videre utbyggingen av utstyrsparken ble det stilt strenge, men pragmatiske, krav til nytt utstyr som skulle inn. Dette gjaldt særlig operativsystemets generelle grensesnitt, åpenhet og støtte for de-facto standarder som NFS, TCP/IP, XII m.m. I tillegg ble selvsagt mulighetene for å kunne bruke den store mengden standard programvare som vi etter hvert hadde gjort oss avhengig av, vektlagt. Det var også et krav å kunne kjøre SIMULA på arbeidsstasjonene. Dette førte til at det i første omgang ble kjøpt inn utstyr fra SUN og Digital - etter hvert også fra Silicon Graphics. 
 
-Midlene til innkjøp av datautstyr til undervisning og forsking tilfiøt institusjonene gjennom flere år fra Regjeringens IT-program, og IFI fortsatte utbyggingen etter den IT-strategi som var lagt til grunn på forhånd. Studenter og ansatte hadde i denne perioden tilgang til det beste utstyret som fantes på markedet. 
+Midlene til innkjøp av datautstyr til undervisning og forsking tilfløt institusjonene gjennom flere år fra Regjeringens IT-program, og IFI fortsatte utbyggingen etter den IT-strategi som var lagt til grunn på forhånd. Studenter og ansatte hadde i denne perioden tilgang til det beste utstyret som fantes på markedet. 
 
 Men maskiner og programvare må settes inn i et effektivt bruksmiljø, og systemeringsjobben rundt dette kunne bare utføres med en dyp kjennskap til all teknologien som var involvert. Rekruttering til driftstaben skjedde derfor hovedsaklig blant dyktige hovedfagsstudenter ved IFI og i terminalvaktmiljøet. Målet var at alle programmer skulle kunne brukes transparent fra alle typer maskiner, og at alle filer skulle være tilgjengelig over hele nettet. Det ble bygget opp en sentral driftstab på 5-8 personer på fulltid. En viktig forutsetning for oppbyggingen av det gode brukermiljøet var— i tillegg til kompetanse — driftstabens nærhet til de vitenskapelig ansatte, både sosialt og faglig. En ytterligere styrking av dette forholdet skjedde da driftstaben ble splittet i en sentral del og en gruppedel, der hver faggruppe fikk en dedikert person til å ta seg av deres behov — en modell som fortsatt brukes ved IFI. IFIs teknologivalg og driftsmodell ble i nittiårene kopiert både innenfor og utenfor universitetsmiljøene i hele landet. 
 
@@ -714,15 +718,15 @@ Studieretningen ble opprettet i 1980.
 
 ### Forhistorien
 
-Fysisk institutt, med Elektronikklaboratoriet og Van der Grafen, var base for den første utviklingen i elektronikk ved Universitetet i Oslo. Disse var etablert primært med sikte på forskning. Den første formelle undervisningen av studenter kom midt på sekstitallet. Førsteamanuensis Jakob Sandstad ble leder for det ett år gamle Elektronikklaboratoriet i 1947 og ledet laboratoriet i flere år videre. Han har også vært en mye benyttet og avholdt lærer ved UiO og har veiledet mange studenter til hovedfag bådt i elektronikk og måleteknikk. Om bakgrunnen for opprettelsen av linjen for kybernetikk i 1967 forteller Sandstad: 
+Fysisk institutt, med Elektronikklaboratoriet og Van der Grafen, var base for den første utviklingen i elektronikk ved Universitetet i Oslo. Disse var etablert primært med sikte på forskning. Den første formelle undervisningen av studenter kom midt på sekstitallet. Førsteamanuensis Jakob Sandstad ble leder for det ett år gamle Elektronikklaboratoriet i 1947 og ledet laboratoriet i flere år videre. Han har også vært en mye benyttet og avholdt lærer ved UiO og har veiledet mange studenter til hovedfag både i elektronikk og måleteknikk. Om bakgrunnen for opprettelsen av linjen for kybernetikk i 1967 forteller Sandstad: 
 
 <q>Fysisk institutt fikk henvendelse fra Karl Holberg ved Forsvarets forskningsinstitutt med et ønske at det ble utdannet flere med teknologisk bakgrunn ved UiO. Etter flere møter med representanter for begge instituttene ble man enig om et kursopplegg for en teknologisk linje. Selv foreleste jeg to av kursene i flere år: Generell elektronikk og Elektronisk kretsteori. Det ble også tilbudt kurs i reguleringsteknikk og regnemaskinteknikk. FFI forpliktet seg til å gi hovedfagsveiledning.</q>
 
 Som den eneste dosent i kybernetikk fra 1970 hadde Lars Walløe også ansvar for å skaffe hovedfagsveiledere og oppgaver til de studentene som ønsket en retning med digitalteknikk og datamaskiner.
 
-<q>Kjeller-instituttene og Sentralinstituttet for Industriell forskning har hatt en lang tradisjon med å veilede studenter fra Fysisk institutt, og mange av kybenzetikkstudentene tok hovedfag i samarbeid med FFI og SI.</q>
+<q>Kjeller-instituttene og Sentralinstituttet for Industriell forskning har hatt en lang tradisjon med å veilede studenter fra Fysisk institutt, og mange av kybernetikkstudentene tok hovedfag i samarbeid med FFI og SI.</q>
 
-<q>Men jeg kjenner fremdeles at jeg ikke strakk helt til for alle studentene som Ønsket hovedoppgaver som var mer datamaskinorientert. Noen måtte finne både veiledere og oppgaver selv. Enkelte fikk kontakt med industrien og firmaer i det private næringsliv. Noen klarte seg bra, mens andre strevde mye og fikk lite hjelp og veiledning på de arbeidsplassene de hadde funnet fremtil. Men jeg tror det var en berikelse for miljøet totalt at studentene var utenfor Blindern-miljøet i svært så forskjellige laboratorier og produksjon.</q>
+<q>Men jeg kjenner fremdeles at jeg ikke strakk helt til for alle studentene som ønsket hovedoppgaver som var mer datamaskinorientert. Noen måtte finne både veiledere og oppgaver selv. Enkelte fikk kontakt med industrien og firmaer i det private næringsliv. Noen klarte seg bra, mens andre strevde mye og fikk lite hjelp og veiledning på de arbeidsplassene de hadde funnet frem til. Men jeg tror det var en berikelse for miljøet totalt at studentene var utenfor Blindern-miljøet i svært så forskjellige laboratorier og produksjon.</q>
 
 <q>Lars Monrad-Krohn i Norsk Data tok i mot mange kybernetikkstudenter i NDs tidlige historie. Studentene var både med på å bygge maskinene, og noen tok hovedfag med å utvikle programvare. Monrad-Krohn foreleste også på Blindern.</q>
 
@@ -774,7 +778,7 @@ Yngvar Lundh har vært professor II fra han ble tilsatt i 1980. Fremdeles arbeid
     <img src="./yngvar_lundh.jpg" />
   </a>
   <figcaption>
-    <p>Bildet [over]: Ynvar Lundh på Teknisk Museum sammen med SAM. Lundh konstruerte maskinen som var forløperen til NORD 1 fra Norsk Data.</p> 
+    <p>Bildet [over]: Yngvar Lundh på Teknisk Museum sammen med SAM. Lundh konstruerte maskinen som var forløperen til NORD 1 fra Norsk Data.</p> 
     <p>Foto: Øystein Christiansen</p>
   </figcaption>
 </figure>
@@ -795,11 +799,11 @@ Yngvar Lundh er sivilingeniør fra Norges Tekniske Høgskole i Trondheim fra 195
 
 <q>Karl Holberg var ekstern veileder for min hovedoppgave fra NTH i digitalteknikk. Jeg fant ingen ved NTH som kunne veilede meg, så jeg reiste til FF1 og Karl Holberg. Der ble jeg i 28 år bare avbrutt av noen forskeropphold i USA. Det var et fantastisk faglig miljø ved FFI den gangen. Særlig var samspillet mellom Karl Holberg og Finn Lied enestående. Deretter har jeg arbeidet ved forskjellige avdelinger i Televerket.</q>
 
-<q>Allerede fra 1960 veiledet jeg mange hovedfagsstudenter i digitalteknikk både fra NTH og ved Fysisk insititutt på Blindern. Professor i fysikk Roald Tangen var tidligere professor ved NTH, og han formidlet hovedfagsstudenter til meg på FFI. Siden fortsatte jeg vred å være ekstern veileder helt frem til jeg ble professor ved IFI. Dette er et system som jeg har stor tro på, og jeg har oppmuntret til denne praksisen ved IFL Vi har hele tiden hatt hovedfags-studenter som har hatt eksterne veiledere ved forskningsinstitutter og i private firmaer.</q>
+<q>Allerede fra 1960 veiledet jeg mange hovedfagsstudenter i digitalteknikk både fra NTH og ved Fysisk instititutt på Blindern. Professor i fysikk Roald Tangen var tidligere professor ved NTH, og han formidlet hovedfagsstudenter til meg på FFI. Siden fortsatte jeg vred å være ekstern veileder helt frem til jeg ble professor ved IFI. Dette er et system som jeg har stor tro på, og jeg har oppmuntret til denne praksisen ved IFL Vi har hele tiden hatt hovedfags-studenter som har hatt eksterne veiledere ved forskningsinstitutter og i private firmaer.</q>
 
 <q>Jeg har alltid likt å konstruere maskiner; og jeg fikk tidlig på sekstitallet opprettet en gruppe, siffergruppen ved FFI, som arbeidet med konstruksjon av datamaskiner Kunnskapsgrunnlaget for flere firmaer (bl.a. Norsk Data) ble til her.</q>
 
-<q>Det var vanskelig å dra igang arbeidet med konstruksjon av mikrokretser da jeg begynte med det. Som for det meste som er nytt, var det vanskelig å få forståelse for at det var nødvendig med egne teknikker for å arbeide på mikroplan. Mange trodde at man bare kunne miniatyrisere det man allerede hadde konstruert. I industrien var det også mye hemmelighetskremmeri. Hver bedrift hadde sin måte å lage mikrokretser på. Selv hadde jeg et sabbatsår i 1970/71 og var ved Bell latis i USA og lærte mye om slik konstruksjon. Litt senere fikk jeg også kontakt med Lynt Conway og Garver Mead da de arbeidet med den første alment tilgjengelige lærebok om VLSI-konstruksjon. Da jeg hørte om læreboken og om undervisningsopplegget, reiste jeg og besøkte dem ved Xerox Park og CalTech. Jeg fikk et eksemplar av manuskriptet før boken kom ut, og våre forskere på FFI og studenter ved IFI fikk være med på deres studentopplegg i California via ARPANET. Dette skyldtes også at FFI veldig tidlig kom med i samarbeid med Advanced Research Projects Agency (ARPA). Dette var et internasjonalt forskningsnett som virket somt et laboratorium for samkjøring av datamaskiner: Nettet ble etablert i 1969 under ledelse av Larry Roberts og var et samarbeid mellom endel universiteter i USA. I 1972 kom Roberts til Norge sammen med Robert Kahn. De kom til FFI og tilbød oss å være med på et samarbeidsprosjekt om satellittkommunikasjon i ARPANET. Jeg etablerte en egen gruppe ved FFI som samarbeidet med flere forskergrupper i USA og en i England. Dette arbeidet ledet bl.a. til endel grunnleggende teknikker forsamkjøring gjennom nett av ulike nett, bl.a. TCP/IP. Dette la grunnlaget for Internet.</q>
+<q>Det var vanskelig å dra igang arbeidet med konstruksjon av mikrokretser da jeg begynte med det. Som for det meste som er nytt, var det vanskelig å få forståelse for at det var nødvendig med egne teknikker for å arbeide på mikroplan. Mange trodde at man bare kunne miniatyrisere det man allerede hadde konstruert. I industrien var det også mye hemmelighetskremmeri. Hver bedrift hadde sin måte å lage mikrokretser på. Selv hadde jeg et sabbatsår i 1970/71 og var ved Bell latis i USA og lærte mye om slik konstruksjon. Litt senere fikk jeg også kontakt med Lynt Conway og Garver Mead da de arbeidet med den første [allment] tilgjengelige lærebok om VLSI-konstruksjon. Da jeg hørte om læreboken og om undervisningsopplegget, reiste jeg og besøkte dem ved Xerox Park og CalTech. Jeg fikk et eksemplar av manuskriptet før boken kom ut, og våre forskere på FFI og studenter ved IFI fikk være med på deres studentopplegg i California via ARPANET. Dette skyldtes også at FFI veldig tidlig kom med i samarbeid med Advanced Research Projects Agency (ARPA). Dette var et internasjonalt forskningsnett som virket somt et laboratorium for samkjøring av datamaskiner: Nettet ble etablert i 1969 under ledelse av Larry Roberts og var et samarbeid mellom endel universiteter i USA. I 1972 kom Roberts til Norge sammen med Robert Kahn. De kom til FFI og tilbød oss å være med på et samarbeidsprosjekt om satellittkommunikasjon i ARPANET. Jeg etablerte en egen gruppe ved FFI som samarbeidet med flere forskergrupper i USA og en i England. Dette arbeidet ledet bl.a. til endel grunnleggende teknikker for samkjøring gjennom nett av ulike nett, bl.a. TCP/IP. Dette la grunnlaget for Internet.</q>
 
 <q>Noen har spurt om hvorfor jeg ikke slo følge med mine medarbeidere som stiftet Datadivisjonen ved Kongsberg Våpenfabrikk og Norsk Data og som siden ble millionærer. Jeg følte at jeg hverken hadde evner eller lyst til å følge den retningen. Noen stor forretningsmann ville jeg aldri blitt. Jeg er tilfreds med at jeg valgte å bli innen forskningsverdenen i et arbeid hvor jeg har hatt mange faglige utfordringer og personlig glede. Jeg har også hatt gleden av å kunne ha nær kontakt med unge mennesker hele livet.</q>
 
@@ -832,7 +836,7 @@ Boblende av idéer, driv og entusiasme får han det meste som han selv vil ha de
 
 <q>Se for eksempel på et organ som øret og hvilket utrolig instrument det er for å motta og behandle lyd. Spesielt er det indre øret interessant. Det er egentlig en fantastisk mikrofon. Sensorsystemene er helt elendige, og enhver elektronikk på dette området er teoretisk totalt overlegen. Hvordan kan dette da være slikt et glimrende instrument?</q>
 
-<q>I fagfeltet *Neyromorphic Engineering* låner vi gode idéer fra biologien for å lage nye og spennende systemer i silisium som, for eksempel, modeller av det indre øret. For meg er dette feltet like spennende og åpner like mange muligheter som da den første mikroprosessoren kom for snart 25 år siden.</q>
+<q>I fagfeltet *Nevromorphic Engineering* låner vi gode idéer fra biologien for å lage nye og spennende systemer i silisium som, for eksempel, modeller av det indre øret. For meg er dette feltet like spennende og åpner like mange muligheter som da den første mikroprosessoren kom for snart 25 år siden.</q>
 
 <q>Det var en stor inspirasjon for meg den gangen, og jeg hadde et fantastisk sabbatsår ved CalTech i California hos Carver Mead i 1988/89. Han koblet meg mot nye forskningsfelt innen nevrofysiologi og elektronikk. På samme måte som meg er Carver tilknyttet et informatikkmiljø og legger stor vekt på tverrfaglig arbeid.</q>
 
@@ -844,7 +848,7 @@ Boblende av idéer, driv og entusiasme får han det meste som han selv vil ha de
 
 <q>Vi er to fast ansatte som arbeider med dette feltet,</q> sier Lande, <q>Yngvar Berg og jeg. Vi har lagt vekt på å ha god kontakt med norsk industri og har igang flere samarbeidsprosjekter av industriell karakter. Trond Sæther fra Nordic VLSI har gitt gode bidrag til dette arbeidet. Han er også amanuensis II i digitalteknikk ved IFI. Vi har nylig utviklet noen patenter som er under vurdering i England.</q>
 
-<q>Gjennom en målrettet internasjonal satsing har vi fått mange kontakter over hele verden. Jeg mener at internasjonal eksponering er helt avgjørende for å etablere og videreutvikle en god forskningsgruppe. Da kan man, sammen med inspirerende kolleger og gode studenter, stikke frem hodet uten å miste det,</q> sier en forsatt like ivrig og engasjert Bassen Lande. 
+<q>Gjennom en målrettet internasjonal satsing har vi fått mange kontakter over hele verden. Jeg mener at internasjonal eksponering er helt avgjørende for å etablere og videreutvikle en god forskningsgruppe. Da kan man, sammen med inspirerende kolleger og gode studenter, stikke frem hodet uten å miste det,</q> sier en fortsatt like ivrig og engasjert Bassen Lande. 
 
 ## Systemarbeid
 
@@ -895,7 +899,7 @@ I 1960 fikk han ansvaret for å bygge om Norsk Regnesentral til et forskningsins
   </figcaption>
 </figure>
 
-Kristen Nygaard fikk i 1990 Norbert Wiener-prisen av den amerikanske organisasjonen *Computer Professionals for Social Responibility* for utvist sosialt ansvar i faglig arbeid. Studieretningen i systemarbeid som han har bygget opp ved flere universiteter i Norden, er en viktig del av arbeidet. 
+Kristen Nygaard fikk i 1990 Norbert Wiener-prisen av den amerikanske organisasjonen *Computer Professionals for Social Responsibility* for utvist sosialt ansvar i faglig arbeid. Studieretningen i systemarbeid som han har bygget opp ved flere universiteter i Norden, er en viktig del av arbeidet. 
 
 <q>Som et resultat av et foredrag i Danmark om Jern og Metall-prosjektet klarte studentene ved universitetene i København og Århus å skaffe et lektorat og senere et professorat til meg,</q> forteller Kristen Nygaard. <q>Dette ble starten på mange års arbeid i Danmark — et samarbeid med studenter som senere er blitt amanuenser og professorer, og som jeg fremdeles har kontakt med.</q>
 
@@ -947,7 +951,7 @@ Sist høst nådde han syttiårsgrensen, og gikk av med pensjon. IFI markerer beg
 
 <q>Anskaffelsen av UNIVAC-maskinen til Norsk Regnesentral er en morsom historie. NR hadde på dette tidspunkt inngått avtaler om å kjøpe GIER-maskinen, som var utviklet ved Regnecentralen i Danmark. Vi hadde akseptert at dette var det endelige valget, og at vi ikke ville få mer pengen Så ble Øystein Hjartøy og jeg invitert til en verdenskonferanse som UNIVAC arrangerte. Jeg tok med meg Simula i kofferten. Et resultat av dette var at UNIVAC fikk Simula, og vi fikk en UNIVAC-maskin til NR. Historien er beskrevet i boka *History of Programming Languages*.</q>
 
-<q>Ole-Johan og jeg kunne fått hver vår doktorgrad på Simula. Men det ble helt umulig å splitte Simula på midten. Hvordan splitter man for eksempel på midten et begrep som klasser, eller et lokalt sekvenskontrollpunkt som vi begge to hadde like stor part i? Mange har hatt sine teorier onn hvordan Ole-Johan og jeg arbeidet med unnfangelsen av Simula. Vi utfordret hverandre intellektuelt kontinuerlig under arbeidet, og Simula er et resultat av denne prosessen — hvor vi også begge to stadig lærte mer innenfor hverandres spesielle områder og gravde dypere i vårt eget. Vi ga opp å dele Simula i to doktorgraden Det var et produkt vi hadde skapt sammen. Da Simula-utviklingen var over, måtte jeg videre. Jeg har arbeidet med å utvikle nye dataspråk, som Delta og Beta. Dette arbeidet har vært et samarbeid med Universitetene i København og Århus. Beta er implementert i Danmark. Noen har villet lage en ny Simula. Etter min vurdering ville det vært bedre å videreutvikle Beta for å oppnå det man ønsket med en ny Simula.</q>
+<q>Ole-Johan og jeg kunne fått hver vår doktorgrad på Simula. Men det ble helt umulig å splitte Simula på midten. Hvordan splitter man for eksempel på midten et begrep som klasser, eller et lokalt sekvenskontrollpunkt som vi begge to hadde like stor part i? Mange har hatt sine teorier om hvordan Ole-Johan og jeg arbeidet med unnfangelsen av Simula. Vi utfordret hverandre intellektuelt kontinuerlig under arbeidet, og Simula er et resultat av denne prosessen — hvor vi også begge to stadig lærte mer innenfor hverandres spesielle områder og gravde dypere i vårt eget. Vi ga opp å dele Simula i to doktorgraden Det var et produkt vi hadde skapt sammen. Da Simula-utviklingen var over, måtte jeg videre. Jeg har arbeidet med å utvikle nye dataspråk, som Delta og Beta. Dette arbeidet har vært et samarbeid med Universitetene i København og Århus. Beta er implementert i Danmark. Noen har villet lage en ny Simula. Etter min vurdering ville det vært bedre å videreutvikle Beta for å oppnå det man ønsket med en ny Simula.</q>
 
 **Kristen Nygaard** 
 
@@ -990,13 +994,13 @@ Etter tolv år som stipendiat og førsteamanuensis ved IFI gikk Gro Bjerknes i 1
 
 <q>I næringslivet har man bruk for flere kvinner med datafag,</q> sier Gro Bjerknes til slutt. <q>Et hvert prosjekt profiterer på også å ha med kvinner.</q> 
 
-### Støtespillere
+### Støttespillere
 
 <q>Arne Jonassen var jentenes talsmann,</q> sier Berit Hatten. <q>Han motiverte de kvinnelige studentene til å finne på noe for å skaffe oss mer armslag og faglig rom innenfor instituttet. Så vidt jeg husker var vedtaket i Instituttstyret enstemmig da jentene fikk et lite fortrinn ved opptak til hovedfag. Vi fikk kreditert et ekstra semester i forhold til ventetid. Det var noen få av de mannlige studentene som så at dette ville gå ut over dem, men de fleste av gutta støttet opp om vedtaket. Generelt møtte studentene, både jenter og gutter, positive holdninger blant de vitenskapelig og administrativt ansatte. Vi har alltid hatt et godt samhold blant studentene ved IFI, og det var høyt under taket. I første halvdel av åttiårene var det en salig blanding av unge menn i pene klær og med stresskoffert, tøffe jenter og utfrika gutter å se på forelesningene i informatikk.</q>
 
 <q>Elisabeth Hurlen har betydd spesielt mye for studentene. Kanskje mest for jentene. Hun styrket vår motivasjon for å bli i faget og har betydd mye for vår faglige selvtillit. Alle har vært like velkomne på Beths kontor, jenter som gutter, for å løse opp i floker og finne løsninger. Hun viste ved sine handlinger at hun la stor vekt på at IFI skulle ha et godt sosialt studentmiljø, og hun ble tidvis kalt *Bethemor*.</q>
 
-<q>Rolf Bjerknes har vært i informatikkstudentenens omsorgsfulle bestefar. Det skyldes nok også at vi kom ham nærmere enn de fleste andre lærerne, siden han var undervisningsleder for høyere grad.</q>
+<q>Rolf Bjerknes har vært i informatikkstudentenes omsorgsfulle bestefar. Det skyldes nok også at vi kom ham nærmere enn de fleste andre lærerne, siden han var undervisningsleder for høyere grad.</q>
 
 <q>Bjerknes var vårt kontaktpunkt mens vi ventet og ventet for å komme videre til hovedfag. Han var tilgjengelig for oss når problemene tårnet seg opp, og fikk avhjulpet situasjonen ved å skaffe eksterne veiledere. Mange utførte hovedfagsoppgavene ved institusjoner utenfor UiO.</q>
 
@@ -1015,10 +1019,10 @@ Etter tolv år som stipendiat og førsteamanuensis ved IFI gikk Gro Bjerknes i 1
   <figcaption>[Bilde av Berit Hatten]</figcaption>
 </figure>
 
-<q>FUI (Fagutvalget ved IFI) velger representanter til under-visningsutvalget ved IFI. Det tildeler også lesesalsplass og bokskap. Den tredje organisa-sjonen ved IFI er Jentegruppa. Den har nylig oppstått igjen.</q>
+<q>FUI (Fagutvalget ved IFI) velger representanter til undervisningsutvalget ved IFI. Det tildeler også lesesalsplass og bokskap. Den tredje organisa-sjonen ved IFI er Jentegruppa. Den har nylig oppstått igjen.</q>
 
 ### Driftsmiljøet
-<q>De som har arbeidet i driftsmiljøet, har også betydd mye for studentene. Terskelen inn til terminalstuen var høy da jeg var fersk student og tastaturskrekken stor. En drøm gikk i oppfyllelse da jeg etter noen eksamener fikk jobb som terminal-vakt. Vaktene på terminalstuene har både som oppgave å hjelpe studentene rent teknisk og å passe på at alle slipper til. Vakt-tjenesten er en timebetalt ekstra-jobb som det har vært stor rift om.</q>
+<q>De som har arbeidet i driftsmiljøet, har også betydd mye for studentene. Terskelen inn til terminalstuen var høy da jeg var fersk student og tastaturskrekken stor. En drøm gikk i oppfyllelse da jeg etter noen eksamener fikk jobb som terminalvakt. Vaktene på terminalstuene har både som oppgave å hjelpe studentene rent teknisk og å passe på at alle slipper til. Vakttjenesten er en timebetalt ekstrajobb som det har vært stor rift om.</q>
 
 ### Potet og diamant
 
@@ -1028,7 +1032,7 @@ Etter tolv år som stipendiat og førsteamanuensis ved IFI gikk Gro Bjerknes i 1
  
 Berit Hatten begynte sine studier i informatikk i 1981.
 
-I ti-året som fulgte var hun leder av av Jente-gruppa en stund, og hun har vært formann i Cybernetisk Selskab.
+I tiåret som fulgte var hun leder av av Jentegruppa en stund, og hun har vært formann i Cybernetisk Selskab.
 
 Hun var også med som studentrepresentant i Instituttrådet og -styret.
 
@@ -1091,7 +1095,7 @@ Alle fotos: Øystein Christiansen
 
 Knut Liestøl har vært professor ved IFI siden 1986, da han tok over professoratet og ledelsen av Bildelaboratoriet etter Arne Jonassen.
 
-Fire år etterpå ble han bestyrer ved IFI, og har vært det frem til i dag. Han har forsatt Lars Walløes tradisjon med at bestyreren ved IFI skulle ha en finger med i spillet de fleste steder, og Liestøl er også med i en rekke utvalg og komiteer.
+Fire år etterpå ble han bestyrer ved IFI, og har vært det frem til i dag. Han har fortsatt Lars Walløes tradisjon med at bestyreren ved IFI skulle ha en finger med i spillet de fleste steder, og Liestøl er også med i en rekke utvalg og komiteer.
 
 Dette var nok som det skulle være for han tok både sitt hovedfag i biologi og sin doktorgrad i informatikk under veiledning av Lars Walløe.
 
