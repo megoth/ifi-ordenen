@@ -7,7 +7,7 @@ template: event.jade
 
 *Denne siden er en kopi av publikasjonen med navn [Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997](./Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997.pdf), originalt utgitt og produsert av IFI, Institutt for informatikk. Ansvarlig for redaksjon og layout er Aud Veen Noodt, mens Øystein Christiansen sto for produksjon og foto. Trykkingen ble gjort av Oslo Forlagstrykkeri, og ble gjort i 1500 eksemplarer.*
 
-*Kopiering til nettside er gjort av [Arne Hassel](../../person/arnehass), da den ikke lå tilgjengelig på nett i tekst-søkbart format. Noen justeringer er gjort i overføringen til nettside. De tekstlige delene er merket med klammeparentes.*
+*Kopiering til nettside er gjort av [Arne Hassel](../../person/arnehass), da den ikke lå tilgjengelig på nett i tekst-søkbart format. Noen justeringer er gjort i overføringen til nettside. De tekstlige delene som er endret eller lagt til er merket med klammeparentes. Om du finner feil eller har forslag til forbedringer, [ta gjerne kontakt](../../about/#kontakt-oss).*
 
 # Datahistorien ved Universitetet i Oslo - Institutt for informatik 1977 - 1997
 
@@ -28,7 +28,7 @@ template: event.jade
 
 <figure>
   <a href="./knut_liestol.jpg"><img src="./knut_liestol.jpg" /></a>
-  <figcaption>Bilde av Knut Liestøl</figcaption>
+  <figcaption>[Bilde av Knut Liestøl]</figcaption>
 </figure>
 
 Da Institutt for informatikk ble dannet for tyve år siden var det et tegn på at faget begynte å bli akseptert. Alle mente nok ikke at informatikk var et ordentlig "akademisk" fag, men dets viktige rolle i utdanningssystemet ble godtatt. Det var da også vanskelig å unngå å legge merke til instituttets studenter. I de første budsjettdokumentene medførte deres antall at situasjonen ble beskrevet som "permanent kritisk". I dag, 20 år senere, uttaler næringslivets organisasjoner at "situasjonen er prekær" på grunn av for få IT-kandidater. Disse uttalelsene kunne gi opphav til mange gode titler på dette heftet, slik som "Fra krise til krise" eller "Alltid ettertraktet". Disse tittelmessige ytterpunktene gir selvfølgelig ikke et dekkende bilde. At de med en viss rett kunne brukes, illustrerer imidlertid at instituttet har vært del av en utvikling det er vel verdt å belyse. Denne beretningen er laget for å bidra til vår kollektive hukommelse på dette punkt.
@@ -327,7 +327,7 @@ De tre ferske kandidatene i numerisk analyse, Olav Dahl, Syvert Nørset og Tom L
 <q>Vi la frem hovedoppgavene våre på en konferanse i Dundee i 1969,</q> forteller Tom Lyche. <q>For min del skaffet det meg en kontakt med universitetet i Austin i Texas. Vi betalte for alt selv da vi reiste til Dundee. Den gangen var det ikke vanlig å gi penger til studenter.</q>
 
 <figure>
-  <img src="./tom_lyche.jpg" />
+  <a href="./tom_lyche.jpg"><img src="./tom_lyche.jpg" /></a>
   <figcaption>
     <p>Tom Lyches forskningsfelt - splines - har hatt stor betydning innen industriell forskning.</p>
     <p>På bildet står han ved siden av en fysisk modell av turbin-blad på en peltonen-turbin. Modellen måles opp ved hjelp av optisk måleutstyr. Fra de oppmålte punktene konstrueres spline-flater som settes sammen til en komplett digital modell.</p>
@@ -398,7 +398,7 @@ Walløe er tilbake ved det instituttet som var hans base ved doktor-gradsarbeide
 I mellomtiden - fra 1970 til 1988 - brukte han noen av sine mange talenter innenfor kybernetikk og informatikk.
 
 <figure>
-  <img src="./lars_walloe.jpg" />
+  <a href="./lars_walloe.jpg"><img src="./lars_walloe.jpg" /></a>
   <figcaption>
     <p>Professor Lars Walløe ved ultralydmaskinen til måling av blodstrømmer. Viktige deler av maskinen ble utviklet av hovedfagsstudenter i kybernetikk ved Ui0 i 1970-årene.</p>
     <p>Walløe bruker maskinen til sin forskning ved Fysiologisk institutt i dag.</p> 
@@ -425,7 +425,7 @@ I mellomtiden - fra 1970 til 1988 - brukte han noen av sine mange talenter innen
 <q><em>Kjerneområdene i kybernetikkmiljøet?</em></q>
 <q>Det har vært tre retninger selv om de alle er nær knyttet sammen metodisk. Den ene har tråder inn i numerisk analyse. Sven Øivind Wille kom med fra Fysisk institutt. Han ble senere vitenskapelig assistent og amanuensis ved IFI. Olav Dahl og Wille fant hverandre personlig og faglig med simulering ved hjelp av differensiallikninger. Han er i dag ved Høgskolesentret ved Bislet, og samarbeider fremdeles med Dahl. Da Sven Øivind Wille skulle ha hovedsfagsoppgave, ønsket jeg å finne flere felt enn nevrobiologi som kunne koble biologi og kybernetikk. Jeg hadde lest at man kunne måle hastigheten på røde blodlegmer ved å sende ultralyd inn og få refleks av ultralyd tilbake. Dette ble grunnlaget for flere hovedoppgaver. Fysikken i dette er grei, men signalbehandlingen var en utfordring. Det var problemer knyttet til rask digital signalbehandling i sanntid. Ut fra Willes hovedfagsoppgave ble det også videreutviklet apparatur som ble satt i kommersiell produksjon for medisinsk anvendelse.</q>
 
-<q>Arbeidet med Birkenesfeltet på Sørlandet hører til Nils Christohpersen ved IFI i dag. Nils var hovedfagsstudent i kybernetikk akkurat da problemet med sur nedbør kom på den politiske dagsorden for fullt i 1976. Jeg ble satt på som leder av styringsgruppen for forskningprogrammet, og Hans Martin Seip, som den gang arbeidet på SI, fikk ansvaret for den faglige ledelsen av programmet. Nils Christophersen ble rekruttert av meg til dette arbeidet. Jeg både anbefalte ham til Hans Martin og foreslo for ham at han skulle forsøke å bruke simuleringsmodeller for å se på ioneutveksling i nedbørsfelt. Han tok senere en doktorgrad på sur nedbør under veiledning av Hans Martin.</q>
+<q>Arbeidet med Birkenesfeltet på Sørlandet hører til Nils Christophersen ved IFI i dag. Nils var hovedfagsstudent i kybernetikk akkurat da problemet med sur nedbør kom på den politiske dagsorden for fullt i 1976. Jeg ble satt på som leder av styringsgruppen for forskningprogrammet, og Hans Martin Seip, som den gang arbeidet på SI, fikk ansvaret for den faglige ledelsen av programmet. Nils Christophersen ble rekruttert av meg til dette arbeidet. Jeg både anbefalte ham til Hans Martin og foreslo for ham at han skulle forsøke å bruke simuleringsmodeller for å se på ioneutveksling i nedbørsfelt. Han tok senere en doktorgrad på sur nedbør under veiledning av Hans Martin.</q>
 
 <q>Mange har tatt hovedfagsoppgaver, og noen har tatt doktorgrader, som en fortsettelse av mitt doktorgradsarbeid - nettverk av nerveceller og Simulasimuleringer. Disse arbeider i dag både innenfor det private næringsliv og i universitetsmiljøene. Knut Liestøl er en av disse. Han har jeg vært så heldig å få veilede både til hovedfag og doktorgrad. Totalt har jeg veiledet 27 til doktorgraden. Dette er omtrent en hvert år i den tiden jeg har vært aktiv. De er jevnt fordelt på medisin og informatikk.</q>
 
@@ -455,10 +455,11 @@ Arne Jonassen ledet laboratoriet de første fire årene.
 Fritz Albregtsen er astrofysiker og ble ansatt som ingeniør ved laboratoriet allerede fra starten. Han var den gang assistent for professor Per Maltby.
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./fritz_albregtsen.jpg"><img src="./fritz_albregtsen.jpg" /></a>
+  <a href="./cellekjerne.jpg"><img src="./cellekjerne.jpg" /></a>
   <figcaption>
     <p>Det er avlagt syv doktorgrader ved Bildebehandlings-laboratoriet gjennom årene. De siste innen kreftforskning. Man arbeider bl.a. med teksturanalyse av cellekjerner for å stille tidlig diagnose, og for å kunne gi prognoser.</p>
-    <p>Bildet fil venstre: Fritz Albregtsen foran Eschers bilde av en hånd som tegner en hånd.</p>
+    <p>Bildet til venstre: Fritz Albregtsen foran Eschers bilde av en hånd som tegner en hånd.</p>
     <p>Bildet til høyre: øverst en cellekjerne. Nederst forløpet av en fraktal parameter ettersom vi spiralerer innover i cellekjernen, for maligne (stiplet strek) og normale (heltrukket strek) celler.</p> 
   </figcaption>
 </figure>
@@ -532,7 +533,9 @@ Ole-Johan Dahl er selve nestoren i oppbyggingen av informatikkfaget ved UiO. Fra
 <q>De første årene hadde jeg all hovedfagsveiledning alene, forteller han, men da jeg nådde opp i femten stykker parallelt ropte jeg — hjelp!</q>
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./ole-johan_dahl.jpg">
+    <img src="./ole-johan_dahl.jpg" />
+  </a>
   <figcaption>
     <p>Skiltene med Profes-sor Dahls gate og Nygaards alle hang plutselig en morgen helt riktig plassert i instituttets lokaler i Fysikk-bygningen. De var ærlig og redelig stjålet fra Oslos gater en natt.</p> <p>Instituttet har tatt godt vare på skiltene, og de fulgte med til Informatikkbygget.</p>
     <p>Det har vært en godt bevart hemmelighet hvem som sto bak. Som bidrag til 20 års jubileet bekjenner Gro Bjerknes: Det var Jens Kaasbøll og meg på sykkeltur.</p>
@@ -593,7 +596,9 @@ Han ble tilsatt som amanuensis noen få måneder etter at IFI ble opprettet. Da 
 <q>Men, sier Kirkerud, da måtte jeg ha reist til USA og tatt en doktorgrad, og det ville jeg ikke.</q>
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./bjorn_kirkerud.jpg">
+    <img src="./bjorn_kirkerud.jpg" />
+  </a>
   <figcaption>
     <p>Professor Bjørn Kirkerud stortrives når han — i et stapp-fullt auditorium — kan få gi studentene det første grunnkurset i programmering.</p>
     <p>Her sitter han i dyp konsentrasjon i IFIs store auditorium våren 1997.</p> 
@@ -734,10 +739,11 @@ Parhestene Yngvar Lundh og Oddvar Søråsen fikk i 1993 en ærespris ved IFI. Hv
 Yngvar Lundh har vært professor II fra han ble tilsatt i 1980. Fremdeles arbeider han en dag i uken ved IFI. Oddvar Søråsen ble tilsatt som professor ved IFI i 1985. Da kom han fra FFI hvor han hadde arbeidet sammen med Lundh. Søråsen er fysiker fra UiO. Han tok hovedfag i måleteknikk med Jakob Sandstad som veileder i 1973.
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./yngvar_lundh_og_oddvar_sorasen.jpg">
+    <img src="./yngvar_lundh_og_oddvar_sorasen.jpg" />
+  </a>
   <figcaption>
     <p>Professorene Yngvar Lundh og Oddvar Søråsen med en plansje som viser de ulike maskemønstrene som trengs for å fremstille VLSI-kretser.</p> 
-    <p>Bildet til høyre: Ynvar Lundh på Teknisk Museum sammen med SAM. Lundh konstruerte maskinen som var forløperen til NORD l fra Norsk Data.</p> 
     <p>Foto: Øystein Christiansen</p>
   </figcaption>
 </figure>
@@ -762,6 +768,16 @@ Yngvar Lundh har vært professor II fra han ble tilsatt i 1980. Fremdeles arbeid
 ### VLSI-konstruksjon
 
 <q>Rundt 1980 kom det ut en bok som fikk stor betydning for utdanningen i konstruksjon av kretser. Boken var skrevet av professor Carver Mead og forsker Lynn Conway og flyttet kunnskapen ut fra industriens hemmelige laboratorier, og gjorde den tilgjengelig for den akademiske verden. Man fikk avmytifisert det hele og satt opp noen enkle regler og prosedyrer for hvordan integrerte kretser skulle fremstilles. Dette ble også lagt ut på ARPA-nettet.</q>
+
+<figure>
+  <a href="./yngvar_lundh.jpg">
+    <img src="./yngvar_lundh.jpg" />
+  </a>
+  <figcaption>
+    <p>Bildet [over]: Ynvar Lundh på Teknisk Museum sammen med SAM. Lundh konstruerte maskinen som var forløperen til NORD 1 fra Norsk Data.</p> 
+    <p>Foto: Øystein Christiansen</p>
+  </figcaption>
+</figure>
 
 ### Konstruksjon på ARPA-nett
 
@@ -800,10 +816,15 @@ Boblende av idéer, driv og entusiasme får han det meste som han selv vil ha de
 <q>Til Musikus-prosjektet, som var oppfølging av mitt hovedfag, bygget vi også et digitalt orgel på en Mycronmaskin.</q>
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./tor_sverre_lande.jpg">
+    <img src="./tor_sverre_lande.jpg" />
+  </a>
+  <a href="./nevromorfe.jpg">
+    <img src="./nevromorfe.jpg" />
+  </a>
   <figcaption>
-    <p>Lengst til venstre: Tor Sverre Lande</p>
-    <p>Til venstre: Illustrasjonen viser ørets oppbygging hvor det indre øret (snilehuset) er en populær modell for "nevromorfe" elektroniske kretser. Dette er illustrert med bildet av en elektronisk kretsekvivalent (2. ordens filter) som er hovedelementet i et elektronisk øre.</q> 
+    <p>[Til] venstre: Tor Sverre Lande</p>
+    <p>Til [høyre]: Illustrasjonen viser ørets oppbygging hvor det indre øret (snilehuset) er en populær modell for "nevromorfe" elektroniske kretser. Dette er illustrert med bildet av en elektronisk kretsekvivalent (2. ordens filter) som er hovedelementet i et elektronisk øre.</q> 
   </figcaption>
 </figure>
 
@@ -865,7 +886,9 @@ Fra 1948 til 1960 arbeidet Kristen Nygaard ved Forsvarets forskningsinstitutt p�
 I 1960 fikk han ansvaret for å bygge om Norsk Regnesentral til et forskningsinstitutt. 
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./kristen_nygaard.jpg">
+    <img src="./kristen_nygaard.jpg" />
+  </a>
   <figcaption>
     <p>Kristen Nygaard fikk også sitt gateskilt av studentene. Han var med på å montere skiltet i det i det nye Informatikkbygget da det ble flyttet dit.</p>
     <p>Foto 1988: Øystein Christiansen</p>
@@ -895,9 +918,11 @@ Kristen Nygaard fikk i 1990 Norbert Wiener-prisen av den amerikanske organisasjo
 <q>Jeg har alltid lagt vekt på å få til et godt sosialt studentmiljø. Hvert semester har vi hatt en gedigen avslutningsfest hjemme hos meg, og det befestet kontakten vi fikk på kurset.</q> 
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./kristen_nygaard_og_jens_kaasboll.jpg">
+    <img src="./kristen_nygaard_og_jens_kaasboll.jpg" />
+  </a>
   <figcaption> 
-    <p>Bilde til høyre: Kristen Nygaard sammen med Jens Kaasbøll, Dag Sjøberg (til venstre) og Haakon Bryhni (nr. 2 fra høyre). Kristen Nygaard legger ikke inn årene selv om han er pensjonist.</p> 
+    <p>Bilde [over]: Kristen Nygaard sammen med Jens Kaasbøll, Dag Sjøberg (til venstre) og Haakon Bryhni (nr. 2 fra høyre). Kristen Nygaard legger ikke inn årene selv om han er pensjonist.</p> 
     <p>Foto: Aud Veen Noodt</p> 
   </figcaption>
 </figure>
@@ -933,6 +958,11 @@ Gro Bjerknes tok hovedfag i systemarbeid i 1982. Da hadde hun først begynt på 
 Etter tolv år som stipendiat og førsteamanuensis ved IFI gikk Gro Bjerknes i 1994 over til det private næringsliv, og hun arbeider i dag som konsulent i Avenir.
 
 <q>Jeg hadde da fått et sterkt behov for å ta en pause fra gutteklubbene som styrer forskningsverdenen.</q>
+
+<figure>
+  <a href="./gro_bjerknes.jpg"><img src="./gro_bjerknes.jpg" /></a>
+  <figcaption>[Bilde av Gro Bjerknes]</figcaption>
+</figure>
 
 <q>Alle mennene ved IFI er veldig hyggelige menn,</q> fortsetter Gro Bjerknes. <q>Men de er så overveldende mange, og mye blir definert ut fra et mannsdominert verdensbilde.</q>
 
@@ -980,6 +1010,11 @@ Etter tolv år som stipendiat og førsteamanuensis ved IFI gikk Gro Bjerknes i 1
 
 <q>Cybernetisk Selskab er studentforeningen ved IFI. Det var den første foreningen, og man har valgt å beholde navnet selv om den nå favner over studenter fra alle studieretningene. CYB skal styrke informatikkfaget ved UiO og formidle opplysninger om studiet til eksterne miljøer. Foreningen arrangerer også populærvitenskapelige foredrag og bedriftsbesøk.</q>
 
+<figure>
+  <a href="./berit_hatten.jpg"><img src="./berit_hatten.jpg" /></a>
+  <figcaption>[Bilde av Berit Hatten]</figcaption>
+</figure>
+
 <q>FUI (Fagutvalget ved IFI) velger representanter til under-visningsutvalget ved IFI. Det tildeler også lesesalsplass og bokskap. Den tredje organisa-sjonen ved IFI er Jentegruppa. Den har nylig oppstått igjen.</q>
 
 ### Driftsmiljøet
@@ -988,7 +1023,6 @@ Etter tolv år som stipendiat og førsteamanuensis ved IFI gikk Gro Bjerknes i 1
 ### Potet og diamant
 
 <q>Jeg ble en gang under et avisintervju bedt om å beskrive informatikkfaget. Jeg sammenliknet det med poteten som er anvendelig til så mye, samtidig som den er potet i seg selv. Jeg kunne i stedet ha svart en diamant. Den har mange fasetter, som funkler i alle retninger, men er likevel en helhet. Det synes jeg også er en god beskrivelse av IFI, sier Berit Hatten og smilet stråler.</q>
-
 
 ### Berit Hatten
  
@@ -1006,7 +1040,52 @@ Berit Hatten er i dag ansatt ved Telenor Forskning og Utvikling hvor hun bruker 
 
 ## IFI i dag
 
-&lt;Bilder og tekst kommer&gt; 
+### Matematisk modellering
+
+<figure>
+  <a href="./matematisk_modellering.jpg"><img src="./matematisk_modellering.jpg"></a>
+  <figcaption>
+    <p>Bak fra venstre: Rolf Bjerknes, Tom Lyche, Knut Liestøl og Knut Mørken</p>
+    <p>I midten fra venstre: Olav Dahl, Nils Christophersen, Ellen Hisdal og Fritz Albregtsen</p>
+    <p>Foran fra venstre: Aslak Tveito, Sverre Holm, Svein Bøe og Geir Dahl</p>
+    <p>Ikke tilstede: Ragnar Winther, Erlend Arge, Are Magnus Bruaseth, Morten Dæhlen, Ingvild Hovig, Tor Lønnestad og Torfinn Taxt</p>
+  </figcaption>
+</figure> 
+
+### Databehandling
+
+<figure>
+  <a href="./databehandling.jpg"><img src="./databehandling.jpg" /></a>
+  <figcaption>
+    <p>Bak fra venstre: Ragnar Normann, Ellen Munthe-Kaas, Anne Salvesen</p>
+    <p>I midten fra venstre: Stein Krogdahl, Arne Maus, Gerhard Skagestein, Olaf Owe</p>
+    <p>Foran fra venstre: Dag Langemyhr, Dino Karabeg, Ole-Johan Dahl og Stein Gjessing</p>
+    <p>Ikke tilstede: Almira Karabeg, Bjørn Kirkerud, Arne Wang, Dag Belsnes, Arne-Jørgen Berre, Birger Møller-Pedersen og Trygve Reenskaug</p>
+  </figcaption>
+</figure>
+
+### Digitalteknikk
+
+<figure>
+  <a href="./digitalteknikk.jpg"><img src="./digitalteknikk.jpg" /></a>
+  <figcaption>
+    <p>Bak fra venstre: Yngvar Berg, Tor Sverre (Bassen) Lande og Kjell Øystein Arisland</p>
+    <p>I midten fra venstre: Oddvar Søråsen, Yngvar Lundh og Terje Knudsen</p>
+    <p>Helt fremst: Trond Sæther og Øystein Gran Larsen</p>
+  </figcaption>
+</figure>
+
+### Systemarbeid
+
+<figure>
+  <a href="./systemarbeid.jpg"><img src="./systemarbeid.jpg" /></a>
+  <figcaption>
+    <p>Fra venstre: Kristin Braa, Ole Hanseth og Tone Bratteteig</p>
+    <p>Ikke tilstede: Jens Kaasbøll, Magne Jørgensen, Tor Larsen, Markku Nurminen og Leikny Øgrim</p>
+  </figcaption>
+</figure>
+
+Alle fotos: Øystein Christiansen
 
 ## Utvikling i tall og diagrammer
 
@@ -1022,24 +1101,30 @@ Ragnar Normann er nestleder i instituttstyret. Han tok hovedfag i matematikk ved
 
 ### IFI - 20 år med vekst
 
-&lt;Diagram kommer&gt;
+<figure>
+  <a href="./drift_og_utstyrsmidler.jpg"><img src="./drift_og_utstyrsmidler.jpg" /></a>
+  <figcaption>Diagrammet [over] viser utviklingen i drifts- og utstyrsmidlene. Hele tiden har studentene vært dominerende for utgiftsbildet, og for så vidt også for inntektene i den forstand at de har vært det avgjørende argumentet for at instituttet er tilført ressurser. De første årene kjørte studentene sine øvelsesoppgaver på sentralanlegget til det daværende EDB-sentret (nå USIT). I 1982 ble det anskaffet en DEC-20 som undervisningsmaskin. Samme år ble det for eksterne midler anskaffet et VAX-anlegg som primært ble brukt til forskning og hovedfagsoppgaver. 11987 startet regjeringen sitt program for å styrke utdanningen innen informasjonsteknologi. Dette IT-programmet muliggjorde overgangen til UNIX-baserte arbeidsstasjoner både for lærere og studenter. I 1994 ble disse ekstraordinære midlene overført til instituttets rammebudsjett og gjort "permanente".</figcaption>
+</figure>
 
-Diagrammet [over] viser utviklingen i drifts- og utstyrsmidlene. Hele tiden har studentene vært dominerende for utgiftsbildet, og for så vidt også for inntektene i den forstand at de har vært det avgjørende argumentet for at instituttet er tilført ressurser. De første årene kjørte studentene sine øvelsesoppgaver på sentralanlegget til det daværende EDB-sentret (nå USIT). I 1982 ble det anskaffet en DEC-20 som undervisningsmaskin. Samme år ble det for eksterne midler anskaffet et VAX-anlegg som primært ble brukt til forskning og hovedfagsoppgaver. 11987 startet regjeringen sitt program for å styrke utdanningen innen informasjonsteknologi. Dette IT-programmet muliggjorde overgangen til UNIX-baserte arbeidsstasjoner både for lærere og studenter. I 1994 ble disse ekstraordinære midlene overført til instituttets rammebudsjett og gjort „permanente". 
+<figure>
+  <a href="./hovedfagskandidater_og_laerere.jpg"><img src="./hovedfagskandidater_og_laerere.jpg" /></a>
+  <figcaption>Diagrammet [over] viser utviklingen av antall lærere og uteksaminerte hovedfagskandidater. Merk hvordan forholdstallet kandidat/lærer økte da instituttet fikk egne maskiner til bruk i undervisningen. Fra da av har hver lærer uteksaminert i overkant av to kandidater hvert år. Det er over det dobbelte av det normale ved fakultetet.</figcaption>
+</figure>
 
-&lt;Diagram kommer&gt;
-
-Diagrammet [over] viser utviklingen av antall lærere og uteksaminerte hovedfagskandidater. Merk hvordan forholdstallet kandidat/lærer økte da instituttet fikk egne maskiner til bruk i undervisningen. Fra da av har hver lærer uteksaminert i overkant av to kandidater hvert år. Det er over det dobbelte av det normale ved fakultetet. 
-
-&lt;Diagram kommer&gt;
-
-Diagrammet [over] viser utviklingen i faste stillinger fordelt på kategorier. Som man ser, gikk veksten rykkvis frem til 1990. Etter da har instituttet hatt en jevn vekst, hovedsaklig i vitenskapelige stillinger. Det er også verdt å merke seg at fra instituttet fikk sin første ingeniørstilling i 1983, har det tekniske støtteapparatet vokst jevnt og trutt, mens den administrative staben nådde sitt maksimum i 1993 hvoretter to administrative stillinger ved ledighet er konvertert til tekniske stillinger. Således har IFI på forhånd gjennomført anbefalingene fra det pågående effektiviseringsprosjektet. Med unntak av professoratet etter Kristen Nygaard har IFI hittil ikke hatt problemer med å få kvalifiserte søkere til sine faste vitenskapelige stillinger. Det meget stramme IT-arbeidsmarkedet har imidlertid ført til at instituttet har problemer med å holde på den tekniske staben. Det siste året har også kvaliteten på søkerne til stipendiatstillingene gått ned. Det er altså ikke lenger en selvfølge at de beste hovedfagsstudentene er interessert i å fortsette med et doktorgradsstudium. 
+<figure>
+  <a href="./stillingskategoriene.jpg"><img src="./stillingskategoriene.jpg" /></a>
+  <figcaption>Diagrammet [over] viser utviklingen i faste stillinger fordelt på kategorier. Som man ser, gikk veksten rykkvis frem til 1990. Etter da har instituttet hatt en jevn vekst, hovedsaklig i vitenskapelige stillinger. Det er også verdt å merke seg at fra instituttet fikk sin første ingeniørstilling i 1983, har det tekniske støtteapparatet vokst jevnt og trutt, mens den administrative staben nådde sitt maksimum i 1993 hvoretter to administrative stillinger ved ledighet er konvertert til tekniske stillinger. Således har IFI på forhånd gjennomført anbefalingene fra det pågående effektiviseringsprosjektet. Med unntak av professoratet etter Kristen Nygaard har IFI hittil ikke hatt problemer med å få kvalifiserte søkere til sine faste vitenskapelige stillinger. Det meget stramme IT-arbeidsmarkedet har imidlertid ført til at instituttet har problemer med å holde på den tekniske staben. Det siste året har også kvaliteten på søkerne til stipendiatstillingene gått ned. Det er altså ikke lenger en selvfølge at de beste hovedfagsstudentene er interessert i å fortsette med et doktorgradsstudium.</figcaption>
+</figure>
 
 ## Ole Brumm
 
-MUSIKUS-prosjektet ble startet av hovedfagsstudent Tor Sverre Lande og professor Ole-Johan Dahl på midten av 70-tallet som et tverrfaglig samarbeide mellom Institutt for Musikkvitenskap og Institutt for Informatikk. De første resultatene av prosjektet var en tegnbasert kode for databehandling av musikk (MUSIKODE) som ble grunnlaget for en rekke forskjellige programsystemer for analyse av musikk. Både harmonisk analyse og melodisk analyse ble utviklet og anvendt på alt fra renessansemusikkk til barnesanger. Med midler fra NAVF ble et spesiallaget elektronisk orgel koplet til en PC (Myrro-1) og innspilling av musikk fra tastatur var en realitet. Vi så snart muligheten for databasert setting av noter, men dette var før laserskriveren var tilgjengelig, så vi måtte klare oss med en penn-plotter. Likevel fikk vi til god notesats, og viseboken *Barnas egen sangbok* av Jon-Roar Bjørkvold fra 1979 er trolig en av de første notebøkene med noter tegnet av en datamaskin. Eksemplet ovenfor er scannet fra denne boken.
+<figure>
+  <a href="./ole_brumm.jpg"><img src="./ole_brumm.jpg" /></a>
+  <figcaption>MUSIKUS-prosjektet ble startet av hovedfagsstudent Tor Sverre Lande og professor Ole-Johan Dahl på midten av 70-tallet som et tverrfaglig samarbeide mellom Institutt for Musikkvitenskap og Institutt for Informatikk. De første resultatene av prosjektet var en tegnbasert kode for databehandling av musikk (MUSIKODE) som ble grunnlaget for en rekke forskjellige programsystemer for analyse av musikk. Både harmonisk analyse og melodisk analyse ble utviklet og anvendt på alt fra renessansemusikkk til barnesanger. Med midler fra NAVF ble et spesiallaget elektronisk orgel koplet til en PC (Myrro-1) og innspilling av musikk fra tastatur var en realitet. Vi så snart muligheten for databasert setting av noter, men dette var før laserskriveren var tilgjengelig, så vi måtte klare oss med en penn-plotter. Likevel fikk vi til god notesats, og viseboken *Barnas egen sangbok* av Jon-Roar Bjørkvold fra 1979 er trolig en av de første notebøkene med noter tegnet av en datamaskin. Eksemplet ovenfor er scannet fra denne boken.</figcaption>
+</figure>
 
 <figure>
-  <p>Bilde kommer</p>
+  <a href="./inharmonisk_kor.jpg"><img src="./inharmonisk_kor.jpg" /></a>
   <figcaption>
     <p>Inharmonisk kor ble dannet av informatikkstudenter for 20 år siden og opptrådte ved festlige anledninger. Medlemmene er i dag i nøkkelstillinger rundt i landet. Store deler av koret disputerer til sin doktorgrad for tiden. Tor Dokken og Øystein Haugen ligger i hardtrening til den store dagen, mens Jens Kaasbøll og Geir Hasle ble ferdige i 1996.</p>
     <p>Bildet viser fra venstre: Øystein Haugen, Jens Kaasbøll, Geir Hasle og Knut Hasund. Det ble tatt på et institutt-seminar på Gran i mai 1977. Korets medlemmer var også engasjert i styre og stell og undervisning ved instituttet.</p>
