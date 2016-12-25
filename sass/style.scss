@@ -80,8 +80,26 @@ blockquote {
     margin-bottom: 0;
   }
 }
-q:before {
-  content: '- ';
+q {
+  quotes: '“' '”' '‘' '’';
+  &:before {
+    content: '“';
+    content: open-quote;
+  }
+  &:after {
+    content: '”';
+    content: close-quote;
+  }
+  q {
+    &:before {
+      content: '‘';
+      content: open-quote;
+    }
+    &:after {
+      content: '’';
+      content: close-quote;
+    }
+  }
 }
 
 figure {
