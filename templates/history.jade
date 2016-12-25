@@ -29,7 +29,7 @@ block content
                       each person, index in appointment.persons
                         if index !== 0
                           span , 
-                        a(href=person.url)= person.title
+                        a(href=locals.url+person.url)= person.title
           if year.minor.length > 0
             li(class=_(env.helpers.getClassesForEvents(year.minor)).uniq()).event Mindre hendelser
               ul

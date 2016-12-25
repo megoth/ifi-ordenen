@@ -2,7 +2,7 @@ if event.metadata.date
   span.date #{moment(event.date).format('D. MMMM')}: 
 if event.getView() !== 'none'
   | #{event.title} (
-  a(href=event.url) les mer
+  a(href=locals.url + event.url) les mer
   | )
 else if event.metadata.url
   | #{event.title} (

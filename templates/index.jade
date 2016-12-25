@@ -17,7 +17,7 @@ block content
       li
         include ./articleListItem
   p
-    a(href="/article") Arkiv
+    a(href=locals.url+"/article") Arkiv
   h2 Medlemmer
   - var root = contents['structure.json'].metadata.persons
   include ./structure.jade
