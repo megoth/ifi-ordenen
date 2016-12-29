@@ -159,17 +159,20 @@ strong {
     margin: 0.5em 0 1em;
     padding: 1em 0;
     a,
+    h1,
     h2,
     h3,
     p {
       @include text-shadow(0 0 1px $elegant-background-color);
       color: $elegant-color;
     }
+    h1,
     h2,
     h3 {
       font-weight: normal;
       margin: 0;
     }
+    h1,
     h2 {
       font-family: $elegant-font-family;
       font-size: 2em;

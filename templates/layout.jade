@@ -18,14 +18,14 @@ html(lang=language)
 		link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
 		link(rel='stylesheet', href=locals.url + '/style.css')
 	body(class=mainclass)
-		header
-			h1= locals.title
+		header(role="banner")
+			.title= locals.title
 			include ./navigation.jade
 		div(role="main")
 			header
 				.inner
 					block before_title
-					h2
+					h1
 						!= page ? page.title : locals.title
 					block after_title
 			.inner
@@ -56,7 +56,7 @@ html(lang=language)
 						a(href=locals.url+'/history')= t.nav.history
 					li
 						a(href=locals.url+'/dictionary')= t.nav.dictionary
-			p &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
+			p(role="contentinfo") &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
 				a(href=locals.url + '/page') mer om siden
 				| )
 	script(type='text/javascript').

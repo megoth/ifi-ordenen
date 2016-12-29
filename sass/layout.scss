@@ -32,6 +32,10 @@ body > footer {
   }
 }
 
+[role="banner"] .title {
+  @extend h1;
+}
+
 #MainNavigation {
   @media screen and (max-width: $pad-width) {
     #MainMenu {
