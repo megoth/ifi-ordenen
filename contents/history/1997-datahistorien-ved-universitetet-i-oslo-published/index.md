@@ -6,7 +6,7 @@ year: 1997
 template: event.jade
 ---
 
-*Denne siden er en kopi av publikasjonen med navn [Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997](./Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997.pdf), originalt utgitt og produsert av IFI, Institutt for informatikk. Ansvarlig for redaksjon og layout er Aud Veen Noodt, mens Øystein Christiansen sto for produksjon og foto. Trykkingen ble gjort av Oslo Forlagstrykkeri, og ble gjort i 1500 eksemplarer.*
+*Denne siden er en kopi av publikasjonen med navn [Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997](./Jubileumshefte.pdf), originalt utgitt og produsert av IFI, Institutt for informatikk. Ansvarlig for redaksjon og layout er Aud Veen Noodt, mens Øystein Christiansen sto for produksjon og foto. Trykkingen ble gjort av Oslo Forlagstrykkeri, og ble gjort i 1500 eksemplarer. Arbeidet med å finne frem det gamle materialet og gjøre det om til PDF er gjort av Øystein Christiansen.*
 
 *Kopiering til nettside er gjort av [Arne Hassel](../../person/arnehass), da den ikke lå tilgjengelig på nett i tekst-søkbart format. [Narve Trædal](../../person/narvet) har hjulpet godt til, blant annet ved å skanne publikasjonen som er lenket til over. Noen justeringer er gjort i overføringen til nettside. De tekstlige delene som er endret eller lagt til er merket med klammeparentes. Om du finner feil eller har forslag til forbedringer, [ta gjerne kontakt](../../about/#kontakt-oss).*
 
