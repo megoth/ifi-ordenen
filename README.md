@@ -6,8 +6,8 @@ Den skal ligge på [ordenen.ifi.uio.no](http://ordenen.ifi.uio.no) og bare best�
 
 Den har to hovedfunksjonaliteter:
 
-1. Forside: Introduksjon av ordenen, oversikt over medlemmer
-2. Medlemside: Alle medlemmer har en egen side
+1. Forside: Introduksjon av ordenen, oversikt over mottagere
+2. Medlemside: Alle mottagere har en egen side
 
 Siden blir generert vha [Wintersmith](http://wintersmith.io/), [Sass](http://sass-lang.com/) og [Compass](http://compass-style.org/), som blir prosessert vha [Grunt](http://gruntjs.com/). [Live-server](https://github.com/tapio/live-server) er brukt for å være mer effektiv i utviklingen.
 

@@ -1,12 +1,12 @@
 ---
-title: "Nye ordens&shy;medlemmer våren 2016"
+title: "Nye ordens&shy;mottagere våren 2016"
 author: arnehass
 date: 2016-05-15
 template: article.jade
 image:
   desc: Et knippe av ordensmedlemmene utenfor Ole-Johan Dahls hus, tatt ifm Foreningsfesten
   takenby: Mathias Ciarlo Thorstensen
-ingress: Våren 2016 har Ifi-ordenen hatt gleden av å ta opp hele fem nye medlemmer; Ole Kristian Rosvold, Emilie Hallgren, Kristin Brænden, Kirsti Dalseth, og Kristin Broch Eliassen. Opptagelsen ble fordelt på to seremonier, en på Foreningsfesten 29. juni og en på Jubileumsfesten 13. mai.
+ingress: Våren 2016 har Ifi-ordenen hatt gleden av å ta opp hele fem nye mottagere; Ole Kristian Rosvold, Emilie Hallgren, Kristin Brænden, Kirsti Dalseth, og Kristin Broch Eliassen. Opptagelsen ble fordelt på to seremonier, en på Foreningsfesten 29. juni og en på Jubileumsfesten 13. mai.
 person: olekros, emiliha, kribrae, kirstid, krishbr
 ---
 
