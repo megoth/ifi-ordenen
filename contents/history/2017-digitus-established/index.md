@@ -6,6 +6,6 @@ date: 2017-09-01
 url:
   foreningsside: ../association/digitus
 sources:
-  - https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=919650354 Nøkkelopplysninger fra Enhetsregisteret
+  - https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=919650354 Nøkkelopplysninger fra Enhetsregisteret (Digitus)
 view: none
 ---
