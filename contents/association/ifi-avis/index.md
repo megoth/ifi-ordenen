@@ -4,8 +4,8 @@ tag: ifi-avis
 template: association.jade
 ---
 
-IFI-Avis er foreningen bak magasinet Index, som gis ut to ganger per  semester ved instituttet. Index er en uavhengig publikasjon som  omhandler det som skjer ved instituttet, blandt annet forskning,  politikk (hvorfor er ting som de er?), studentliv og veien til  arbeidslivet.
+[IFI-Avis](http://ifiavis.no/) er foreningen bak magasinet Output, som gis ut én gang i semesteret ved Institutt for Informatikk. Output ønsker å informere om det som skjer inne og rundt Ole Johan Dahls hus, underholde i lunsjen, og holde deg i loopen.
 
-**Formål:** Gi ut publikasjonen Index, rettet mot studenter og ansatte ved IFI, og andre med interesse for instituttet.
+**Formål:** Gi ut magasinet Output til studenter, ansatte, og andre interesserte ved Institutt for Informatikk.
 
-**Aktiviteter:** Møter, skriving, slippfester. Redaksjonsarbeid.
+**Aktiviteter:** Skriving, fotografering, illustrering, design, sosiale arrangementer, møter, og redaksjonelt arbeid.
