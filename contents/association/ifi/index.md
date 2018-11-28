@@ -1,5 +1,5 @@
 ---
-title: Insitutt for informatikk
+title: Institutt for informatikk
 short: Ifi
 tag: ifi
 url: http://www.mn.uio.no/ifi/
