@@ -1,6 +1,6 @@
 ---
 title: Studentforeningen Svett opprettet
-tags: svett
+tags: svett, minor
 year: 2015
 url:
   foreningsside: ../association/svett
