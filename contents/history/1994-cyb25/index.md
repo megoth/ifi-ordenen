@@ -3,7 +3,7 @@ title: Publikasjonen "Jubileumshefte Cybernetisk Selskab 25 år" utgis
 tags: cyb, minor
 year: 1994
 sources:
-  - http://cyb.ifi.uio.no/gammelweb/div/jubileum/forside.html Cybernetisk Selskab - 25 år - 1969-1994
+  - http://cyb.ifi.uio.no/gammelweb/div/jubileum/forside.html Cybernetisk Selskab 25 års-jubileumshefte - Forside
 template: event.jade
 ---
 
