@@ -1,5 +1,7 @@
 .idea
 .sass-cache
 build
+contents/*.css
+contents/*.css.map
 node_modules
 npm-debug.log
