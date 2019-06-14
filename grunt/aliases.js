@@ -1,8 +1,8 @@
 module.exports = {
 	'default': ['build', 'watch'],
-	'build': ['clean:build', 'wintersmith:local', 'sass', 'copy'],
-	'buildGithub': ['clean:build', 'wintersmith:github', 'sass', 'copy'],
-  'buildOrdenen': ['clean:build', 'wintersmith:ordenen', 'sass', 'copy'],
+	'build': ['clean:build', 'sass', 'copy'],
+	'buildGithub': ['clean:build', 'sass', 'copy'],
+  'buildOrdenen': ['clean:build', 'sass', 'copy'],
   'deployGithub': [
     'buildGithub', 
     'gitadd:all', 

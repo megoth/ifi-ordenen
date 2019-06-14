@@ -2,7 +2,7 @@
 title: IFI Sjakk
 tag: ifi-sjakk
 url: https://www.facebook.com/ifisjakk/
-template: association.jade
+template: association.pug
 ---
 
 IFI Sjakk skal ha jevnlige arrangementer med fokus på sjakk.

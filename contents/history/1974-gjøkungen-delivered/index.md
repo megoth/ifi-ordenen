@@ -6,7 +6,7 @@ tags: ifi
 year: 1974
 sources:
   - http://www.muv.uio.no/uios-historie/mennesker/forskeren/realister/ole-johan-dahl-og-gjokungen.html Ole-Johan Dahl og gjøkungen på Matematisk institutt (UiO)
-template: event.jade
+template: event.pug
 ---
 
 Fra [Ole-Johan Dahl og gjøkungen på Matematisk institutt](http://www.muv.uio.no/uios-historie/mennesker/forskeren/realister/ole-johan-dahl-og-gjokungen.html):

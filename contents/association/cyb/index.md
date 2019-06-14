@@ -3,7 +3,7 @@ title: Cybernetisk Selskab (CYB)
 short: CYB
 tag: cyb
 url: https://cyb.no/
-template: association.jade
+template: association.pug
 ---
 
 Cybernetisk Selskab er en sosial, faglig og kulturell forening for alle studenter tilknyttet Ifi.

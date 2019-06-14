@@ -2,7 +2,7 @@
 title: UniPlay
 tag: uniplay
 url: https://uniplay.no/
-template: association.jade
+template: association.pug
 ---
 
 UniPlay står for "University Play" og er en spillforening for norske studenter som er interessert i spill og det sosiale miljøet som kan skapes gjennom spill, diskusjoner og lignende.

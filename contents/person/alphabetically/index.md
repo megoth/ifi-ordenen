@@ -1,4 +1,4 @@
 ---
 title: Tildelinger (alfabetisk)
-template: personListAlphabetically.jade
+template: personListAlphabetically.pug
 ---

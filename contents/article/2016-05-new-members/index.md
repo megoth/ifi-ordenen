@@ -2,7 +2,7 @@
 title: "Nye ordens&shy;mottagere våren 2016"
 author: arnehass
 date: 2016-05-15
-template: article.jade
+template: article.pug
 image:
   desc: Et knippe av ordensmedlemmene utenfor Ole-Johan Dahls hus, tatt ifm Foreningsfesten
   takenby: Mathias Ciarlo Thorstensen

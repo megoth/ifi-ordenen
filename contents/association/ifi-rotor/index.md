@@ -2,7 +2,7 @@
 title: IFI Rotor
 tag: ifi-rotor
 url: https://www.facebook.com/ifirotor
-template: association.jade
+template: association.pug
 ---
 
 Multikopterforening for studenter.

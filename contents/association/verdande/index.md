@@ -3,7 +3,7 @@ title: Jenteforeningen Verdande
 short: Verdande
 tag: verdande
 url: http://verdandeifi.wordpress.com/
-template: association.jade
+template: association.pug
 ---
 
 Verdande er jenteforeningen ved instituttet. Formålet er å knytte bånd mellom jenter på instituttet og andre kvinner og jenter som jobber med eller er interesserte i informatikk.

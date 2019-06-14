@@ -1,6 +1,6 @@
 ---
 title: Arne Hassel
-template: person.jade
+template: person.pug
 current: commander
 rank: Kommandør
 appointed: 2014

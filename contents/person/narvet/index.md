@@ -1,6 +1,6 @@
 ---
 title: Narve Trædal
-template: person.jade
+template: person.pug
 current: knight
 rank: Ridder
 appointed: 2016

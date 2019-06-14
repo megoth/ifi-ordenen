@@ -3,7 +3,7 @@ title: Fagutvalget ved Institutt for informatikk (FUI)
 short: FUI
 tag: fui
 url: http://fui.ifi.uio.no/
-template: association.jade
+template: association.pug
 ---
 
 Fagutvalget ved Institutt for informatikk (FUI) er informatikkstudentenes eget organ, og skal fungere som et bindeledd mellom studentene, instituttet og universitetet forøvrig.

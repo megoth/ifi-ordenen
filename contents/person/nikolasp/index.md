@@ -1,6 +1,6 @@
 ---
 title: Nikolas Papaioannou
-template: person.jade
+template: person.pug
 current: commander
 rank: Kommandør
 appointed: 2017

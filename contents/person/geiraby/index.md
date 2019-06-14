@@ -1,6 +1,6 @@
 ---
 title: Geir Arild Byberg
-template: person.jade
+template: person.pug
 current: grand_cross
 rank: Stormester
 appointed: 2011

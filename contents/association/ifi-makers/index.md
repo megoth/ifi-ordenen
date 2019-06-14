@@ -2,7 +2,7 @@
 title: IFI makers
 tag: ifi-makers
 url: http://sonen.ifi.uio.no/
-template: association.jade
+template: association.pug
 ---
 
 IFI makers holder til på Institutt for informatikk, for å samle såkalte makers.

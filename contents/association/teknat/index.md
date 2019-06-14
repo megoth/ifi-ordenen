@@ -3,7 +3,7 @@ title: Tekniske og Naturvitenskapelige anvendelser (TekNat)
 short: TekNat
 tag: teknat
 url: http://teknat.no/
-template: association.jade
+template: association.pug
 ---
 
 TekNat er en studentforening for deg som liker realfag og matematikk, og som ønsker å bidra til et faglig og sosialt miljø for disse studentene.

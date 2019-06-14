@@ -33,13 +33,13 @@ block content
           ul
             each event in year.events
               li.event
-                include history-event.jade
+                include history-event.pug
             if year.minor.length > 0
               li.event Mindre hendelser
                 ul
                   each event in year.minor
                     li.event
-                      include history-event.jade
+                      include history-event.pug
   if Object.keys(references).length > 0
     h3 Referanser
     ol.references

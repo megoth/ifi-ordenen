@@ -3,7 +3,7 @@ title: "Hennes Majestet Keiserpingvinen gratulerer de nye ordensmottagerne for v
 short: "Nye ordens&shy;mottagere våren 2018"
 author: arnehass
 date: 2018-05-20
-template: article.jade
+template: article.pug
 image:
   desc: Hennes Majestet Keiserpingvinen den Fornemmes orden
   takenby: 

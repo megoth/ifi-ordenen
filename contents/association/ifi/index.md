@@ -3,7 +3,7 @@ title: Institutt for informatikk
 short: Ifi
 tag: ifi
 url: http://www.mn.uio.no/ifi/
-template: association.jade
+template: association.pug
 ---
 
 Institutt for informatikk (Ifi) er Universitetet i Oslos enhet for studier innenfor informatikk. Instituttet ligger under Det matematisk-naturvitenskapelige fakultet, og er det eldste og største instituttet for informatikk i Norge.

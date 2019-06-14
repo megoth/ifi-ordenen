@@ -2,7 +2,7 @@
 title: dagen@ifi
 tag: dagen
 url: http://www.dagenatifi.no/
-template: association.jade
+template: association.pug
 ---
 
 Hvert år arrangeres dagen@ifi som er det største studentdrevne heldagsarrangementet ved UiO.

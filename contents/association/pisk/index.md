@@ -5,7 +5,7 @@ short: |
   PI:SK
 tag: pisk
 url: http://pisk.ifi.uio.no/
-template: association.jade
+template: association.pug
 ---
 
 Programutvalget PI:SK jobber for et bra faglig og sosialt miljø rundt studieprogrammet Informatikk: språk og kommunikasjon.

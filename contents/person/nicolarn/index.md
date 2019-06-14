@@ -1,6 +1,6 @@
 ---
 title: Nicolai Rønneberg Nielsen
-template: person.jade
+template: person.pug
 current: knight
 rank: Ridder
 appointed: 2017

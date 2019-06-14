@@ -7,7 +7,7 @@ url:
   foreningsside: ../association/prosit
 sources:
   - http://prosit.wiki.ifi.uio.no/Historie Historie - ProsIT
-template: event.jade
+template: event.pug
 ---
 
 Fra [Historie - Prosit](http://prosit.wiki.ifi.uio.no/Historie):

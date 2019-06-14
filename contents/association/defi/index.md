@@ -3,7 +3,7 @@ title: Defi - Designforeningen ved IFI
 short: Defi
 tag: defi
 url: http://defi.no/
-template: association.jade
+template: association.pug
 ---
 
 Defi er linjeforeningen for design, bruk og interaksjon ved UiO

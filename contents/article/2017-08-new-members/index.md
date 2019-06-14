@@ -2,7 +2,7 @@
 title: "Nye ordens&shy;mottagere våren 2017"
 author: arnehass
 date: 2017-08-05
-template: article.jade
+template: article.pug
 image:
   desc: Hennes Majestet Keiserpingvinen den Fornemmes orden
   takenby: 

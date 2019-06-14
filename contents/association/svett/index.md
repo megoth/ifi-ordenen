@@ -2,7 +2,7 @@
 title: Svett
 tag: svett
 url: https://www.facebook.com/svettifi/
-template: association.jade
+template: association.pug
 ---
 
 Navnet Svett spiller på den populært utbredte stereotypen av informatikere. Mange ser på informatikere som svette «nerder». Vi velger å spille videre på dette med et glimt i øyet.

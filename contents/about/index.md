@@ -1,6 +1,6 @@
 ---
 title: Om ordenen
-template: info.jade
+template: info.pug
 ---
 
 Målet med Hennes Majestet Keiserpingvinen den Fornemmes orden, bedre kjent som Ifi-ordenen, er å hedre de personer tilknyttet Institutt for informatikk som har utmerket seg i sitt engasjement for å gjøre studentmiljøet på Ifi bedre. Gjennom dette er håpet å ytterligere forsterke det gode studentmiljøet.

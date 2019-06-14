@@ -1,6 +1,6 @@
 ---
 title: Apt
-template: penguin.jade
+template: penguin.pug
 rank: Gardesjef
 ---
 

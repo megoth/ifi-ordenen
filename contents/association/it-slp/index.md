@@ -5,7 +5,7 @@ short: |
   IT-SLP
 tag: it-slp
 url: http://it-slp.ifi.uio.no/
-template: association.jade
+template: association.pug
 ---
 
 Fra [Om oss - IT-SLP](http://it-slp.ifi.uio.no/om_oss.html):

@@ -1,6 +1,6 @@
 ---
 title: Suhas Govind Joshi
-template: person.jade
+template: person.pug
 current: commander_with_star
 rank: Kommandør med stjerne
 appointed: 2015

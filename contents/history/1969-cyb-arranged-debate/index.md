@@ -6,7 +6,7 @@ year: 1969
 date: 1969-10-05
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hoydepunkter.html Cybernetisk Selskab 25 års-jubileumshefte - Høydepunkter i CYBs historie
-template: event.jade
+template: event.pug
 ---
 
 Fra kapitlet ["Høydepunkter i CYBs historie" i Cybernetisk Selskab 25 års-jubileumshefte](http://cyb.ifi.uio.no/gammelweb/div/jubileum/hoydepunkter.html):

@@ -2,7 +2,7 @@
 title: ProgNett
 tag: prognett
 url: http://ifiprognett.no/
-template: association.jade
+template: association.pug
 ---
 
 ProgNett er linjeforeningen for studenter ved bachelor- og masterprogrammene Programmering og nettverk

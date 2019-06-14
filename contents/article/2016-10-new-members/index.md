@@ -2,7 +2,7 @@
 title: "Nye ordens&shy;mottagere høsten 2016"
 author: arnehass
 date: 2016-10-30
-template: article.jade
+template: article.pug
 image:
   desc: Den nye logoen til Hennes Majestet Keiserpingvinen den Fornemmes orden
   takenby: 

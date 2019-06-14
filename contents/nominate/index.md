@@ -1,6 +1,6 @@
 ---
 title: Nominering av kandidater
-template: info.jade
+template: info.pug
 ---
 
 Vi har laget [et skjema du kan fylle ut for å gi oss info om personen du ønsker å nominere](https://docs.google.com/forms/d/e/1FAIpQLSfNPMAVLhH_SqdJEhBmEgS60PDsCevSkc5S28Vh9Q8klvQs4g/viewform). Under følger retningslinjene vi følger når vi vurderer kandidater.

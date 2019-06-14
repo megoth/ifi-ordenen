@@ -1,6 +1,6 @@
 ---
 title: Stefanov Escapealov
-template: penguin.jade
+template: penguin.pug
 rank: Æresmedlem
 ---
 

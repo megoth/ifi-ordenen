@@ -20,7 +20,7 @@ html(lang=language)
 	body(class=mainclass)
 		header(role="banner")
 			.title= locals.title
-			include ./navigation.jade
+			include ./navigation.pug
 		div(role="main")
 			header
 				.inner
@@ -33,18 +33,18 @@ html(lang=language)
 					nav.breadcrumbs
 						ul
 							if page.parent && page.parent.parent.parent
-								- var crumb = page.parent.parent.parent.index
+								- const crumb = page.parent.parent.parent['index.md']
 								li
 									a(href=locals.url + crumb.url)
 										!= crumb.metadata.short || crumb.title
 							if page.parent && page.parent.parent
-								- var crumb = page.parent.parent.index
+								- const crumb = page.parent.parent['index.md']
 								li
 									a(href=locals.url + crumb.url)
 										!= crumb.metadata.short || crumb.title
 							li
 								span
-									!= page.metadata.short || page.title
+									!= page.metadata.short || page.metadata.title
 				block content
 			block aside
 		footer

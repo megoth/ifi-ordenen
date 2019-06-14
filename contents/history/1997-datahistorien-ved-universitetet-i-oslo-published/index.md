@@ -3,7 +3,7 @@ title: Publikasjonen "Datahistorien ved Universitetet i Oslo - Institutt for inf
 short: Datahistorien 1977 - 1997, del 2
 tags: ifi, minor
 year: 1997
-template: event.jade
+template: event.pug
 ---
 
 *Denne siden er en kopi av publikasjonen med navn [Datahistorien ved Universitetet i Oslo - Institutt for informatikk 1977 - 1997](./Jubileumshefte.pdf), originalt utgitt og produsert av IFI, Institutt for informatikk. Ansvarlig for redaksjon og layout er Aud Veen Noodt, mens Øystein Christiansen sto for produksjon og foto. Trykkingen ble gjort av Oslo Forlagstrykkeri, og ble gjort i 1500 eksemplarer. Arbeidet med å finne frem det gamle materialet og gjøre det om til PDF er gjort av Øystein Christiansen.*

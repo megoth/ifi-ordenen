@@ -1,6 +1,6 @@
 ---
 title: Mottagere
-template: persons.jade
+template: persons.pug
 ---
 
 Personer som har mottatt Ifi-ordenen betegnes gjerne som mottagere. De grupperes her etter hvilket ordenstegn de sist mottok, mens innad i gruppene sorteres man etter når man mottok ordenen.

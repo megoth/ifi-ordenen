@@ -1,6 +1,6 @@
 ---
 title: Arne Hassel
-template: person.jade
+template: person.pug
 current: grand_cross
 rank: Stormester
 appointed: 2015

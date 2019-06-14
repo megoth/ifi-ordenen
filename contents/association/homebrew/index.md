@@ -2,7 +2,7 @@
 title: Homebrew
 tag: homebrew
 url: http://www.mn.uio.no/ifi/livet-rundt-studiene/organisasjoner/homebrew.html
-template: association.jade
+template: association.pug
 ---
 
 Homebrew skal fremme kunnskap og interesse om brygging av øl og vin blant studenter ved Institutt for Informatikk.

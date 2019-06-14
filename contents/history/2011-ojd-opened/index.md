@@ -6,7 +6,7 @@ year: 2011
 date: 2011-09-02
 sources:
   - https://no.wikipedia.org/wiki/Ole-Johan_Dahls_hus Ole-Johan Dahls hus - Wikipedia
-template: event.jade
+template: event.pug
 ---
 
 *Av: Arne Hassel, Festgeneral på Universitet i Oslo sin bursdagsfest 2. september 2011*

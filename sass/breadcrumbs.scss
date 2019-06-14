@@ -1,60 +1,39 @@
 nav.breadcrumbs ul {
   @include horizontal-list-container;
   margin: 0.5em 0;
+
   > li {
-    @include horizontal-list-item;
+    @include horizontal-list-item(0);
+
     a,
     span {
       display: block;
-      padding: 10px 0 10px 35px;
-      position: relative; 
+      padding: 10px;
+      position: relative;
     }
+
     a {
+      background-color: white;
       text-decoration: none;
-      &:after {
-        content: " "; 
-        display: block; 
-        width: 0; 
-        height: 0;
-        border-top: 50px solid transparent;
-        border-bottom: 50px solid transparent;
-        border-left: 30px solid transparent;
-        position: absolute;
-        top: 50%;
-        margin-top: -50px; 
-        left: 100%;
-        z-index: 2; 
-      }
-      &:before {
-        content: " "; 
-        display: block; 
-        width: 0; 
-        height: 0;
-        border-top: 50px solid transparent;       
-        border-bottom: 50px solid transparent;
-        border-left: 30px solid $background-color;
-        position: absolute;
-        top: 50%;
-        margin-top: -50px; 
-        margin-left: 1px;
-        left: 100%;
-        z-index: 1; 
-      }
       @include breadcrumb-background-color(0.5);
     }
+
     &:last-child {
       @media screen and (max-width: $small-width) {
         display: none;
       }
     }
+
     &:first-child a {
       padding-left: 10px;
     }
+
     &:nth-child(2) a {
       @include breadcrumb-background-color(0.25);
     }
+
     a:focus,
-    a:hover  {
+    a:hover {
       @include breadcrumb-background-color(1);
     }
   }

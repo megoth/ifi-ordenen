@@ -14,22 +14,26 @@
     "Wintersmith",
     "Ifi-ordenen"
   ],
+  "scripts": {
+    "start": "grunt",
+    "build": "grunt build"
+  },
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.4",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-git": "^1.0.3",
-    "grunt-wintersmith": "0.0.2",
-    "load-grunt-config": "^1.0.1",
-    "load-grunt-tasks": "^3.5.2"
+    "grunt-git": "^1.0.14",
+    "load-grunt-config": "^1.0.2",
+    "load-grunt-tasks": "^3.5.2",
+    "wintersmith": "^2.5.0"
   },
   "dependencies": {
     "marked": "^0.3.6",
     "moment": "^2.18.1",
     "typogr": "^0.6.8",
-    "underscore": "^1.8.3"
+    "underscore": "^1.9.1"
   },
   "bugs": {
     "url": "https://github.com/megoth/ifi-ordenen/issues"

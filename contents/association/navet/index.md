@@ -2,7 +2,7 @@
 title: Navet
 tag: navet
 url: https://ifinavet.no/
-template: association.jade
+template: association.pug
 ---
 
 Navet er bedriftskontakten ved instituttet, drevet av studentene. Hensikten med Navet er å gi studentene innblikk i IT-bransjen, samt tilrettelegge for nettverksbygging.

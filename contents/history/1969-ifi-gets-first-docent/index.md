@@ -4,7 +4,7 @@ tags: ifi, minor
 year: 1969
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hefte.bakgr.og.hist.html Cybernetisk Selskab 25 års-jubileumshefte - Cybernetisk Selskabs Fødsel
-template: event.jade
+template: event.pug
 ---
 
 Fra kapitlet ["Cybernetisk Selskabs Fødsel" i Cybernetisk Selskab 25 års-jubileumshefte](http://cyb.ifi.uio.no/gammelweb/div/jubileum/hefte.bakgr.og.hist.html):

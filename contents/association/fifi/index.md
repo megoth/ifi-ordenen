@@ -2,7 +2,7 @@
 title: FIFI (Fotball ved Institutt for Informatikk)
 short: FIFI
 tag: fifi
-template: association.jade
+template: association.pug
 ---
 
 FIFI er en sosial og sportslig forening ved instituttet.

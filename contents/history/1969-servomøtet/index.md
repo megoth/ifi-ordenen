@@ -5,7 +5,7 @@ tags: cyb, minor
 year: 1969
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/hoydepunkter.html Cybernetisk Selskab 25 års-jubileumshefte - Høydepunkter i CYBs historie
-template: event.jade
+template: event.pug
 ---
 
 Servomøtet arrangeres i dag av [Norsk Forening for Automatisering](http://www.nfaplassen.no/), og er den største møteplassen for automatiserings- og kybernetikkmiljøene i Norge.

@@ -1,6 +1,6 @@
 ---
 title: Svetlana Escapealov
-template: penguin.jade
+template: penguin.pug
 rank: Æresmedlem
 ---
 

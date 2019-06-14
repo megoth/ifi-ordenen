@@ -1,6 +1,6 @@
 ---
 title: Ole Kristian Rosvold
-template: person.jade
+template: person.pug
 current: commander
 rank: Kommandør
 appointed: 2016

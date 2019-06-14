@@ -1,6 +1,6 @@
 ---
 title: Johanne Håøy Horn
-template: person.jade
+template: person.pug
 current: knight
 rank: Ridder
 appointed: 2015

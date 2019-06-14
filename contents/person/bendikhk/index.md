@@ -1,6 +1,6 @@
 ---
 title: Bendik Kvamstad
-template: person.jade
+template: person.pug
 current: knight_first_class
 rank: Ridder av første klasse
 appointed: 2018

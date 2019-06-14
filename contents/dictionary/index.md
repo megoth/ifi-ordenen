@@ -1,6 +1,6 @@
 ---
 title: Ord og uttrykk
-template: info.jade
+template: info.pug
 ---
 
 På denne siden er det listet opp en rekke ord og begrep tilknyttet ordenen.

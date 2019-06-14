@@ -1,6 +1,6 @@
 ---
 title: Tux
-template: penguin.jade
+template: penguin.pug
 rank: Æresmedlem
 ---
 

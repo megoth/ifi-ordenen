@@ -1,6 +1,6 @@
 ---
 title: Pingvingarden
-template: penguins.jade
+template: penguins.pug
 ---
 
 Pingvingarden er Keiserinnens voktere og består av pingviner tilknyttet Institutt for informatikk.

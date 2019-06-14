@@ -5,7 +5,7 @@ year: 1994
 sources:
   - http://cyb.ifi.uio.no/gammelweb/div/jubileum/forside.html Cybernetisk Selskab 25 års-jubileumshefte - Forside
   - CYBs interne arkiv
-template: event.jade
+template: event.pug
 ---
 
 I anledning Cybernetisk Selskab sitt 25-års jubileum gjennomførte CYB en rekke foredrag og debatter, ga ut et jubileumshefte ([tilgjengelig i PDF-format](./cyb25-heftet.pdf)), og avsluttet med en storstilt middag på Teknisk Museum.

@@ -8,7 +8,7 @@ block vars
   - mainclass = 'person';
 
 block before_title
-  img.profile(src='thumb.jpg')
+  img.profile(src=page.url + 'thumb.jpg')
 
 block after_title
   - var _title = contents.title[page.metadata.current]['index.md'].metadata;

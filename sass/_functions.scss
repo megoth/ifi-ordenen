@@ -1,0 +1,22 @@
+@function default-box-shadow() {
+  @return if($default-box-shadow-inset, inset, null) $default-box-shadow-h-offset $default-box-shadow-v-offset $default-box-shadow-blur $default-box-shadow-spread $default-box-shadow-color;
+}
+
+@function navigation-color($alpha) {
+  @return rgba($navigation-background-color-r, $navigation-background-color-g, $navigation-background-color-b, $alpha);
+}
+
+@function opposite-position($position) {
+  @return if($position == left, right,
+          if($position == top, bottom,
+          if($position == center, center,
+                  if($position == right, left, top))))
+}
+
+@function set-arglist-default($arglist, $default) {
+  $default-index: index($arglist, default);
+  @if $default-index {
+    $arglist: set-nth($arglist, $default-index, $default);
+  }
+  @return if(length($arglist) > 0, $arglist, $default);
+}

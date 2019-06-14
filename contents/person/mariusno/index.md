@@ -1,6 +1,6 @@
 ---
 title: Marius Næss Olsen
-template: person.jade
+template: person.pug
 current: commander
 rank: Kommandør med stjerne
 appointed: 2013

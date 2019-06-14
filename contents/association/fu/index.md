@@ -3,7 +3,7 @@ title: Fordelingsutvalget ved Institutt for informatikk (FU)
 short: FU
 tag: fu
 url: http://fordelingsutvalget.com/
-template: association.jade
+template: association.pug
 ---
 
 Fordelingsutvalget ved Institutt for informatikk er et organ dannet av foreningene ved Ifi for å håndtere det økonomiske samarbeidet mellom dem. Utvalget disponerer overskuddene som Navet og dagen@ifi opparbeider seg gjennom sitt arbeid som knutepunkt mellom instituttets studenter og næringslivet.

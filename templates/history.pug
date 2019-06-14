@@ -19,7 +19,7 @@ block content
         ul
           each event in year.events
             li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
-              include history-event.jade
+              include history-event.pug
           if _(year.appointments.map(function (appointment) { return appointment.persons; })).flatten().length > 0
             li.event.ifi-ordenen Tildelinger av Ifi-ordenen
               ul
@@ -35,7 +35,7 @@ block content
               ul
                 each event in year.minor
                   li(class=event.metadata.tags ? event.metadata.tags.split(', ') : '').event
-                    include history-event.jade
+                    include history-event.pug
   h3 Referanser
   ol.references
     each reference in references

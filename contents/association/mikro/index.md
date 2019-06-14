@@ -3,7 +3,7 @@ title: Nanoelektronikk, Robotikk og Digital Signalbehandling (Mikro)
 short: Mikro
 tag: mikro
 url: https://www.facebook.com/Studentforeningen-Mikro-151779014851965/
-template: association.jade
+template: association.pug
 ---
 
 Mikro er studentforeningen for studenter tilknyttet Nanoelektronikk, Robotikk og Digital Signalbehandling.

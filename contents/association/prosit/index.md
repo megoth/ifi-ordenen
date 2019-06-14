@@ -3,7 +3,7 @@ title: Linjeforeningen Profesjonsstudentene ved Institutt for Informatikk (ProsI
 short: ProsIT
 tag: prosit
 url: http://prosit.wiki.ifi.uio.no/
-template: association.jade
+template: association.pug
 ---
 
 Fra [Beskrivelse i ProsITs wiki]:
