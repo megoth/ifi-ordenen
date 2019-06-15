@@ -32,7 +32,7 @@
     "wintersmith": "^2.5.0"
   },
   "dependencies": {
-    "marked": "^0.3.6",
+    "marked": "^0.6.2",
     "moment": "^2.18.1",
     "typogr": "^0.6.8",
     "underscore": "^1.9.1"
