@@ -5,7 +5,7 @@ current: knight_first_class
 rank: Ridder av første klasse
 appointed: 2019
 reason: For sitt arbeid med å få på plass Ifi-ordenen og sin velvillighet til å hjelpe Keiserinnen og hennes ordensinnehavere tildeles tittelen Ridder av første klasse av Hennes Majestet Keiserpingvinen den Fornemmes orden til Klaus Wik.
-associations: cyb
+associations: cyb, ordenen
 ---
 
 Da Cybernetisk Selskab feiret 42 år var Klaus tidlig på ballen med et ønske om å gjøre noe ekstra ut av anledningen. Det var riktig nok 16 år siden han hadde vært aktiv i CYB, men gjennom engasjement og arbeid andre steder på universitetet hadde han opparbeidet seg innsikt og kunnskap som skulle bli sentral i en ting man ønsket å få til med CYB42, nemlig å opprette en egen ridderorden for studentene på Ifi!

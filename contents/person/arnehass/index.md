@@ -6,7 +6,7 @@ rank: Stormester
 appointed: 2015
 reason: Hennes Majestet Keiserpingvinen den Fornemme anser det som opportunt at Arne Hassel skal lede Hennes Majestet Keiserpingvinen den Fornemmes orden med Storkorset og sverd-stokken i hende.
 username: "arnehass"
-associations: cyb
+associations: cyb, ordenen
 previous: ["commander"]
 ---
 
