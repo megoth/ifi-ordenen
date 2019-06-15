@@ -22,7 +22,7 @@
     "watch": "concurrently \"npm run watch-style\" \"npm run watch-content\"",
     "watch-content": "wintersmith preview",
     "watch-style": "sass sass/style.scss contents/style.css --watch",
-    "build:preview": "wintersmith build --config config-ordenen.json && npm run build-style",
+    "build:preview": "wintersmith build --config config-gh-pages.json && npm run build-style",
     "build:public": "wintersmith build --config config-ordenen.json && npm run build-style"
   },
   "devDependencies": {

@@ -6,6 +6,7 @@
     "owner": "Stormester i Hennes Majestet Keiserpingvinen den Fornemmes orden",
     "description": "Hennes Majestet Keiserpingvinen den Fornemmes orden på nett"
   },
+  "output": "docs",
   "plugins": [
     "./plugins/ordenen.coffee",
     "./plugins/paginator.coffee"

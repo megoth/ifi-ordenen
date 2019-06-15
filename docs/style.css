@@ -1,0 +1,574 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1,
+[role=banner] .title, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+body header {
+  text-align: center;
+}
+body header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body > footer {
+  padding-bottom: 1em;
+}
+
+@media screen and (min-width: 45em) {
+  [role=main] .inner,
+body > header,
+body > footer {
+    margin: 0 auto;
+    max-width: 40em;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 60em) {
+  [role=main] .inner,
+body > header,
+body > footer {
+    max-width: 45em;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  [role=main] .inner,
+body > footer p {
+    padding: 0 1em;
+  }
+}
+
+body > footer #MoreMenu li {
+  display: inline-block;
+  padding: 0.5em;
+  width: 100%;
+}
+@media screen and (min-width: 20em) {
+  body > footer #MoreMenu li {
+    width: 33.3333333333%;
+  }
+}
+
+[role=banner] .title {
+  display: block;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 45em) {
+  #MainNavigation #MainMenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 45em) {
+  #MainNavigation #MainMenu li {
+    display: inline-block;
+    width: 33.3333333333%;
+  }
+  #MainNavigation #MenuTrigger {
+    display: none !important;
+  }
+}
+
+body > footer {
+  border-top: solid 1px #000;
+  margin-top: 1em;
+  padding: 0.5em 0;
+}
+body > footer ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-bottom: 0.5em;
+}
+body > footer ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body > footer ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding: 0;
+  text-align: center;
+}
+body > footer ul li:first-child {
+  padding-left: 0;
+}
+body > footer ul li:last-child {
+  padding-right: 0;
+}
+
+a {
+  color: #000;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+blockquote footer {
+  font-weight: bold;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q:before {
+  content: "“";
+  content: open-quote;
+}
+q:after {
+  content: "”";
+  content: close-quote;
+}
+q q:before {
+  content: "‘";
+  content: open-quote;
+}
+q q:after {
+  content: "’";
+  content: close-quote;
+}
+
+figure {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figure img {
+  max-height: 15em;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, [role=banner] .title, h2, h3, h4, h5 {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25em;
+  margin: 1rem 0 0.25rem;
+}
+h1 a, [role=banner] .title a, h2 a, h3 a, h4 a, h5 a {
+  text-decoration: none;
+}
+
+h1, [role=banner] .title {
+  text-shadow: 0 0 1px #fff;
+  font-size: 2em;
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+[role=main] {
+  line-height: 1.5;
+}
+[role=main] figure figcaption {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 0.9em;
+}
+[role=main] header:first-child {
+  background-color: rgba(0, 0, 0, 0.75);
+  background: radial-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85));
+  margin: 0.5em 0 1em;
+  padding: 1em 0;
+}
+[role=main] header:first-child a,
+[role=main] header:first-child h1,
+[role=main] header:first-child [role=banner] .title,
+[role=banner] [role=main] header:first-child .title,
+[role=main] header:first-child h2,
+[role=main] header:first-child h3,
+[role=main] header:first-child p {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+[role=main] header:first-child h1, [role=main] header:first-child [role=banner] .title, [role=banner] [role=main] header:first-child .title,
+[role=main] header:first-child h2,
+[role=main] header:first-child h3 {
+  font-weight: normal;
+  margin: 0;
+}
+[role=main] header:first-child h1, [role=main] header:first-child [role=banner] .title, [role=banner] [role=main] header:first-child .title,
+[role=main] header:first-child h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.75);
+}
+[role=main] header:first-child h3 {
+  font-size: 1.25em;
+}
+[role=main] header:first-child img {
+  box-shadow: 0 0 0 #333333;
+  background: rgba(255, 255, 255, 0.5);
+}
+[role=main] h1, [role=main] [role=banner] .title, [role=banner] [role=main] .title,
+[role=main] h2,
+[role=main] h3,
+[role=main] h4,
+[role=main] h5,
+[role=main] h6 {
+  font-weight: bold;
+}
+[role=main] ol {
+  list-style-type: decimal;
+  margin: 0.75em 0 0.75em 1.5em;
+}
+[role=main] ul {
+  list-style-type: disc;
+  margin: 0.75em 0 0.75em 1.25em;
+}
+[role=main] li {
+  line-height: 1.25em;
+}
+[role=main] sup {
+  vertical-align: super;
+  font-size: x-small;
+}
+
+nav a {
+  display: block;
+  outline: 0;
+}
+
+ul.articles {
+  list-style-type: none;
+  margin: 0;
+}
+ul.articles li {
+  margin: 0.5em 0.5em 1em;
+}
+
+nav.persons ul,
+nav.years ul,
+ul.penguins,
+ul.persons {
+  margin: 0;
+  list-style-type: none;
+}
+nav.persons ul li,
+nav.years ul li,
+ul.penguins li,
+ul.persons li {
+  margin-bottom: 1em;
+}
+nav.persons ul a,
+nav.years ul a,
+ul.penguins a,
+ul.persons a {
+  outline: 0;
+}
+
+nav.penguins ul li,
+nav.persons ul li,
+ul.titles li {
+  padding: 0;
+  width: 100%;
+}
+nav.penguins ul li:after,
+nav.persons ul li:after,
+ul.titles li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav.penguins ul li h3,
+nav.persons ul li h3,
+ul.titles li h3 {
+  margin-top: 0;
+}
+nav.penguins ul li img,
+nav.persons ul li img,
+ul.titles li img {
+  float: left;
+  margin-right: 1em;
+}
+nav.penguins ul li .info,
+nav.persons ul li .info,
+ul.titles li .info {
+  margin-left: calc(102px + 1em);
+}
+
+ul.titles {
+  margin: 0;
+  list-style-type: none;
+}
+ul.titles li {
+  margin-bottom: 1em;
+}
+
+ul.overview {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul.overview:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.overview li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin: 0 0.25em 0 0;
+  padding: 0;
+}
+ul.overview li:first-child {
+  padding-left: 0;
+}
+ul.overview li:last-child {
+  padding-right: 0;
+}
+
+img.title,
+img.profile {
+  border-radius: 50%;
+  border: solid 1px #000;
+  margin-bottom: 0.5em;
+}
+
+a:focus img.title,
+a:focus img.profile,
+a:hover img.title,
+a:hover img.profile {
+  border-color: rgba(255, 182, 25, 0.5);
+}
+
+nav.breadcrumbs ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin: 0.5em 0;
+}
+nav.breadcrumbs ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav.breadcrumbs ul > li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+nav.breadcrumbs ul > li:first-child {
+  padding-left: 0;
+}
+nav.breadcrumbs ul > li:last-child {
+  padding-right: 0;
+}
+nav.breadcrumbs ul > li a,
+nav.breadcrumbs ul > li span {
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+nav.breadcrumbs ul > li a {
+  background-color: white;
+  text-decoration: none;
+  background: rgba(255, 182, 25, 0.5);
+}
+nav.breadcrumbs ul > li a:after {
+  border-left-color: rgba(255, 182, 25, 0.5);
+}
+@media screen and (max-width: 40em) {
+  nav.breadcrumbs ul > li:last-child {
+    display: none;
+  }
+}
+nav.breadcrumbs ul > li:first-child a {
+  padding-left: 10px;
+}
+nav.breadcrumbs ul > li:nth-child(2) a {
+  background: rgba(255, 182, 25, 0.25);
+}
+nav.breadcrumbs ul > li:nth-child(2) a:after {
+  border-left-color: rgba(255, 182, 25, 0.25);
+}
+nav.breadcrumbs ul > li a:focus,
+nav.breadcrumbs ul > li a:hover {
+  background: #ffb619;
+}
+nav.breadcrumbs ul > li a:focus:after,
+nav.breadcrumbs ul > li a:hover:after {
+  border-left-color: #ffb619;
+}
+
+#FilterHead,
+#Filters {
+  display: none;
+}
+#FilterHead label,
+#FilterHead select,
+#Filters label,
+#Filters select {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+#FilterHead select,
+#Filters select {
+  background-color: rgba(255, 182, 25, 0.5);
+  border: solid 1px #000;
+  color: #000;
+}
+
+ol.references .selected,
+ul.history .selected {
+  background-color: rgba(255, 182, 25, 0.5);
+}
+
+ul.history {
+  list-style-type: none;
+  margin: 0;
+}
+ul.history > li {
+  margin-bottom: 2em;
+}
+ul.history ul {
+  margin-top: 0.25em;
+}
+ul.history .event {
+  padding: 0.1em 0;
+}
+
+#MainMenu a,
+#MoreMenu a {
+  display: block;
+  padding: 0.5em;
+}
+#MainMenu a:focus, #MainMenu a:hover,
+#MoreMenu a:focus,
+#MoreMenu a:hover {
+  background-color: rgba(255, 182, 25, 0.5);
+}
+
+#MainNavigation #MenuTrigger {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  padding: 0.5em;
+  text-transform: uppercase;
+  width: 100%;
+}
+#MainNavigation #MenuTrigger span:before {
+  content: "";
+  padding-right: 0.25em;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+#MainNavigation #MenuTrigger:focus, #MainNavigation #MenuTrigger:hover {
+  background: rgba(255, 182, 25, 0.5);
+}
+#MainNavigation.open #MainMenu {
+  display: block;
+}
+#MainNavigation.open #MenuTrigger span:before {
+  content: "";
+}
+
+/*# sourceMappingURL=style.css.map */
