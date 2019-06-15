@@ -34,6 +34,8 @@ body > footer {
 
 [role="banner"] .title {
   @extend h1;
+  display: block;
+  text-decoration: none;
 }
 
 #MainNavigation {
@@ -43,7 +45,7 @@ body > footer {
     }
   }
   @media screen and (min-width: $pad-width) {
-    $number_of_menu_items: 4;
+    $number_of_menu_items: 3;
     #MainMenu li {
       display: inline-block;
       width: 100% / $number_of_menu_items;

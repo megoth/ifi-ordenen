@@ -19,14 +19,13 @@ html(lang=language)
     link(rel='stylesheet', href=locals.url + '/style.css')
   body(class=mainclass)
     header(role="banner")
-      .title= locals.short
+      a(href=locals.url).title= locals.short
       include ./navigation.pug
     div(role="main")
       header
         .inner
           block before_title
-          h1
-            != page ? page.title : locals.title
+          h1= page ? page.title : locals.title
           block after_title
       .inner
         block breadcrumbs
