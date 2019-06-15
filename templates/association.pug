@@ -13,7 +13,8 @@ block content
     h3 Annen informasjon
     ul
       if page.metadata.active === false
-        li Denne foreningen er ikke lenger aktiv
+        li
+          strong Denne foreningen er ikke lenger aktiv
       if page.metadata.current
         - currentAssociation = env.helpers.getAssociation(contents, page.metadata.current)
         li

@@ -230,6 +230,9 @@ ul.penguins,
 ul.persons {
   margin: 0;
   list-style-type: none;
+  li {
+    margin-bottom: 1em;
+  }
   a {
     outline: 0;
   }

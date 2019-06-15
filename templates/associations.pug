@@ -10,8 +10,8 @@ block content
     each association in env.helpers.getAssociations(contents, true)
       li
         a(href=locals.url + association.url)= association.metadata.title
-  h2 Tidligere foreninger
-  p Listen under viser foreninger og organisasjoner som har vært aktive på Ifi, men som enten er lagt ned eller som har blitt omdøpt eller gjenoppstått under andre navn.
+  h2 Tidligere foreninger eller foreningsnavn
+  p Listen under viser foreninger som har vært aktive på Ifi, men som enten er lagt ned eller som har blitt omdøpt eller gjenoppstått under andre navn.
   ul
     each association in env.helpers.getAssociations(contents, false)
       li
