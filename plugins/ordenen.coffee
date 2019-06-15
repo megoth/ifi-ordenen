@@ -99,8 +99,7 @@ module.exports = (env, callback) ->
 
   getPersonsForTag = (contents, tag) ->
     ((contents.person._.directories.map (person) -> person.index).filter (person) ->
-      ((if person.metadata.associations then person.metadata.associations.split(', ').indexOf tag else -1) isnt -1)).sort (docA, docB) ->
-    if getSortValueForPerson(docA) < getSortValueForPerson(docB) then 1 else -1
+      ((if person.metadata.associations then person.metadata.associations.split(', ').indexOf tag else -1) isnt -1)).sort (docA, docB) -> if getSortValueForPerson(docA) < getSortValueForPerson(docB) then 1 else -1
 
   getSortValueForPerson = (person) ->
     10000 * getSortValueForInsignia(person.metadata.current) - person.metadata.appointed
