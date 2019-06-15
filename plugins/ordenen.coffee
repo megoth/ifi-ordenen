@@ -97,9 +97,20 @@ module.exports = (env, callback) ->
     minorTags = _(year.minor.map (event) -> if event.metadata.tags then event.metadata.tags.split(', ') else []).flatten()
     _(eventTags.concat(appointmentTags).concat(minorTags)).uniq().map (tag) -> "year-#{tag}"
 
+  populatePersonObject = (person) ->
+    usernameParts = person.filepath.relative.split('/')
+    username = usernameParts[usernameParts.length - 2]
+    Object.assign({ username }, person)
+
   getPersonsForTag = (contents, tag) ->
-    ((contents.person._.directories.map (person) -> person.index).filter (person) ->
-      ((if person.metadata.associations then person.metadata.associations.split(', ').indexOf tag else -1) isnt -1)).sort (docA, docB) -> if getSortValueForPerson(docA) < getSortValueForPerson(docB) then 1 else -1
+    (
+      contents.person._.directories
+        .map (person) -> person.index
+        .filter (person) -> ((if person.metadata.associations then person.metadata.associations.split(', ').indexOf tag else -1) isnt -1)
+        .map (person) -> populatePersonObject(person)
+
+    )
+      .sort (docA, docB) -> if getSortValueForPerson(docA) < getSortValueForPerson(docB) then 1 else -1
 
   getSortValueForPerson = (person) ->
     10000 * getSortValueForInsignia(person.metadata.current) - person.metadata.appointed
