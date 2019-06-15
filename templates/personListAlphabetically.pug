@@ -12,14 +12,14 @@ block content
       each username in usernames
         - var person = contents.person[username].index.metadata
         li
-          a(href=locals.url+'/person/' + username)
-            img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
+          a(href=locals.url + '/person/' + username)
+            img.profile(src=locals.url + '/person/' + username + '/thumb.jpg', title=person.title)
           .info
             - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (titleName) {
             -   _title = contents.person[username][titleName].index.metadata;
             -   return _title.rank+' ('+_title.appointed+')';
             - }));
             h3
-              a(href=locals.url+'/person/' + username)= person.title
+              a(href=locals.url + '/person/' + username)= person.title
             p= appointments.join(', ')
             p= person.reason

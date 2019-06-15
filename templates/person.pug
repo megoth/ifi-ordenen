@@ -19,8 +19,8 @@ block content
   p
     strong= page.metadata.reason
   p.info
-    a(href=locals.url+'/person/year#'+page.metadata.appointed) Tildelt #{page.metadata.appointed}
-        
+    a(href=locals.url + '/person/year#' + page.metadata.appointed) Tildelt #{page.metadata.appointed}
+
 block aside
   if page.metadata.previous
     each titleName in page.metadata.previous
@@ -33,7 +33,7 @@ block aside
         p
           strong= _title.metadata.reason
         p.info
-          a(href=locals.url+'/person/year#'+_title.metadata.appointed)  Tildelt #{_title.metadata.appointed}
+          a(href=locals.url + '/person/year#' + _title.metadata.appointed)  Tildelt #{_title.metadata.appointed}
   if page.metadata.associations
     .inner
       h3 Foreninger/Organisasjoner
@@ -41,4 +41,4 @@ block aside
         each associationTag in page.metadata.associations.split(', ').sort()
           - var association = env.helpers.getAssociation(contents, associationTag)
           li
-            a(href=locals.url+association.url)= association.title
+            a(href=locals.url + association.url)= association.title

@@ -1,6 +1,5 @@
 - var articles = env.helpers.getArticles(contents)
-nav.articles
-  ul
-    each article in articles
-      li
-        include ./articleListItem.pug
+ul.articles
+  each article in articles
+    li
+      include ./articleListItem.pug

@@ -16,3 +16,5 @@ Noen av disse menneskene har engasjement som går langt tilbake i tid, og vi som
 Cybernetisk Selskab feiret 50 år i februar, noe de avsluttet med en storstilt galla. I den anledning ønsket vi å hedre seks mennesker som kan spore mye av engasjementet sitt gjennom CYBs virke. Vi ble også veldig glade for å se maleriet av Keiserpingvinen som Tor-Aksel Solberg hadde malt i anledning den store dagen. Gaven ble overrekket leder av CYB, Thor M. K. Høgås, og kan i dag beskues i Escape. 
 
 De fire andre hedret vi på Foreningsfesten. Det var spesielt hyggelig å kunne hedre trespannet fra FUI, da det tross alt er noen år siden de var ferdige med å studere.
+
+*Notat til bildet: Personene som er med er (øvre rekke, fra venstre) Henrik Hellerøy, Ole Kristian Rosvold, Klaus Wik, Magnus Johansen, Odd-Tørres Lunde, Morten Dæhlen, Iver Stubdal, Torgeir Lebesbye, (midtre rekke, fra venstre) Henrik Steen, Aleksi Luukkonen, Andreas Nyborg Hansen, Martin Haugland, Øyvind Bakkeli, (nederste rekke, fra venstre) Karl Hole Totland, Anne Marie Bekk, Nikolas Papaioannou, Vegard Angell, Veronika Heimsbakk, Arne Hassel.* 

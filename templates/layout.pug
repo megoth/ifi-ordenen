@@ -4,71 +4,71 @@
 - var t = contents[language+'.json'].metadata;
 - moment.locale(language);
 block vars
-	- var mainclass = null;
+  - var mainclass = null;
 doctype html
 html(lang=language)
-	head
-		meta(charset='utf-8')
-		meta(name='viewport', content="width=device-width")
-		title
-			block title
-				| #{locals.title}
-		link(rel='alternate', href=locals.url + '/feed.xml', type='application/rss+xml', title=locals.description)
-		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
-		link(rel='stylesheet', href=locals.url + '/style.css')
-	body(class=mainclass)
-		header(role="banner")
-			.title= locals.title
-			include ./navigation.pug
-		div(role="main")
-			header
-				.inner
-					block before_title
-					h1
-						!= page ? page.title : locals.title
-					block after_title
-			.inner
-				block breadcrumbs
-					nav.breadcrumbs
-						ul
-							if page.parent && page.parent.parent.parent
-								- const crumb = page.parent.parent.parent['index.md']
-								li
-									a(href=locals.url + crumb.url)
-										!= crumb.metadata.short || crumb.title
-							if page.parent && page.parent.parent
-								- const crumb = page.parent.parent['index.md']
-								li
-									a(href=locals.url + crumb.url)
-										!= crumb.metadata.short || crumb.title
-							li
-								span
-									!= page.metadata.short || page.metadata.title
-				block content
-			block aside
-		footer
-			nav#MoreMenu
-				ul
-					li
-						a(href=locals.url+'/association')= t.nav.associations
-					li
-						a(href=locals.url+'/history')= t.nav.history
-					li
-						a(href=locals.url+'/dictionary')= t.nav.dictionary
-			p(role="contentinfo") &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
-				a(href=locals.url + '/page') mer om siden
-				| )
-	script(type='text/javascript').
-		(function () {
-			var mainNavigation = document.getElementById('MainNavigation');
-			var mainMenu = document.getElementById('MainMenu');
-			var menuTrigger = document.getElementById('MenuTrigger');
-			var navIsHidden = true;
-			menuTrigger.onclick = function () {
-				navIsHidden = !navIsHidden;
-				mainNavigation.className = navIsHidden ? '' : 'open';
-				mainMenu.setAttribute('aria-hidden', navIsHidden);
-			};
-		}());
-	block script
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content="width=device-width")
+    title
+      block title
+        |  #{locals.short}
+    link(rel='alternate', href=locals.url + '/feed.xml', type='application/rss+xml', title=locals.description)
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href=locals.url + '/style.css')
+  body(class=mainclass)
+    header(role="banner")
+      .title= locals.short
+      include ./navigation.pug
+    div(role="main")
+      header
+        .inner
+          block before_title
+          h1
+            != page ? page.title : locals.title
+          block after_title
+      .inner
+        block breadcrumbs
+          nav.breadcrumbs
+            ul
+              if page.parent && page.parent.parent.parent
+                - const crumb = page.parent.parent.parent['index.md']
+                li
+                  a(href=locals.url + crumb.url)
+                    != crumb.metadata.short || crumb.title
+              if page.parent && page.parent.parent
+                - const crumb = page.parent.parent['index.md']
+                li
+                  a(href=locals.url + crumb.url)
+                    != crumb.metadata.short || crumb.title
+              li
+                span
+                  != page.metadata.short || page.metadata.title
+        block content
+      block aside
+    footer
+      nav#MoreMenu
+        ul
+          li
+            a(href=locals.url + '/association')= t.nav.associations
+          li
+            a(href=locals.url + '/history')= t.nav.history
+          li
+            a(href=locals.url + '/dictionary')= t.nav.dictionary
+      p(role="contentinfo") &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
+        a(href=locals.url + '/page') mer om siden
+        | )
+  script(type='text/javascript').
+    (function () {
+      var mainNavigation = document.getElementById('MainNavigation');
+      var mainMenu = document.getElementById('MainMenu');
+      var menuTrigger = document.getElementById('MenuTrigger');
+      var navIsHidden = true;
+      menuTrigger.onclick = function () {
+        navIsHidden = !navIsHidden;
+        mainNavigation.className = navIsHidden ? '' : 'open';
+        mainMenu.setAttribute('aria-hidden', navIsHidden);
+      };
+    }());
+  block script

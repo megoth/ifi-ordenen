@@ -10,7 +10,7 @@ block content
   != page.html
   if page.metadata.url
     p
-      strong Nettside: 
+      strong Nettside:
       a(href=page.metadata.url)= page.metadata.url.replace('http://', '').replace('https://', '').replace(/\/$/, '')
   - var persons = env.helpers.getPersonsForTag(contents, page.metadata.tag)
   if persons.length > 0
@@ -19,8 +19,8 @@ block content
       each person in persons
         - var username = person.filepath.relative.split('/')[1]
         - var individual = person.metadata
-        li 
-          a(href=locals.url+person.url)= person.title
+        li
+          a(href=locals.url + person.url)= person.title
           span  (#{env.helpers.getTitleName(contents, individual.current)})
   - var years = env.helpers.getYearsForTag(contents, page.metadata.tag)
   - var references = env.helpers.getReferencesForHistory(years)
@@ -44,5 +44,5 @@ block content
     h3 Referanser
     ol.references
       each reference in references
-        li(id=reference.index).reference  
+        li(id=reference.index).reference
           != reference.html

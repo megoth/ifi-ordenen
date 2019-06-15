@@ -14,7 +14,7 @@ else if event.metadata.url
 else
   != event.title
 if event.metadata.sources
-  |  
+  |
   sup
     | [
     each source, index in env.helpers.getSources(event.metadata.sources, references)

@@ -102,6 +102,11 @@ figure {
   }
 }
 
+hr {
+  border: 0;
+  border-top: solid 1px $divider-color;
+}
+
 img {
   max-width: 100%;
 }
@@ -115,6 +120,9 @@ h1, h2, h3, h4, h5, h5 {
   font-family: $font-title;
   line-height: 1.25em;
   margin: 1rem 0 0.25rem;
+  a {
+    text-decoration: none;
+  }
 }
 
 h1 {
@@ -194,6 +202,9 @@ strong {
     list-style-type: disc;
     margin: 0.75em 0 0.75em 1.25em;
   }
+  li {
+    line-height: 1.25em;
+  }
   sup {
     vertical-align: super;
     font-size: x-small;
@@ -205,7 +216,7 @@ nav a {
   outline: 0;
 }
 
-nav.articles ul {
+ul.articles {
   list-style-type: none;
   margin: 0;
   li {

@@ -12,12 +12,12 @@ block content
   != page ? page.html : ''
   h2 Oppdateringer
   - var article = env.helpers.getArticles(contents)[0];
-  nav.articles
-    ul
-      li
-        include ./articleListItem
+  ul.articles
+    li
+      include ./articleListItem
   p
-    a(href=locals.url+"/article") Arkiv
+    a(href=locals.url + "/article") Arkiv
+  hr
   h2 Mottagere
   - var root = contents['structure.json'].metadata.persons
   include ./structure.pug
