@@ -6,6 +6,7 @@ short: |
 tag: it-slp
 active: false
 url: http://it-slp.ifi.uio.no/
+current: list
 template: association.pug
 ---
 

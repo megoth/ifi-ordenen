@@ -6,6 +6,7 @@ short: |
 tag: list
 active: true
 url: https://www.facebook.com/LISTIFI/
+previous: pisk
 template: association.pug
 ---
 

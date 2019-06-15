@@ -6,6 +6,8 @@ short: |
 tag: pisk
 active: false
 url: http://pisk.ifi.uio.no/
+current: list
+previous: it-slp
 template: association.pug
 ---
 
