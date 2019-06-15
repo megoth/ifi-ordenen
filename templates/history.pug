@@ -25,10 +25,10 @@ block content
               ul
                 each appointment in year.appointments
                   if appointment.persons.length > 0
-                    li #{appointment.title}:
+                    li #{appointment.title}:&nbsp;
                       each person, index in appointment.persons
                         if index !== 0
-                          span ,
+                          span ,&nbsp;
                         a(href=locals.url + person.url)= person.title
           if year.minor.length > 0
             li(class=_(env.helpers.getClassesForEvents(year.minor)).uniq()).event Mindre hendelser
