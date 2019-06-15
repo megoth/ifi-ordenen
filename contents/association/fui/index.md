@@ -2,6 +2,7 @@
 title: Fagutvalget ved Institutt for informatikk (FUI)
 short: FUI
 tag: fui
+active: true
 url: http://fui.ifi.uio.no/
 template: association.pug
 ---

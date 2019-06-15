@@ -2,6 +2,7 @@
 title: Defi - Designforeningen ved IFI
 short: Defi
 tag: defi
+active: true
 url: http://defi.no/
 template: association.pug
 ---

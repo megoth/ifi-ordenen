@@ -2,6 +2,7 @@
 title: Fordelingsutvalget ved Institutt for informatikk (FU)
 short: FU
 tag: fu
+active: true
 url: http://fordelingsutvalget.com/
 template: association.pug
 ---

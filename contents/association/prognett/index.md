@@ -1,6 +1,7 @@
 ---
 title: ProgNett
 tag: prognett
+active: true
 url: http://ifiprognett.no/
 template: association.pug
 ---

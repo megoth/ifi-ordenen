@@ -4,6 +4,7 @@ title: |
 short: |
   LI:ST
 tag: list
+active: true
 url: https://www.facebook.com/LISTIFI/
 template: association.pug
 ---

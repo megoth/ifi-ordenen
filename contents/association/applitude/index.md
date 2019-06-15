@@ -1,6 +1,7 @@
 ---
 title: Applitude
 tag: applitude
+active: false
 url: http://www.applitude.no/
 template: association.pug
 ---

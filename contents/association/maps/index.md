@@ -2,6 +2,7 @@
 title: Matematikk, algoritmer og programmering for studenter (MAPS)
 short: MAPS
 tag: maps
+active: true
 url: http://foreninger.uio.no/maps/
 template: association.pug
 ---

@@ -2,6 +2,7 @@
 title: Åpen sone for eksperimentell informatikk
 short: Åpen sone
 tag: sonen
+active: true
 url: http://sonen.ifi.uio.no/
 template: association.pug
 ---

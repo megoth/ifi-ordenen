@@ -1,6 +1,7 @@
 ---
 title: IFI-Avis
 tag: ifi-avis
+active: true
 template: association.pug
 ---
 

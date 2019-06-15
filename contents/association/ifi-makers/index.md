@@ -1,6 +1,7 @@
 ---
 title: IFI makers
 tag: ifi-makers
+active: true
 url: http://sonen.ifi.uio.no/
 template: association.pug
 ---

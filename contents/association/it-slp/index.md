@@ -4,6 +4,7 @@ title: |
 short: |
   IT-SLP
 tag: it-slp
+active: false
 url: http://it-slp.ifi.uio.no/
 template: association.pug
 ---

@@ -1,6 +1,7 @@
 ---
 title: Svett
 tag: svett
+active: false
 url: https://www.facebook.com/svettifi/
 template: association.pug
 ---

@@ -1,6 +1,7 @@
 ---
 title: UniPlay
 tag: uniplay
+active: true
 url: https://uniplay.no/
 template: association.pug
 ---

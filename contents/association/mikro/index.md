@@ -2,6 +2,7 @@
 title: Nanoelektronikk, Robotikk og Digital Signalbehandling (Mikro)
 short: Mikro
 tag: mikro
+active: true
 url: https://www.facebook.com/Studentforeningen-Mikro-151779014851965/
 template: association.pug
 ---

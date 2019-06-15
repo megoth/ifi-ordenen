@@ -1,6 +1,7 @@
 ---
 title: IFI Rotor
 tag: ifi-rotor
+active: false
 url: https://www.facebook.com/ifirotor
 template: association.pug
 ---

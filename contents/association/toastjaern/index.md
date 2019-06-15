@@ -1,6 +1,7 @@
 ---
 title: Toastjærn
 tag: toastjaern
+active: true
 url: https://foreninger.uio.no/toastjaern/
 template: association.pug
 ---

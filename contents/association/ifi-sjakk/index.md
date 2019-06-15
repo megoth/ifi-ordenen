@@ -1,6 +1,7 @@
 ---
 title: IFI Sjakk
 tag: ifi-sjakk
+active: true
 url: https://www.facebook.com/ifisjakk/
 template: association.pug
 ---

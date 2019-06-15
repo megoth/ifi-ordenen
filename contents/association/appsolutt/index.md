@@ -1,6 +1,7 @@
 ---
 title: Appsolutt
 tag: appsolutt
+active: true
 url: http://www.appsoluttuio.no/
 template: association.pug
 ---

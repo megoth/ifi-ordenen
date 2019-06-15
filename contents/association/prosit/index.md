@@ -2,6 +2,7 @@
 title: Linjeforeningen Profesjonsstudentene ved Institutt for Informatikk (ProsIT)
 short: ProsIT
 tag: prosit
+active: false
 url: http://prosit.wiki.ifi.uio.no/
 template: association.pug
 ---

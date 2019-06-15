@@ -1,6 +1,7 @@
 ---
 title: Homebrew
 tag: homebrew
+active: true
 url: http://www.mn.uio.no/ifi/livet-rundt-studiene/organisasjoner/homebrew.html
 template: association.pug
 ---

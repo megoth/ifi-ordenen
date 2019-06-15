@@ -2,6 +2,7 @@
 title: Jenteforeningen Verdande
 short: Verdande
 tag: verdande
+active: true
 url: http://verdandeifi.wordpress.com/
 template: association.pug
 ---

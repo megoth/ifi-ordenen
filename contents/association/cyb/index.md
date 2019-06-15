@@ -2,6 +2,7 @@
 title: Cybernetisk Selskab (CYB)
 short: CYB
 tag: cyb
+active: true
 url: https://cyb.no/
 template: association.pug
 ---

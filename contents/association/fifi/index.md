@@ -2,6 +2,7 @@
 title: FIFI (Fotball ved Institutt for Informatikk)
 short: FIFI
 tag: fifi
+active: true
 template: association.pug
 ---
 

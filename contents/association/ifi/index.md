@@ -2,6 +2,7 @@
 title: Institutt for informatikk
 short: Ifi
 tag: ifi
+active: true
 url: http://www.mn.uio.no/ifi/
 template: association.pug
 ---

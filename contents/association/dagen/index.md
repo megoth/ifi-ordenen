@@ -1,6 +1,7 @@
 ---
 title: dagen@ifi
 tag: dagen
+active: true
 url: http://www.dagenatifi.no/
 template: association.pug
 ---

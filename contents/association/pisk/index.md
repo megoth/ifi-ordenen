@@ -4,6 +4,7 @@ title: |
 short: |
   PI:SK
 tag: pisk
+active: false
 url: http://pisk.ifi.uio.no/
 template: association.pug
 ---

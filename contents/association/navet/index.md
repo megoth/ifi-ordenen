@@ -1,6 +1,7 @@
 ---
 title: Navet
 tag: navet
+active: true
 url: https://ifinavet.no/
 template: association.pug
 ---
