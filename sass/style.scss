@@ -31,10 +31,12 @@ body {
   background-color: $background-color;
   color: $text-color;
   font-family: $font-content;
+
   header {
     @include clearfix;
     text-align: center;
   }
+
   > footer {
     padding-bottom: 1em;
   }
@@ -46,9 +48,11 @@ body > footer {
   border-top: solid 1px $divider-color;
   margin-top: 1em;
   padding: 0.5em 0;
+
   ul {
     @include horizontal-list-container;
     margin-bottom: 0.5em;
+
     li {
       @include horizontal-list-item;
       padding: 0;
@@ -65,28 +69,35 @@ blockquote {
   font-style: italic;
   margin: 0.5em;
   padding: 0.5em;
+
   footer {
     font-weight: bold;
   }
+
   p:last-child {
     margin-bottom: 0;
   }
 }
+
 q {
   quotes: '“' '”' '‘' '’';
+
   &:before {
     content: '“';
     content: open-quote;
   }
+
   &:after {
     content: '”';
     content: close-quote;
   }
+
   q {
     &:before {
       content: '‘';
       content: open-quote;
     }
+
     &:after {
       content: '’';
       content: close-quote;
@@ -97,6 +108,7 @@ q {
 figure {
   margin: 0.5em;
   padding: 0.5em;
+
   img {
     max-height: 15em;
   }
@@ -120,6 +132,7 @@ h1, h2, h3, h4, h5, h5 {
   font-family: $font-title;
   line-height: 1.25em;
   margin: 1rem 0 0.25rem;
+
   a {
     text-decoration: none;
   }
@@ -149,15 +162,19 @@ strong {
 }
 
 [role="main"] {
+  line-height: 1.5;
+
   figure figcaption {
     color: $elegant-background-color;
     font-size: 0.9em;
   }
+
   header:first-child {
     background-color: $elegant-background-color;
     background: radial-gradient($elegant-background-color, rgba(0, 0, 0, 0.85));
     margin: 0.5em 0 1em;
     padding: 1em 0;
+
     a,
     h1,
     h2,
@@ -166,26 +183,31 @@ strong {
       @include text-shadow(0 0 1px $elegant-background-color);
       color: $elegant-color;
     }
+
     h1,
     h2,
     h3 {
       font-weight: normal;
       margin: 0;
     }
+
     h1,
     h2 {
       font-family: $elegant-font-family;
       font-size: 2em;
       -webkit-text-stroke: 1px $elegant-background-color;
     }
+
     h3 {
       font-size: 1.25em;
     }
+
     img {
-       @include single-box-shadow(0, 0, 0);
+      @include single-box-shadow(0, 0, 0);
       background: rgba(255, 255, 255, 0.5);
     }
   }
+
   h1,
   h2,
   h3,
@@ -194,17 +216,21 @@ strong {
   h6 {
     font-weight: bold;
   }
+
   ol {
     list-style-type: decimal;
     margin: 0.75em 0 0.75em 1.5em;
   }
+
   ul {
     list-style-type: disc;
     margin: 0.75em 0 0.75em 1.25em;
   }
+
   li {
     line-height: 1.25em;
   }
+
   sup {
     vertical-align: super;
     font-size: x-small;
@@ -219,6 +245,7 @@ nav a {
 ul.articles {
   list-style-type: none;
   margin: 0;
+
   li {
     margin: 0.5em 0.5em 1em;
   }
@@ -230,9 +257,11 @@ ul.penguins,
 ul.persons {
   margin: 0;
   list-style-type: none;
+
   li {
     margin-bottom: 1em;
   }
+
   a {
     outline: 0;
   }
@@ -245,13 +274,16 @@ ul.titles {
     @include clearfix;
     padding: 0;
     width: 100%;
+
     h3 {
       margin-top: 0;
     }
+
     img {
       float: left;
       margin-right: 1em;
     }
+
     .info {
       margin-left: calc(102px + 1em);
     }
@@ -261,6 +293,7 @@ ul.titles {
 ul.titles {
   margin: 0;
   list-style-type: none;
+
   li {
     margin-bottom: 1em;
   }
@@ -268,6 +301,7 @@ ul.titles {
 
 ul.overview {
   @include horizontal-list-container;
+
   li {
     @include horizontal-list-item;
     margin: 0 0.25em 0 0;
