@@ -2,7 +2,7 @@
 title: Tekniske og Naturvitenskapelige anvendelser (TekNat)
 short: TekNat
 tag: teknat
-active: true
+active: false
 url: http://teknat.no/
 template: association.pug
 ---

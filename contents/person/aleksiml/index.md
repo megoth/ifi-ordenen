@@ -6,7 +6,7 @@ rank: Ridder
 appointed: 2019
 reason: For sin imponerende arbeidsmengde gjennom Cybernetisk Selskab, UiO sin TG-campus og som gruppelærer på Ifi tildeles tittelen Ridder av Hennes Majestet Keiserpingvinen den Fornemmes orden til Aleksi Luukkonen.
 username: aleksiml
-associations: cyb, ifi
+associations: cyb
 ---
 
 Det er mange roller man kan fylle når man er engasjert i Cybernetisk Selskab. Man kan være aktiv i kafé, bar, bidra til å utvikle internsystemer, administrere utlån av Escape, etc. Aleksi har gjort alt dette og mer til. Han var også sentral i å gjøre Studentenes Personalforening sin struktur markant bedre, noe utlånsansvarlige nyter godt av den dag i dag.
