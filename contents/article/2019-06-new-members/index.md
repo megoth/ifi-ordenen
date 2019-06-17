@@ -6,7 +6,7 @@ date: 2019-06-15
 template: article.pug
 image:
   desc: Bilde av alle som har mottatt ordenen og som var med på CYB50-gallaen 17. februar 2019.
-  takenby: 
+  takenby: Sjur Stølen
 ingress: Våren 2019 har vært et travelt semester, med hele 10 personer som har fått en ordenstildeling gjennom seremonier på CYB50-gallaen 17. februar og Foreningsfesten 12. april. Gjennom disse seremoniene hedret vi Karl Hole Totland, Aleksi Luukkonen, Iver Stubdal, Klaus Wik, Anne Marie Bekk, Andreas Nyborg Hansen, Henrik Lilleengen, Tor Ivar Johansen, Bendik Rønning Opstad og Espen Angell Kristiansen. 
 person: karlhto, aleksiml, ivers, klausw, annembek, andrnha, henrilil, toij, bendiko, espeak
 ---
