@@ -8,7 +8,7 @@ block vars
   - mainclass = 'person';
 
 block before_title
-  img.profile(src=env.helpers.getPersonThumb(locals, env.helpers.getUsername(page)))
+  img.profile(src=env.helpers.getThumb(page))
 
 block after_title
   - const _title = contents.title[page.metadata.current]['index.md'].metadata;
@@ -19,7 +19,7 @@ block content
   p
     strong= page.metadata.reason
   p.info
-    a(href=locals.url + '/person/year#' + page.metadata.appointed) Tildelt #{page.metadata.appointed}
+    a(href=env.helpers.getUrl(contents, 'person' ,'year') + '#' + page.metadata.appointed) Tildelt #{page.metadata.appointed}
 
 block aside
   if page.metadata.previous
@@ -33,7 +33,7 @@ block aside
         p
           strong= _title.metadata.reason
         p.info
-          a(href=locals.url + '/person/year#' + _title.metadata.appointed)  Tildelt #{_title.metadata.appointed}
+          a(href=env.helpers.getUrl(contents, 'person', 'year') + '#' + _title.metadata.appointed)  Tildelt #{_title.metadata.appointed}
   if page.metadata.associations
     .inner
       h3 Foreninger/Organisasjoner
@@ -41,4 +41,4 @@ block aside
         each associationTag in page.metadata.associations.split(', ').sort()
           - const association = env.helpers.getAssociation(contents, associationTag)
           li
-            a(href=locals.url + association.url)= association.title
+            a(href=association.url)= association.title

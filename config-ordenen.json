@@ -1,6 +1,6 @@
 {
+  "baseUrl": "/",
   "locals": {
-    "url": "http://ordenen.ifi.uio.no",
     "title": "Hennes Majestet Keiserpingvinen den Fornemmes orden",
     "short": "Ifi-ordenen",
     "owner": "Stormester i Hennes Majestet Keiserpingvinen den Fornemmes orden",

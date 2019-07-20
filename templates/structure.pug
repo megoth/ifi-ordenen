@@ -1,3 +1,4 @@
+// root is set by templates that include this template
 ul(class=root.className)
   each _title in root.structure
     li
@@ -5,9 +6,9 @@ ul(class=root.className)
       if _title.members.length > 0
         ul.overview
           each username in _title.members
-            - var individual = contents[root.individual][username]['index.md'].metadata
+            - const individual = contents[root.individual][username].index
             li
-              a(href=locals.url + root.path + username)
-                img.profile(src=locals.url + root.path + username + '/thumb.jpg', alt=individual.title)
+              a(href=individual.url)
+                img.profile(src=env.helpers.getThumb(individual), alt=individual.metadata.title)
       else
         p= root.noMembersExplanation

@@ -13,7 +13,7 @@ block content
       label(for="filterSelection") Filter:
       select(id="filterSelection", name='filter')
   ul.history
-    each year in env.helpers.getYears(contents)
+    each year in env.helpers.getYearsForHistory(contents)
       li.year(class=env.helpers.getClassesForYear(year))
         h3= year.year
         ul
@@ -29,7 +29,7 @@ block content
                       each person, index in appointment.persons
                         if index !== 0
                           span ,&nbsp;
-                        a(href=locals.url + person.url)= person.title
+                        a(href=person.url)= person.title
           if year.minor.length > 0
             li(class=_(env.helpers.getClassesForEvents(year.minor)).uniq()).event Mindre hendelser
               ul

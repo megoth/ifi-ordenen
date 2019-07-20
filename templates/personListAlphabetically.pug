@@ -10,16 +10,16 @@ block content
   nav.persons
     ul
       each username in usernames
-        - const person = contents.person[username].index.metadata
+        - const person = contents.person[username].index
         li
-          a(href=env.helpers.getPersonUrl(locals, username))
-            img.profile(src=env.helpers.getPersonThumb(locals, username), title=person.title)
+          a(href=person.url)
+            img.profile(src=env.helpers.getThumb(person), title=person.metadata.title)
           .info
-            - const appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (titleName) {
+            - const appointments = [person.metadata.rank+' ('+person.metadata.appointed+')'].concat((person.metadata.previous || []).map(function (titleName) {
             -   const _title = contents.person[username][titleName].index.metadata;
             -   return _title.rank+' ('+_title.appointed+')';
             - }));
             h3
-              a(href=env.helpers.getPersonUrl(locals, username))= person.title
+              a(href=person.url)= person.metadata.title
             p= appointments.join(', ')
-            p= person.reason
+            p= person.metadata.reason

@@ -8,7 +8,7 @@ block vars
 
 block content
   figure
-    img(src="image.jpg")
+    img(src=env.helpers.getImage(page))
     figcaption #{page.metadata.image.desc}
       if page.metadata.image.takenby
         |  (Foto: #{page.metadata.image.takenby})
@@ -19,10 +19,10 @@ block content
     - const persons = page.metadata.person.split(', ')
     ul.overview
       each username in persons
-        - const individual = contents.person[username]['index.md'].metadata
+        - const individual = contents.person[username]['index.md']
         li
-          a(href=env.helpers.getPersonUrl(locals, username))
-            img.profile(src=env.helpers.getPersonThumb(locals, username), title=individual.title)
+          a(href=individual.url)
+            img.profile(src=env.helpers.getThumb(individual), title=individual.metadata.title)
   != page.html
   aside
     p Publisert #{moment(page.metadata.date).format('LL')}

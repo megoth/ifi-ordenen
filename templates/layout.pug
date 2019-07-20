@@ -13,13 +13,13 @@ html(lang=language)
     title
       block title
         |  #{locals.short}
-    link(rel='alternate', href=locals.url + '/feed.xml', type='application/rss+xml', title=locals.description)
+    link(rel='alternate', href=contents['feed.json'].url, type='application/rss+xml', title=locals.description)
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap', rel='stylesheet')
-    link(rel='stylesheet', href=locals.url + '/style.css')
+    link(rel='stylesheet', href=contents['style.css'].url)
   body(class=mainclass)
     header(role="banner")
-      a(href=locals.url).title= locals.short
+      a(href=contents.index.url).title= locals.short
       include ./navigation.pug
     div(role="main")
       header
@@ -34,12 +34,12 @@ html(lang=language)
               if page.parent && page.parent.parent.parent
                 - const crumb = page.parent.parent.parent['index.md']
                 li
-                  a(href=locals.url + crumb.url)
+                  a(href=crumb.url)
                     != crumb.metadata.short || crumb.title
               if page.parent && page.parent.parent
                 - const crumb = page.parent.parent['index.md']
                 li
-                  a(href=locals.url + crumb.url)
+                  a(href=crumb.url)
                     != crumb.metadata.short || crumb.title
               li
                 span
@@ -50,13 +50,13 @@ html(lang=language)
       nav#MoreMenu
         ul
           li
-            a(href=locals.url + '/association')= t.nav.associations
+            a(href=env.helpers.getUrl(contents, 'association'))= t.nav.associations
           li
-            a(href=locals.url + '/history')= t.nav.history
+            a(href=env.helpers.getUrl(contents, 'history'))= t.nav.history
           li
-            a(href=locals.url + '/dictionary')= t.nav.dictionary
+            a(href=env.helpers.getUrl(contents, 'dictionary'))= t.nav.dictionary
       p(role="contentinfo") &copy; Hennes Majestet Keiserpingvinen den Fornemmes orden (
-        a(href=locals.url + '/page') mer om siden
+        a(href=env.helpers.getUrl(contents, 'page')) mer om siden
         | )
   script(type='text/javascript').
     (function () {

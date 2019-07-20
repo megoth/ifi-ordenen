@@ -7,22 +7,20 @@ rss(version='2.0',
   channel
     - var articles = env.helpers.getArticles(contents);
     title= locals.name
-    atom:link(href=locals.url + '/feed.xml', rel='self', type='application/rss+xml')
-    link= locals.url
+    atom:link(href=contents['feed.json'].url, rel='self', type='application/rss+xml')
+    link= contents.index.url
     description= locals.description
     pubDate= articles[0].rfc822date
     generator Wintersmith - https://github.com/jnordberg/wintersmith
     language nb
     for article in articles
-      - var permalink = locals.url + article.url
       item
         title= article.title
-        link= permalink
+        link= article.url
         pubDate= article.rfc822date
-        guid(isPermaLink='true')= permalink
+        guid(isPermaLink='true')= article.url
         author= article.author
-        //- passing locals.url resolves all relative urls to absolute
         description
-          img(src=permalink + 'image.jpg')
+          img(src=env.helpers.getImage(article))
           != marked(article.metadata.ingress)
-          != article.getHtml(locals.url)
+          != article.getHtml('/')

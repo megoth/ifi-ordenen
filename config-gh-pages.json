@@ -1,6 +1,6 @@
 {
+  "baseUrl":  "/ifi-ordenen/",
   "locals": {
-    "url": "http://megoth.github.io/ifi-ordenen/",
     "title": "Hennes Majestet Keiserpingvinen den Fornemmes orden",
     "short": "Ifi-ordenen",
     "owner": "Stormester i Hennes Majestet Keiserpingvinen den Fornemmes orden",

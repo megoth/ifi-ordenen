@@ -4,20 +4,20 @@ block prepend title
   | Forside -
 
 block vars
-  - var mainclass = 'index';
+  - const mainclass = 'index';
 
 block breadcrumbs
 
 block content
   != page ? page.html : ''
   h2 Oppdateringer
-  - var article = env.helpers.getArticles(contents)[0];
+  - const article = env.helpers.getArticles(contents)[0];
   ul.articles
     li
       include ./articleListItem
   p
-    a(href=locals.url + "/article") Arkiv
+    a(href=env.helpers.getUrl(contents, 'article')) Arkiv
   hr
   h2 Mottagere
-  - var root = contents['structure.json'].metadata.persons
+  - const root = contents['structure.json'].metadata.persons
   include ./structure.pug

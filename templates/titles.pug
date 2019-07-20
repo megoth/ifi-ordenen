@@ -11,8 +11,8 @@ block content
   ul.titles
     each titleName in contents['structure.json'].metadata.titles.hierarchy
       li
-        - var _title = contents.title[titleName]['index.md']
-        img.class(src=locals.url + '/title/' + titleName + '/thumb.jpg', title=_title.title)
+        - const _title = contents.title[titleName].index
+        img.class(src=env.helpers.getThumb(_title), title=_title.title)
         .info
           h3= _title.metadata.title
           != _title.html

@@ -1,6 +1,6 @@
 {
+  "baseUrl": "/",
   "locals": {
-    "url": "http://localhost:8080",
     "title": "Hennes Majestet Keiserpingvinen den Fornemmes orden",
     "short": "Ifi-ordenen",
     "owner": "Stormester i Hennes Majestet Keiserpingvinen den Fornemmes orden",

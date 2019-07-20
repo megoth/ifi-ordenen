@@ -5,7 +5,7 @@ moment = require 'moment'
 # *callback* should be called when the plugin has finished loading
 
 module.exports = (env, callback) ->
-  getYears = (contents) ->
+  getYearsForHistory = (contents) ->
     events = contents.history._.directories.map (item) -> item.index
     firstYear = (events.sort (docA, docB) -> if docA.metadata.year < docB.metadata.year then -1 else 1)[0].metadata.year
     lastYear = (new Date()).getFullYear()
@@ -24,6 +24,20 @@ module.exports = (env, callback) ->
     for i in [lastYear...firstYear - 1]
       years.push(getYear(i, events, persons, titleHierarchy))
     _(years).filter (year) -> (year.events.concat year.minor).length > 0 or _(year.appointments.map (appointment) -> appointment.persons).flatten().length > 0
+
+  getYearsForPerson = (contents) ->
+    years = {}
+    contents['structure.json'].metadata.persons.structure.forEach (_title) ->
+      _title.members.forEach (username) ->
+        person = contents.person[username].index
+        years[person.metadata.appointed] = years[person.metadata.appointed] || []
+        person.metadata.username = username
+        years[person.metadata.appointed].push(person)
+        (person.metadata.previous || []).forEach (titleName) ->
+          previousTitle = contents.person[username][titleName].index.metadata
+          years[previousTitle.appointed] = years[previousTitle.appointed] || []
+          years[previousTitle.appointed].push(person)
+    years
 
   getYear = (year, events, persons, hierarchy) ->
     {
@@ -68,7 +82,7 @@ module.exports = (env, callback) ->
       source
 
   getReferences = (contents) ->
-    years = getYears(contents)
+    years = getYearsForHistory(contents)
     references = {}
     (_(years.map (year) -> (year.events.concat year.minor).map (event) -> event.metadata.sources).chain().flatten().uniq().value().filter (source) -> source).forEach (source, index) ->
       key = (source.split ' ')[0]
@@ -102,11 +116,11 @@ module.exports = (env, callback) ->
     username = usernameParts[usernameParts.length - 2]
     Object.assign({ username }, person)
 
-  getPersonThumb = (locals, username) ->
-    getPersonUrl(locals, username) + '/thumb.jpg'
+  getThumb = (page) ->
+    page.parent['thumb.jpg'].url
 
-  getPersonUrl = (locals, username) ->
-    locals.url + '/person/' + username
+  getImage = (page) ->
+    page.parent['image.jpg'].url
 
   getPersonsForTag = (contents, tag) ->
     (
@@ -147,9 +161,11 @@ module.exports = (env, callback) ->
   getTitleName = (contents, title) ->
     contents.title[title].index.title
 
-  getUsername = (page) ->
-    parts = page.filepath.relative.split('/')
-    parts[parts.length - 2]
+  getUrl = (contents, pages...) ->
+    leaf = contents
+    leaf = while node = pages.shift()
+      leaf = leaf[node]
+    leaf.pop().index.url
 
   getAssociation = (contents, associationTag) ->
     if contents.association[associationTag] then contents.association[associationTag].index else null
@@ -168,18 +184,19 @@ module.exports = (env, callback) ->
   env.helpers.getAssociations = getAssociations
   env.helpers.getClassesForEvents = getClassesForEvents
   env.helpers.getClassesForYear = getClassesForYear
-  env.helpers.getPersonThumb = getPersonThumb
-  env.helpers.getPersonUrl = getPersonUrl
+  env.helpers.getImage = getImage
   env.helpers.getPersonsForTag = getPersonsForTag
   env.helpers.getReferences = getReferences
   env.helpers.getReferencesForHistory = getReferencesForHistory
   env.helpers.getSortValue = getSortValue
   env.helpers.getSources = getSources
+  env.helpers.getThumb = getThumb
   env.helpers.getTitleName = getTitleName
-  env.helpers.getUsername = getUsername
+  env.helpers.getUrl = getUrl
   env.helpers.getYear = getYear
-  env.helpers.getYears = getYears
   env.helpers.getYearsForTag = getYearsForTag
+  env.helpers.getYearsForHistory = getYearsForHistory
+  env.helpers.getYearsForPerson = getYearsForPerson
   env.helpers.sortArticles = sortArticles
 
   # tell plugin manager we are done
