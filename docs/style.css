@@ -223,9 +223,9 @@ em {
 
 h1, [role=banner] .title, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   line-height: 1.25em;
-  margin: 1rem 0 0.25rem;
+  margin: 1.5rem 0 0.5rem;
 }
 h1 a, [role=banner] .title a, h2 a, h3 a, h4 a, h5 a {
   text-decoration: none;
@@ -285,9 +285,8 @@ strong {
 }
 [role=main] header:first-child h1, [role=main] header:first-child [role=banner] .title, [role=banner] [role=main] header:first-child .title,
 [role=main] header:first-child h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.75);
+  font-family: "Great Vibes", cursive;
+  font-size: 2.25em;
 }
 [role=main] header:first-child h3 {
   font-size: 1.25em;
@@ -314,6 +313,10 @@ strong {
 }
 [role=main] li {
   line-height: 1.25em;
+}
+[role=main] li,
+[role=main] p {
+  font-size: 1.1em;
 }
 [role=main] sup {
   vertical-align: super;
