@@ -24,6 +24,7 @@ body > footer {
     padding: 0.5em;
     width: 100%;
   }
+
   @media screen and (min-width: $smallest-width) {
     $number_of_menu_items: 3;
     #MoreMenu li {
@@ -32,10 +33,16 @@ body > footer {
   }
 }
 
-[role="banner"] .title {
-  @extend h1;
-  display: block;
-  text-decoration: none;
+[role="banner"] {
+  padding-bottom: 0.25em;
+  padding-top: 0.5em;
+
+  .title {
+    @extend h1;
+    display: block;
+    margin-top: 0 !important;
+    text-decoration: none;
+  }
 }
 
 #MainNavigation {

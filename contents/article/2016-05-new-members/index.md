@@ -5,6 +5,7 @@ date: 2016-05-15
 template: article.pug
 image:
   desc: Et knippe av ordensmedlemmene utenfor Ole-Johan Dahls hus, tatt ifm Foreningsfesten.
+  alt: Bilde av Arne Hassel, Martin Haugland, Mathias Johan Johansen, Veronika Heimsbakk, Vegard Angell og Johanne Håøy Horn.
   takenby: Mathias Ciarlo Thorstensen
 ingress: Våren 2016 har Ifi-ordenen hatt gleden av å ta opp hele fem nye mottagere; Ole Kristian Rosvold, Emilie Hallgren, Kristin Brænden, Kirsti Dalseth, og Kristin Broch Eliassen. Opptagelsen ble fordelt på to seremonier, en på Foreningsfesten 29. juni og en på Jubileumsfesten 13. mai.
 person: olekros, emiliha, kribrae, kirstid, krishbr

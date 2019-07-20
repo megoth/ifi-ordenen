@@ -6,6 +6,7 @@ date: 2018-05-20
 template: article.pug
 image:
   desc: Hennes Majestet Keiserpingvinen den Fornemmes orden
+  alt: Ifi-ordenen logo, silhuett av Keiserinnen
   takenby: 
 ingress: På Foreningsfest 20. april 2018 ble Ifi-ordenen tildelt Odd-Tørres Lunde, Isak Eriksen Bjørn, Jesper Johan Vilhelm Andersson og Bendik Kvamstad.
 person: oddtorrl, isakeb, jesperan, bendikhk

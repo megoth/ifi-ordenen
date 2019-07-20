@@ -5,6 +5,7 @@ date: 2016-10-30
 template: article.pug
 image:
   desc: Den nye logoen til Hennes Majestet Keiserpingvinen den Fornemmes orden
+  alt: Ifi-ordenen logo, silhuett av Keiserinnen
   takenby: 
 ingress: Høsten 2016 har Ifi-ordenen tatt opp tre nye mottagere; Narve Trædal, Morten Dæhlen, og Helga Nyrud.
 person: narvet, mortend, helgany, henrihel, mariusno, mathiajj, olekros, emiliha, kribrae, joshi

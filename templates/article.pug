@@ -8,7 +8,7 @@ block vars
 
 block content
   figure
-    img(src=env.helpers.getImage(page))
+    img(src=env.helpers.getImage(page), alt=page.metadata.image.alt)
     figcaption #{page.metadata.image.desc}
       if page.metadata.image.takenby
         |  (Foto: #{page.metadata.image.takenby})
@@ -19,7 +19,7 @@ block content
     - const persons = page.metadata.person.split(', ')
     ul.overview
       each username in persons
-        - const individual = contents.person[username]['index.md']
+        - const individual = contents.person[username].index
         li
           a(href=individual.url)
             img.profile(src=env.helpers.getThumb(individual), title=individual.metadata.title)

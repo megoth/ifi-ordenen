@@ -1,7 +1,7 @@
 #MainNavigation
   button#MenuTrigger
     span= t.nav.menu
-  nav#MainMenu(aria-hidden="true")
+  nav#MainMenu
     ul
       li
         a(href=env.helpers.getUrl(contents, 'person'))= t.nav.person

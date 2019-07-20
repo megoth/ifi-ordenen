@@ -5,6 +5,7 @@ date: 2017-08-05
 template: article.pug
 image:
   desc: Hennes Majestet Keiserpingvinen den Fornemmes orden
+  alt: Ifi-ordenen logo, silhuett av Keiserinnen
   takenby: 
 ingress: På foreningsfesten 5. mai 2017 ble Ifi-ordenen tildelt Martine Rolid Leonardsen.
 person: martirle

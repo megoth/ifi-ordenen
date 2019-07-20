@@ -10,14 +10,9 @@ block breadcrumbs
 
 block content
   != page ? page.html : ''
-  h2 Oppdateringer
   - const article = env.helpers.getArticles(contents)[0];
-  ul.articles
-    li
-      include ./articleListItem
-  p
-    a(href=env.helpers.getUrl(contents, 'article')) Arkiv
-  hr
-  h2 Mottagere
+  include ./articleListItem
+  h2 Mottagere av Ifi-ordenen
+  p Listen under viser alle som har mottatt Hennes Majestet Keiserpingvinen den Fornemmes orden gjennom tidene.
   - const root = contents['structure.json'].metadata.persons
   include ./structure.pug

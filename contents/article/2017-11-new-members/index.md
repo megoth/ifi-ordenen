@@ -6,6 +6,7 @@ date: 2017-11-13
 template: article.pug
 image:
   desc: Hennes Majestet Keiserpingvinen den Fornemmes orden
+  alt: Ifi-ordenen logo, silhuett av Keiserinnen
   takenby: 
 ingress: På Ifi-galla 21. oktober 2017 ble Ifi-ordenen tildelt Jan Furulund, Henrik Steen, Nicolai Rønneberg Nielsen, Helena Zarifa Pedersen, og Nikolas Papaioannou.
 person: jankfu, henrste, nicolarn, helenazp, nikolasp

@@ -21,6 +21,6 @@ rss(version='2.0',
         guid(isPermaLink='true')= article.url
         author= article.author
         description
-          img(src=env.helpers.getImage(article))
+          img(src=env.helpers.getImage(article), alt=article.metadata.image.alt)
           != marked(article.metadata.ingress)
           != article.getHtml('/')
