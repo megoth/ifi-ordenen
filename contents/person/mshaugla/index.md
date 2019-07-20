@@ -8,7 +8,7 @@ reason: For sitt brede og iherdige engasjement på Institutt for informatikk til
 associations: cyb, dagen, prosit, mikro
 ---
 
-Martin Haugland har vært engasjert i flere foreninger på Institutt for informatikk: [Cybernetisk Selskab](http://cyb.no/), [dagen@ifi](http://dagen.at.ifi.uio.no/), Ifi fadderordning, ProsIT, og Mikro. Han var også sentral i arbeidet med å videreføre tradisjonen med Ifi skitur til Hemsedal da ProsIT ble lagt ned.
+Martin Haugland har vært engasjert i flere foreninger på Institutt for informatikk: Cybernetisk Selskab, dagen@ifi, Ifi fadderordning, ProsIT, og Mikro. Han var også sentral i arbeidet med å videreføre tradisjonen med Ifi skitur til Hemsedal da ProsIT ble lagt ned.
 
 Da arbeidet med Escape ble påstartet var Martin tidlig inn i prosessen, og ble den første økonomiansvarlige tilknyttet kjellerstyret. Sammen med Arne Hassel fikk de på plass en grunnleggende struktur for Cybernetisk Selskab sin økonomi, slik at foreningen kunne drives som en stor organisasjon.
 

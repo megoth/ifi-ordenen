@@ -8,7 +8,7 @@ reason: For hans stødige arbeid og gode lederegenskaper som leder og nestleder 
 associations: cyb, dagen
 ---
 
-Marius Næss Olsen engasjerte seg i [Cybernetisk Selskab](http://cyb.no/) og [dagen@ifi](http://www.dagenatifi.no/) i løpet av sin studenttid. I førstnevnte var han først nestleder, og så steg han inn i rollen som leder, og var hele tiden sentral i å bygge opp Cybernetisk Selskab som organisasjon.
+Marius Næss Olsen engasjerte seg i Cybernetisk Selskab og dagen@ifi i løpet av sin studenttid. I førstnevnte var han først nestleder, og så steg han inn i rollen som leder, og var hele tiden sentral i å bygge opp Cybernetisk Selskab som organisasjon.
 
 Med sitt gode humør og stå-på-vilje fantes det ingen problemer som ikke kunne løses, og disse egenskapene ble godt benyttet, spesielt tilknyttet oppstarten av Escape, studentkjelleren på Institutt for informatikk.
 

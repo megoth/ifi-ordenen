@@ -1,7 +1,7 @@
 // article is set by templates including this template
 figure
   a(href=article.url)
-    img(src=article.url + "image.jpg")
+    img(src=env.helpers.getImage(article))
   figcaption #{article.metadata.image.desc}
     if article.metadata.image.takenby
       |  (Foto: #{article.metadata.image.takenby})

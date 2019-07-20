@@ -7,7 +7,7 @@ block vars
   - mainclass = 'title';
 
 block before_title
-  img.class(src='thumb.jpg')
+  img.class(src=env.helpers.getThumb(page))
 
 block content
   != page.html
