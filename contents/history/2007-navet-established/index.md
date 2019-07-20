@@ -1,5 +1,5 @@
 ---
-title: Bedriftskontakten Navet opprettet
+title: Bedriftskontakten Navet formelt opprettet
 tags: navet
 year: 2007
 sources:

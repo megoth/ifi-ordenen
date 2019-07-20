@@ -6,6 +6,7 @@ year: 2011
 date: 2011-09-02
 sources:
   - https://no.wikipedia.org/wiki/Ole-Johan_Dahls_hus Ole-Johan Dahls hus - Wikipedia
+  - https://github.com/cybernetisk/cyb50-hefte CYB50 Jubileumsbok
 template: event.pug
 ---
 
