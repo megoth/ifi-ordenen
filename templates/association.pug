@@ -36,8 +36,8 @@ block content
     ul.overview
       each person in persons
         li
-          a(href=locals.url + '/person/' + person.username)
-            img.profile(src=locals.url + '/person/' + person.username + '/thumb.jpg', title=person.title)
+          a(href=env.helpers.getPersonUrl(locals, person.username))
+            img.profile(src=env.helpers.getPersonThumb(locals, person.username), title=person.title)
   - const years = env.helpers.getYearsForTag(contents, page.metadata.tag)
   - const references = env.helpers.getReferencesForHistory(years)
   if years.length > 0

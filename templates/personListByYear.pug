@@ -4,20 +4,20 @@ block prepend title
   | #{page.title} -
 
 block content
-  - var years = {};
-  - contents['structure.json'].metadata.persons.structure.forEach(function (_title) {
-  -   _title.members.forEach(function (username) {
-  -     var person = contents.person[username]['index.md'].metadata;
+  - const years = {};
+  - contents['structure.json'].metadata.persons.structure.forEach((_title) => {
+  -   _title.members.forEach((username) => {
+  -     const person = contents.person[username]['index.md'].metadata;
   -     years[person.appointed] = years[person.appointed] || [];
   -     person.username = username;
   -     years[person.appointed].push(person);
-  -     (person.previous || []).forEach(function (titleName) {
-  -       var previousTitle = contents.person[username][titleName].index.metadata;
+  -     (person.previous || []).forEach((titleName) => {
+  -       const previousTitle = contents.person[username][titleName].index.metadata;
   -       years[previousTitle.appointed] = years[previousTitle.appointed] || [];
   -       years[previousTitle.appointed].push(person);
   -     })
   -   })
-  - });
+  - })
   nav.years
     ul
       each year in Object.keys(years)
@@ -26,5 +26,5 @@ block content
           ul.overview
             each person in years[year]
               li
-                a(href=locals.url + '/person/' + person.username)
-                  img.profile(src=locals.url + '/person/' + person.username + '/thumb.jpg', title=person.title)
+                a(href=env.helpers.getPersonUrl(locals, person.username))
+                  img.profile(src=env.helpers.getPersonThumb(locals, person.username), title=person.title)

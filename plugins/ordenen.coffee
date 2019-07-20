@@ -102,6 +102,12 @@ module.exports = (env, callback) ->
     username = usernameParts[usernameParts.length - 2]
     Object.assign({ username }, person)
 
+  getPersonThumb = (locals, username) ->
+    getPersonUrl(locals, username) + '/thumb.jpg'
+
+  getPersonUrl = (locals, username) ->
+    locals.url + '/person/' + username
+
   getPersonsForTag = (contents, tag) ->
     (
       contents.person._.directories
@@ -141,6 +147,10 @@ module.exports = (env, callback) ->
   getTitleName = (contents, title) ->
     contents.title[title].index.title
 
+  getUsername = (page) ->
+    parts = page.filepath.relative.split('/')
+    parts[parts.length - 2]
+
   getAssociation = (contents, associationTag) ->
     if contents.association[associationTag] then contents.association[associationTag].index else null
 
@@ -158,12 +168,15 @@ module.exports = (env, callback) ->
   env.helpers.getAssociations = getAssociations
   env.helpers.getClassesForEvents = getClassesForEvents
   env.helpers.getClassesForYear = getClassesForYear
+  env.helpers.getPersonThumb = getPersonThumb
+  env.helpers.getPersonUrl = getPersonUrl
   env.helpers.getPersonsForTag = getPersonsForTag
   env.helpers.getReferences = getReferences
   env.helpers.getReferencesForHistory = getReferencesForHistory
   env.helpers.getSortValue = getSortValue
   env.helpers.getSources = getSources
   env.helpers.getTitleName = getTitleName
+  env.helpers.getUsername = getUsername
   env.helpers.getYear = getYear
   env.helpers.getYears = getYears
   env.helpers.getYearsForTag = getYearsForTag

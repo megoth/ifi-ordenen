@@ -1,28 +1,28 @@
 extends layout
 
 block prepend title
-    | #{page.title} -
+  | #{page.title} -
 
 block vars
-    - mainclass = 'article';
+  - mainclass = 'article';
 
 block content
-    figure
-        img(src="image.jpg")
-        figcaption #{page.metadata.image.desc}
-            if page.metadata.image.takenby
-                |  (Foto: #{page.metadata.image.takenby})
-    p
-        strong
-            != marked(page.metadata.ingress)
-    if page.metadata.person
-        - persons = page.metadata.person.split(', ')
-        ul.overview
-            each username in persons
-                - var individual = contents.person[username]['index.md'].metadata
-                li
-                    a(href=locals.url + '/person/' + username)
-                        img.profile(src=locals.url + '/person/' + username + '/thumb.jpg', title=individual.title)
-    != page.html
-    aside
-        p Publisert #{moment(page.metadata.date).format('LL')}
+  figure
+    img(src="image.jpg")
+    figcaption #{page.metadata.image.desc}
+      if page.metadata.image.takenby
+        |  (Foto: #{page.metadata.image.takenby})
+  p
+    strong
+      != marked(page.metadata.ingress)
+  if page.metadata.person
+    - const persons = page.metadata.person.split(', ')
+    ul.overview
+      each username in persons
+        - const individual = contents.person[username]['index.md'].metadata
+        li
+          a(href=env.helpers.getPersonUrl(locals, username))
+            img.profile(src=env.helpers.getPersonThumb(locals, username), title=individual.title)
+  != page.html
+  aside
+    p Publisert #{moment(page.metadata.date).format('LL')}

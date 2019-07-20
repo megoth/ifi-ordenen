@@ -4,22 +4,22 @@ block prepend title
   | #{page.title} -
 
 block content
-  - var usernames = contents['structure.json'].metadata.persons.structure.reduce(function (memo, _title) {
+  - const usernames = contents['structure.json'].metadata.persons.structure.reduce(function (memo, _title) {
   -   return memo.concat(_title.members);
   - }, []).sort();
   nav.persons
     ul
       each username in usernames
-        - var person = contents.person[username].index.metadata
+        - const person = contents.person[username].index.metadata
         li
-          a(href=locals.url+'/person/' + username)
-            img.profile(src=locals.url+'/person/' + username + '/thumb.jpg', title=person.title)
+          a(href=env.helpers.getPersonUrl(locals, username))
+            img.profile(src=env.helpers.getPersonThumb(locals, username), title=person.title)
           .info
-            - var appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (titleName) {
-            -   _title = contents.person[username][titleName].index.metadata;
+            - const appointments = [person.rank+' ('+person.appointed+')'].concat((person.previous || []).map(function (titleName) {
+            -   const _title = contents.person[username][titleName].index.metadata;
             -   return _title.rank+' ('+_title.appointed+')';
             - }));
             h3
-              a(href=locals.url+'/person/' + username)= person.title
+              a(href=env.helpers.getPersonUrl(locals, username))= person.title
             p= appointments.join(', ')
             p= person.reason
