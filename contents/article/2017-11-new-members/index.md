@@ -37,4 +37,4 @@ Keiserinnen vil også trekke frem det at Nikolas er den som har fått desidert f
 
 ## Nominasjon av kandidater
 
-Om du vet om personer som fortjener å hedres for deres engasjement på Ifi, så vil vi gjerne høre fra deg. Du kan [sende oss epost](mailto:ifi-ordenen@ifi.uio.no), fylle ut [skjemaet via nominasjonssiden](/nominate), eller ta kontakt med [en av mottagerne](/person).
+Om du vet om personer som fortjener å hedres for deres engasjement på Ifi, så vil vi gjerne høre fra deg. Du kan [sende oss epost](mailto:ifi-ordenen@ifi.uio.no), fylle ut [skjemaet via nominasjonssiden](../../nominate), eller ta kontakt med [en av mottagerne](../../person).

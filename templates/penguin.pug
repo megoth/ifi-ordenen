@@ -7,7 +7,7 @@ block vars
   - mainclass = 'penguin';
 
 block before_title
-  img.profile(src='./thumb.jpg')
+  img.profile(src=env.helpers.getThumb(page))
 
 block after_title
   p
