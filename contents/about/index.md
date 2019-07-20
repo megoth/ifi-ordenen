@@ -11,7 +11,7 @@ Dette formålet har vi valgt å kort uttrykke med:
 
 ## Hennes Majestet Keiserpingvinen den Fornemme
 
-Keiserinnen er [Institutt for informatikk](../association/cyb) sin høye beskytter, og tildelinger av ordenen er manifestasjoner av hennes vilje. Lite er kjent om henne, bare at hun våker over instituttet, og setter veldig pris på det arbeid og engasjement som yrer på bruket.
+Keiserinnen er [Institutt for informatikk](../association/ifi) sin høye beskytter, og tildelinger av ordenen er manifestasjoner av hennes vilje. Lite er kjent om henne, bare at hun våker over instituttet, og setter veldig pris på det arbeid og engasjement som yrer på bruket.
 
 En av måtene hun viser at hun setter pris på det som gjøres, er at det deles ut ordener som bærer hennes navn. Denne ordenen er delt opp i fem grader; Stormester, Kommandør med stjerne, Kommandør, Ridder av første klasse, og Ridder. Når man tildeles ordenen mottar man et [ordenstegn](../dictionary/#ordenstegn).
 
