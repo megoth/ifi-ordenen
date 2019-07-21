@@ -1,6 +1,6 @@
 ---
 title: "Hennes Majestet Keiserpingvinen gratulerer de nye ordensmottagerne for våren 2019"
-short: "Nye ordens&shy;mottagere våren 2019"
+short: "Ordens&shy;mottagere våren 2019"
 author: arnehass
 date: 2019-06-15
 template: article.pug

@@ -1,5 +1,5 @@
 ---
-title: "Nye ordens&shy;mottagere høsten 2016"
+title: "Ordens&shy;mottagere høsten 2016"
 author: arnehass
 date: 2016-10-30
 template: article.pug
