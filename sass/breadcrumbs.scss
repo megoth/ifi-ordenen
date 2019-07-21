@@ -8,33 +8,11 @@ nav.breadcrumbs ul {
     a,
     span {
       display: block;
-      padding: 10px;
       position: relative;
     }
 
     a {
       background-color: white;
-      text-decoration: none;
-      @include breadcrumb-background-color(0.5);
-    }
-
-    &:last-child {
-      @media screen and (max-width: $small-width) {
-        display: none;
-      }
-    }
-
-    &:first-child a {
-      padding-left: 10px;
-    }
-
-    &:nth-child(2) a {
-      @include breadcrumb-background-color(0.25);
-    }
-
-    a:focus,
-    a:hover {
-      @include breadcrumb-background-color(1);
     }
   }
 }

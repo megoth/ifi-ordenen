@@ -29,21 +29,15 @@ html(lang=language)
           block after_title
       .inner
         block breadcrumbs
-          nav.breadcrumbs
-            ul
-              if page.parent && page.parent.parent.parent
-                - const crumb = page.parent.parent.parent['index.md']
+          if page.parent && page.parent.parent && page.parent.parent.index !== contents.index
+            nav.breadcrumbs
+              ul
+                - const crumb = page.parent.parent.index
                 li
-                  a(href=crumb.url)
-                    != crumb.metadata.short || crumb.title
-              if page.parent && page.parent.parent
-                - const crumb = page.parent.parent['index.md']
+                  a(href=crumb.url) #{crumb.metadata.short || crumb.title} &raquo;&nbsp;
                 li
-                  a(href=crumb.url)
-                    != crumb.metadata.short || crumb.title
-              li
-                span
-                  != page.metadata.short || page.metadata.title
+                  span
+                    != page.metadata.short || page.metadata.title
         block content
       block aside
     footer
