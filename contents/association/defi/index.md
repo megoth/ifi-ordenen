@@ -1,5 +1,5 @@
 ---
-title: Defi - Designforeningen ved IFI
+title: Defi - Designforeningen ved Ifi
 short: Defi
 tag: defi
 active: true
