@@ -1,5 +1,5 @@
 ---
-title: Tekniske og Naturvitenskapelige anvendelser (TekNat)
+title: Tekniske og Naturvitenskapelige anvendelser
 short: TekNat
 tag: teknat
 active: false

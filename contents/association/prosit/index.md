@@ -1,5 +1,5 @@
 ---
-title: Linjeforeningen Profesjonsstudentene ved Institutt for Informatikk (ProsIT)
+title: Linjeforeningen Profesjonsstudentene ved Institutt for Informatikk
 short: ProsIT
 tag: prosit
 active: false

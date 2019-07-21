@@ -1,6 +1,6 @@
 ---
 title: |
-  Programutvalget for Informatikk: språk og kommunikasjon (PI:SK)
+  Programutvalget for Informatikk: språk og kommunikasjon
 short: |
   PI:SK
 tag: pisk

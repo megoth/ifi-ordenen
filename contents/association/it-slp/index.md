@@ -1,6 +1,6 @@
 ---
 title: |
-  Programutvalget for IT: Språk, Logikk og Psykologi (IT-SLP)
+  Programutvalget for IT: Språk, Logikk og Psykologi
 short: |
   IT-SLP
 tag: it-slp
