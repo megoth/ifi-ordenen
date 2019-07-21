@@ -4,7 +4,7 @@ template: person.pug
 current: knight
 rank: Ridder
 appointed: 2018
-reason: For sitt bidrag som en samlende figur, sosialt midtpunkt og utrettelig festarrangør ønsker IFI-ordenen å tildele tittelen Ridder til Odd-Tørres Lunde.
+reason: For sitt bidrag som en samlende figur, sosialt midtpunkt og utrettelig festarrangør ønsker Keiserinnen å tildele tittelen Ridder til Odd-Tørres Lunde.
 associations: cyb
 ---
 
