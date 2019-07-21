@@ -1,5 +1,5 @@
 ---
-title: Fagutvalget ved Institutt for informatikk (FUI)
+title: Fagutvalget ved Institutt for informatikk
 short: FUI
 tag: fui
 active: true

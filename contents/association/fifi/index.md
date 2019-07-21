@@ -1,5 +1,5 @@
 ---
-title: FIFI (Fotball ved Institutt for Informatikk)
+title: Fotball ved Institutt for Informatikk
 short: FIFI
 tag: fifi
 active: true

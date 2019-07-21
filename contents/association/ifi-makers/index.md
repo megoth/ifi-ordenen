@@ -1,5 +1,5 @@
 ---
-title: IFI makers
+title: Ifi makers
 tag: ifi-makers
 active: true
 url: http://sonen.ifi.uio.no/

@@ -1,6 +1,6 @@
 ---
 title: |
-  LI:ST - Linjeforening for Språkteknologi
+  Linjeforening for Språkteknologi
 short: |
   LI:ST
 tag: list

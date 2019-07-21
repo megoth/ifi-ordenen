@@ -1,11 +1,11 @@
 ---
-title: IFI-Avis
+title: Ifi-Avis
 tag: ifi-avis
 active: true
 template: association.pug
 ---
 
-[IFI-Avis](http://ifiavis.no/) er foreningen bak magasinet Output, som gis ut én gang i semesteret ved Institutt for Informatikk. Output ønsker å informere om det som skjer inne og rundt Ole Johan Dahls hus, underholde i lunsjen, og holde deg i loopen.
+[Ifi-Avis](http://ifiavis.no/) er foreningen bak magasinet Output, som gis ut én gang i semesteret ved Institutt for Informatikk. Output ønsker å informere om det som skjer inne og rundt Ole Johan Dahls hus, underholde i lunsjen, og holde deg i loopen.
 
 **Formål:** Gi ut magasinet Output til studenter, ansatte, og andre interesserte ved Institutt for Informatikk.
 
