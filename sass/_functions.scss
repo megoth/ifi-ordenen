@@ -13,6 +13,10 @@
                   if($position == right, left, top))))
 }
 
+@function profile-list-item-width($num, $padding: 2) {
+  @return (100% - (($num - 1) * $padding)) / $num;
+}
+
 @function set-arglist-default($arglist, $default) {
   $default-index: index($arglist, default);
   @if $default-index {

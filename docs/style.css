@@ -63,14 +63,6 @@ body {
   color: #000;
   font-family: "Roboto", sans-serif;
 }
-body header {
-  text-align: center;
-}
-body header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 body > footer {
   padding-bottom: 1em;
 }
@@ -110,28 +102,25 @@ body > footer #MoreMenu li {
   }
 }
 
-[role=banner] {
-  padding-bottom: 0.25em;
-  padding-top: 0.5em;
-}
-[role=banner] .title {
-  display: block;
-  margin-top: 0 !important;
-  text-decoration: none;
-}
-
-@media screen and (max-width: 640px) {
-  #MainNavigation #MainMenu {
-    display: none;
-  }
+[role=banner] .menu {
+  float: right;
 }
 @media screen and (min-width: 640px) {
-  #MainNavigation #MainMenu li {
-    display: inline-block;
-    width: 33.3333333333%;
+  [role=banner] .menu {
+    float: none;
   }
-  #MainNavigation #MenuTrigger {
-    display: none !important;
+}
+[role=banner] .title {
+  display: inline-block;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  padding: 0 0.25em;
+  text-decoration: none;
+}
+@media screen and (min-width: 640px) {
+  [role=banner] .title {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -267,7 +256,8 @@ strong {
   background-color: rgba(0, 0, 0, 0.75);
   background: radial-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85));
   margin-bottom: 1em;
-  padding: 1em 0;
+  padding: 1em 0 0.5em;
+  text-align: center;
 }
 [role=main] header:first-child a,
 [role=main] header:first-child h1,
@@ -284,6 +274,7 @@ strong {
 [role=main] header:first-child h3 {
   font-weight: normal;
   margin: 0;
+  text-align: center;
 }
 [role=main] header:first-child h1, [role=main] header:first-child [role=banner] .title, [role=banner] [role=main] header:first-child .title,
 [role=main] header:first-child h2 {
@@ -436,6 +427,56 @@ ul.overview li:last-child {
   padding-right: 0;
 }
 
+ul.overview li {
+  margin-right: 2%;
+  width: 49%;
+}
+ul.overview li img {
+  width: 100%;
+}
+@media screen and (max-width: 300px) {
+  ul.overview li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  ul.overview li {
+    width: 32%;
+  }
+  ul.overview li:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  ul.overview li {
+    width: 23.5%;
+  }
+  ul.overview li:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 500px) {
+  ul.overview li {
+    margin-right: 1%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 660px) {
+  ul.overview li {
+    width: 19.2%;
+  }
+  ul.overview li:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 660px) {
+  ul.overview li {
+    width: 15.8333333333%;
+  }
+  ul.overview li:nth-child(6n) {
+    margin-right: 0;
+  }
+}
+
 img.title,
 img.profile {
   border-radius: 50%;
@@ -524,6 +565,7 @@ ul.history .event {
 #MoreMenu a {
   display: block;
   padding: 0.5em;
+  text-align: center;
 }
 #MainMenu a:focus, #MainMenu a:hover,
 #MoreMenu a:focus,
@@ -531,30 +573,58 @@ ul.history .event {
   background-color: rgba(255, 182, 25, 0.5);
 }
 
-#MainNavigation #MenuTrigger {
+#MenuTrigger {
   background: transparent;
   border: 0;
   cursor: pointer;
   display: block;
-  font-family: "Roboto", sans-serif;
+  height: 48px;
   outline: 0;
-  padding: 0.5em;
-  text-transform: uppercase;
-  width: 100%;
+  padding: 0;
+  width: 48px;
 }
-#MainNavigation #MenuTrigger span:before {
-  content: "";
-  padding-right: 0.25em;
-  font: normal normal normal 14px/1 FontAwesome;
+#MenuTrigger svg {
+  height: 1.5em;
+  width: 1.5em;
 }
-#MainNavigation #MenuTrigger:focus, #MainNavigation #MenuTrigger:hover {
+#MenuTrigger:focus, #MenuTrigger:hover {
   background: rgba(255, 182, 25, 0.5);
 }
-#MainNavigation.open #MainMenu {
+#MenuTrigger[aria-expanded=true] rect {
+  transform: translateY(0) rotate(0deg);
+  transition: transform 0.15s ease-in;
+}
+#MenuTrigger[aria-expanded=true] rect:first-child {
+  transform: translateY(7px) rotate(45deg);
+  transform-origin: 12px 5px;
+}
+#MenuTrigger[aria-expanded=true] rect:nth-child(2) {
+  fill: transparent;
+}
+#MenuTrigger[aria-expanded=true] rect:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+  transform-origin: 12px 19px;
+}
+
+#MainMenu.open {
   display: block;
 }
-#MainNavigation.open #MenuTrigger span:before {
-  content: "";
+@media screen and (max-width: 640px) {
+  #MainMenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 640px) {
+  #MainMenu li {
+    display: inline-block;
+    width: 33.3333333333%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  #MenuTrigger {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

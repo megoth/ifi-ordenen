@@ -227,6 +227,7 @@ strong {
   li,
   p {
     font-size: 1.1em;
+
     li {
       font-size: 1em;
     }
@@ -235,6 +236,7 @@ strong {
   sup {
     font-size: x-small;
     vertical-align: text-top;
+
     &:before {
       content: ' ';
     }
@@ -254,6 +256,7 @@ ul.articles {
 
   li {
     margin-bottom: 3em;
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -315,6 +318,63 @@ ul.overview {
     @include horizontal-list-item;
     margin: 0 0.25em 0 0;
     padding: 0;
+  }
+}
+
+ul.overview li {
+  margin-right: 2%;
+  width: profile-list-item-width(2);
+
+  img {
+    width: 100%;
+  }
+
+  $breakpoint-3: 300px;
+  $breakpoint-4: 400px;
+  $breakpoint-5: 500px;
+  $breakpoint-6: 660px;
+
+  @media screen and (max-width: $breakpoint-3) {
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+
+  @media screen and (min-width: $breakpoint-3) and (max-width: $breakpoint-4) {
+    width: profile-list-item-width(3);
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-4) and (max-width: $breakpoint-5) {
+    width: profile-list-item-width(4);
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-5) {
+    margin-right: 1%;
+  }
+
+  @media screen and (min-width: $breakpoint-5) and (max-width: $breakpoint-6) {
+    width: profile-list-item-width(5, 1);
+
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-6) {
+    width: profile-list-item-width(6, 1);
+
+    &:nth-child(6n) {
+      margin-right: 0;
+    }
   }
 }
 
