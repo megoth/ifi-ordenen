@@ -481,9 +481,6 @@ nav.breadcrumbs ul > li span {
   display: block;
   position: relative;
 }
-nav.breadcrumbs ul > li a {
-  background-color: white;
-}
 
 #FilterHead,
 #Filters {
