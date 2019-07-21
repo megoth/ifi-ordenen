@@ -479,38 +479,10 @@ nav.breadcrumbs ul > li:last-child {
 nav.breadcrumbs ul > li a,
 nav.breadcrumbs ul > li span {
   display: block;
-  padding: 10px;
   position: relative;
 }
 nav.breadcrumbs ul > li a {
   background-color: white;
-  text-decoration: none;
-  background: rgba(255, 182, 25, 0.5);
-}
-nav.breadcrumbs ul > li a:after {
-  border-left-color: rgba(255, 182, 25, 0.5);
-}
-@media screen and (max-width: 40em) {
-  nav.breadcrumbs ul > li:last-child {
-    display: none;
-  }
-}
-nav.breadcrumbs ul > li:first-child a {
-  padding-left: 10px;
-}
-nav.breadcrumbs ul > li:nth-child(2) a {
-  background: rgba(255, 182, 25, 0.25);
-}
-nav.breadcrumbs ul > li:nth-child(2) a:after {
-  border-left-color: rgba(255, 182, 25, 0.25);
-}
-nav.breadcrumbs ul > li a:focus,
-nav.breadcrumbs ul > li a:hover {
-  background: #ffb619;
-}
-nav.breadcrumbs ul > li a:focus:after,
-nav.breadcrumbs ul > li a:hover:after {
-  border-left-color: #ffb619;
 }
 
 #FilterHead,
