@@ -1,11 +1,15 @@
-#MainNavigation
+#MainNavigation.menu
   button#MenuTrigger
-    span= t.nav.menu
-  nav#MainMenu
-    ul
-      li
-        a(href=env.helpers.getUrl(contents, 'person'))= t.nav.person
-      li
-        a(href=env.helpers.getUrl(contents, 'about'))= t.nav.about
-      li
-        a(href=env.helpers.getUrl(contents, 'nominate'))= t.nav.nominate
+    svg(aria-hidden="true", focusable="false", width="24", height="24", viewBox="0 0 24 24")
+      g(fill-rule="evenodd")
+        rect(width="20", height="2", x="2", y="4")
+        rect(width="20", height="2", x="2", y="11")
+        rect(width="20", height="2", x="2", y="18")
+nav#MainMenu
+  ul
+    li
+      a(href=env.helpers.getUrl(contents, 'person'))= t.nav.person
+    li
+      a(href=env.helpers.getUrl(contents, 'about'))= t.nav.about
+    li
+      a(href=env.helpers.getUrl(contents, 'nominate'))= t.nav.nominate

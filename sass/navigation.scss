@@ -3,6 +3,8 @@
   a {
     display: block;
     padding: 0.5em;
+    text-align: center;
+
     &:focus,
     &:hover {
       background-color: navigation-color(0.5);
@@ -11,33 +13,68 @@
 }
 
 
-#MainNavigation {
-  #MenuTrigger {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    display: block;
-    font-family: $font-content;
-    outline: 0;
-    padding: 0.5em;
-    text-transform: uppercase;
-    width: 100%;
-    span:before {
-      content: '\f0c9';
-      padding-right: 0.25em;
-      font: normal normal normal 14px/1 FontAwesome;
-    }
-    &:focus,
-    &:hover {
-      background: navigation-color(0.5);
+#MenuTrigger {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  height: 48px;
+  outline: 0;
+  padding: 0;
+  width: 48px;
+
+  svg {
+    height: 1.5em;
+    width: 1.5em;
+  }
+
+  &:focus,
+  &:hover {
+    background: navigation-color(0.5);
+  }
+
+  &[aria-expanded="true"] {
+    rect {
+      transform: translateY(0) rotate(0deg);
+      transition: transform .15s ease-in;
+
+      &:first-child {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 12px 5px;
+      }
+
+      &:nth-child(2) {
+        fill: transparent;
+      }
+
+      &:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 12px 19px;
+      }
     }
   }
+}
+
+#MainMenu {
   &.open {
-    #MainMenu {
-      display: block;
+    display: block;
+  }
+
+  @media screen and (max-width: $pad-width) {
+    display: none;
+  }
+
+  @media screen and (min-width: $pad-width) {
+    $number_of_menu_items: 3;
+    li {
+      display: inline-block;
+      width: 100% / $number_of_menu_items;
     }
-    #MenuTrigger span:before {
-      content: '\f00d';
-    }
+  }
+}
+
+#MenuTrigger {
+  @media screen and (min-width: $pad-width) {
+    display: none !important;
   }
 }

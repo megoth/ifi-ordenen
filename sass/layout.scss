@@ -34,31 +34,23 @@ body > footer {
 }
 
 [role="banner"] {
-  padding-bottom: 0.25em;
-  padding-top: 0.5em;
+  .menu {
+    float: right;
+    @media screen and (min-width: $pad-width) {
+      float: none;
+    }
+  }
 
   .title {
     @extend h1;
-    display: block;
-    margin-top: 0 !important;
+    display: inline-block;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    padding: 0 0.25em;
     text-decoration: none;
-  }
-}
-
-#MainNavigation {
-  @media screen and (max-width: $pad-width) {
-    #MainMenu {
-      display: none;
-    }
-  }
-  @media screen and (min-width: $pad-width) {
-    $number_of_menu_items: 3;
-    #MainMenu li {
-      display: inline-block;
-      width: 100% / $number_of_menu_items;
-    }
-    #MenuTrigger {
-      display: none !important;
+    @media screen and (min-width: $pad-width) {
+      display: block;
+      text-align: center;
     }
   }
 }

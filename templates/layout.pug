@@ -14,7 +14,6 @@ html(lang=language)
       block title
         |  #{locals.short}
     link(rel='alternate', href=contents['feed.json'].url, type='application/rss+xml', title=locals.description)
-    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(href="https://fonts.googleapis.com/css?family=Great+Vibes|Roboto|Work+Sans&display=swap", rel="stylesheet")
     link(rel='stylesheet', href=contents['style.css'].url)
   body(class=mainclass)
@@ -54,14 +53,14 @@ html(lang=language)
         | )
   script(type='text/javascript').
     (function () {
-      var mainNavigation = document.getElementById('MainNavigation');
       var mainMenu = document.getElementById('MainMenu');
       var menuTrigger = document.getElementById('MenuTrigger');
       var navIsHidden = true;
       menuTrigger.onclick = function () {
         navIsHidden = !navIsHidden;
-        mainNavigation.className = navIsHidden ? '' : 'open';
-        mainMenu.setAttribute('aria-hidden', navIsHidden);
+        menuTrigger.setAttribute('aria-expanded', (!navIsHidden).toString())
+        mainMenu.classList.toggle('open', !navIsHidden);
+        mainMenu.setAttribute('aria-hidden', navIsHidden.toString());
       };
     }());
   block script
