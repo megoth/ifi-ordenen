@@ -1,6 +1,6 @@
 ---
 title: |
-  IFI Skitur arrangert
+  Ifi Skitur arrangert
 tags: cyb, minor
 year: 2016
 date: 2016-01-29

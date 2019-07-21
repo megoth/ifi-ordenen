@@ -1,6 +1,6 @@
 ---
-title: Regi av IFI Skitur overtas av Cybernetisk Selskab
-short: IFI Skitur overtas av CYB
+title: Regi av Ifi Skitur overtas av Cybernetisk Selskab
+short: Ifi Skitur overtas av CYB
 tags: cyb, prosit
 year: 2010
 date: 2010-03-19
@@ -9,11 +9,11 @@ sources:
 template: event.pug
 ---
 
-Fra [CYBs wiki (krever innlogging)](https://confluence.cyb.no/display/AKTIV/IFI+Skitur+Hemsedal+2010):
+Fra [CYBs wiki (krever innlogging)](https://confluence.cyb.no/display/AKTIV/Ifi+Skitur+Hemsedal+2010):
 
-> Denne turen har tradisjonelt blitt arrangert av ProsIT, og for proffesjonsstudentene ved IFI. Da ProsIT har hatt synkende engasjement den siste tiden, og ikke fått rekrutert nye medlemmer, så ble det forespurt om CYB ønsket å ta over tradisjonen. Arrangementet har fått preg av fyll de siste årene, og siden IFI ikke er noen stor fan av dette, så ønsket ikke CYB å ta del.
+> Denne turen har tradisjonelt blitt arrangert av ProsIT, og for proffesjonsstudentene ved Ifi. Da ProsIT har hatt synkende engasjement den siste tiden, og ikke fått rekrutert nye medlemmer, så ble det forespurt om CYB ønsket å ta over tradisjonen. Arrangementet har fått preg av fyll de siste årene, og siden Ifi ikke er noen stor fan av dette, så ønsket ikke CYB å ta del.
 > 
-> Men tradisjoner er der for en grunn. Da ryktet gikk om at det ikke ville bli arrangert noen tur, så kom det tydelig frem at et hull hadde oppstått, et som trengtes å bli fylt. Nikolai Kristiansen og Anders Asperheim tok initiativ, og spurte Arne Hassel og Martin Haugland om de ville være med i prosessen. Det ville vi, og satte oss straks ned for møte 26. januar. Vi startet med å få på plass hva vi ønsket ut av turen. Martin og jeg presiserte tidlig inntrykket vi hadde av IFI om turen som fylletur, og bestemte at noe måtte gjøres for å vende fokuset vekk, og oppmuntre deltakerne til den mer sportslige delen av arrangementet. Det ble bestemt at vi skulle innlemme skipass som obligatorisk del av prisen.
+> Men tradisjoner er der for en grunn. Da ryktet gikk om at det ikke ville bli arrangert noen tur, så kom det tydelig frem at et hull hadde oppstått, et som trengtes å bli fylt. Nikolai Kristiansen og Anders Asperheim tok initiativ, og spurte Arne Hassel og Martin Haugland om de ville være med i prosessen. Det ville vi, og satte oss straks ned for møte 26. januar. Vi startet med å få på plass hva vi ønsket ut av turen. Martin og jeg presiserte tidlig inntrykket vi hadde av Ifi om turen som fylletur, og bestemte at noe måtte gjøres for å vende fokuset vekk, og oppmuntre deltakerne til den mer sportslige delen av arrangementet. Det ble bestemt at vi skulle innlemme skipass som obligatorisk del av prisen.
 > 
 > Vi ønsket også å frigjøre oss fra Hemsedal som standard reisemål. Således lagde vi oss en oversikt over steder vi kunne tenke oss å dra til. Det ble gamle Hemsedal, samt nye Hafjell og Trysil. Vi søkte opp kontaktinformasjon, og sendte rundt mail til de vi fant.
 > 

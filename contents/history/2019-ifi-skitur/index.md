@@ -1,6 +1,6 @@
 ---
 title: |
-  IFI Skitur arrangert
+  Ifi Skitur arrangert
 tags: cyb, minor
 year: 2019
 date: 2019-02-01

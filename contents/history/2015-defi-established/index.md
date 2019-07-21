@@ -1,5 +1,5 @@
 ---
-title: Linjeforeningen Designforeningen ved IFI (Defi) opprettet
+title: Linjeforeningen Designforeningen ved Ifi (Defi) opprettet
 tags: defi
 year: 2015
 sources:

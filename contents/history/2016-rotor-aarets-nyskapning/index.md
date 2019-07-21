@@ -1,5 +1,5 @@
 ---
-title: IFI Rotor blir kåret til årets nyskapning på Foreningsdagene
+title: Ifi Rotor blir kåret til årets nyskapning på Foreningsdagene
 url: 
   Foreningsbloggen: http://www.foreningsbloggen.no/oyeblikk-fra-foreningsdagene-2016/
 tags: ifi-rotor, minor

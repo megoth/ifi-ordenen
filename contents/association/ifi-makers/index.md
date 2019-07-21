@@ -6,7 +6,7 @@ url: http://sonen.ifi.uio.no/
 template: association.pug
 ---
 
-IFI makers holder til på Institutt for informatikk, for å samle såkalte makers.
+Ifi makers holder til på Institutt for informatikk, for å samle såkalte makers.
 
 **Formål:** Foreningen skal ha som hovedoppgaver å opprettholde et godt sosialt miljø for studenter og eksterne som engasjerer seg i Åpen sone for eksperimentell informatikk (Sonen).
 
