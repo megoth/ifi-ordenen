@@ -76,6 +76,5 @@ Disse retningslinjene deles på nettsiden slik at alle som ønsker kan gjøre se
 
 ### Hvordan uenighet håndteres
 
-Om det skulle være uenighet i vurdering av kandidatene, så vil det foretas et valg blant de tilstedeværende. De som har stemmer er Stormester og Kommandører som er til stede, evt så kan man innhente stemmer via telefon eller video-forbindelse. Om det skulle være et likt antall stemmer, så har Stormester dobbeltstemme.
+Om det skulle være uenighet i vurdering av kandidatene, så vil det foretas et valg blant de tilstedeværende. Om det skulle være et likt antall stemmer, så har Stormester dobbeltstemme.
 
-(Det kan virke udemokratisk at Riddere ikke har stemmerett. Det er to ting som er greit å ha i tankene rundt dette; 1: Det er sjeldent uenighet om kandidatene, og 2: Dette er et incentiv til å ha med aktive Kommandører på møter, og med det å finne gode kandidater til Kommandør-tittelen.)
