@@ -1,5 +1,6 @@
 ---
-title: "Ordens&shy;mottagere høsten 2016"
+title: Ordensmottagere høsten 2016
+short: "Ordens&shy;mottagere høsten 2016"
 author: arnehass
 date: 2016-10-30
 template: article.pug

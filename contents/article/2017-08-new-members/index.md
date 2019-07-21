@@ -1,5 +1,6 @@
 ---
-title: "Ordens&shy;mottagere våren 2017"
+title: Ordensmottagere våren 2017
+short: "Ordens&shy;mottagere våren 2017"
 author: arnehass
 date: 2017-08-05
 template: article.pug
