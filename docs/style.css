@@ -399,111 +399,81 @@ ul.titles li {
   margin-bottom: 1em;
 }
 
-ul.overview li {
-  list-style: none;
+ul.overview {
   margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul.overview:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.overview li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin: 0 0.25em 0 0;
+  padding: 0;
+}
+ul.overview li:first-child {
+  padding-left: 0;
+}
+ul.overview li:last-child {
+  padding-right: 0;
+}
+
+ul.overview li {
+  margin-right: 2%;
+  width: 49%;
 }
 ul.overview li img {
   width: 100%;
 }
-@supports (display: grid) {
-  ul.overview {
-    display: grid;
-    grid-column-gap: 1%;
-    grid-template-columns: repeat(2, calc(49.5%));
-    margin: 0;
-  }
-  @media screen and (min-width: 300px) {
-    ul.overview {
-      grid-template-columns: repeat(3, calc(32.6666666667%));
-    }
-  }
-  @media screen and (min-width: 400px) {
-    ul.overview {
-      grid-template-columns: repeat(4, calc(24.25%));
-    }
-  }
-  @media screen and (min-width: 500px) {
-    ul.overview {
-      grid-template-columns: repeat(5, calc(19.2%));
-    }
-  }
-  @media screen and (min-width: 660px) {
-    ul.overview {
-      grid-template-columns: repeat(6, calc(15.8333333333%));
-    }
+@media screen and (max-width: 300px) {
+  ul.overview li:nth-child(2n) {
+    margin-right: 0;
   }
 }
-@supports not (display: grid) {
-  ul.overview {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  ul.overview:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+@media screen and (min-width: 300px) and (max-width: 400px) {
   ul.overview li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    white-space: nowrap;
-    float: left;
-    padding-left: 4px;
-    padding-right: 4px;
-    margin-right: 2%;
-    padding: 0;
-    width: 49%;
+    width: 32%;
   }
-  ul.overview li:first-child {
-    padding-left: 0;
+  ul.overview li:nth-child(3n) {
+    margin-right: 0;
   }
-  ul.overview li:last-child {
-    padding-right: 0;
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  ul.overview li {
+    width: 23.5%;
   }
-  @media screen and (max-width: 300px) {
-    ul.overview li:nth-child(2n) {
-      margin-right: 0;
-    }
+  ul.overview li:nth-child(4n) {
+    margin-right: 0;
   }
-  @media screen and (min-width: 300px) and (max-width: 400px) {
-    ul.overview li {
-      width: 32%;
-    }
-    ul.overview li:nth-child(3n) {
-      margin-right: 0;
-    }
+}
+@media screen and (min-width: 500px) {
+  ul.overview li {
+    margin-right: 1%;
   }
-  @media screen and (min-width: 400px) and (max-width: 500px) {
-    ul.overview li {
-      width: 23.5%;
-    }
-    ul.overview li:nth-child(4n) {
-      margin-right: 0;
-    }
+}
+@media screen and (min-width: 500px) and (max-width: 660px) {
+  ul.overview li {
+    width: 19.2%;
   }
-  @media screen and (min-width: 500px) {
-    ul.overview li {
-      margin-right: 1%;
-    }
+  ul.overview li:nth-child(5n) {
+    margin-right: 0;
   }
-  @media screen and (min-width: 500px) and (max-width: 660px) {
-    ul.overview li {
-      width: 19.2%;
-    }
-    ul.overview li:nth-child(5n) {
-      margin-right: 0;
-    }
+}
+@media screen and (min-width: 660px) {
+  ul.overview li {
+    width: 15.8333333333%;
   }
-  @media screen and (min-width: 660px) {
-    ul.overview li {
-      width: 15.8333333333%;
-    }
-    ul.overview li:nth-child(6n) {
-      margin-right: 0;
-    }
+  ul.overview li:nth-child(6n) {
+    margin-right: 0;
   }
 }
 

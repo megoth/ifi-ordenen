@@ -312,94 +312,68 @@ ul.titles {
 }
 
 ul.overview {
+  @include horizontal-list-container;
+
+  li {
+    @include horizontal-list-item;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+  }
+}
+
+ul.overview li {
+  margin-right: 2%;
+  width: profile-list-item-width(2);
+
+  img {
+    width: 100%;
+  }
+
   $breakpoint-3: 300px;
   $breakpoint-4: 400px;
   $breakpoint-5: 500px;
   $breakpoint-6: 660px;
 
-  li {
-    list-style: none;
-    margin: 0;
-
-    img {
-      width: 100%;
+  @media screen and (max-width: $breakpoint-3) {
+    &:nth-child(2n) {
+      margin-right: 0;
     }
   }
 
-  @supports (display: grid) {
-    display: grid;
-    grid-column-gap: 1%;
-    grid-template-columns: profile-grid-item-width(2);
-    margin: 0;
 
-    @media screen and (min-width: $breakpoint-3) {
-      grid-template-columns: profile-grid-item-width(3);
-    }
+  @media screen and (min-width: $breakpoint-3) and (max-width: $breakpoint-4) {
+    width: profile-list-item-width(3);
 
-    @media screen and (min-width: $breakpoint-4) {
-      grid-template-columns: profile-grid-item-width(4);
-    }
-
-    @media screen and (min-width: $breakpoint-5) {
-      grid-template-columns: profile-grid-item-width(5);
-    }
-
-    @media screen and (min-width: $breakpoint-6) {
-      grid-template-columns: profile-grid-item-width(6);
+    &:nth-child(3n) {
+      margin-right: 0;
     }
   }
 
-  @supports not (display: grid) {
-    @include horizontal-list-container;
+  @media screen and (min-width: $breakpoint-4) and (max-width: $breakpoint-5) {
+    width: profile-list-item-width(4);
 
-    li {
-      @include horizontal-list-item;
-      margin-right: 2%;
-      padding: 0;
-      width: profile-list-item-width(2);
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
 
-      @media screen and (max-width: $breakpoint-3) {
-        &:nth-child(2n) {
-          margin-right: 0;
-        }
-      }
+  @media screen and (min-width: $breakpoint-5) {
+    margin-right: 1%;
+  }
 
+  @media screen and (min-width: $breakpoint-5) and (max-width: $breakpoint-6) {
+    width: profile-list-item-width(5, 1);
 
-      @media screen and (min-width: $breakpoint-3) and (max-width: $breakpoint-4) {
-        width: profile-list-item-width(3);
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
+  }
 
-        &:nth-child(3n) {
-          margin-right: 0;
-        }
-      }
+  @media screen and (min-width: $breakpoint-6) {
+    width: profile-list-item-width(6, 1);
 
-      @media screen and (min-width: $breakpoint-4) and (max-width: $breakpoint-5) {
-        width: profile-list-item-width(4);
-
-        &:nth-child(4n) {
-          margin-right: 0;
-        }
-      }
-
-      @media screen and (min-width: $breakpoint-5) {
-        margin-right: 1%;
-      }
-
-      @media screen and (min-width: $breakpoint-5) and (max-width: $breakpoint-6) {
-        width: profile-list-item-width(5, 1);
-
-        &:nth-child(5n) {
-          margin-right: 0;
-        }
-      }
-
-      @media screen and (min-width: $breakpoint-6) {
-        width: profile-list-item-width(6, 1);
-
-        &:nth-child(6n) {
-          margin-right: 0;
-        }
-      }
+    &:nth-child(6n) {
+      margin-right: 0;
     }
   }
 }
