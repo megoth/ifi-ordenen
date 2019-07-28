@@ -13,6 +13,10 @@
                   if($position == right, left, top))))
 }
 
+@function profile-grid-item-width($num, $padding: 1%) {
+  @return repeat($num, calc(#{(100% - (($num - 1) * $padding)) / $num}))
+}
+
 @function profile-list-item-width($num, $padding: 2) {
   @return (100% - (($num - 1) * $padding)) / $num;
 }
