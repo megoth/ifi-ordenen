@@ -2,7 +2,7 @@
 title: Digitus
 tag: digitus
 active: true
-url: http://www.mn.uio.no/ifi/livet-rundt-studiene/organisasjoner/digitus.html
+url: https://digitusuio.no/
 template: association.pug
 ---
 
