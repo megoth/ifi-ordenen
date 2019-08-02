@@ -1,5 +1,6 @@
 ---
-title: Mikro: Linjeforeningen for Robotikk og Intelligente Systemer
+title: |
+  Mikro: Linjeforeningen for Robotikk og Intelligente Systemer
 short: Mikro
 tag: mikro
 active: true
