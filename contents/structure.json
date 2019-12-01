@@ -4,14 +4,14 @@
     "individual": "title",
     "path": "/title/",
     "hierarchy": [
-      "grand_cross", 
-      "commander_with_star", 
+      "grand_cross",
+      "commander_with_star",
       "commander",
       "knight_first_class",
       "knight"
     ]
   },
-	"persons": {
+  "persons": {
     "className": "persons",
     "individual": "person",
     "path": "/person/",
@@ -21,7 +21,7 @@
         "name": "Storkors",
         "title": "grand_cross",
         "members": [
-          "geiraby", 
+          "geiraby",
           "arnehass"
         ]
       },
@@ -36,8 +36,8 @@
         "name": "Kommandør",
         "title": "commander",
         "members": [
-          "oyvinbak", 
-          "mshaugla", 
+          "oyvinbak",
+          "mshaugla",
           "magnujoh",
           "mariusno",
           "mathiajj",
@@ -71,11 +71,11 @@
         "name": "Ridder",
         "title": "knight",
         "members": [
-          "vegarang", 
+          "vegarang",
           "johannhh",
-          "veronahe", 
-          "sjurher", 
-          "chrismi", 
+          "veronahe",
+          "sjurher",
+          "chrismi",
           "marthfro",
           "kirstid",
           "krishbr",
@@ -88,7 +88,8 @@
           "jesperan",
           "karlhto",
           "aleksiml",
-          "ivers"
+          "ivers",
+          "nicolaei"
         ]
       }
     ]
@@ -108,8 +109,8 @@
       {
         "name": "Æresmedlemmer",
         "members": [
-          "tux", 
-          "stefanov", 
+          "tux",
+          "stefanov",
           "svetlana"
         ]
       }
