@@ -35,7 +35,7 @@
     "marked": "^0.7.0",
     "moment": "^2.18.1",
     "typogr": "^0.6.8",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "bugs": {
     "url": "https://github.com/megoth/ifi-ordenen/issues"
