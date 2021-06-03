@@ -1,3 +1,4 @@
+.cache/
 .idea
 .sass-cache
 .DS_STORE
@@ -6,3 +7,4 @@ contents/*.css
 contents/*.css.map
 node_modules
 npm-debug.log
+public

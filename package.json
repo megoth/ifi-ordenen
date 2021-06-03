@@ -1,6 +1,6 @@
 {
   "name": "ifi-ordenen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/megoth/ifi-ordenen"
@@ -9,14 +9,17 @@
   "license": "MIT",
   "description": "En enkel nettside for Ifi-ordenen",
   "keywords": [
+    "Ifi-ordenen",
     "Ifi",
     "UiO",
-    "Wintersmith",
-    "Ifi-ordenen"
+    "Gatsby"
   ],
   "scripts": {
-    "start": "npm run watch",
-    "build": "npm-run-all build-*",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "build-content": "wintersmith build",
     "build-style": "sass sass/style.scss contents/style.css",
     "watch": "concurrently \"npm run watch-style\" \"npm run watch-content\"",
@@ -25,17 +28,23 @@
     "build:preview": "wintersmith build --config config-gh-pages.json && npm run build-style",
     "build:public": "wintersmith build --config config-ordenen.json && npm run build-style"
   },
-  "devDependencies": {
-    "concurrently": "^4.1.0",
-    "npm-run-all": "^4.1.5",
-    "sass": "^1.21.0",
-    "wintersmith": "^2.5.0"
-  },
   "dependencies": {
-    "marked": "^0.7.0",
-    "moment": "^2.18.1",
-    "typogr": "^0.6.8",
-    "underscore": "^1.9.1"
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "default": "^0.1.1",
+    "gatsby": "^3.4.0",
+    "gatsby-plugin-image": "^1.4.0",
+    "gatsby-plugin-manifest": "^3.4.0",
+    "gatsby-plugin-mdx": "^2.4.0",
+    "gatsby-plugin-react-helmet": "^4.4.0",
+    "gatsby-plugin-sharp": "^3.4.0",
+    "gatsby-plugin-sitemap": "^4.0.0",
+    "gatsby-source-filesystem": "^3.4.0",
+    "gatsby-transformer-remark": "^4.1.0",
+    "gatsby-transformer-sharp": "^3.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
   },
   "bugs": {
     "url": "https://github.com/megoth/ifi-ordenen/issues"
