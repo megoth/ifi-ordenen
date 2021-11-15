@@ -1,8 +1,9 @@
 ---
 title: ProgNett
 tag: prognett
-active: true
+active: false
 url: http://ifiprognett.no/
+current: progsys
 template: association.pug
 ---
 
