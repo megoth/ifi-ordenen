@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "marked": "^0.7.0",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "typogr": "^0.6.8",
     "underscore": "^1.9.1"
   },
